@@ -1,0 +1,88 @@
+openapi: 3.0.0
+info:
+  description: Nomenclature API
+  version: 1.0.0-oas3
+  title: Nomenclature API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /nomenclature:
+    get:
+      summary: Get all Nomenclatures
+      operationId: getAllNomenclature
+      description: get all existantes Nomenclatures
+      parameters:
+        - in: query
+          name: intermediateShift
+          required: true
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: return all Nomenclatures
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Nomenclature'
+        '204':
+          description: No Data found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string              
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+components:
+  schemas:
+    Nomenclature:
+      type: object
+      required:
+        - _id
+        - name
+        - theme
+      properties:
+        _id:
+          type: string
+          example: 60edffc2370e9734982cc555
+        name:
+          type: string
+          example: day-Shift
+        theme:
+          type: string
+          example: blue
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/Monitoring-app/shift/1.0.0-oas3

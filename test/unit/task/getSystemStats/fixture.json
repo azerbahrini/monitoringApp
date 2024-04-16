@@ -1,0 +1,897 @@
+{
+  "serviceHighlightsResult": {
+    "data":
+      {
+        "Pending": 4,
+        "Completed": 2,
+        "Canceled": 6,
+        "Done": 3
+      },
+    "status": "success"
+  },
+  "systems": {
+    "data": [
+      {
+        "_id": "6153202cf979c1a08d12c39b",
+        "name": "PRD 667"
+      },
+      {
+        "_id": "6153474bdc0963c396185428",
+        "name": "System 1"
+      },
+      {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3"
+      },
+      {
+        "_id": "6172afce050b7697aa994da7",
+        "name": "Aziz"
+      },
+      {
+        "_id": "6172c4d1050b766b91994db6",
+        "name": "TST"
+      },
+      {
+        "_id": "6172c542050b760ce2994db7",
+        "name": "kkkk"
+      }
+    ],
+    "status": "success"
+  },
+  "maps": [
+    {
+      "_id": "61655e8722324b5361a842f1",
+      "active": false,
+      "periodicity": 80,
+      "estimation": 60,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcbcdc5a2a053a072948f",
+        "activity": "SP01",
+        "description": "SAP Transaction"
+      },
+      "startTime": 20,
+      "createdAt": "2021-10-12T10:08:07.985Z",
+      "updatedAt": "2021-10-12T10:15:03.239Z",
+      "__v": 0
+    },
+    {
+      "_id": "616561b422324bd559a842ff",
+      "active": false,
+      "periodicity": 60,
+      "estimation": 20,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 200,
+      "createdAt": "2021-10-12T10:21:40.343Z",
+      "updatedAt": "2021-10-12T10:21:55.562Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165617722324b6a7da842fe",
+      "active": false,
+      "periodicity": 60,
+      "estimation": 20,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 80,
+      "createdAt": "2021-10-12T10:20:39.449Z",
+      "updatedAt": "2021-10-12T10:21:40.346Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165614f22324bfb5ca842fc",
+      "active": false,
+      "periodicity": 80,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9cac5a2a0fa5172948b",
+        "activity": "SMQ1",
+        "description": "SAP Transaction"
+      },
+      "startTime": 20,
+      "createdAt": "2021-10-12T10:19:59.005Z",
+      "updatedAt": "2021-10-13T07:41:46.731Z",
+      "__v": 0
+    },
+    {
+      "_id": "61655ee922324bf2f6a842f2",
+      "active": false,
+      "periodicity": 60,
+      "estimation": 120,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc953c5a2a00235729489",
+        "activity": "ST22",
+        "description": "SAP Transaction"
+      },
+      "startTime": 70,
+      "createdAt": "2021-10-12T10:09:45.794Z",
+      "updatedAt": "2021-10-12T10:10:42.811Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165616c22324b6eb6a842fd",
+      "active": false,
+      "periodicity": 60,
+      "estimation": 120,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 10,
+      "createdAt": "2021-10-12T10:20:28.677Z",
+      "updatedAt": "2021-10-12T10:20:39.452Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165620222324b1bf7a84302",
+      "active": false,
+      "periodicity": 360,
+      "estimation": 360,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 20,
+      "createdAt": "2021-10-12T10:22:58.102Z",
+      "updatedAt": "2021-10-12T10:23:05.805Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165624622324b0a77a84305",
+      "active": false,
+      "periodicity": 240,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1260,
+      "createdAt": "2021-10-12T10:24:06.491Z",
+      "updatedAt": "2021-10-12T10:24:20.779Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165625422324b8799a84306",
+      "active": false,
+      "periodicity": 240,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:24:20.776Z",
+      "updatedAt": "2021-10-12T10:24:30.269Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165620922324bfb23a84303",
+      "active": false,
+      "periodicity": 360,
+      "estimation": 360,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1260,
+      "createdAt": "2021-10-12T10:23:05.802Z",
+      "updatedAt": "2021-10-12T10:23:09.715Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165625e22324b696da84307",
+      "active": false,
+      "periodicity": 240,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 840,
+      "createdAt": "2021-10-12T10:24:30.266Z",
+      "updatedAt": "2021-10-13T08:51:05.078Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165623822324b7d88a84304",
+      "active": false,
+      "periodicity": 120,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9e4c5a2a01a8172948c",
+        "activity": "SMQ2",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1260,
+      "createdAt": "2021-10-12T10:23:52.826Z",
+      "updatedAt": "2021-10-12T10:24:06.497Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165626e22324b0f5fa84308",
+      "active": true,
+      "periodicity": 420,
+      "estimation": 60,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcc70c5a2a0d732729494",
+        "activity": "File System",
+        "description": "SAP Transaction"
+      },
+      "startTime": 840,
+      "createdAt": "2021-10-12T10:24:46.915Z",
+      "updatedAt": "2021-10-12T10:24:46.915Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165630b22324b42aea84309",
+      "active": true,
+      "periodicity": 120,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcaccc5a2a0c66972948e",
+        "activity": "Disk",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:27:23.710Z",
+      "updatedAt": "2021-10-12T10:27:23.710Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165641022324b9b42a8430a",
+      "active": true,
+      "periodicity": 120,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bca9fc5a2a0d23672948d",
+        "activity": "DB02",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:31:44.559Z",
+      "updatedAt": "2021-10-12T10:31:44.559Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165646822324b17f4a8430b",
+      "active": false,
+      "periodicity": 270,
+      "estimation": 270,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcbcdc5a2a053a072948f",
+        "activity": "SP01",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:33:12.797Z",
+      "updatedAt": "2021-10-12T10:34:12.759Z",
+      "__v": 0
+    },
+    {
+      "_id": "616564a422324b2743a8430c",
+      "active": true,
+      "periodicity": 510,
+      "estimation": 270,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcbcdc5a2a053a072948f",
+        "activity": "SP01",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:34:12.756Z",
+      "updatedAt": "2021-10-12T10:34:12.756Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165665622324bf23fa8430d",
+      "active": false,
+      "periodicity": 120,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcc8ac5a2a01052729495",
+        "activity": "SM13",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:41:26.186Z",
+      "updatedAt": "2021-10-12T10:43:09.598Z",
+      "__v": 0
+    },
+    {
+      "_id": "616566bd22324b8127a8430e",
+      "active": true,
+      "periodicity": 120,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcc8ac5a2a01052729495",
+        "activity": "SM13",
+        "description": "SAP Transaction"
+      },
+      "startTime": 20,
+      "createdAt": "2021-10-12T10:43:09.595Z",
+      "updatedAt": "2021-10-12T10:43:09.595Z",
+      "__v": 0
+    },
+    {
+      "_id": "616567de22324b0526a8430f",
+      "active": true,
+      "periodicity": 60,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcc34c5a2a0745d729492",
+        "activity": "SOST",
+        "description": "SAP Transaction"
+      },
+      "startTime": 20,
+      "createdAt": "2021-10-12T10:47:58.221Z",
+      "updatedAt": "2021-10-12T10:47:58.221Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165685222324b833ea84310",
+      "active": true,
+      "periodicity": 120,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcd28c5a2a0401b729498",
+        "activity": "Web Dispatcher",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:49:54.411Z",
+      "updatedAt": "2021-10-12T10:49:54.411Z",
+      "__v": 0
+    },
+    {
+      "_id": "616568e022324b56cfa84311",
+      "active": true,
+      "periodicity": 240,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcd49c5a2a0f5cf729499",
+        "activity": "Hana Studio",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:52:16.486Z",
+      "updatedAt": "2021-10-12T10:52:16.486Z",
+      "__v": 0
+    },
+    {
+      "_id": "616569c122324b1520a84312",
+      "active": false,
+      "periodicity": 180,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcd65c5a2a0c1fe72949a",
+        "activity": "CMC",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T10:56:01.975Z",
+      "updatedAt": "2021-10-12T17:00:11.290Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165bf1b22324bba9fa8431c",
+      "active": true,
+      "periodicity": 180,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcd65c5a2a0c1fe72949a",
+        "activity": "CMC",
+        "description": "SAP Transaction"
+      },
+      "startTime": 20,
+      "createdAt": "2021-10-12T17:00:11.288Z",
+      "updatedAt": "2021-10-12T17:00:11.288Z",
+      "__v": 0
+    },
+    {
+      "_id": "61656e9222324b419da8431a",
+      "active": true,
+      "periodicity": 120,
+      "estimation": 120,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bccaec5a2a01c1e729496",
+        "activity": "SM66",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T11:16:34.349Z",
+      "updatedAt": "2021-10-12T11:16:34.349Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165c02e22324b4f3ea8431e",
+      "active": false,
+      "periodicity": 180,
+      "estimation": 120,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bce95c5a2a06b5272949f",
+        "activity": "Response Time",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T17:04:46.361Z",
+      "updatedAt": "2021-10-12T17:04:51.801Z",
+      "__v": 0
+    },
+    {
+      "_id": "61656f9a22324b8a11a8431b",
+      "active": true,
+      "periodicity": 180,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bce29c5a2a002b172949d",
+        "activity": "Drachten Script",
+        "description": "Client App (Quadient)"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-12T11:20:58.973Z",
+      "updatedAt": "2021-10-12T11:20:58.973Z",
+      "__v": 0
+    },
+    {
+      "_id": "61668dba22324bb336a84320",
+      "active": false,
+      "periodicity": 300,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9cac5a2a0fa5172948b",
+        "activity": "SMQ1",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1020,
+      "createdAt": "2021-10-13T07:41:46.728Z",
+      "updatedAt": "2021-10-13T08:22:11.825Z",
+      "__v": 0
+    },
+    {
+      "_id": "61669e7522324ba809a84323",
+      "active": true,
+      "periodicity": 300,
+      "estimation": 45,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bcc52c5a2a0ca3b729493",
+        "activity": "SM59",
+        "description": "SAP Transaction"
+      },
+      "startTime": 592,
+      "createdAt": "2021-10-13T08:53:09.148Z",
+      "updatedAt": "2021-10-13T08:53:09.148Z",
+      "__v": 0
+    },
+    {
+      "_id": "6166973322324b960fa84321",
+      "active": false,
+      "periodicity": 420,
+      "estimation": 240,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bc9cac5a2a0fa5172948b",
+        "activity": "SMQ1",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1260,
+      "createdAt": "2021-10-13T08:22:11.822Z",
+      "updatedAt": "2021-10-13T08:22:16.200Z",
+      "__v": 0
+    },
+    {
+      "_id": "6166974622324b0193a84322",
+      "active": true,
+      "periodicity": 120,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bce7bc5a2a0852472949e",
+        "activity": "Active Users",
+        "description": "SAP Transaction"
+      },
+      "startTime": 20,
+      "createdAt": "2021-10-13T08:22:30.569Z",
+      "updatedAt": "2021-10-13T08:22:30.569Z",
+      "__v": 0
+    },
+    {
+      "_id": "6165bf6e22324b0ea8a8431d",
+      "active": false,
+      "periodicity": 120,
+      "estimation": 180,
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "name": "WK System3",
+        "customer": {
+          "_id": "608bde23c5a2a0a1607294a5",
+          "label": "Jera Corporation"
+        }
+      },
+      "monitoringAct": {
+        "_id": "608bce7bc5a2a0852472949e",
+        "activity": "Active Users",
+        "description": "SAP Transaction"
+      },
+      "startTime": 1080,
+      "createdAt": "2021-10-12T17:01:34.387Z",
+      "updatedAt": "2021-10-13T08:22:30.571Z",
+      "__v": 0
+    }
+  ],
+  "dbTasks": [
+    {
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "listTechnicalUser": [],
+        "listCustomerContact": [],
+        "isActive": true,
+        "name": "WK System3",
+        "type": "608be0b9c5a2a04d577294a8",
+        "category": "608be4c6c5a2a0084a7294b2",
+        "customer": "608bde23c5a2a0a1607294a5",
+        "class": "608be194c5a2a02e1f7294ac",
+        "deploytype": "On-Premise",
+        "deployDesc": "Description Systeme 3 de production ",
+        "fqdn": "sap.com",
+        "createdAt": "2021-09-29T06:50:02.855Z",
+        "updatedAt": "2021-10-27T10:28:51.013Z",
+        "__v": 0
+      },
+      "customer": "Jera Corporation",
+      "taskId": "609061c32b4129d92a2c867c"
+    },
+    {
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "listTechnicalUser": [],
+        "listCustomerContact": [],
+        "isActive": true,
+        "name": "WK System3",
+        "type": "608be0b9c5a2a04d577294a8",
+        "category": "608be4c6c5a2a0084a7294b2",
+        "customer": "608bde23c5a2a0a1607294a5",
+        "class": "608be194c5a2a02e1f7294ac",
+        "deploytype": "On-Premise",
+        "deployDesc": "Description Systeme 3 de production ",
+        "fqdn": "sap.com",
+        "createdAt": "2021-09-29T06:50:02.855Z",
+        "updatedAt": "2021-10-27T10:28:51.013Z",
+        "__v": 0
+      },
+      "customer": "Jera Corporation",
+      "taskId": "609061c32b41290bc62c867b"
+    },
+    {
+      "system": {
+        "_id": "61540c9adc0963494418542d",
+        "listTechnicalUser": [],
+        "listCustomerContact": [],
+        "isActive": true,
+        "name": "WK System3",
+        "type": "608be0b9c5a2a04d577294a8",
+        "category": "608be4c6c5a2a0084a7294b2",
+        "customer": "608bde23c5a2a0a1607294a5",
+        "class": "608be194c5a2a02e1f7294ac",
+        "deploytype": "On-Premise",
+        "deployDesc": "Description Systeme 3 de production ",
+        "fqdn": "sap.com",
+        "createdAt": "2021-09-29T06:50:02.855Z",
+        "updatedAt": "2021-10-27T10:28:51.013Z",
+        "__v": 0
+      },
+      "customer": "Jera Corporation",
+      "taskId": "609061c32b412906532c8682"
+    }
+  ],
+  "foundsystem": {
+    "listTechnicalUser": [],
+    "listCustomerContact": [],
+    "isActive": true,
+    "_id": "61540c9adc0963494418542d",
+    "name": "WK System3",
+    "type": "608be0b9c5a2a04d577294a8",
+    "category": "608be4c6c5a2a0084a7294b2",
+    "customer": "608bde23c5a2a0a1607294a5",
+    "class": "608be194c5a2a02e1f7294ac",
+    "deployType": "On-Premise",
+    "deployDesc": "Description Systeme 3 de production ",
+    "fqdn": "sap.com",
+    "createdAt": "2021-09-29T06:50:02.855Z",
+    "updatedAt": "2021-10-27T10:28:51.013Z",
+    "__v": 0
+  },
+  "serviceResult": {
+    "data": [
+      {
+        "systemName": "WK System3",
+        "customerName": "Jera Corporation",
+        "targetTasks": 206,
+        "createdTasks": 3
+      }
+    ],
+    "status": "success",
+    "code": 200
+  },
+  "savedData": {
+    "data": {
+      "result": [
+        {
+          "systemName": "WK System3",
+          "customerName": "Jera Corporation",
+          "targetTasks": 206,
+          "createdTasks": 3
+        },
+        {
+          "systemName": "PRD 667",
+          "customerName": "Jera Corporation",
+          "targetTasks": 2,
+          "createdTasks": 0
+        }
+      ],
+      "_id": "619cfd89b1ae675398a81b3c",
+      "createdAt": "2021-11-23T14:41:13.146Z",
+      "updatedAt": "2021-11-23T14:41:13.146Z",
+      "__v": 0
+    },
+    "status": "success",
+    "code": 200
+  }
+}

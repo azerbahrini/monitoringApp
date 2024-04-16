@@ -1,0 +1,9 @@
+[2022-01-18T03:00:00.024] [INFO] ma-core - Running Sync Shift 2PM UTC
+[2022-01-18T03:00:07.653] [INFO] ma-core - add new shifts success /api/shift/sync PATCH ::ffff:127.0.0.1
+[2022-01-18T03:00:07.666] [INFO] ma-core - sync shift success /api/shift/sync PATCH ::ffff:127.0.0.1
+[2022-01-18T03:00:07.672] [INFO] ma-core - {"message":"Shift sync success"}
+[2022-01-18T18:38:24.232] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-01-18T18:38:24.918] [INFO] ma-core - server started at port 5000
+[2022-01-18T18:38:24.936] [INFO] ma-core - mongodb conected
+[2022-01-18T18:39:42.687] [INFO] ma-core - get all posts success /api/newsfeed/getAllPosts GET ::1
+[2022-01-18T18:40:07.925] [INFO] ma-core - add post success /api/newsfeed/ POST ::1

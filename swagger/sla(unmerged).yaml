@@ -1,0 +1,396 @@
+openapi: 3.0.0
+info:
+  description: Sla API
+  version: "1.0.0"
+  title: Sla API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /sla :
+    post:
+      summary: adds a Sla
+      operationId: addSla
+      description: Adds sla to the slaContract
+      responses:
+        '201':
+          description: Sla created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  kpi:
+                    type: string
+                    enum: [escalation, response, takeOver, resolution]
+                    example: response 
+                  unity:
+                     type: string
+                     enum: [second,minute, hour, day]
+                     example: minute  
+                  desc:
+                     type: string
+                     example: desc1 
+                  priority:
+                     type: string
+                     example: high
+                  time:
+                     type: number
+                     example: 80
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required           
+                   
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+             - kpi
+             - unity
+             - desc
+             - priority
+             - time
+             - slaContractId
+             properties:
+              kpi:
+               type: string
+               enum: [escalation, response, takeOver, resolution]
+               example: response
+              unity:
+               type: string
+               enum: [second,minute, hour, day]
+               example: minute 
+              desc:
+               type: string
+               example: desc1 
+              priority:
+               type: string
+               example: high
+              time:
+               type: number
+               example: 80
+              slaContractId:
+                type: string
+        description: Sla item to add
+  /sla/getbyslaContract/{id}:
+    get:
+      summary: Get all Sla
+      operationId: getAllSla
+      description: 
+        get all active Sla of a slaContract
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: return all Sla of a slaContract
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Sla'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: slaContract not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: SlaContract not found     
+  /sla/getone/{id}:
+    get:
+      summary: get a single Sla
+      operationId: getOneSla
+      description: get Sla by Id
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: return specific Sla
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      kpi:
+                        type: string
+                        enum: [escalation, response, takeOver, resolution]
+                        example: response
+                      unity:
+                        type: string
+                        enum: [second,minute, hour, day]
+                        example: minute  
+                      desc:
+                        type: string
+                        example: desc1 
+                      priority:
+                        type: string
+                        example: high
+                      time:
+                        type: number
+                        example: 80
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  
+                
+                    
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Sla not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Sla not found       
+  /sla/update/{id}:
+    patch:
+      summary: update a single Sla
+      description: update one sla
+      operationId: updateSla
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sla'
+       
+          description: "updated sla"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Sla not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Sla not found
+        "501":
+          description: "no error displayed"
+        
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                kpi:
+                 type: string
+                 enum: [escalation, response, takeOver, resolution]
+                 example: response
+                unity:
+                 type: string
+                 enum: [second,minute, hour, day]
+                 example: minute
+                desc:
+                 type: string
+                 example: desc1 
+                priority:
+                 type: string
+                 example: high
+                time:
+                 type: number
+                 example: 80   
+
+  /sla/delete/{id}:  
+    patch:  
+      summary: delete a single Sla
+      description: delete one Sla
+      operationId: deleteSla
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sla'
+          description: "deleted sla"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no Sla found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Sla not found
+      
+components:
+  schemas:
+    Sla:
+      type: object
+      required:
+        - id
+        - kpi
+        - unity
+        - desc
+        - priority
+        - time
+        - slaContractId
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        kpi:
+          type: string
+          enum: [escalation, response, takeOver, resolution]
+          example: response
+        unity:
+          type: string
+          enum: [second,minute, hour, day]
+          example: minute  
+        desc:
+          type: string
+          example: desc1 
+        priority:
+          type: string
+          example: high
+        time:
+          type: number
+          example: 80
+        isActive:
+          type: boolean
+          example: true
+          
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/hamma19/sla-api/1.0.0

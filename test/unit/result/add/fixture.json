@@ -1,0 +1,36 @@
+{
+    "add": {
+        "success": {
+          "res": {
+            "statusCode": 201,
+            "headers": {
+              "content-type": "application/json"
+            }
+          },
+          "body": {
+            "status": "success",
+            "data": [
+                {
+                    "result": { "name": "test add" },
+                    "host": "aa@bb",
+                    "client": "101",
+                    "task": "ST22"
+                  }
+            ]
+          }
+        },
+        "failure": {
+            "res": {
+              "statusCode": 400,
+              "headers": {
+                "content-type": "application/json"
+              }
+            },
+            "body": {
+              "status": "error",
+              "message": "missing property."
+            }
+          }
+      }
+    }
+    

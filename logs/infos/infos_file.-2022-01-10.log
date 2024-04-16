@@ -1,0 +1,369 @@
+[2022-01-10T15:27:42.501] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-01-10T15:27:44.048] [INFO] ma-core - server started at port 5000
+[2022-01-10T15:27:44.075] [INFO] ma-core - mongodb conected
+[2022-01-10T15:27:44.154] [INFO] ma-core - add Client success testing testing testing
+[2022-01-10T15:27:44.219] [INFO] ma-core - get all Customer success testing testing testing
+[2022-01-10T15:27:44.221] [INFO] ma-core - get all Customer success NaN post 1234
+[2022-01-10T15:27:44.222] [INFO] ma-core - get all Customer success testing testing testing
+[2022-01-10T15:27:44.223] [INFO] ma-core - get all Customer error testing testing testing
+[2022-01-10T15:27:44.225] [INFO] ma-core - get all Customer error NaN post 1234
+[2022-01-10T15:27:44.235] [INFO] ma-core - get Customer error testing testing testing
+[2022-01-10T15:27:44.254] [INFO] ma-core - add customer success testing testing testing
+[2022-01-10T15:27:41.183] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-01-10T15:27:41.185] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-01-10T15:27:44.408] [INFO] ma-core - get All Active itOperation success testing testing testing
+[2022-01-10T15:27:44.413] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-01-10T15:27:44.429] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-01-10T15:27:41.200] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-01-10T15:27:41.202] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-01-10T15:27:44.450] [INFO] ma-core - update itOperation success testing testing testing
+[2022-01-10T15:27:44.477] [INFO] ma-core - delete licence success testing testing testing
+[2022-01-10T15:27:44.479] [INFO] ma-core - delete licence success NaN post 1234
+[2022-01-10T15:27:44.489] [INFO] ma-core - get latest customer licence By Id success testing testing testing
+[2022-01-10T15:27:44.491] [INFO] ma-core - get latest customer licence By Id success NaN post 1234
+[2022-01-10T15:27:44.508] [INFO] ma-core - get licence By Id success testing testing testing
+[2022-01-10T15:27:44.510] [INFO] ma-core - get licence By Id success NaN post 1234
+[2022-01-10T15:27:44.522] [INFO] ma-core - add Licence success testing testing testing
+[2022-01-10T15:27:44.523] [INFO] ma-core - add Licence success NaN post 1234
+[2022-01-10T15:27:44.536] [INFO] ma-core - update licence By Customer success testing testing testing
+[2022-01-10T15:27:44.540] [INFO] ma-core - update licence By Customer success NaN post 1234
+[2022-01-10T15:27:44.618] [INFO] ma-core - delete module success testing testing testing
+[2022-01-10T15:27:44.619] [INFO] ma-core - delete module success NaN post 1234
+[2022-01-10T15:27:44.631] [INFO] ma-core - get All Basic Module success testing testing testing
+[2022-01-10T15:27:44.633] [INFO] ma-core - get All Basic Module success NaN post 1234
+[2022-01-10T15:27:44.638] [INFO] ma-core - get All Module success testing testing testing
+[2022-01-10T15:27:44.640] [INFO] ma-core - get All Module success NaN post 1234
+[2022-01-10T15:27:44.654] [INFO] ma-core - get module By Id success testing testing testing
+[2022-01-10T15:27:44.655] [INFO] ma-core - get module By Id success NaN post 1234
+[2022-01-10T15:27:44.668] [INFO] ma-core - add Module success testing testing testing
+[2022-01-10T15:27:44.670] [INFO] ma-core - add Module success NaN post 1234
+[2022-01-10T15:27:44.678] [INFO] ma-core - update module By Customer success testing testing testing
+[2022-01-10T15:27:44.679] [INFO] ma-core - update module By Customer success NaN post 1234
+[2022-01-10T15:27:44.760] [INFO] ma-core - get All nomenclature success testing testing testing
+[2022-01-10T15:27:44.761] [INFO] ma-core - get All nomenclature success testing testing testing
+[2022-01-10T15:27:44.763] [INFO] ma-core - get All nomenclature success NaN post 1234
+[2022-01-10T15:27:44.792] [INFO] ma-core - delete Result Form success testing testing testing
+[2022-01-10T15:27:44.793] [INFO] ma-core - delete Result Form success NaN post 1234
+[2022-01-10T15:27:44.807] [INFO] ma-core - get all result form success testing testing testing
+[2022-01-10T15:27:44.809] [INFO] ma-core - get all result form success testing testing testing
+[2022-01-10T15:27:44.811] [INFO] ma-core - get all result form success NaN post 1234
+[2022-01-10T15:27:44.819] [INFO] ma-core - get by id Result Form testing testing testing
+[2022-01-10T15:27:44.821] [INFO] ma-core - get by id Result Form NaN post 1234
+[2022-01-10T15:27:44.829] [INFO] ma-core - add result form success testing testing testing
+[2022-01-10T15:27:44.830] [INFO] ma-core - add result form success NaN post 1234
+[2022-01-10T15:27:44.841] [INFO] ma-core - update Result Form success testing testing testing
+[2022-01-10T15:27:44.843] [INFO] ma-core - update Result Form success NaN post 1234
+[2022-01-10T15:27:44.853] [INFO] ma-core - delete Role success testing testing testing
+[2022-01-10T15:27:44.854] [INFO] ma-core - delete Role success NaN post 1234
+[2022-01-10T15:27:44.867] [INFO] ma-core - get All Role success testing testing testing
+[2022-01-10T15:27:44.869] [INFO] ma-core - get All Role success NaN post 1234
+[2022-01-10T15:27:44.876] [INFO] ma-core - get by id Role success testing testing testing
+[2022-01-10T15:27:44.877] [INFO] ma-core - get by id Role success NaN post 1234
+[2022-01-10T15:27:44.892] [INFO] ma-core - get by user Role success testing testing testing
+[2022-01-10T15:27:44.893] [INFO] ma-core - get by user Role success NaN get 1234
+[2022-01-10T15:27:44.904] [INFO] ma-core - add Role success testing testing testing
+[2022-01-10T15:27:44.906] [INFO] ma-core - add Role success NaN post 1234
+[2022-01-10T15:27:44.919] [INFO] ma-core - update Role success testing testing testing
+[2022-01-10T15:27:44.920] [INFO] ma-core - update Role success NaN post 1234
+[2022-01-10T15:27:44.932] [INFO] ma-core - add Role History success testing testing testing
+[2022-01-10T15:27:44.934] [INFO] ma-core - add Role History success NaN post 1234
+[2022-01-10T15:27:44.981] [INFO] ma-core - Get all shifts success testing testing testing
+[2022-01-10T15:27:45.002] [INFO] ma-core - Get all members success testing testing testing
+[2022-01-10T15:27:45.025] [INFO] ma-core - delete sla success testing testing testing
+[2022-01-10T15:27:45.026] [INFO] ma-core - delete sla success NaN post 1234
+[2022-01-10T15:27:45.040] [INFO] ma-core - get sla By Id success testing testing testing
+[2022-01-10T15:27:45.046] [INFO] ma-core - get sla By Id success NaN post 1234
+[2022-01-10T15:27:45.068] [INFO] ma-core - add Sla success testing testing testing
+[2022-01-10T15:27:45.069] [INFO] ma-core - add Sla success NaN post 1234
+[2022-01-10T15:27:45.087] [INFO] ma-core - update sla By SlaContract success testing testing testing
+[2022-01-10T15:27:45.089] [INFO] ma-core - update sla By SlaContract success NaN post 1234
+[2022-01-10T15:27:45.102] [INFO] ma-core - delete slaContract success testing testing testing
+[2022-01-10T15:27:45.103] [INFO] ma-core - delete slaContract success NaN post 1234
+[2022-01-10T15:27:45.121] [INFO] ma-core - get slaContract By Customer success testing testing testing
+[2022-01-10T15:27:45.123] [INFO] ma-core - get slaContract By Customer success NaN post 1234
+[2022-01-10T15:27:45.128] [INFO] ma-core - get slaContract By Id success testing testing testing
+[2022-01-10T15:27:45.130] [INFO] ma-core - get slaContract By Id success NaN post 1234
+[2022-01-10T15:27:45.139] [INFO] ma-core - add SlaContract success testing testing testing
+[2022-01-10T15:27:45.140] [INFO] ma-core - add SlaContract success NaN post 1234
+[2022-01-10T15:27:45.157] [INFO] ma-core - update slaContract By Customer success testing testing testing
+[2022-01-10T15:27:45.158] [INFO] ma-core - update slaContract By Customer success NaN post 1234
+[2022-01-10T15:27:45.333] [INFO] ma-core - get All Task success testing testing testing
+[2022-01-10T15:27:45.335] [INFO] ma-core - get All Task success NaN post 1234
+[2022-01-10T15:27:45.339] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:27:45.341] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:27:45.343] [INFO] ma-core - get by id Task success testing testing testing
+[2022-01-10T15:27:45.344] [INFO] ma-core - get by id Task success NaN post 1234
+[2022-01-10T15:27:45.353] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:27:45.355] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:27:45.415] [INFO] ma-core - get All Task By ID success testing testing testing
+[2022-01-10T15:27:45.435] [INFO] ma-core - get All Task success testing testing testing
+[2022-01-10T15:27:45.453] [INFO] ma-core - get Created Tasks success testing testing testing
+[2022-01-10T15:27:45.460] [INFO] ma-core - get Created Tasks success NaN post 1234
+[2022-01-10T15:27:45.480] [INFO] ma-core - add Task success testing testing testing
+[2022-01-10T15:27:45.484] [INFO] ma-core - add Task success NaN post 1234
+[2022-01-10T15:27:45.514] [INFO] ma-core - add Many Task success testing testing testing
+[2022-01-10T15:27:45.520] [INFO] ma-core - add Many Task success NaN post 1234
+[2022-01-10T15:27:45.540] [INFO] ma-core - update Task success testing testing testing
+[2022-01-10T15:27:45.542] [INFO] ma-core - update Task success NaN post 1234
+[2022-01-10T15:27:45.574] [INFO] ma-core - Update Task Assignee success testing testing testing
+[2022-01-10T15:27:45.575] [INFO] ma-core - Update Task Assignee Incomplete testing testing testing
+[2022-01-10T15:27:45.605] [INFO] ma-core - Canceled the Task testing testing testing
+[2022-01-10T15:27:45.608] [INFO] ma-core - Canceled the Task NaN post 1234
+[2022-01-10T15:27:45.619] [INFO] ma-core - Closed the Task testing testing testing
+[2022-01-10T15:27:45.622] [INFO] ma-core - Closed the Task NaN post 1234
+[2022-01-10T15:27:45.630] [INFO] ma-core - Deleted the Task testing testing testing
+[2022-01-10T15:27:45.634] [INFO] ma-core - Deleted the Task NaN post 1234
+[2022-01-10T15:27:45.644] [INFO] ma-core - Finished the Task testing testing testing
+[2022-01-10T15:27:45.647] [INFO] ma-core - Finished the Task NaN post 1234
+[2022-01-10T15:27:45.659] [INFO] ma-core - Rejected the Task testing testing testing
+[2022-01-10T15:27:45.661] [INFO] ma-core - Rejected the Task NaN post 1234
+[2022-01-10T15:27:45.677] [INFO] ma-core - Validated the Task testing testing testing
+[2022-01-10T15:27:45.682] [INFO] ma-core - Validated the Task NaN post 1234
+[2022-01-10T15:27:45.707] [INFO] ma-core - update Task success testing testing testing
+[2022-01-10T15:27:45.711] [INFO] ma-core - update Task success NaN post 1234
+[2022-01-10T15:36:30.599] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-01-10T15:36:31.688] [INFO] ma-core - server started at port 5000
+[2022-01-10T15:36:31.762] [INFO] ma-core - mongodb conected
+[2022-01-10T15:36:31.844] [INFO] ma-core - add Client success testing testing testing
+[2022-01-10T15:36:31.912] [INFO] ma-core - get all Customer success testing testing testing
+[2022-01-10T15:36:31.914] [INFO] ma-core - get all Customer success NaN post 1234
+[2022-01-10T15:36:31.917] [INFO] ma-core - get all Customer success testing testing testing
+[2022-01-10T15:36:31.919] [INFO] ma-core - get all Customer error testing testing testing
+[2022-01-10T15:36:31.921] [INFO] ma-core - get all Customer error NaN post 1234
+[2022-01-10T15:36:31.935] [INFO] ma-core - get Customer error testing testing testing
+[2022-01-10T15:36:31.955] [INFO] ma-core - add customer success testing testing testing
+[2022-01-10T15:36:29.585] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-01-10T15:36:29.587] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-01-10T15:36:32.124] [INFO] ma-core - get All Active itOperation success testing testing testing
+[2022-01-10T15:36:32.128] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-01-10T15:36:32.147] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-01-10T15:36:29.601] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-01-10T15:36:29.602] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-01-10T15:36:32.172] [INFO] ma-core - update itOperation success testing testing testing
+[2022-01-10T15:36:32.205] [INFO] ma-core - delete licence success testing testing testing
+[2022-01-10T15:36:32.207] [INFO] ma-core - delete licence success NaN post 1234
+[2022-01-10T15:36:32.220] [INFO] ma-core - get latest customer licence By Id success testing testing testing
+[2022-01-10T15:36:32.223] [INFO] ma-core - get latest customer licence By Id success NaN post 1234
+[2022-01-10T15:36:32.241] [INFO] ma-core - get licence By Id success testing testing testing
+[2022-01-10T15:36:32.242] [INFO] ma-core - get licence By Id success NaN post 1234
+[2022-01-10T15:36:32.256] [INFO] ma-core - add Licence success testing testing testing
+[2022-01-10T15:36:32.258] [INFO] ma-core - add Licence success NaN post 1234
+[2022-01-10T15:36:32.273] [INFO] ma-core - update licence By Customer success testing testing testing
+[2022-01-10T15:36:32.274] [INFO] ma-core - update licence By Customer success NaN post 1234
+[2022-01-10T15:36:32.360] [INFO] ma-core - delete module success testing testing testing
+[2022-01-10T15:36:32.362] [INFO] ma-core - delete module success NaN post 1234
+[2022-01-10T15:36:32.377] [INFO] ma-core - get All Basic Module success testing testing testing
+[2022-01-10T15:36:32.379] [INFO] ma-core - get All Basic Module success NaN post 1234
+[2022-01-10T15:36:32.386] [INFO] ma-core - get All Module success testing testing testing
+[2022-01-10T15:36:32.387] [INFO] ma-core - get All Module success NaN post 1234
+[2022-01-10T15:36:32.395] [INFO] ma-core - get module By Id success testing testing testing
+[2022-01-10T15:36:32.404] [INFO] ma-core - get module By Id success NaN post 1234
+[2022-01-10T15:36:32.418] [INFO] ma-core - add Module success testing testing testing
+[2022-01-10T15:36:32.421] [INFO] ma-core - add Module success NaN post 1234
+[2022-01-10T15:36:32.429] [INFO] ma-core - update module By Customer success testing testing testing
+[2022-01-10T15:36:32.430] [INFO] ma-core - update module By Customer success NaN post 1234
+[2022-01-10T15:36:32.520] [INFO] ma-core - get All nomenclature success testing testing testing
+[2022-01-10T15:36:32.522] [INFO] ma-core - get All nomenclature success testing testing testing
+[2022-01-10T15:36:32.524] [INFO] ma-core - get All nomenclature success NaN post 1234
+[2022-01-10T15:36:32.554] [INFO] ma-core - delete Result Form success testing testing testing
+[2022-01-10T15:36:32.556] [INFO] ma-core - delete Result Form success NaN post 1234
+[2022-01-10T15:36:32.571] [INFO] ma-core - get all result form success testing testing testing
+[2022-01-10T15:36:32.573] [INFO] ma-core - get all result form success testing testing testing
+[2022-01-10T15:36:32.574] [INFO] ma-core - get all result form success NaN post 1234
+[2022-01-10T15:36:32.582] [INFO] ma-core - get by id Result Form testing testing testing
+[2022-01-10T15:36:32.585] [INFO] ma-core - get by id Result Form NaN post 1234
+[2022-01-10T15:36:32.594] [INFO] ma-core - add result form success testing testing testing
+[2022-01-10T15:36:32.595] [INFO] ma-core - add result form success NaN post 1234
+[2022-01-10T15:36:32.604] [INFO] ma-core - update Result Form success testing testing testing
+[2022-01-10T15:36:32.605] [INFO] ma-core - update Result Form success NaN post 1234
+[2022-01-10T15:36:32.619] [INFO] ma-core - delete Role success testing testing testing
+[2022-01-10T15:36:32.620] [INFO] ma-core - delete Role success NaN post 1234
+[2022-01-10T15:36:32.634] [INFO] ma-core - get All Role success testing testing testing
+[2022-01-10T15:36:32.636] [INFO] ma-core - get All Role success NaN post 1234
+[2022-01-10T15:36:32.643] [INFO] ma-core - get by id Role success testing testing testing
+[2022-01-10T15:36:32.644] [INFO] ma-core - get by id Role success NaN post 1234
+[2022-01-10T15:36:32.660] [INFO] ma-core - get by user Role success testing testing testing
+[2022-01-10T15:36:32.661] [INFO] ma-core - get by user Role success NaN get 1234
+[2022-01-10T15:36:32.673] [INFO] ma-core - add Role success testing testing testing
+[2022-01-10T15:36:32.676] [INFO] ma-core - add Role success NaN post 1234
+[2022-01-10T15:36:32.688] [INFO] ma-core - update Role success testing testing testing
+[2022-01-10T15:36:32.690] [INFO] ma-core - update Role success NaN post 1234
+[2022-01-10T15:36:32.702] [INFO] ma-core - add Role History success testing testing testing
+[2022-01-10T15:36:32.704] [INFO] ma-core - add Role History success NaN post 1234
+[2022-01-10T15:36:32.758] [INFO] ma-core - Get all shifts success testing testing testing
+[2022-01-10T15:36:32.778] [INFO] ma-core - Get all members success testing testing testing
+[2022-01-10T15:36:32.802] [INFO] ma-core - delete sla success testing testing testing
+[2022-01-10T15:36:32.804] [INFO] ma-core - delete sla success NaN post 1234
+[2022-01-10T15:36:32.819] [INFO] ma-core - get sla By Id success testing testing testing
+[2022-01-10T15:36:32.821] [INFO] ma-core - get sla By Id success NaN post 1234
+[2022-01-10T15:36:32.846] [INFO] ma-core - add Sla success testing testing testing
+[2022-01-10T15:36:32.848] [INFO] ma-core - add Sla success NaN post 1234
+[2022-01-10T15:36:32.869] [INFO] ma-core - update sla By SlaContract success testing testing testing
+[2022-01-10T15:36:32.870] [INFO] ma-core - update sla By SlaContract success NaN post 1234
+[2022-01-10T15:36:32.884] [INFO] ma-core - delete slaContract success testing testing testing
+[2022-01-10T15:36:32.885] [INFO] ma-core - delete slaContract success NaN post 1234
+[2022-01-10T15:36:32.903] [INFO] ma-core - get slaContract By Customer success testing testing testing
+[2022-01-10T15:36:32.907] [INFO] ma-core - get slaContract By Customer success NaN post 1234
+[2022-01-10T15:36:32.911] [INFO] ma-core - get slaContract By Id success testing testing testing
+[2022-01-10T15:36:32.913] [INFO] ma-core - get slaContract By Id success NaN post 1234
+[2022-01-10T15:36:32.923] [INFO] ma-core - add SlaContract success testing testing testing
+[2022-01-10T15:36:32.924] [INFO] ma-core - add SlaContract success NaN post 1234
+[2022-01-10T15:36:32.936] [INFO] ma-core - update slaContract By Customer success testing testing testing
+[2022-01-10T15:36:32.938] [INFO] ma-core - update slaContract By Customer success NaN post 1234
+[2022-01-10T15:36:33.124] [INFO] ma-core - get All Task success testing testing testing
+[2022-01-10T15:36:33.125] [INFO] ma-core - get All Task success NaN post 1234
+[2022-01-10T15:36:33.129] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:36:33.139] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:36:33.142] [INFO] ma-core - get by id Task success testing testing testing
+[2022-01-10T15:36:33.143] [INFO] ma-core - get by id Task success NaN post 1234
+[2022-01-10T15:36:33.152] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:36:33.155] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:36:33.211] [INFO] ma-core - get All Task By ID success testing testing testing
+[2022-01-10T15:36:33.232] [INFO] ma-core - get All Task success testing testing testing
+[2022-01-10T15:36:33.251] [INFO] ma-core - get Created Tasks success testing testing testing
+[2022-01-10T15:36:33.255] [INFO] ma-core - get Created Tasks success NaN post 1234
+[2022-01-10T15:36:33.276] [INFO] ma-core - add Task success testing testing testing
+[2022-01-10T15:36:33.278] [INFO] ma-core - add Task success NaN post 1234
+[2022-01-10T15:36:33.293] [INFO] ma-core - add Many Task success testing testing testing
+[2022-01-10T15:36:33.296] [INFO] ma-core - add Many Task success NaN post 1234
+[2022-01-10T15:36:33.309] [INFO] ma-core - update Task success testing testing testing
+[2022-01-10T15:36:33.310] [INFO] ma-core - update Task success NaN post 1234
+[2022-01-10T15:36:33.377] [INFO] ma-core - Update Task Assignee success testing testing testing
+[2022-01-10T15:36:33.381] [INFO] ma-core - Update Task Assignee Incomplete testing testing testing
+[2022-01-10T15:36:33.401] [INFO] ma-core - Canceled the Task testing testing testing
+[2022-01-10T15:36:33.404] [INFO] ma-core - Canceled the Task NaN post 1234
+[2022-01-10T15:36:33.418] [INFO] ma-core - Closed the Task testing testing testing
+[2022-01-10T15:36:33.421] [INFO] ma-core - Closed the Task NaN post 1234
+[2022-01-10T15:36:33.429] [INFO] ma-core - Deleted the Task testing testing testing
+[2022-01-10T15:36:33.431] [INFO] ma-core - Deleted the Task NaN post 1234
+[2022-01-10T15:36:33.440] [INFO] ma-core - Finished the Task testing testing testing
+[2022-01-10T15:36:33.441] [INFO] ma-core - Finished the Task NaN post 1234
+[2022-01-10T15:36:33.453] [INFO] ma-core - Rejected the Task testing testing testing
+[2022-01-10T15:36:33.455] [INFO] ma-core - Rejected the Task NaN post 1234
+[2022-01-10T15:36:33.466] [INFO] ma-core - Validated the Task testing testing testing
+[2022-01-10T15:36:33.470] [INFO] ma-core - Validated the Task NaN post 1234
+[2022-01-10T15:36:33.494] [INFO] ma-core - update Task success testing testing testing
+[2022-01-10T15:36:33.505] [INFO] ma-core - update Task success NaN post 1234
+[2022-01-10T15:37:28.468] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-01-10T15:37:29.551] [INFO] ma-core - server started at port 5000
+[2022-01-10T15:37:29.578] [INFO] ma-core - mongodb conected
+[2022-01-10T15:37:29.663] [INFO] ma-core - add Client success testing testing testing
+[2022-01-10T15:37:29.730] [INFO] ma-core - get all Customer success testing testing testing
+[2022-01-10T15:37:29.732] [INFO] ma-core - get all Customer success NaN post 1234
+[2022-01-10T15:37:29.733] [INFO] ma-core - get all Customer success testing testing testing
+[2022-01-10T15:37:29.734] [INFO] ma-core - get all Customer error testing testing testing
+[2022-01-10T15:37:29.736] [INFO] ma-core - get all Customer error NaN post 1234
+[2022-01-10T15:37:29.750] [INFO] ma-core - get Customer error testing testing testing
+[2022-01-10T15:37:29.771] [INFO] ma-core - add customer success testing testing testing
+[2022-01-10T15:37:27.486] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-01-10T15:37:27.489] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-01-10T15:37:29.961] [INFO] ma-core - get All Active itOperation success testing testing testing
+[2022-01-10T15:37:29.966] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-01-10T15:37:29.984] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-01-10T15:37:27.508] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-01-10T15:37:27.510] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-01-10T15:37:30.000] [INFO] ma-core - update itOperation success testing testing testing
+[2022-01-10T15:37:30.029] [INFO] ma-core - delete licence success testing testing testing
+[2022-01-10T15:37:30.031] [INFO] ma-core - delete licence success NaN post 1234
+[2022-01-10T15:37:30.041] [INFO] ma-core - get latest customer licence By Id success testing testing testing
+[2022-01-10T15:37:30.045] [INFO] ma-core - get latest customer licence By Id success NaN post 1234
+[2022-01-10T15:37:30.063] [INFO] ma-core - get licence By Id success testing testing testing
+[2022-01-10T15:37:30.065] [INFO] ma-core - get licence By Id success NaN post 1234
+[2022-01-10T15:37:30.078] [INFO] ma-core - add Licence success testing testing testing
+[2022-01-10T15:37:30.080] [INFO] ma-core - add Licence success NaN post 1234
+[2022-01-10T15:37:30.093] [INFO] ma-core - update licence By Customer success testing testing testing
+[2022-01-10T15:37:30.094] [INFO] ma-core - update licence By Customer success NaN post 1234
+[2022-01-10T15:37:30.179] [INFO] ma-core - delete module success testing testing testing
+[2022-01-10T15:37:30.181] [INFO] ma-core - delete module success NaN post 1234
+[2022-01-10T15:37:30.193] [INFO] ma-core - get All Basic Module success testing testing testing
+[2022-01-10T15:37:30.194] [INFO] ma-core - get All Basic Module success NaN post 1234
+[2022-01-10T15:37:30.200] [INFO] ma-core - get All Module success testing testing testing
+[2022-01-10T15:37:30.201] [INFO] ma-core - get All Module success NaN post 1234
+[2022-01-10T15:37:30.211] [INFO] ma-core - get module By Id success testing testing testing
+[2022-01-10T15:37:30.212] [INFO] ma-core - get module By Id success NaN post 1234
+[2022-01-10T15:37:30.226] [INFO] ma-core - add Module success testing testing testing
+[2022-01-10T15:37:30.228] [INFO] ma-core - add Module success NaN post 1234
+[2022-01-10T15:37:30.236] [INFO] ma-core - update module By Customer success testing testing testing
+[2022-01-10T15:37:30.237] [INFO] ma-core - update module By Customer success NaN post 1234
+[2022-01-10T15:37:30.319] [INFO] ma-core - get All nomenclature success testing testing testing
+[2022-01-10T15:37:30.321] [INFO] ma-core - get All nomenclature success testing testing testing
+[2022-01-10T15:37:30.324] [INFO] ma-core - get All nomenclature success NaN post 1234
+[2022-01-10T15:37:30.358] [INFO] ma-core - delete Result Form success testing testing testing
+[2022-01-10T15:37:30.359] [INFO] ma-core - delete Result Form success NaN post 1234
+[2022-01-10T15:37:30.373] [INFO] ma-core - get all result form success testing testing testing
+[2022-01-10T15:37:30.375] [INFO] ma-core - get all result form success testing testing testing
+[2022-01-10T15:37:30.377] [INFO] ma-core - get all result form success NaN post 1234
+[2022-01-10T15:37:30.384] [INFO] ma-core - get by id Result Form testing testing testing
+[2022-01-10T15:37:30.386] [INFO] ma-core - get by id Result Form NaN post 1234
+[2022-01-10T15:37:30.397] [INFO] ma-core - add result form success testing testing testing
+[2022-01-10T15:37:30.398] [INFO] ma-core - add result form success NaN post 1234
+[2022-01-10T15:37:30.406] [INFO] ma-core - update Result Form success testing testing testing
+[2022-01-10T15:37:30.407] [INFO] ma-core - update Result Form success NaN post 1234
+[2022-01-10T15:37:30.417] [INFO] ma-core - delete Role success testing testing testing
+[2022-01-10T15:37:30.418] [INFO] ma-core - delete Role success NaN post 1234
+[2022-01-10T15:37:30.432] [INFO] ma-core - get All Role success testing testing testing
+[2022-01-10T15:37:30.433] [INFO] ma-core - get All Role success NaN post 1234
+[2022-01-10T15:37:30.441] [INFO] ma-core - get by id Role success testing testing testing
+[2022-01-10T15:37:30.443] [INFO] ma-core - get by id Role success NaN post 1234
+[2022-01-10T15:37:30.463] [INFO] ma-core - get by user Role success testing testing testing
+[2022-01-10T15:37:30.465] [INFO] ma-core - get by user Role success NaN get 1234
+[2022-01-10T15:37:30.474] [INFO] ma-core - add Role success testing testing testing
+[2022-01-10T15:37:30.478] [INFO] ma-core - add Role success NaN post 1234
+[2022-01-10T15:37:30.491] [INFO] ma-core - update Role success testing testing testing
+[2022-01-10T15:37:30.493] [INFO] ma-core - update Role success NaN post 1234
+[2022-01-10T15:37:30.506] [INFO] ma-core - add Role History success testing testing testing
+[2022-01-10T15:37:30.508] [INFO] ma-core - add Role History success NaN post 1234
+[2022-01-10T15:37:30.554] [INFO] ma-core - Get all shifts success testing testing testing
+[2022-01-10T15:37:30.580] [INFO] ma-core - Get all members success testing testing testing
+[2022-01-10T15:37:30.601] [INFO] ma-core - delete sla success testing testing testing
+[2022-01-10T15:37:30.602] [INFO] ma-core - delete sla success NaN post 1234
+[2022-01-10T15:37:30.616] [INFO] ma-core - get sla By Id success testing testing testing
+[2022-01-10T15:37:30.618] [INFO] ma-core - get sla By Id success NaN post 1234
+[2022-01-10T15:37:30.639] [INFO] ma-core - add Sla success testing testing testing
+[2022-01-10T15:37:30.642] [INFO] ma-core - add Sla success NaN post 1234
+[2022-01-10T15:37:30.660] [INFO] ma-core - update sla By SlaContract success testing testing testing
+[2022-01-10T15:37:30.662] [INFO] ma-core - update sla By SlaContract success NaN post 1234
+[2022-01-10T15:37:30.679] [INFO] ma-core - delete slaContract success testing testing testing
+[2022-01-10T15:37:30.681] [INFO] ma-core - delete slaContract success NaN post 1234
+[2022-01-10T15:37:30.698] [INFO] ma-core - get slaContract By Customer success testing testing testing
+[2022-01-10T15:37:30.702] [INFO] ma-core - get slaContract By Customer success NaN post 1234
+[2022-01-10T15:37:30.707] [INFO] ma-core - get slaContract By Id success testing testing testing
+[2022-01-10T15:37:30.709] [INFO] ma-core - get slaContract By Id success NaN post 1234
+[2022-01-10T15:37:30.717] [INFO] ma-core - add SlaContract success testing testing testing
+[2022-01-10T15:37:30.718] [INFO] ma-core - add SlaContract success NaN post 1234
+[2022-01-10T15:37:30.730] [INFO] ma-core - update slaContract By Customer success testing testing testing
+[2022-01-10T15:37:30.732] [INFO] ma-core - update slaContract By Customer success NaN post 1234
+[2022-01-10T15:37:30.913] [INFO] ma-core - get All Task success testing testing testing
+[2022-01-10T15:37:30.914] [INFO] ma-core - get All Task success NaN post 1234
+[2022-01-10T15:37:30.918] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:37:30.920] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:37:30.922] [INFO] ma-core - get by id Task success testing testing testing
+[2022-01-10T15:37:30.925] [INFO] ma-core - get by id Task success NaN post 1234
+[2022-01-10T15:37:30.933] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:37:30.936] [INFO] ma-core - get All Task By filter success testing testing testing
+[2022-01-10T15:37:31.002] [INFO] ma-core - get All Task By ID success testing testing testing
+[2022-01-10T15:37:31.023] [INFO] ma-core - get All Task success testing testing testing
+[2022-01-10T15:37:31.042] [INFO] ma-core - get Created Tasks success testing testing testing
+[2022-01-10T15:37:31.047] [INFO] ma-core - get Created Tasks success NaN post 1234
+[2022-01-10T15:37:31.063] [INFO] ma-core - add Task success testing testing testing
+[2022-01-10T15:37:31.067] [INFO] ma-core - add Task success NaN post 1234
+[2022-01-10T15:37:31.083] [INFO] ma-core - add Many Task success testing testing testing
+[2022-01-10T15:37:31.086] [INFO] ma-core - add Many Task success NaN post 1234
+[2022-01-10T15:37:31.099] [INFO] ma-core - update Task success testing testing testing
+[2022-01-10T15:37:31.100] [INFO] ma-core - update Task success NaN post 1234
+[2022-01-10T15:37:31.168] [INFO] ma-core - Update Task Assignee success testing testing testing
+[2022-01-10T15:37:31.170] [INFO] ma-core - Update Task Assignee Incomplete testing testing testing
+[2022-01-10T15:37:31.181] [INFO] ma-core - Canceled the Task testing testing testing
+[2022-01-10T15:37:31.183] [INFO] ma-core - Canceled the Task NaN post 1234
+[2022-01-10T15:37:31.191] [INFO] ma-core - Closed the Task testing testing testing
+[2022-01-10T15:37:31.193] [INFO] ma-core - Closed the Task NaN post 1234
+[2022-01-10T15:37:31.201] [INFO] ma-core - Deleted the Task testing testing testing
+[2022-01-10T15:37:31.202] [INFO] ma-core - Deleted the Task NaN post 1234
+[2022-01-10T15:37:31.211] [INFO] ma-core - Finished the Task testing testing testing
+[2022-01-10T15:37:31.213] [INFO] ma-core - Finished the Task NaN post 1234
+[2022-01-10T15:37:31.220] [INFO] ma-core - Rejected the Task testing testing testing
+[2022-01-10T15:37:31.222] [INFO] ma-core - Rejected the Task NaN post 1234
+[2022-01-10T15:37:31.232] [INFO] ma-core - Validated the Task testing testing testing
+[2022-01-10T15:37:31.235] [INFO] ma-core - Validated the Task NaN post 1234
+[2022-01-10T15:37:31.253] [INFO] ma-core - update Task success testing testing testing
+[2022-01-10T15:37:31.257] [INFO] ma-core - update Task success NaN post 1234

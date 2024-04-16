@@ -1,0 +1,73 @@
+[2023-06-21T12:55:36.208] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T12:55:37.708] [INFO] ma-core - server started at port 5000
+[2023-06-21T12:55:37.731] [INFO] ma-core - mongodb conected
+[2023-06-21T12:56:59.006] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-21T12:58:04.881] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-21T16:30:01.318] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-21T16:32:51.307] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:32:52.450] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:32:52.471] [INFO] ma-core - mongodb conected
+[2023-06-21T16:32:53.499] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:32:54.233] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:32:54.291] [INFO] ma-core - mongodb conected
+[2023-06-21T16:32:56.621] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:32:57.072] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:32:57.104] [INFO] ma-core - mongodb conected
+[2023-06-21T16:32:57.790] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:32:58.305] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:32:58.330] [INFO] ma-core - mongodb conected
+[2023-06-21T16:33:01.867] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:33:02.333] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:33:02.356] [INFO] ma-core - mongodb conected
+[2023-06-21T16:33:05.285] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:33:05.765] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:33:05.778] [INFO] ma-core - mongodb conected
+[2023-06-21T16:33:15.988] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:33:16.459] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:33:16.488] [INFO] ma-core - mongodb conected
+[2023-06-21T16:33:20.965] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:33:21.547] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:33:21.575] [INFO] ma-core - mongodb conected
+[2023-06-21T16:41:25.755] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T16:41:26.301] [INFO] ma-core - server started at port 5000
+[2023-06-21T16:41:26.321] [INFO] ma-core - mongodb conected
+[2023-06-21T17:08:23.076] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:08:23.754] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:08:23.779] [INFO] ma-core - mongodb conected
+[2023-06-21T17:08:24.518] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:08:25.379] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:08:25.402] [INFO] ma-core - mongodb conected
+[2023-06-21T17:08:26.432] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:08:26.998] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:08:27.023] [INFO] ma-core - mongodb conected
+[2023-06-21T17:08:30.882] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:08:31.614] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:08:31.661] [INFO] ma-core - mongodb conected
+[2023-06-21T17:08:34.187] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:08:34.919] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:08:34.945] [INFO] ma-core - mongodb conected
+[2023-06-21T17:08:36.920] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:08:37.777] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:08:37.824] [INFO] ma-core - mongodb conected
+[2023-06-21T17:08:40.726] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:08:41.891] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:08:41.912] [INFO] ma-core - mongodb conected
+[2023-06-21T17:14:20.723] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:14:21.332] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:14:21.356] [INFO] ma-core - mongodb conected
+[2023-06-21T17:21:57.739] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-21T17:22:05.387] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-21T17:22:15.932] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-21T17:22:57.130] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:22:57.675] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:22:57.723] [INFO] ma-core - mongodb conected
+[2023-06-21T17:23:00.951] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:23:01.443] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:23:01.467] [INFO] ma-core - mongodb conected
+[2023-06-21T17:23:02.401] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T17:23:02.977] [INFO] ma-core - server started at port 5000
+[2023-06-21T17:23:03.005] [INFO] ma-core - mongodb conected
+[2023-06-21T17:23:17.802] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-21T18:15:35.410] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-21T18:15:36.200] [INFO] ma-core - server started at port 5000
+[2023-06-21T18:15:36.234] [INFO] ma-core - mongodb conected

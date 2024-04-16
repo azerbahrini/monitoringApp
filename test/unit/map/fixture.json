@@ -1,0 +1,77 @@
+{
+  "MapDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+    "periodicity": "10:30",
+    "active": true,
+    "estimation": "10:30",
+    "startTime": "10:30",
+    "task": "60ef4e3f7221301cc8eaafbe",
+    "system": "60ef4e3f7221301cc8eaafbe",
+    "monitoringAct": "60ef4e3f7221301cc8eaafbe"
+  },
+
+  "MapDataTestWithoutID": {
+    "periodicity": "10:30",
+    "active": true,
+    "estimation": "10:30",
+    "startTime": "10:30",
+    "task": "60ef4e3f7221301cc8eaafbe",
+    "system": "60ef4e3f7221301cc8eaafbe",
+    "monitoringAct": "60ef4e3f7221301cc8eaafbe"
+  },
+
+  "ReturnedMapDataTestWithoutID": {
+    "periodicity": 630,
+    "active": true,
+    "estimation": 630,
+    "startTime": 630,
+    "task": "60ef4e3f7221301cc8eaafbe",
+    "system": "60ef4e3f7221301cc8eaafbe",
+    "monitoringAct": "60ef4e3f7221301cc8eaafbe"
+  },
+
+  "wrongMapDataTest": {
+    "periodicity": "10:30",
+    "active": true,
+    "estimation": "10:30",
+    "startTime": "10:30",
+    "task": "60ef4e3f7221301cc8eaafbe",
+    "system": "60ef4e3f7221301cc8eaafbe",
+    "monitoringAct": "60ef4e3f7221301cc8eaafbe",
+    "randomProperty": "value"
+  },
+  "wrongID": "60ee0042d9b53b3e084209f6",
+  "emptyMapDataTest": {},
+  "arrayofMapes": [
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "periodicity": "10:30",
+      "active": true,
+      "estimation": "10:30",
+      "startTime": "10:30",
+      "task": "60ef4e3f7221301cc8eaafbe",
+      "system": "60ef4e3f7221301cc8eaafbe",
+      "monitoringAct": "60ef4e3f7221301cc8eaafbe"
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f6",
+      "periodicity": "10:30",
+      "active": true,
+      "estimation": "10:30",
+      "startTime": "10:30",
+      "task": "60ef4e3f7221301cc8eaafbe",
+      "system": "60ef4e3f7221301cc8eaafbe",
+      "monitoringAct": "60ef4e3f7221301cc8eaafbe"
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f7",
+      "periodicity": "10:30",
+      "active": true,
+      "estimation": "10:30",
+      "startTime": "10:30",
+      "task": "60ef4e3f7221301cc8eaafbe",
+      "system": "60ef4e3f7221301cc8eaafbe",
+      "monitoringAct": "60ef4e3f7221301cc8eaafbe"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[2023-10-07T00:04:44.167] [ERROR] ma-core - "user" is not allowed /api/shift/members GET ::1
+[2023-10-07T00:05:47.285] [ERROR] ma-core - "user" is not allowed /api/shift/members GET ::1
+[2023-10-07T00:06:42.548] [ERROR] ma-core - "user" is not allowed /api/shift/currentMembers GET ::1
+[2023-10-07T00:07:03.653] [ERROR] ma-core - "user" is not allowed /api/shift/ GET ::1
+[2023-10-07T17:57:54.891] [ERROR] ma-core - get Created Tasks error : No Tasks found /api/task/getworkflowTasks GET ::1
+[2023-10-07T17:58:18.166] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:11:19.741] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:11:20.370] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:11:20.687] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:11:21.000] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:11:21.411] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:13:43.294] [ERROR] ma-core - Get all members error :Cannot read property 'toString' of undefined /api/shift/members GET ::1
+[2023-10-07T18:18:42.401] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:18:43.512] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:29:03.299] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T18:37:18.426] [ERROR] ma-core - Get all members error :Cannot read property 'toString' of undefined /api/shift/members GET ::1
+[2023-10-07T18:37:25.655] [ERROR] ma-core - Get all members error :Cannot read property 'toString' of undefined /api/shift/members GET ::1
+[2023-10-07T18:37:47.841] [ERROR] ma-core - Get all members error :Cannot read property 'toString' of undefined /api/shift/members GET ::1
+[2023-10-07T18:50:32.254] [ERROR] ma-core - get Created Tasks error : No Tasks found /api/task/getworkflowTasks GET ::1
+[2023-10-07T18:51:13.439] [ERROR] ma-core - get Created Tasks error : No Tasks found /api/task/getworkflowTasks GET ::1
+[2023-10-07T23:18:10.565] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-07T23:18:51.007] [ERROR] ma-core - An unexpected error occurred Error: WARNING: Date in past. Will never be fired.
+    at CronTime.sendAt (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:148:12)
+    at CronTime.getTimeout (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:175:29)
+    at CronJob.start (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:613:31)
+    at new CronJob (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:576:10)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/services/task/autoCancelCron.js:11:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at runNextTicks (internal/process/task_queues.js:64:3)
+    at processImmediate (internal/timers.js:437:9)
+[2023-10-07T23:18:51.020] [ERROR] ma-core - An unexpected error occurred Error: WARNING: Date in past. Will never be fired.
+    at CronTime.sendAt (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:148:12)
+    at CronTime.getTimeout (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:175:29)
+    at CronJob.start (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:613:31)
+    at new CronJob (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:576:10)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/services/task/autoCancelCron.js:11:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2023-10-07T23:42:00.203] [ERROR] ma-core - An unexpected error occurred Error: WARNING: Date in past. Will never be fired.
+    at CronTime.sendAt (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:148:12)
+    at CronTime.getTimeout (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:175:29)
+    at CronJob.start (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:613:31)
+    at new CronJob (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:576:10)
+    at Object.module.exports [as autoCancelCron] (/home/azer/avaxia-monitpring-app/core-service/services/task/autoCancelCron.js:11:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)

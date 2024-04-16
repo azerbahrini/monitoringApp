@@ -1,0 +1,1251 @@
+[2021-12-07T14:41:32.854] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T14:41:33.168] [INFO] ma-core - server started at port 5000
+[2021-12-07T14:41:33.193] [INFO] ma-core - mongodb conected
+[2021-12-07T14:41:33.259] [INFO] ma-core - add Client success testing testing testing
+[2021-12-07T14:41:33.261] [ERROR] ma-core - add Client :missing property testing testing testing
+[2021-12-07T14:41:33.263] [ERROR] ma-core - add Client :missing property NaN post 1234
+[2021-12-07T14:41:33.273] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/delete/deleteClient.service.test.js:62:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.274] [ERROR] ma-core - Delete Error : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/delete/deleteClient.service.test.js:72:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.294] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/getClientsBySystemId/getAllBySystemServiceTest.js:49:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.303] [ERROR] ma-core - Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/update/updateClient.service.test.js:70:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.314] [INFO] ma-core - get all Customer success testing testing testing
+[2021-12-07T14:41:33.315] [INFO] ma-core - get all Customer success NaN post 1234
+[2021-12-07T14:41:33.317] [INFO] ma-core - get all Customer success testing testing testing
+[2021-12-07T14:41:33.318] [INFO] ma-core - get all Customer error testing testing testing
+[2021-12-07T14:41:33.319] [INFO] ma-core - get all Customer error NaN post 1234
+[2021-12-07T14:41:33.324] [INFO] ma-core - get Customer success testing testing testing
+[2021-12-07T14:41:33.326] [INFO] ma-core - get Customer error testing testing testing
+[2021-12-07T14:41:33.330] [ERROR] ma-core - Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/customer/getById/getByIdCustomer.service.test.js:88:24)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.331] [INFO] ma-core - add customer success testing testing testing
+[2021-12-07T14:41:33.333] [ERROR] ma-core - add customer fail :missing property testing testing testing
+[2021-12-07T14:41:33.423] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/delete/deleteHost.service.test.js:72:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.429] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/getAllBySystem/getAllBySystemServiceTest.js:49:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.434] [ERROR] ma-core - Get by ID Error : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/getById/getByIdHost.service.test.js:58:24)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.439] [ERROR] ma-core - expected findOneAndUpdate to have been called exactly once, but it was called 0 times
+[2021-12-07T14:41:33.447] [ERROR] ma-core - Update Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/update/updateHost.service.test.js:79:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:32.257] [INFO] ma-core - cancel itOperation success testing testing testing
+[2021-12-07T14:41:32.257] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2021-12-07T14:41:32.258] [INFO] ma-core - finish itOperation success testing testing testing
+[2021-12-07T14:41:32.258] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2021-12-07T14:41:33.458] [INFO] ma-core - get All Active itOperation success testing testing testing
+[2021-12-07T14:41:33.461] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2021-12-07T14:41:33.467] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.474] [INFO] ma-core - add ItOperation success testing testing testing
+[2021-12-07T14:41:33.476] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2021-12-07T14:41:32.271] [INFO] ma-core - remind itOperation success testing testing testing
+[2021-12-07T14:41:32.271] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2021-12-07T14:41:32.273] [INFO] ma-core - send changes itOperation success testing testing testing
+[2021-12-07T14:41:32.273] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2021-12-07T14:41:33.491] [INFO] ma-core - update itOperation success testing testing testing
+[2021-12-07T14:41:33.492] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2021-12-07T14:41:33.514] [INFO] ma-core - delete licence success testing testing testing
+[2021-12-07T14:41:33.516] [INFO] ma-core - delete licence success NaN post 1234
+[2021-12-07T14:41:33.517] [ERROR] ma-core - delete Licence :licence not found testing testing testing
+[2021-12-07T14:41:33.518] [ERROR] ma-core - delete Licence :licence not found NaN post 1234
+[2021-12-07T14:41:33.524] [INFO] ma-core - get latest customer licence By Id success testing testing testing
+[2021-12-07T14:41:33.525] [INFO] ma-core - get latest customer licence By Id success NaN post 1234
+[2021-12-07T14:41:33.526] [ERROR] ma-core - get licence By Id :Missing Customer ID NaN post 1234
+[2021-12-07T14:41:33.528] [ERROR] ma-core - get licence By Id :Missing Customer ID testing testing testing
+[2021-12-07T14:41:33.529] [ERROR] ma-core - get licence By Id :licence not found testing testing testing
+[2021-12-07T14:41:33.530] [ERROR] ma-core - get licence By Id :licence not found NaN post 1234
+[2021-12-07T14:41:33.533] [ERROR] ma-core - Error occur while Getting Licence By Customer Id : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/licence/getActiveLicence/getActiveLIcenceServiceTest.js:52:17)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.536] [ERROR] ma-core - Error occur while Getting Licence By Customer Id : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/licence/getByCustomer/getByCustomerLicence.service.test.js:61:17)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.540] [INFO] ma-core - get licence By Id success testing testing testing
+[2021-12-07T14:41:33.541] [INFO] ma-core - get licence By Id success NaN post 1234
+[2021-12-07T14:41:33.543] [ERROR] ma-core - get licence By Id :licence not found testing testing testing
+[2021-12-07T14:41:33.545] [ERROR] ma-core - get licence By Id :licence not found NaN post 1234
+[2021-12-07T14:41:33.552] [INFO] ma-core - add Licence success testing testing testing
+[2021-12-07T14:41:33.553] [INFO] ma-core - add Licence success NaN post 1234
+[2021-12-07T14:41:33.555] [ERROR] ma-core - add Licence :missing property testing testing testing
+[2021-12-07T14:41:33.556] [ERROR] ma-core - add Licence :missing property NaN post 1234
+[2021-12-07T14:41:33.564] [INFO] ma-core - update licence By Customer success testing testing testing
+[2021-12-07T14:41:33.565] [INFO] ma-core - update licence By Customer success NaN post 1234
+[2021-12-07T14:41:33.566] [ERROR] ma-core - update licence By Customer :licence not found testing testing testing
+[2021-12-07T14:41:33.568] [ERROR] ma-core - update licence By Customer :licence not found NaN post 1234
+[2021-12-07T14:41:33.583] [ERROR] ma-core - delete Map By Id :MAP not found testing testing testing
+[2021-12-07T14:41:33.587] [ERROR] ma-core - delete Map By Id :missing ID testing testing testing
+[2021-12-07T14:41:33.588] [ERROR] ma-core - delete Map By Id :missing ID testing testing testing
+[2021-12-07T14:41:33.590] [ERROR] ma-core - delete Map By Id :missing ID NaN post 1234
+[2021-12-07T14:41:33.607] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/map/getAllBySystem/getAllBySystemServiceTest.js:52:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:33.629] [INFO] ma-core - delete module success testing testing testing
+[2021-12-07T14:41:33.631] [INFO] ma-core - delete module success NaN post 1234
+[2021-12-07T14:41:33.632] [ERROR] ma-core - delete Module :module not found testing testing testing
+[2021-12-07T14:41:33.633] [ERROR] ma-core - delete Module :module not found NaN post 1234
+[2021-12-07T14:41:33.635] [ERROR] ma-core - delete Module :missing ID testing testing testing
+[2021-12-07T14:41:33.637] [ERROR] ma-core - delete Module :missing ID testing testing testing
+[2021-12-07T14:41:33.641] [INFO] ma-core - get All Basic Module success testing testing testing
+[2021-12-07T14:41:33.643] [INFO] ma-core - get All Basic Module success NaN post 1234
+[2021-12-07T14:41:33.645] [ERROR] ma-core - get All Basic Module :missing property testing testing testing
+[2021-12-07T14:41:33.646] [ERROR] ma-core - get All Basic Module :missing property NaN post 1234
+[2021-12-07T14:41:33.647] [INFO] ma-core - get All Module success testing testing testing
+[2021-12-07T14:41:33.649] [INFO] ma-core - get All Module success NaN post 1234
+[2021-12-07T14:41:33.650] [ERROR] ma-core - get All Module :missing property testing testing testing
+[2021-12-07T14:41:33.652] [ERROR] ma-core - get All Module :missing property NaN post 1234
+[2021-12-07T14:41:33.656] [INFO] ma-core - get module By Id success testing testing testing
+[2021-12-07T14:41:33.657] [INFO] ma-core - get module By Id success NaN post 1234
+[2021-12-07T14:41:33.659] [ERROR] ma-core - get module By Id :module not found testing testing testing
+[2021-12-07T14:41:33.660] [ERROR] ma-core - get module By Id :module not found testing testing testing
+[2021-12-07T14:41:33.665] [ERROR] ma-core - get module By Id :module not found NaN post 1234
+[2021-12-07T14:41:33.671] [INFO] ma-core - add Module success testing testing testing
+[2021-12-07T14:41:33.673] [INFO] ma-core - add Module success NaN post 1234
+[2021-12-07T14:41:33.675] [ERROR] ma-core - add Module :missing property testing testing testing
+[2021-12-07T14:41:33.676] [ERROR] ma-core - add Module :missing property NaN post 1234
+[2021-12-07T14:41:33.681] [INFO] ma-core - update module By Customer success testing testing testing
+[2021-12-07T14:41:33.682] [INFO] ma-core - update module By Customer success NaN post 1234
+[2021-12-07T14:41:33.683] [ERROR] ma-core - update module By Customer :module not found testing testing testing
+[2021-12-07T14:41:33.684] [ERROR] ma-core - update module By Customer :module not found testing testing testing
+[2021-12-07T14:41:33.686] [ERROR] ma-core - update module By Customer :module not found NaN post 1234
+[2021-12-07T14:41:33.748] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-12-07T14:41:33.749] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-12-07T14:41:33.750] [INFO] ma-core - get All nomenclature success NaN post 1234
+[2021-12-07T14:41:33.752] [ERROR] ma-core - get All nomenclature :get All nomenclature : testing testing testing
+[2021-12-07T14:41:33.754] [ERROR] ma-core - get All nomenclature :get All nomenclature : NaN post 1234
+[2021-12-07T14:41:33.806] [INFO] ma-core - delete Result Form success testing testing testing
+[2021-12-07T14:41:33.808] [INFO] ma-core - delete Result Form success NaN post 1234
+[2021-12-07T14:41:33.809] [ERROR] ma-core - delete Result Form :task not found testing testing testing
+[2021-12-07T14:41:33.810] [ERROR] ma-core - delete Result Form :task not found NaN post 1234
+[2021-12-07T14:41:33.814] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-07T14:41:33.815] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-07T14:41:33.818] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-07T14:41:33.820] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-07T14:41:33.821] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-07T14:41:33.823] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-07T14:41:33.828] [INFO] ma-core - add result form success testing testing testing
+[2021-12-07T14:41:33.829] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-07T14:41:33.833] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-07T14:41:33.834] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-07T14:41:33.838] [INFO] ma-core - update Result Form success testing testing testing
+[2021-12-07T14:41:33.839] [INFO] ma-core - update Result Form success NaN post 1234
+[2021-12-07T14:41:33.841] [ERROR] ma-core - update Result Form  :task not found testing testing testing
+[2021-12-07T14:41:33.842] [ERROR] ma-core - update Result Form  :task not found NaN post 1234
+[2021-12-07T14:41:33.849] [INFO] ma-core - delete Role success testing testing testing
+[2021-12-07T14:41:33.851] [INFO] ma-core - delete Role success NaN post 1234
+[2021-12-07T14:41:33.852] [ERROR] ma-core - delete Role :role not found testing testing testing
+[2021-12-07T14:41:33.853] [ERROR] ma-core - delete Role :role not found NaN post 1234
+[2021-12-07T14:41:33.854] [ERROR] ma-core - delete Role :missing ID testing testing testing
+[2021-12-07T14:41:33.856] [ERROR] ma-core - delete Role :missing ID testing testing testing
+[2021-12-07T14:41:33.862] [INFO] ma-core - get All Role success testing testing testing
+[2021-12-07T14:41:33.864] [INFO] ma-core - get All Role success NaN post 1234
+[2021-12-07T14:41:33.865] [ERROR] ma-core - get All Role :missing property testing testing testing
+[2021-12-07T14:41:33.867] [ERROR] ma-core - get All Role :missing property NaN post 1234
+[2021-12-07T14:41:33.870] [INFO] ma-core - get by id Role success testing testing testing
+[2021-12-07T14:41:33.874] [INFO] ma-core - get by id Role success NaN post 1234
+[2021-12-07T14:41:33.875] [ERROR] ma-core - get by id Role :role not found testing testing testing
+[2021-12-07T14:41:33.876] [ERROR] ma-core - get by id Role :role not found testing testing testing
+[2021-12-07T14:41:33.879] [ERROR] ma-core - get by id Role :role not found NaN post 1234
+[2021-12-07T14:41:33.886] [INFO] ma-core - get by user Role success testing testing testing
+[2021-12-07T14:41:33.888] [INFO] ma-core - get by user Role success NaN get 1234
+[2021-12-07T14:41:33.889] [ERROR] ma-core - get by user Role :user not found testing testing testing
+[2021-12-07T14:41:33.891] [ERROR] ma-core - get by user Role :role not found testing testing testing
+[2021-12-07T14:41:33.893] [ERROR] ma-core - get by user Role :role not found NaN get 1234
+[2021-12-07T14:41:33.894] [INFO] ma-core - add Role success testing testing testing
+[2021-12-07T14:41:33.895] [ERROR] ma-core - add Role :missing property testing testing testing
+[2021-12-07T14:41:33.897] [INFO] ma-core - add Role success NaN post 1234
+[2021-12-07T14:41:33.898] [ERROR] ma-core - add Role :missing property NaN post 1234
+[2021-12-07T14:41:33.906] [INFO] ma-core - update Role success testing testing testing
+[2021-12-07T14:41:33.907] [INFO] ma-core - update Role success NaN post 1234
+[2021-12-07T14:41:33.909] [ERROR] ma-core - update Role :role not found testing testing testing
+[2021-12-07T14:41:33.910] [ERROR] ma-core - update Role :role not found testing testing testing
+[2021-12-07T14:41:33.912] [ERROR] ma-core - update Role :role not found NaN post 1234
+[2021-12-07T14:41:33.917] [INFO] ma-core - add Role History success testing testing testing
+[2021-12-07T14:41:33.919] [INFO] ma-core - add Role History success NaN post 1234
+[2021-12-07T14:41:33.923] [ERROR] ma-core - add Client :missing property testing testing testing
+[2021-12-07T14:41:33.925] [ERROR] ma-core - add Client :missing property NaN post 1234
+[2021-12-07T14:41:33.947] [ERROR] ma-core - 
+[2021-12-07T14:41:33.961] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-12-07T14:41:33.980] [INFO] ma-core - Get all members success testing testing testing
+[2021-12-07T14:41:33.997] [INFO] ma-core - delete sla success testing testing testing
+[2021-12-07T14:41:33.999] [INFO] ma-core - delete sla success NaN post 1234
+[2021-12-07T14:41:34.000] [ERROR] ma-core - delete Sla :sla not found testing testing testing
+[2021-12-07T14:41:34.001] [ERROR] ma-core - delete Sla :sla not found testing testing testing
+[2021-12-07T14:41:34.004] [ERROR] ma-core - delete Sla :sla not found NaN post 1234
+[2021-12-07T14:41:34.009] [INFO] ma-core - get sla By Id success testing testing testing
+[2021-12-07T14:41:34.010] [INFO] ma-core - get sla By Id success NaN post 1234
+[2021-12-07T14:41:34.012] [ERROR] ma-core - get sla By Id :sla not found testing testing testing
+[2021-12-07T14:41:34.016] [ERROR] ma-core - get sla By Id :sla not found testing testing testing
+[2021-12-07T14:41:34.018] [ERROR] ma-core - get sla By Id :sla not found NaN post 1234
+[2021-12-07T14:41:34.024] [ERROR] ma-core - Error occur while Getting Sla By slaContract Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/sla/getByslaContract/getslaBySlaContract.service.test.js:70:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:34.029] [INFO] ma-core - add Sla success testing testing testing
+[2021-12-07T14:41:34.031] [INFO] ma-core - add Sla success NaN post 1234
+[2021-12-07T14:41:34.032] [ERROR] ma-core - add Sla :missing property testing testing testing
+[2021-12-07T14:41:34.034] [ERROR] ma-core - add Sla :missing property NaN post 1234
+[2021-12-07T14:41:34.047] [INFO] ma-core - update sla By SlaContract success testing testing testing
+[2021-12-07T14:41:34.049] [INFO] ma-core - update sla By SlaContract success NaN post 1234
+[2021-12-07T14:41:34.050] [ERROR] ma-core - update sla By SlaContract :sla not found testing testing testing
+[2021-12-07T14:41:34.051] [ERROR] ma-core - update sla By SlaContract :sla not found testing testing testing
+[2021-12-07T14:41:34.053] [ERROR] ma-core - update sla By SlaContract :sla not found NaN post 1234
+[2021-12-07T14:41:34.059] [INFO] ma-core - delete slaContract success testing testing testing
+[2021-12-07T14:41:34.060] [INFO] ma-core - delete slaContract success NaN post 1234
+[2021-12-07T14:41:34.061] [ERROR] ma-core - delete SlaContract :slaContract not found testing testing testing
+[2021-12-07T14:41:34.062] [ERROR] ma-core - delete SlaContract :slaContract not found NaN post 1234
+[2021-12-07T14:41:34.073] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/slaContract/getAllSlaContractByCustomerId/getAllSlaContractByCustomerIdServiceTest.js:56:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:34.075] [INFO] ma-core - get slaContract By Customer success testing testing testing
+[2021-12-07T14:41:34.076] [INFO] ma-core - get slaContract By Customer success NaN post 1234
+[2021-12-07T14:41:34.077] [ERROR] ma-core - get slaContract By Customer :customer not found testing testing testing
+[2021-12-07T14:41:34.078] [ERROR] ma-core - get slaContract By Customer :customer not found NaN post 1234
+[2021-12-07T14:41:34.080] [INFO] ma-core - get slaContract By Id success testing testing testing
+[2021-12-07T14:41:34.081] [INFO] ma-core - get slaContract By Id success NaN post 1234
+[2021-12-07T14:41:34.082] [ERROR] ma-core - get slaContract By Id :slaContract not found testing testing testing
+[2021-12-07T14:41:34.084] [ERROR] ma-core - get slaContract By Id :slaContract not found NaN post 1234
+[2021-12-07T14:41:34.088] [INFO] ma-core - add SlaContract success testing testing testing
+[2021-12-07T14:41:34.090] [INFO] ma-core - add SlaContract success NaN post 1234
+[2021-12-07T14:41:34.091] [ERROR] ma-core - add SlaContract :missing property testing testing testing
+[2021-12-07T14:41:34.092] [ERROR] ma-core - add SlaContract :missing property NaN post 1234
+[2021-12-07T14:41:34.101] [INFO] ma-core - update slaContract By Customer success testing testing testing
+[2021-12-07T14:41:34.102] [INFO] ma-core - update slaContract By Customer success NaN post 1234
+[2021-12-07T14:41:34.104] [ERROR] ma-core - update slaContract By Customer :slaContract not found testing testing testing
+[2021-12-07T14:41:34.105] [ERROR] ma-core - update slaContract By Customer :slaContract not found NaN post 1234
+[2021-12-07T14:41:34.188] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getAllSystemByCustomerId/getAllSystemByCustomerIdServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:34.207] [ERROR] ma-core - Get Categories by Customer ID and Type ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getCategoryByTypesByCustomer/getCategoryByTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:34.229] [ERROR] ma-core - Get types by Customer ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getTypeByCustomer/getTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:34.264] [INFO] ma-core - get All Task success testing testing testing
+[2021-12-07T14:41:34.265] [INFO] ma-core - get All Task success NaN post 1234
+[2021-12-07T14:41:34.268] [INFO] ma-core - get All Task By filter success testing testing testing
+[2021-12-07T14:41:34.269] [ERROR] ma-core - get All Task By filter error :error testing testing testing
+[2021-12-07T14:41:34.270] [INFO] ma-core - get All Task By filter success testing testing testing
+[2021-12-07T14:41:34.272] [INFO] ma-core - get by id Task success testing testing testing
+[2021-12-07T14:41:34.273] [INFO] ma-core - get by id Task success NaN post 1234
+[2021-12-07T14:41:34.274] [ERROR] ma-core - get by id Task :task not found testing testing testing
+[2021-12-07T14:41:34.276] [ERROR] ma-core - get by id Task :task not found NaN post 1234
+[2021-12-07T14:41:34.280] [INFO] ma-core - get All Task By filter success testing testing testing
+[2021-12-07T14:41:34.281] [ERROR] ma-core - get All Task By filter error :error testing testing testing
+[2021-12-07T14:41:34.283] [INFO] ma-core - get All Task By filter success testing testing testing
+[2021-12-07T14:41:34.358] [INFO] ma-core - get All Task By ID success testing testing testing
+[2021-12-07T14:41:34.370] [INFO] ma-core - get All Task success testing testing testing
+[2021-12-07T14:41:34.385] [INFO] ma-core - get Created Tasks success testing testing testing
+[2021-12-07T14:41:34.390] [INFO] ma-core - get Created Tasks success NaN post 1234
+[2021-12-07T14:41:34.394] [ERROR] ma-core - get Created Tasks error : error testing testing testing
+[2021-12-07T14:41:34.398] [ERROR] ma-core - get Created Tasks error : error NaN post 1234
+[2021-12-07T14:41:34.404] [INFO] ma-core - add Task success testing testing testing
+[2021-12-07T14:41:34.406] [INFO] ma-core - add Task success NaN post 1234
+[2021-12-07T14:41:34.407] [ERROR] ma-core - add Task :missing property testing testing testing
+[2021-12-07T14:41:34.408] [ERROR] ma-core - add Task :missing property NaN post 1234
+[2021-12-07T14:41:34.415] [INFO] ma-core - add Many Task success testing testing testing
+[2021-12-07T14:41:34.418] [INFO] ma-core - add Many Task success NaN post 1234
+[2021-12-07T14:41:34.419] [ERROR] ma-core - add Many Task :missing property testing testing testing
+[2021-12-07T14:41:34.421] [ERROR] ma-core - add Many Task :missing property NaN post 1234
+[2021-12-07T14:41:34.428] [INFO] ma-core - update Task success testing testing testing
+[2021-12-07T14:41:34.429] [INFO] ma-core - update Task success NaN post 1234
+[2021-12-07T14:41:34.433] [ERROR] ma-core - update Task :task not found testing testing testing
+[2021-12-07T14:41:34.434] [ERROR] ma-core - update Task :task not found NaN post 1234
+[2021-12-07T14:41:34.439] [INFO] ma-core - Update Task Assignee success testing testing testing
+[2021-12-07T14:41:34.441] [INFO] ma-core - Update Task Assignee Incomplete testing testing testing
+[2021-12-07T14:41:34.442] [ERROR] ma-core - Update Task Assignee :task not found testing testing testing
+[2021-12-07T14:41:34.449] [INFO] ma-core - Canceled the Task testing testing testing
+[2021-12-07T14:41:34.451] [INFO] ma-core - Canceled the Task NaN post 1234
+[2021-12-07T14:41:34.455] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task testing testing testing
+[2021-12-07T14:41:34.456] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task NaN post 1234
+[2021-12-07T14:41:34.458] [INFO] ma-core - Deleted the Task testing testing testing
+[2021-12-07T14:41:34.459] [INFO] ma-core - Deleted the Task NaN post 1234
+[2021-12-07T14:41:34.463] [ERROR] ma-core - Failed to delete the Task :failed to update the task testing testing testing
+[2021-12-07T14:41:34.464] [ERROR] ma-core - Failed to delete the Task :failed to update the task NaN post 1234
+[2021-12-07T14:41:34.466] [INFO] ma-core - Finished the Task testing testing testing
+[2021-12-07T14:41:34.467] [INFO] ma-core - Finished the Task NaN post 1234
+[2021-12-07T14:41:34.471] [ERROR] ma-core - Failed to finish the Task :failed to update the task testing testing testing
+[2021-12-07T14:41:34.473] [ERROR] ma-core - Failed to finish the Task :failed to update the task NaN post 1234
+[2021-12-07T14:41:34.475] [INFO] ma-core - Rejected the Task testing testing testing
+[2021-12-07T14:41:34.476] [INFO] ma-core - Rejected the Task NaN post 1234
+[2021-12-07T14:41:34.480] [ERROR] ma-core - Failed to reject the Task :failed to update the task testing testing testing
+[2021-12-07T14:41:34.481] [ERROR] ma-core - Failed to reject the Task :failed to update the task NaN post 1234
+[2021-12-07T14:41:34.483] [INFO] ma-core - Validated the Task testing testing testing
+[2021-12-07T14:41:34.485] [INFO] ma-core - Validated the Task NaN post 1234
+[2021-12-07T14:41:34.489] [ERROR] ma-core - Failed to validate the Task :failed to update the task testing testing testing
+[2021-12-07T14:41:34.491] [ERROR] ma-core - Failed to validate the Task :failed to update the task NaN post 1234
+[2021-12-07T14:41:34.494] [INFO] ma-core - update Task success testing testing testing
+[2021-12-07T14:41:34.499] [INFO] ma-core - update Task success NaN post 1234
+[2021-12-07T14:41:34.502] [ERROR] ma-core - update Task :You are not authorized to perform this action testing testing testing
+[2021-12-07T14:41:34.505] [ERROR] ma-core - update Task :task not found NaN post 1234
+[2021-12-07T14:41:34.577] [ERROR] ma-core - random Error
+[2021-12-07T14:41:35.236] [ERROR] ma-core - random error
+[2021-12-07T14:41:53.524] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T14:41:55.667] [INFO] ma-core - server started at port 5000
+[2021-12-07T14:41:55.687] [INFO] ma-core - mongodb conected
+[2021-12-07T14:41:55.902] [ERROR] ma-core - Get by System Error : CastError: Cast to ObjectId failed for value "test" at path "system" for model "client"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4408:21)
+    at model.Query.Query.then (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4502:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'system',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1104:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1539:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1529:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1506:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:331:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4848:12)
+      at model.Query.Query._castConditions (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:1890:10)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:1917:8)
+      at model.Query._wrappedThunk [as _find] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+}
+[2021-12-07T14:41:55.920] [INFO] ma-core - add Client success /api/client/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:55.964] [INFO] ma-core - add customer success /api/customer/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:55.970] [ERROR] ma-core - "isActive" is required /api/customer/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:55.974] [ERROR] ma-core - "label" is required /api/customer/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:55.984] [ERROR] ma-core - "paginate" is required /api/customer/ GET ::ffff:127.0.0.1
+[2021-12-07T14:41:55.989] [ERROR] ma-core - "paginate" is required /api/customer/ GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.009] [INFO] ma-core - get Customer success /api/customer/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.021] [INFO] ma-core - update Customer success /api/customer/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.273] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/integration/host/deleteHost.test.js:51:15)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at Immediate.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:56.285] [ERROR] ma-core - Get by System Error : CastError: Cast to ObjectId failed for value "test" at path "system" for model "host"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4408:21)
+    at model.Query.Query.then (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4502:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'system',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1104:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1539:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1529:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1506:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:331:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4848:12)
+      at model.Query.Query._castConditions (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:1890:10)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:1917:8)
+      at model.Query._wrappedThunk [as _find] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+}
+[2021-12-07T14:41:56.289] [ERROR] ma-core - Get by ID Error : CastError: Cast to ObjectId failed for value "getBySystem" at path "_id" for model "host"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4408:21)
+    at Object.module.exports [as getHostByID] (/home/azer/avaxia-monitpring-app/core-service/services/host/getHostById.js:2:424)
+    at getHostByIdController (/home/azer/avaxia-monitpring-app/core-service/controllers/host.controller.js:3:525)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/host/getById.js:2:1340)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:101:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:224:16)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  messageFormat: undefined,
+  stringValue: '"getBySystem"',
+  kind: 'ObjectId',
+  value: 'getBySystem',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1104:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1539:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1529:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1506:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:331:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4848:12)
+      at model.Query.Query._castConditions (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:1890:10)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2147:8)
+      at model.Query._wrappedThunk [as _findOne] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+}
+[2021-12-07T14:41:56.309] [ERROR] ma-core - Get by ID Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/integration/host/getHostById.test.js:51:60)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at Immediate.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-12-07T14:41:56.344] [INFO] ma-core - add ItOperation success /api/ItOperation/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.349] [ERROR] ma-core - "sendMail" is required /api/ItOperation/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.354] [ERROR] ma-core - "title" is required /api/ItOperation/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.358] [ERROR] ma-core - "description" is required /api/ItOperation/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.369] [INFO] ma-core - cancel itOperation success /api/itOperation/cancel/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.381] [INFO] ma-core - finish itOperation success /api/itOperation/finish/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.398] [INFO] ma-core - get All Active itOperation success /api/itOperation/getAllActive GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.403] [ERROR] ma-core - "page" is required /api/itOperation/getAllActive GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.412] [INFO] ma-core - get All Archived itOperation success /api/itOperation/getAllArchived GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.415] [ERROR] ma-core - "page" is required /api/itOperation/getAllActive GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.429] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : CastError: Cast to ObjectId failed for value "test" at path "system" for model "itOperation"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4408:21)
+    at Function.paginate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose-paginate-v2/dist/index.js:152:51)
+    at Object.module.exports [as getAllItOperationBySystem] (/home/azer/avaxia-monitpring-app/core-service/services/itOperation/getAllItOperationBySystem.js:2:481)
+    at exports.getAllItOperationBySystem (/home/azer/avaxia-monitpring-app/core-service/controllers/itOperation.controller.js:18:333)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/itOperation/getITOperationBySystemId.js:2:1360)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at session (/home/azer/avaxia-monitpring-app/core-service/node_modules/express-session/index.js:475:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at cors (/home/azer/avaxia-monitpring-app/core-service/node_modules/cors/lib/index.js:188:7)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/cors/lib/index.js:224:17
+    at originCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/cors/lib/index.js:214:15)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/azer/avaxia-monitpring-app/core-service/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at query (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/middleware/query.js:45:5)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/application.js:174:10)
+    at Server.app (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/express.js:39:9)
+    at Server.emit (events.js:400:28)
+    at parserOnIncoming (_http_server.js:900:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:127:17) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'system',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1104:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1539:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1529:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1506:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:331:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4848:12)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2287:10)
+      at model.Query._wrappedThunk [as _countDocuments] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+}
+[2021-12-07T14:41:56.443] [INFO] ma-core - remind itOperation success /api/itOperation/remind/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.455] [INFO] ma-core - send changes itOperation success /api/itOperation/sendChanges/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.467] [INFO] ma-core - update itOperation success /api/itOperation/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.539] [INFO] ma-core - add Licence success /api/licence/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.543] [ERROR] ma-core - "startDate" is required /api/licence/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.545] [ERROR] ma-core - "startDate" is required /api/licence/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.555] [INFO] ma-core - delete licence success /api/licence/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.563] [INFO] ma-core - get latest customer licence By Id success /api/licence/latestLicence/:id GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.594] [INFO] ma-core - get licence By Id success /api/licence/getone/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.604] [INFO] ma-core - update licence By Customer success /api/licence/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.640] [ERROR] ma-core - delete Map By Id :Map not found. /api/map/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.648] [ERROR] ma-core - delete Map By Id : /api/map/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:01.730] [INFO] ma-core - add Module success /api/module/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:01.735] [ERROR] ma-core - "title" is required /api/module/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:01.738] [ERROR] ma-core - "path" is required /api/module/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:01.747] [INFO] ma-core - delete module success /api/module/:id DELETE ::ffff:127.0.0.1
+[2021-12-07T14:42:01.751] [ERROR] ma-core - delete Module :Module not found /api/module/:id DELETE ::ffff:127.0.0.1
+[2021-12-07T14:42:01.756] [ERROR] ma-core - "libelle" is not allowed /api/module/:id DELETE ::ffff:127.0.0.1
+[2021-12-07T14:42:01.759] [ERROR] ma-core - "param" is not allowed /api/module/:id DELETE ::ffff:127.0.0.1
+[2021-12-07T14:42:01.762] [ERROR] ma-core - delete Module : /api/module/:id DELETE ::ffff:127.0.0.1
+[2021-12-07T14:42:01.770] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::ffff:127.0.0.1
+[2021-12-07T14:42:01.781] [INFO] ma-core - get All Module success /api/module/getAll GET ::ffff:127.0.0.1
+[2021-12-07T14:42:01.791] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:01.800] [INFO] ma-core - update module By Customer success /api/module/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:26.931] [INFO] ma-core - add result form success /api/resultform/addFormSchema POST ::ffff:127.0.0.1
+[2021-12-07T14:42:26.939] [ERROR] ma-core - add result form :resultForm validation failed: monitoringActivity: Path `monitoringActivity` is required., formLimits: Path `formLimits` is required., formUISchema: Path `formUISchema` is required., formSchema: Path `formSchema` is required. /api/resultform/addFormSchema POST ::ffff:127.0.0.1
+[2021-12-07T14:42:26.944] [ERROR] ma-core - add result form :resultForm validation failed: monitoringActivity: Path `monitoringActivity` is required., formLimits: Path `formLimits` is required., formUISchema: Path `formUISchema` is required., formSchema: Path `formSchema` is required. /api/resultform/addFormSchema POST ::ffff:127.0.0.1
+[2021-12-07T14:42:26.957] [INFO] ma-core - add Role success /api/role/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:26.963] [ERROR] ma-core - "isActive" is required /api/role/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:26.967] [ERROR] ma-core - "label" is required /api/role/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:26.977] [INFO] ma-core - delete Role success /api/role/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:26.995] [INFO] ma-core - get by user Role success /api/role/getRoleByUser GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.012] [INFO] ma-core - get All Role success /api/role/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.028] [INFO] ma-core - get by id Role success /api/role/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.039] [INFO] ma-core - update Role success /api/role/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:27.050] [INFO] ma-core - add Role History success /api/roleHistory/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.101] [ERROR] ma-core - Cast to ObjectId failed for value "111" at path "_id" for model "RoleHistory"
+[2021-12-07T14:42:27.154] [ERROR] ma-core - "assigned" is required /api/shift/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.168] [INFO] ma-core - add Sla success /api/sla/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.173] [ERROR] ma-core - "kpi" is required /api/sla/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.178] [ERROR] ma-core - "kpi" is required /api/sla/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.188] [INFO] ma-core - delete sla success /api/sla/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:27.198] [INFO] ma-core - get sla By Id success /api/sla/getone/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.222] [INFO] ma-core - update sla By SlaContract success /api/sla/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:27.232] [INFO] ma-core - add SlaContract success /api/slaContract/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.238] [ERROR] ma-core - "startDate" is required /api/slaContract/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.242] [ERROR] ma-core - "startDate" is required /api/slaContract/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.254] [INFO] ma-core - delete slaContract success /api/slaContract/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:27.273] [ERROR] ma-core - Get by Customer Error : CastError: Cast to ObjectId failed for value "test" at path "customer" for model "slaContract"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4408:21)
+    at Function.paginate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose-paginate-v2/dist/index.js:152:51)
+    at Object.module.exports [as getAllSlaContractByCustomerId] (/home/azer/avaxia-monitpring-app/core-service/services/slaContract/getAllSlaContractByCustomerId.js:2:543)
+    at exports.getAllSlaContractByCustomerId (/home/azer/avaxia-monitpring-app/core-service/controllers/slaContract.controller.js:10:402)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/slaContract/getSlaConstractBycustomerIdvalidator.js:2:1385)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:101:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:224:16)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'customer',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1104:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1539:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1529:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1506:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:331:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4848:12)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2287:10)
+      at model.Query._wrappedThunk [as _countDocuments] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+}
+[2021-12-07T14:42:27.293] [INFO] ma-core - get slaContract By Customer success /api/slaContract/getbycustomer/:id GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.309] [INFO] ma-core - get slaContract By Id success /api/slaContract/getone/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.320] [INFO] ma-core - update slaContract By Customer success /api/slaContract/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:47.385] [ERROR] ma-core - "name" is required /api/system/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.389] [ERROR] ma-core - "name" is required /api/system/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.491] [ERROR] ma-core - Get by Customer Error : CastError: Cast to ObjectId failed for value "test" at path "customer" for model "system"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4408:21)
+    at Function.paginate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose-paginate-v2/dist/index.js:152:51)
+    at Object.module.exports [as getAllSystemByCustomerId] (/home/azer/avaxia-monitpring-app/core-service/services/system/getAllSystemByCustomerId.js:2:467)
+    at exports.getAllSystemByCustomerId (/home/azer/avaxia-monitpring-app/core-service/controllers/system.controller.js:8:335)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/system/getAllSystemByCustomerIdValidation.js:2:1362)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:101:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:224:16)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'customer',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1104:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1539:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1529:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1506:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:331:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4848:12)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2287:10)
+      at model.Query._wrappedThunk [as _countDocuments] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+}
+[2021-12-07T14:42:47.550] [ERROR] ma-core - Get by Customer Error : CastError: Cast to ObjectId failed for value "test" at path "customer" for model "system"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4408:21)
+    at Function.paginate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose-paginate-v2/dist/index.js:152:51)
+    at Object.module.exports [as getAllSystemByCustomerId] (/home/azer/avaxia-monitpring-app/core-service/services/system/getAllSystemByCustomerId.js:2:467)
+    at exports.getAllSystemByCustomerId (/home/azer/avaxia-monitpring-app/core-service/controllers/system.controller.js:8:335)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/system/getAllSystemByCustomerIdValidation.js:2:1362)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:101:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:224:16)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'customer',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1104:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1539:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1529:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1506:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:331:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4848:12)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2287:10)
+      at model.Query._wrappedThunk [as _countDocuments] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+}
+[2021-12-07T14:42:47.627] [ERROR] ma-core - Get by Customer Error : CastError: Cast to ObjectId failed for value "test" at path "customer" for model "system"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4408:21)
+    at Function.paginate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose-paginate-v2/dist/index.js:152:51)
+    at Object.module.exports [as getAllSystemByCustomerId] (/home/azer/avaxia-monitpring-app/core-service/services/system/getAllSystemByCustomerId.js:2:467)
+    at exports.getAllSystemByCustomerId (/home/azer/avaxia-monitpring-app/core-service/controllers/system.controller.js:8:335)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/system/getAllSystemByCustomerIdValidation.js:2:1362)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:101:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:224:16)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'customer',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:279:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1104:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1539:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1529:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1506:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:331:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4848:12)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2287:10)
+      at model.Query._wrappedThunk [as _countDocuments] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+}
+[2021-12-07T14:42:47.668] [ERROR] ma-core - "[0].estimatedStart" is required /api/task/addMany POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.672] [ERROR] ma-core - "value" must be an array /api/task/addMany POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.675] [ERROR] ma-core - "value" does not contain 1 required value(s) /api/task/addMany POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.680] [ERROR] ma-core - "[0].description" is required /api/task/addMany POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.687] [ERROR] ma-core - "assignee" is required /api/task/addOne POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.691] [ERROR] ma-core - "title" is required /api/task/addOne POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.695] [ERROR] ma-core - "description" is required /api/task/addOne POST ::ffff:127.0.0.1
+[2021-12-07T14:42:47.707] [INFO] ma-core - Canceled the Task /api/task/cancelTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:42:47.737] [INFO] ma-core - Deleted the Task /api/task/deleteTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:42:52.770] [INFO] ma-core - Finished the Task /api/task/finishTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:43:02.807] [ERROR] ma-core - get All Task By ID :Unrecognized pipeline stage name: '$set' /api/task/getTasksByUserId GET ::ffff:127.0.0.1
+[2021-12-07T14:43:02.830] [ERROR] ma-core - get All Task :Unrecognized pipeline stage name: '$set' /api/task/getFiltredTasks GET ::ffff:127.0.0.1
+[2021-12-07T14:43:07.860] [INFO] ma-core - Rejected the Task /api/task/rejectTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:43:07.876] [ERROR] ma-core - "taskIDs" is required /api/task/updateAssignee PATCH ::ffff:127.0.0.1
+[2021-12-07T14:43:07.900] [INFO] ma-core - update Task success /api/task/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:43:07.920] [INFO] ma-core - Validated the Task /api/task/validateTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:43:19.534] [ERROR] ma-core - 
+[2021-12-07T14:44:40.378] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T14:44:41.767] [INFO] ma-core - server started at port 5000
+[2021-12-07T14:44:41.786] [INFO] ma-core - mongodb conected
+[2021-12-07T14:44:41.852] [INFO] ma-core - add result form success /api/resultform/addFormSchema POST ::ffff:127.0.0.1
+[2021-12-07T14:44:41.870] [ERROR] ma-core - add result form :resultForm validation failed: monitoringActivity: Path `monitoringActivity` is required., formLimits: Path `formLimits` is required., formUISchema: Path `formUISchema` is required., formSchema: Path `formSchema` is required. /api/resultform/addFormSchema POST ::ffff:127.0.0.1
+[2021-12-07T14:44:41.876] [ERROR] ma-core - add result form :resultForm validation failed: monitoringActivity: Path `monitoringActivity` is required., formLimits: Path `formLimits` is required., formUISchema: Path `formUISchema` is required., formSchema: Path `formSchema` is required. /api/resultform/addFormSchema POST ::ffff:127.0.0.1
+[2021-12-07T17:06:31.820] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:06:32.399] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:06:32.423] [INFO] ma-core - mongodb conected
+[2021-12-07T17:12:13.935] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:12:14.480] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:12:14.498] [INFO] ma-core - mongodb conected
+[2021-12-07T17:12:16.730] [ERROR] ma-core - "timeZone" is required /api/resultForm/addFormSchema POST ::1
+[2021-12-07T17:12:47.652] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:12:48.224] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:12:48.247] [INFO] ma-core - mongodb conected
+[2021-12-07T17:17:14.581] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:17:15.127] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:17:15.146] [INFO] ma-core - mongodb conected
+[2021-12-07T17:17:27.611] [INFO] ma-core - add result form success /api/resultForm/addFormSchema POST ::1
+[2021-12-07T17:17:49.802] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:18:53.821] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:18:54.360] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:18:54.378] [INFO] ma-core - mongodb conected
+[2021-12-07T17:18:58.642] [ERROR] ma-core - "formSchema" is required /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:19:47.579] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:19:48.132] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:19:48.155] [INFO] ma-core - mongodb conected
+[2021-12-07T17:19:49.116] [ERROR] ma-core - "paginate" is required /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:19:49.807] [ERROR] ma-core - "paginate" is required /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:19:50.316] [ERROR] ma-core - "paginate" is required /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:19:50.535] [ERROR] ma-core - "paginate" is required /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:20:06.401] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:20:06.971] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:20:06.992] [INFO] ma-core - mongodb conected
+[2021-12-07T17:20:08.708] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:20:43.103] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:20:43.634] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:20:43.652] [INFO] ma-core - mongodb conected
+[2021-12-07T17:20:47.413] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:20:47.956] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:20:47.977] [INFO] ma-core - mongodb conected
+[2021-12-07T17:20:52.320] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:21:22.483] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:21:23.052] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:21:23.073] [INFO] ma-core - mongodb conected
+[2021-12-07T17:22:11.060] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:22:11.608] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:22:11.626] [INFO] ma-core - mongodb conected
+[2021-12-07T17:22:46.582] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:22:47.134] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:22:47.152] [INFO] ma-core - mongodb conected
+[2021-12-07T17:24:02.246] [INFO] ma-core - get by id Result Form /api/resultform/getResultFormById/:id GET ::1
+[2021-12-07T17:25:01.703] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:25:02.262] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:25:02.284] [INFO] ma-core - mongodb conected
+[2021-12-07T17:25:05.953] [INFO] ma-core - get by id Result Form /api/resultform/getResultFormById/:id GET ::1
+[2021-12-07T17:25:42.811] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:25:43.495] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:25:43.523] [INFO] ma-core - mongodb conected
+[2021-12-07T17:26:55.978] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:26:56.555] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:26:56.582] [INFO] ma-core - mongodb conected
+[2021-12-07T17:27:57.688] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:27:58.228] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:27:58.250] [INFO] ma-core - mongodb conected
+[2021-12-07T17:28:07.766] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:28:08.368] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:28:08.394] [INFO] ma-core - mongodb conected
+[2021-12-07T17:29:02.319] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:29:02.886] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:29:02.908] [INFO] ma-core - mongodb conected
+[2021-12-07T17:29:08.130] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:29:08.683] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:29:08.708] [INFO] ma-core - mongodb conected
+[2021-12-07T17:29:09.842] [INFO] ma-core - update Result Form success /api/resultform/updateResultForm/:id PATCH ::1
+[2021-12-07T17:29:44.723] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:29:45.382] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:29:45.406] [INFO] ma-core - mongodb conected
+[2021-12-07T17:29:56.146] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:29:56.771] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:29:56.802] [INFO] ma-core - mongodb conected
+[2021-12-07T17:30:24.872] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:30:25.439] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:30:25.464] [INFO] ma-core - mongodb conected
+[2021-12-07T17:30:55.931] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:30:56.680] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:30:56.727] [INFO] ma-core - mongodb conected
+[2021-12-07T17:31:11.759] [INFO] ma-core - delete Result Form success /api/resultform/deleteResultForm/:id DELETE ::1
+[2021-12-07T17:33:19.176] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:33:19.942] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:33:19.966] [INFO] ma-core - mongodb conected
+[2021-12-07T17:39:52.127] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:39:52.666] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:39:52.688] [INFO] ma-core - mongodb conected
+[2021-12-07T17:41:43.730] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:41:44.286] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:41:44.308] [INFO] ma-core - mongodb conected

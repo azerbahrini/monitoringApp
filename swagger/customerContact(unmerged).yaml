@@ -1,0 +1,594 @@
+openapi: 3.0.0
+info:
+  description: Host API
+  version: "1.0.0"
+  title: Host API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /customerContact:
+    get:
+      summary: Get all Customer Contact
+      operationId: getAllCustomerContact
+      description: get all existantes Customer Contact in the system
+      tags:
+        - Customer Contact
+      parameters:
+        - name: page
+          in: query
+          description: page number
+          required: true
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        "200":
+          description: return all Customer Contact
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/CustomerContact"
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a Customer Contact
+      operationId: addCustomerContact
+      tags:
+        - Customer Contact
+      description: Adds Customer Contact to the system
+      responses:
+        "201":
+          description: Customer Contact created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        example: "60edffc2370e9734982cc555"
+                      mail:
+                        type: string
+                        example: customerContact@example.com
+                      lastName:
+                        type: string
+                        example: lastName
+                      phoneNumber:
+                        type: string
+                        example: 12345678
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - mail
+                - lastName
+              properties:
+                mail:
+                  type: string
+                  example: customerContact@example.com
+                lastName:
+                  type: string
+                  example: lastName
+                phoneNumber:
+                  type: string
+                  example: 12345678
+        description: Customer Contact item to add
+
+  /customerContact/{id}:
+    patch:
+      summary: update a single Customer Contact
+      description: update one Customer Contact
+      operationId: updateCustomerContact
+      tags:
+        - Customer Contact
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/CustomerContact"
+
+          description: "updated Customer Contact"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Customer Contact not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer Contact not found
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - mail
+                - lastName
+              properties:
+                mail:
+                  type: string
+                  example: customerContact@example.com
+                lastName:
+                  type: string
+                  example: lastName
+                phoneNumber:
+                  type: string
+                  example: 12345678
+                customer:
+                  type: string
+                  example: "60edffc2370e9734982cc555"
+        description: Customer Contact item to update
+
+    get:
+      summary: get a single Customer Contact
+      description: get one Customer Contact
+      operationId: getByIdCustomerContact
+      tags:
+        - Customer Contact
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/CustomerContact"
+
+          description: "updated Customer Contact"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Customer Contact not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer Contact not found
+  /customerContact/delete/{id}:                  
+    patch:
+      summary: Delete Customer Contact
+      description: Delete one Customer Contact
+      operationId: deleteCustomerContact
+      tags:
+        - Customer Contact
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/CustomerContact"
+
+          description: "updated Customer Contact"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Customer Contact not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer Contact not found
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                isActive:
+                  type: boolean
+                  example: false
+        description: Customer Contact item to delete        
+  /customerContact/byCustomer/{id}:
+    get:
+      summary: Get Customer Contact by Customer
+      operationId: getCustomerContactByCustomer
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      description: get all customer contact related to a specified customer
+      tags:
+        - Customer Contact
+      responses:
+        "200":
+          description: return Customer Contact
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/CustomerContact"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /customerContact/addToSystem/{systemId}:
+    post:
+      summary: add a customer contact to the system
+      operationId: addCustomerContactToSystem
+      parameters:
+        - in: path
+          name: systemId
+          required: true
+          schema:
+            type: string
+      description: add a customer contact to the system specified by the id
+      tags:
+        - Customer Contact
+      responses:
+        "200":
+          description: return System
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/System"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /customerContact/deleteFromSystem/{systemId}/customerContact/{customerContactId}:
+    patch:
+      summary: delete a customer contact from a system
+      operationId: deleteCustomerContactFromSystem
+      parameters:
+        - in: path
+          name: systemId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: customerContactId
+          required: true
+          schema:
+            type: string    
+      description: delete a customer contact from a system specified by id
+      tags:
+        - Customer Contact
+      responses:
+        "200":
+          description: return System
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/System"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+components:
+  schemas:
+    CustomerContact:
+      type: object
+      required:
+        - id
+        - lastName
+        - mail
+        - phoneNumber
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        lastName:
+          type: string
+          example: lastName
+        mail:
+          type: string
+          example: customerContact@example.com
+        phoneNumber:
+          type: string
+          example: 12345678
+        customer:
+          type: string
+          example: "60edffc2370e9734982cc555"
+    System:
+      type: object
+      required:
+        - name
+        - type
+        - category
+        - customer
+        - listHost
+        - listClient
+        - listMap
+        - class
+        - deployType
+        - deployDesc
+        - fqdn
+        - listTechnicalUser
+        - listCustomerContact
+        - listItOperation
+        - isActive
+      properties:
+        name:
+          type: string
+          example: systemExemple
+        type:
+          type: string
+          example: "60ee0042d9b53b31084209f5"
+        category:
+          type: string
+          example: "60ee0042d9b53b31084209f5"
+        customer:
+          type: string
+          example: "60ee0042d9b53b31084209f5"
+        listHost:
+          type: object
+          example: ["60ee0042d9b53b31084209f5"]
+        listClient:
+          type: object
+          example: ["60ee0042d9b53b31084209f5"]
+        listMap:
+          type: object
+          example: ["60ee0042d9b53b31084209f5"]
+        class:
+          type: string
+          example: "60ee0042d9b53b31084209f5"
+        deployType:
+          type: string
+          example: "Cloud"
+        deployDesc:
+          type: string
+          example: "desc test"
+        fqdn:
+          type: string
+          example: "fqdn test"
+        listTechnicalUser:
+          type: object
+          example: ["60ee0042d9b53b31084209f5"]
+        listCustomerContact:
+          type: object
+          example: ["60ee0042d9b53b31084209f5"]
+        listItOperation:
+          type: object
+          example: ["60ee0042d9b53b31084209f5"]
+        isActive:
+          type: boolean
+          example: true

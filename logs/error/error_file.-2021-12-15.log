@@ -1,0 +1,11 @@
+[2021-12-15T08:39:27.669] [ERROR] ma-core - get All Task By filter error :team leader shift not found /api/task/getTasksByFilter GET ::1
+[2021-12-15T08:40:04.728] [ERROR] ma-core - get All Task By filter error :team leader shift not found /api/task/getTasksByFilter GET ::1
+[2021-12-15T08:46:04.223] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2021-12-15T08:46:04.509] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2021-12-15T08:46:05.298] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2021-12-15T08:46:50.341] [ERROR] ma-core - get All Task By filter error :team leader shift not found /api/task/getTasksByFilter GET ::1
+[2021-12-15T10:18:07.101] [ERROR] ma-core - get All Task By filter error :member shift not found /api/task/getTasksByFilter GET ::1
+[2021-12-15T15:41:09.672] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2021-12-15T15:43:02.529] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2021-12-15T15:43:46.551] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2021-12-15T15:45:00.772] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1

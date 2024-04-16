@@ -1,0 +1,46 @@
+[2021-12-20T10:48:50.263] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T10:53:35.851] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T10:56:08.989] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T11:05:09.146] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T11:08:59.234] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T11:11:26.202] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T11:12:48.124] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T11:15:19.899] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T11:18:23.693] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T11:20:41.017] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T11:20:47.562] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T15:40:23.751] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T17:32:16.150] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T17:32:16.207] [INFO] ma-core - no matches found for host - system migration
+[2021-12-20T17:32:16.208] [INFO] ma-core - there are no data to migrate, no matches have been found - host
+[2021-12-20T17:32:16.214] [INFO] ma-core - no matches found for map - system migration
+[2021-12-20T17:32:16.214] [INFO] ma-core - there are no data to migrate, no matches have been found - map
+[2021-12-20T17:32:16.217] [INFO] ma-core - no matches found for client - system migration
+[2021-12-20T17:32:16.217] [INFO] ma-core - there are no data to migrate, no matches have been found - client
+[2021-12-20T17:32:16.220] [INFO] ma-core - no matches found for customer - slaContract migration
+[2021-12-20T17:32:16.220] [INFO] ma-core - there are no data to migrate, no matches have been found - sla contract
+[2021-12-20T17:32:16.222] [INFO] ma-core - no matches found for customer - licence migration
+[2021-12-20T17:32:16.223] [INFO] ma-core - there are no data to migrate, no matches have been found - licence
+[2021-12-20T17:32:16.228] [INFO] ma-core - no matches found for customer - system migration
+[2021-12-20T17:32:16.228] [INFO] ma-core - there are no data to migrate, no matches have been found - system
+[2021-12-20T17:32:16.231] [INFO] ma-core - updated systems schema !
+[2021-12-20T17:32:16.233] [INFO] ma-core - updated customers schema !
+[2021-12-20T17:32:16.238] [INFO] ma-core - no matches found for sla - slaContract migration
+[2021-12-20T17:32:16.238] [INFO] ma-core - there are no data to migrate, no matches have been found - sla
+[2021-12-20T17:32:16.240] [INFO] ma-core - updated sla contracts schema !
+[2021-12-20T17:32:16.249] [INFO] ma-core - no matches found for maps - system migration
+[2021-12-20T17:32:16.249] [INFO] ma-core - there are no data to migrate, no matches have been found - MAP
+[2021-12-20T17:36:09.321] [INFO] ma-core - no matches found for maps - system migration
+[2021-12-20T17:36:09.323] [INFO] ma-core - there are no data to migrate, no matches have been found - MAP
+[2021-12-20T17:51:37.228] [INFO] ma-core - Type Migration Complete !
+[2021-12-20T17:51:37.361] [INFO] ma-core - updated systems schema !
+[2021-12-20T17:51:37.363] [INFO] ma-core - updated customers schema !
+[2021-12-20T17:51:37.369] [INFO] ma-core - updated sla contracts schema !
+[2021-12-20T17:51:37.388] [INFO] ma-core - Migration 20211215202502-active_To_isActive completed
+[2021-12-20T17:51:37.392] [INFO] ma-core - Migration 20211220094252-libelleToLabel completed
+[2021-12-20T17:51:37.396] [INFO] ma-core - Migration 20211220101340-systemName completed
+[2021-12-20T17:51:37.429] [INFO] ma-core - no matches found for maps - maps migration
+[2021-12-20T17:51:37.429] [INFO] ma-core - there are no data to migrate, no matches have been found - MAP
+[2021-12-20T17:54:08.438] [INFO] ma-core - no matches found for maps - maps migration
+[2021-12-20T17:54:08.440] [INFO] ma-core - there are no data to migrate, no matches have been found - MAP
+[2021-12-20T18:00:08.697] [INFO] ma-core - Migration 20211220101340-systemName completed

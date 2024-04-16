@@ -1,0 +1,159 @@
+  openapi: 3.0.0
+  info:
+    description: Statistics API
+    version: "1.0.0"
+    title: Statistics API
+    contact:
+      email: you@your-company.com
+    license:
+      name: Apache 2.0
+      url: "http://www.apache.org/system/SYSTEM-2.0.html"
+  paths:
+    /statistics/dbGrowthStatistics:
+      get:
+        summary: return the db Growths value and unit and createdAt
+        operationId:  dbGrowthStatistics
+        description:  return the db Growths value and unit and createdAt
+        parameters:
+          - name: startDate
+            in: query
+            description: start date
+            required: true
+            schema:
+              type: string
+          - name: endDate
+            in: query
+            description: end date
+            required: true
+            schema:
+              type: string
+          - name: customerID
+            in: query
+            description: customer id
+            required: false
+            schema:
+              type: string
+          - name: systemID
+            in: query
+            description: system id
+            required: false
+            schema:
+              type: string
+        responses:
+          "200":
+            description: OK
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      growth:
+                        type: number
+                        example: 3072
+                      unit:
+                        type: string
+                        example: MB
+                      createdAt:
+                        type: string
+                        example: "2020-01-01T00:00:00.000Z"
+          "400":
+            description: error message
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    messsage:
+                      type: string
+                      example: an error occurred
+                    status:
+                      type: string
+                      example: error
+          "204":
+            description: no comments found
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    messsage:
+                      type: string
+                      example: No data found
+                    status:
+                      type: string
+                      example: success
+
+    /statistics/AvgResponseTime:
+      get:
+        summary: return the AvgResponseTime value and the createdAt
+        operationId: AvgResponseTime
+        description:  return the AvgResponseTime value and the createdAt
+        parameters:
+          - name: startDate
+            in: query
+            description: start date
+            required: true
+            schema:
+              type: string
+          - name: endDate
+            in: query
+            description: end date
+            required: true
+            schema:
+              type: string
+          - name: customerID
+            in: query
+            description: customer id
+            required: false
+            schema:
+              type: string
+          - name: systemID
+            in: query
+            description: system id
+            required: false
+            schema:
+              type: string
+        responses:
+          "200":
+            description: OK
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      responseTime:
+                        type: number
+                        example: 50000
+                      createdAt:
+                        type: string
+                        example: "2022-01-19T09:16:55.433Z"
+          "400":
+            description: error message
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    messsage:
+                      type: string
+                      example: an error occurred
+                    status:
+                      type: string
+                      example: error
+          "204":
+            description: no comments found
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    messsage:
+                      type: string
+                      example: No data found
+                    status:
+                      type: string
+                      example: success

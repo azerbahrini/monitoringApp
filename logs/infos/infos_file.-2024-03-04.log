@@ -1,0 +1,338 @@
+[2024-03-04T16:43:50.191] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T16:43:53.203] [INFO] ma-core - server started at port 5000
+[2024-03-04T16:43:53.249] [INFO] ma-core - mongodb conected
+[2024-03-04T16:45:41.664] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T16:45:50.505] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T16:45:50.730] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T16:46:08.958] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T16:46:09.279] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T16:49:47.522] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2024-03-04T16:49:53.362] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2024-03-04T16:50:05.634] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2024-03-04T16:50:15.751] [INFO] ma-core - update user : add new role success :  /api/user/update/:id PATCH
+[2024-03-04T16:50:21.502] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T16:50:21.690] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T17:34:02.546] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T17:34:05.395] [INFO] ma-core - server started at port 5000
+[2024-03-04T17:34:05.474] [INFO] ma-core - mongodb conected
+[2024-03-04T17:35:35.630] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T17:35:36.198] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T17:35:48.145] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2024-03-04T17:35:51.445] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:35:51.570] [INFO] ma-core - get by id Role success /api/role/:id/ GET ::1
+[2024-03-04T17:36:07.664] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:36:17.981] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2024-03-04T17:36:18.095] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2024-03-04T17:36:18.177] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2024-03-04T17:36:29.503] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2024-03-04T17:36:29.572] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2024-03-04T17:36:29.664] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2024-03-04T17:36:38.781] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2024-03-04T17:36:52.598] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2024-03-04T17:37:00.904] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2024-03-04T17:37:15.432] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2024-03-04T17:37:58.021] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:37:58.122] [INFO] ma-core - get by id Role success /api/role/:id/ GET ::1
+[2024-03-04T17:40:18.220] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:40:26.636] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2024-03-04T17:40:26.682] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2024-03-04T17:40:26.768] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2024-03-04T17:42:29.841] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:42:55.240] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:42:59.379] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:43:13.326] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2024-03-04T17:43:13.379] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2024-03-04T17:43:13.479] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2024-03-04T17:43:41.261] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2024-03-04T17:43:46.494] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:43:46.567] [INFO] ma-core - get by id Role success /api/role/:id/ GET ::1
+[2024-03-04T17:44:50.592] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2024-03-04T17:44:50.676] [INFO] ma-core - get by id Role success /api/role/:id/ GET ::1
+[2024-03-04T17:46:40.926] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T17:46:42.076] [INFO] ma-core - server started at port 5000
+[2024-03-04T17:46:42.095] [INFO] ma-core - mongodb conected
+[2024-03-04T18:19:00.840] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T18:19:03.094] [INFO] ma-core - server started at port 5000
+[2024-03-04T18:19:03.147] [INFO] ma-core - mongodb conected
+[2024-03-04T18:19:09.832] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T18:19:11.287] [INFO] ma-core - server started at port 5000
+[2024-03-04T18:19:11.316] [INFO] ma-core - mongodb conected
+[2024-03-04T18:19:12.615] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T18:19:14.131] [INFO] ma-core - server started at port 5000
+[2024-03-04T18:19:14.153] [INFO] ma-core - mongodb conected
+[2024-03-04T18:19:51.145] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T18:19:52.500] [INFO] ma-core - server started at port 5000
+[2024-03-04T18:19:52.558] [INFO] ma-core - mongodb conected
+[2024-03-04T18:20:01.934] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2024-03-04T18:20:24.664] [INFO] ma-core - add new shifts success /api/shift/sync PATCH ::1
+[2024-03-04T18:20:24.751] [INFO] ma-core - sync shift success /api/shift/sync PATCH ::1
+[2024-03-04T18:20:28.030] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.039] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.047] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.056] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.070] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.137] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:28.171] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.179] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.189] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.195] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.199] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:28.207] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.220] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.227] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.237] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.247] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.253] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.258] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.268] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.274] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.280] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.289] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.336] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.345] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.355] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.372] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.389] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.404] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.430] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.439] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.444] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.458] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.467] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.474] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.482] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.492] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.500] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.505] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.513] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.525] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.531] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.553] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.559] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.567] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.577] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.588] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.593] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.602] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.613] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.625] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.637] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.659] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.672] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.683] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.690] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.696] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.707] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.713] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.722] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.729] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.738] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.807] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:28.818] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.830] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.841] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.852] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.884] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.899] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.913] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.930] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.944] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.956] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.965] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.974] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.979] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:28.991] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.004] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.016] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.033] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.042] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.050] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.062] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.069] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.079] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.088] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:29.097] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.102] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.115] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.126] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.139] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.148] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:29.164] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.176] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.186] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.195] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.203] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.210] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.216] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.225] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.234] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.243] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.252] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.258] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.264] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.272] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.278] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.286] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.292] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.299] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.306] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.313] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.319] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.327] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.335] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.343] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.349] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.357] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.369] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.389] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.403] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.408] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.417] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.427] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.437] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.456] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.467] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.476] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.483] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.492] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.501] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.509] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.512] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.516] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.520] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.523] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.527] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.531] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.541] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.554] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.557] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.560] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.569] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.573] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.577] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.585] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.604] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.616] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.630] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.645] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.654] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.671] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.682] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.690] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.699] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.702] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:29.705] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.709] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.711] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.718] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.723] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.729] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.738] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.742] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.744] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.750] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.756] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.762] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.775] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.782] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.784] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.790] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.798] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.803] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.808] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.811] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.815] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.816] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:29.821] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.824] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.827] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.831] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.835] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.837] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.846] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.851] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.860] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.870] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.876] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.886] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.896] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.904] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.910] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.913] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.916] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.919] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.923] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.927] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.935] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.940] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.944] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.946] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:29.951] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.953] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.955] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.959] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.965] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:29.974] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.982] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.991] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:29.998] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.006] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.012] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.022] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.033] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.035] [INFO] ma-core - cron shift unassigned : startdate before now
+[2024-03-04T18:20:30.039] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.042] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.049] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.055] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.060] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.067] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.073] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.081] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.084] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.087] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.090] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.092] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.099] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.105] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.112] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.116] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.122] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.127] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.134] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.137] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.141] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.146] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.151] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.156] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.158] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.160] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.163] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.167] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.171] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.175] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.177] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.180] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.182] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.189] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.193] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.195] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.199] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.202] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.203] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:30.204] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2024-03-04T18:20:32.207] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2024-03-04T18:26:23.346] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2024-03-04T18:26:38.104] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T18:26:39.677] [INFO] ma-core - server started at port 5000
+[2024-03-04T18:26:39.699] [INFO] ma-core - mongodb conected
+[2024-03-04T18:27:55.872] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2024-03-04T18:27:57.754] [INFO] ma-core - server started at port 5000
+[2024-03-04T18:27:57.811] [INFO] ma-core - mongodb conected
+[2024-03-04T18:30:56.754] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T18:31:40.896] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T18:32:08.048] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T18:32:08.388] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2024-03-04T18:40:55.649] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2024-03-04T18:41:14.312] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2024-03-04T18:41:17.353] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1

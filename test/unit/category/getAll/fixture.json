@@ -1,0 +1,34 @@
+{
+  "all": {
+    "success": {
+      "res": {
+        "statusCode": 200,
+        "headers": {
+          "content-type": "application/json"
+        }
+      },
+      "body": {
+        "status": "success",
+        "data": {
+          "docs": [
+            {
+              "id": "60ef4e3f7221301cc8eaafbd",
+              "category": "test1",
+              "active": true
+            },
+            {
+              "id": "60ef4e3f7221301cc8kaaebd",
+              "category": "test2",
+              "active": true
+            },
+            {
+              "id": "60ef4e3f7221301cc8cadfbd",
+              "category": "test3",
+              "active": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

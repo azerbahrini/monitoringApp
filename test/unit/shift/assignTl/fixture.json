@@ -1,0 +1,160 @@
+{
+  "shiftTlFormatted": [
+    {
+      "name": "Day shift",
+      "$and": [
+        {
+          "startDate": {
+            "$gte": "2021-10-27T00:00:00Z"
+          }
+        },
+        {
+          "startDate": {
+            "$lt": "2021-10-27T23:59:59Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Day shift",
+      "$and": [
+        {
+          "startDate": {
+            "$gte": "2021-10-28T00:00:00Z"
+          }
+        },
+        {
+          "startDate": {
+            "$lt": "2021-10-28T23:59:59Z"
+          }
+        }
+      ]
+    }
+  ],
+  "shiftTlBody": {
+    "user": "617921d0d8c1f61eb823af53",
+    "shifts": [
+      {
+        "name": "Day shift",
+        "startDate": "2021-10-27T11:30:00+04:00"
+      },
+      {
+        "name": "Day shift",
+        "startDate": "2021-10-28T11:30:00+04:00"
+      }
+    ]
+  },
+  "add": {
+    "success": {
+      "res": {
+        "statusCode": 201,
+        "headers": {
+          "content-type": "application/json"
+        }
+      },
+      "body": {
+        "status": "success",
+        "data": [
+          {
+            "shiftId": "5fa02d8f785e4681ddfa3a6d",
+            "user": "5fa02d8f785e4681ddfa3a6d",
+            "type": "shift",
+            "userMicrosoftId": "5fa02d8f785e4681ddfa3a6d",
+            "role": "5fa02d8f785e4681ddfa3a6d",
+            "name": "night-shift",
+            "startDate": "2021-09-24",
+            "endDate": "2021-09-24",
+            "updatedShiftAt": "2021-09-24"
+          }
+        ]
+      }
+    },
+    "failure": {
+      "res": {
+        "statusCode": 400,
+        "headers": {
+          "content-type": "application/json"
+        }
+      },
+      "body": {
+        "status": "error",
+        "message": "missing property."
+      }
+    }
+  },
+  "shiftsForTL": [
+    {
+      "_id": "617921d4d8c1f61eb823aff8",
+      "role": "5fa02d8f785e4681ddfa3a6d",
+      "shiftId": "SHFT_81578ed0-a436-4423-980f-7f0aa72cd40e",
+      "userMicrosoftId": "7e4a2df4-96fa-4480-b8b9-6cf17e1619f6",
+      "name": "mid-night shift",
+      "startDate": "2021-10-27T16:00:00.000Z",
+      "endDate": "2021-10-28T00:30:00.000Z",
+      "updatedShiftAt": "2021-10-19T12:08:28.417Z",
+      "user": "617921d0d8c1f61eb823af53",
+      "type": "shift",
+      "reference": null,
+      "theme": "purple",
+      "color": "#8378de",
+      "typeId": "61791c9a60a4144f1c1c0e1a",
+      "createdAt": "2021-10-27T09:54:28.057Z",
+      "updatedAt": "2021-10-27T09:54:28.057Z"
+    },
+    {
+      "_id": "617921d4d8c1f61eb823aff8",
+      "role": "5fa02d8f785e4681ddfa3a6e",
+      "shiftId": "SHFT_81578ed0-a436-4423-980f-7f0aa72cd40e",
+      "userMicrosoftId": "7e4a2df4-96fa-4480-b8b9-6cf17e1619f6",
+      "name": "mid-night shift",
+      "startDate": "2021-10-27T16:00:00.000Z",
+      "endDate": "2021-10-28T00:30:00.000Z",
+      "updatedShiftAt": "2021-10-19T12:08:28.417Z",
+      "user": "617921d0d8c1f61eb823af53",
+      "type": "shift",
+      "reference": null,
+      "theme": "purple",
+      "color": "#8378de",
+      "typeId": "61791c9a60a4144f1c1c0e1a",
+      "createdAt": "2021-10-27T09:54:28.057Z",
+      "updatedAt": "2021-10-27T09:54:28.057Z"
+    }
+  ],
+  "role": {
+    "data": {
+      "_id": "5fa02d8f785e4681ddfa3a6e",
+      "rank": 201,
+      "__v": 0,
+      "updatedAt": "2021-07-30T13:19:51.055Z",
+      "listModule": [
+        "60548528836fb2334818c8f0",
+        "60763d70b4a5b34b90ab8469",
+        "60764b62b4a5b34b90ab846a",
+        "6074dcdafed0de4d343eb4dd"
+      ],
+      "isActive": true,
+      "label": "Team Leader"
+    },
+    "status": "success"
+  },
+  "addedData": [
+    {
+      "role": "5fa02d8f785e4681ddfa3a6e",
+      "shiftId": "SHFT_81578ed0-a436-4423-980f-7f0aa72cd40e",
+      "userMicrosoftId": "7e4a2df4-96fa-4480-b8b9-6cf17e1619f6",
+      "name": "mid-night shift",
+      "startDate": "2021-10-27T16:00:00.000Z",
+      "endDate": "2021-10-28T00:30:00.000Z",
+      "updatedShiftAt": "2021-10-19T12:08:28.417Z",
+      "user": "617921d0d8c1f61eb823af53",
+      "type": "shift",
+      "reference": null,
+      "theme": "purple",
+      "color": "#8378de",
+      "typeId": "61791c9a60a4144f1c1c0e1a",
+      "createdAt": "2021-10-27T09:54:28.057Z",
+      "updatedAt": "2021-10-27T09:54:28.057Z"
+    }
+  ],
+  "deletedData":["617921d4d8c1f61eb823aff8"]
+}

@@ -1,0 +1,429 @@
+openapi: 3.0.0
+info:
+  description: Customer API
+  version: "1.0.0"
+  title: Customer API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /customer :
+    get:
+      summary: Get all Customer
+      operationId: getAllCustomer
+      description: 
+        get all existantes Customer
+      parameters:
+        - name: paginate
+          in: query
+          description: enable or disable pagination
+          required: true
+          schema:
+            type: boolean
+        - name: page
+          in: query
+          description: page number
+          required: false
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          required: false
+          schema:
+            type: integer
+            format: int32
+        - name: isActive
+          in: query
+          description: filter by isActive (true or false)
+          required: false
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: return all Customer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Customer'
+                      totalDocs:
+                        type: integer
+                        format: int32
+                        example: 13
+                      offset:
+                        type: integer
+                        format: int32
+                        example: 0
+                      limit:
+                        type: integer
+                        format: int32
+                        example: 1
+                      totalPages:
+                        type: integer
+                        format: int32
+                        example: 13
+                      page:
+                        type: integer
+                        format: int32
+                        example: 1
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                        example: 1
+                      hasPrevPage:
+                        type: boolean
+                        example: false
+                      hasNextPage:
+                        type: boolean
+                        example: true
+                      prevPage:
+                        type: integer
+                        format: int32
+                        example: null
+                      nextPage:
+                        type: integer
+                        format: int32
+                        example: 2
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a Customer
+      operationId: addCustomer
+      description: Add customer
+      responses:
+        '201':
+          description: Customer created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Customer"
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required           
+                   
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+                - label
+                - address
+                - firstReport
+                - logo
+                - timeZone
+                - isActive
+             properties:
+                label:
+                  type: string
+                  example: Cutomer1
+                address:
+                  type: string
+                  example: tunis  
+                firstReport:
+                  type: string
+                  example: "14:00"
+                logo:
+                  type: string
+                  example: logo.png
+                timeZone:
+                  type: string
+                  example: tunis/africa  
+                isActive:
+                  type: boolean
+                  example: true
+        description: Customer item to add
+  /customer/{id}:
+    get:
+      summary: get a single Customer
+      operationId: getOneCustomer
+      description: get Customer by Id
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: return specific Customer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties: 
+                      id:
+                        type: string
+                        example: "60edffc2370e9734982cc555"
+                      label:
+                        type: string
+                        example: Cutomer1
+                      address:
+                        type: string
+                        example: tunis 
+                      firstReport:
+                        type: string
+                        example: "14:00" 
+                      logo:
+                        type: string
+                        example: logo.png
+                      timeZone:
+                        type: string
+                        example: tunis/africa  
+                      isActive:
+                        type: boolean
+                        example: true
+                      activeLicence:
+                        type: object
+                        properties:
+                          _id:
+                            type: integer
+                            example: "60edffc2370e9734982cc555" 
+                          startDate:
+                            type: integer
+                            example: "2021-09-15T00:00:00.000Z"
+                          endDate:
+                            type: integer
+                            example: "2021-10-19T00:00:00.000Z"
+                          
+                    
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  
+                
+                    
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Customer not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer not found       
+  /customer/update/{id}:
+    patch:
+      summary: update a single Customer
+      description: update one customer
+      operationId: updateCustomer
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+       
+          description: "updated customer"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Customer not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer not found
+        "501":
+          description: "no error displayed"
+        
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                label:
+                  type: string
+                  example: Cutomer1
+                address:
+                  type: string
+                  example: tunis  
+                firstReport:
+                  type: string
+                  example: "14:00"
+                logo:
+                  type: string
+                  example: logo.png
+                timeZone:
+                  type: string
+                  example: tunis/africa  
+                isActive:
+                  type: boolean
+                  example: true
+      
+components:
+  schemas:
+    Customer:
+      type: object
+      required:
+        - id
+        - label
+        - address
+        - firstReport
+        - logo
+        - timeZone
+        - isActive
+        - createdAt
+        - updatedAt
+        - listLicence
+        - listSystem
+        - listSlaContract
+        - contactsForReports
+        - listMonitoringType
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        label:
+          type: string
+          example: Cutomer1
+        address:
+          type: string
+          example: tunis  
+        firstReport:
+          type: string
+          example: "14:00"
+        logo:
+          type: string
+          example: logo.png
+        timeZone:
+          type : array
+          items: {}
+          example: [ "Asia/Tokyo","UAE/Dubai","Africa/Tunis"]
+        isActive:
+          type: boolean
+          example: true
+        createdAt:
+          type: string
+          example: "2021-04-30T10:38:27.714Z"
+        updatedAt:
+          type: string
+          example: "2021-04-30T10:38:27.714Z"
+        listLicence:
+          type : array
+          items: {}
+          example: []        
+        listSystem:
+          type : array
+          items: {}
+          example: []        
+        listSlaContract:
+          type : array
+          items: {}
+          example: []        
+        contactsForReports:
+          type : array
+          items: {}
+          example: [ "60a42b048f422b588f4801ee", "60a42b078f422b588f4801fc" ]
+        listMonitoringType:
+          type : array
+          items: {}
+          example: [ "613f0e586b00c4d711a86f65" ]
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/hamma19/customer-api/1.0.0

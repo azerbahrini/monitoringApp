@@ -1,0 +1,377 @@
+openapi: 3.0.0
+info:
+  description: Role API
+  version: "1.0.0"
+  title: Role API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /role :
+    get:
+      summary: Get all Role
+      operationId: getAllRole
+      description: 
+        get all existantes Role
+      parameters:
+        - in: query
+          name: paginate
+          required: true
+          schema:
+            type: boolean
+        - name: page
+          in: query
+          description: page number
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: return all Role
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Role'
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a Role
+      operationId: addRole
+      description: Add role
+      responses:
+        '201':
+          description: Role created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  label:
+                    type: string
+                    example: Jira
+                  rank:
+                     type: number
+                     example: Jira  
+                  isActive:
+                    type: boolean
+                    example: true
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required           
+                   
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+             - label
+             - isActive
+             - rank
+             properties:
+              label:
+               type: string
+               example: Jira
+              rank:
+               type: number
+               example: Jira  
+              isActive:
+                type: boolean
+        description: Role item to add
+  /role/{id}:
+    get:
+      summary: get a single Role
+      operationId: getOneRole
+      description: get Role by Id
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: return specific Role
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      label:
+                        type: string
+                        example: Jira
+                      rank:
+                        type: number
+                        example: Jira  
+                      isActive:
+                        type: boolean
+                        example: true  
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  
+                
+                    
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Role not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Role not found       
+  /role/update/{id}:
+    patch:
+      summary: update a single Role
+      description: update one role
+      operationId: updateRole
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+       
+          description: "updated role"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Role not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Role not found
+        "501":
+          description: "no error displayed"
+        
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                label:
+                 type: string
+                 example: Jira
+                rank:
+                 type: number
+                 example: Jira  
+                isActive:
+                 type: boolean
+                 example: true
+  /role/delete/{id}:  
+    patch:  
+      summary: delete a single Role
+      description: delete one Role
+      operationId: deleteRole
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+          description: "deleted role"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no Role found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Role not found
+      
+components:
+  schemas:
+    Role:
+      type: object
+      required:
+        - id
+        - label
+        - rank
+        - isActive
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        label:
+          type: string
+          example: Jira
+        rank:
+          type: number
+          example: Jira  
+        isActive:
+          type: boolean
+          example: true
+          
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/hamma19/role-api/1.0.0

@@ -1,0 +1,42 @@
+{
+  "arrayOfSystemNames": [
+    [
+      {
+        "_id": "608be4b7c5a2a005c87294b1",
+        "name": "SAP-ECC"
+      },
+      {
+        "_id": "608be4d2c5a2a083e47294b3",
+        "name": "SAP-BI/BW"
+      },
+      {
+        "_id": "608bfb6ac5a2a07d1c7294cc",
+        "name": "SAP-SOLMAN"
+      }
+    ]
+  ],
+  "SystemDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+    "name": "systemExemple",
+    "type": "60ee0042d9b53b3e089209f5",
+    "category": "60ee0042d0b53b3e089209f5",
+    "customer": "60ee004200b53b3e089209f5",
+    "listClient": [
+      "60ee0042d8b53b31084209f5"
+    ],
+    "class": "50ee0042d8b53b31084309f5",
+    "deployType": "Cloud",
+    "deployDesc": "descTest",
+    "fqdn": "test",
+    "listTechnicalUser": [
+      "50ee0042d8b53b32084309f5"
+    ],
+    "listCustomerContact": [
+      "50ee0062d8b53b32084309f5"
+    ],
+    "listItOperation": [
+      "50ee0062d8b53b32084309f5"
+    ],
+    "isActive": true
+  }
+}

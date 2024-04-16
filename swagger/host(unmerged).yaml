@@ -1,0 +1,353 @@
+openapi: 3.0.0
+info:
+  description: Host API
+  version: 1.0.0-oas3
+  title: Host API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /host:
+    get:
+      summary: Get all host
+      operationId: getAllHost
+      description: get all existantes host in the system
+      parameters:
+        - name: page
+          in: query
+          description: page number
+          required: true
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: return all host
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Host'
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a host
+      operationId: addHost
+      description: Adds host to the system
+      responses:
+        '201':
+          description: host created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      host:
+                        type: string
+                        example: hostExemple
+                      isActive:
+                        type: boolean
+                        example: true
+                      system:
+                        type: string
+                        example: "60ee0042d9b53b31084209f5" 
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - host
+                - isActive
+                - system
+              properties:
+                host:
+                  type: string
+                  example: hostExemple
+                isActive:
+                  type: boolean
+                system:
+                  type: string
+                  example: 60edffc2370e9734982cc555
+        description: host item to add
+  /host/{id}:
+    get:
+      summary: get a host
+      operationId: getOneHost
+      description: get host by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: return specific host
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Host'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: type not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: type not found
+  /host/update/{id}:
+    patch:
+      summary: update a single host
+      description: update one host
+      operationId: updateHost
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Host'
+          description: updated host
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: host not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: type not found
+        '501':
+          description: no error displayed
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                host:
+                  type: string
+                  example: hostExemple
+                active:
+                  type: boolean
+                  example: true
+  /host/delete/{id}:
+    patch:
+      summary: delete a single host
+      description: delete one host
+      operationId: deleteHost
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Host'
+          description: delete host
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: host not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: host not found
+        '501':
+          description: no error displayed
+components:
+  schemas:
+    Host:
+      type: object
+      required:
+        - id
+        - host
+        - isActive
+        - system
+      properties:
+        id:
+          type: string
+          example: 60edffc2370e9734982cc555
+        host:
+          type: string
+          example: hostExemple
+        isActive:
+          type: boolean
+          example: true
+        system:
+          type: string
+          example: 60edffc2370e9734982cc555
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/Type/1.0.0
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/sysclass/1.0.0

@@ -1,0 +1,44 @@
+[2021-11-30T09:30:21.437] [ERROR] ma-core - get All Task By filter error :error testing testing testing
+[2021-11-30T09:30:21.446] [ERROR] ma-core - get by id Task :task not found testing testing testing
+[2021-11-30T09:30:21.448] [ERROR] ma-core - get by id Task :task not found NaN post 1234
+[2021-11-30T09:30:21.457] [ERROR] ma-core - get All Task By filter error :error testing testing testing
+[2021-11-30T09:30:21.560] [ERROR] ma-core - add Task :missing property testing testing testing
+[2021-11-30T09:30:21.564] [ERROR] ma-core - add Task :missing property NaN post 1234
+[2021-11-30T09:30:21.575] [ERROR] ma-core - add Many Task :missing property testing testing testing
+[2021-11-30T09:30:21.577] [ERROR] ma-core - add Many Task :missing property NaN post 1234
+[2021-11-30T09:30:21.607] [ERROR] ma-core - Update Task Assignee :task not found testing testing testing
+[2021-11-30T09:30:21.624] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task testing testing testing
+[2021-11-30T09:30:21.626] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task NaN post 1234
+[2021-11-30T09:30:21.634] [ERROR] ma-core - Failed to delete the Task :failed to update the task testing testing testing
+[2021-11-30T09:30:21.636] [ERROR] ma-core - Failed to delete the Task :failed to update the task NaN post 1234
+[2021-11-30T09:30:21.645] [ERROR] ma-core - Failed to finish the Task :failed to update the task testing testing testing
+[2021-11-30T09:30:21.646] [ERROR] ma-core - Failed to finish the Task :failed to update the task NaN post 1234
+[2021-11-30T09:30:21.654] [ERROR] ma-core - Failed to reject the Task :failed to update the task testing testing testing
+[2021-11-30T09:30:21.655] [ERROR] ma-core - Failed to reject the Task :failed to update the task NaN post 1234
+[2021-11-30T09:30:21.669] [ERROR] ma-core - Failed to start the Task :failed to update the task testing testing testing
+[2021-11-30T09:30:21.672] [ERROR] ma-core - Failed to start the Task :failed to update the task NaN post 1234
+[2021-11-30T09:30:21.682] [ERROR] ma-core - Failed to validate the Task :failed to update the task testing testing testing
+[2021-11-30T09:30:21.683] [ERROR] ma-core - Failed to validate the Task :failed to update the task NaN post 1234
+[2021-11-30T11:59:17.770] [ERROR] ma-core - get All Task By filter error :error testing testing testing
+[2021-11-30T11:59:17.777] [ERROR] ma-core - get by id Task :task not found testing testing testing
+[2021-11-30T11:59:17.778] [ERROR] ma-core - get by id Task :task not found NaN post 1234
+[2021-11-30T11:59:17.785] [ERROR] ma-core - get All Task By filter error :error testing testing testing
+[2021-11-30T11:59:17.887] [ERROR] ma-core - add Task :missing property testing testing testing
+[2021-11-30T11:59:17.889] [ERROR] ma-core - add Task :missing property NaN post 1234
+[2021-11-30T11:59:17.900] [ERROR] ma-core - add Many Task :missing property testing testing testing
+[2021-11-30T11:59:17.902] [ERROR] ma-core - add Many Task :missing property NaN post 1234
+[2021-11-30T11:59:17.936] [ERROR] ma-core - Update Task Assignee :task not found testing testing testing
+[2021-11-30T11:59:17.952] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task testing testing testing
+[2021-11-30T11:59:17.954] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task NaN post 1234
+[2021-11-30T11:59:17.964] [ERROR] ma-core - Failed to delete the Task :failed to update the task testing testing testing
+[2021-11-30T11:59:17.966] [ERROR] ma-core - Failed to delete the Task :failed to update the task NaN post 1234
+[2021-11-30T11:59:17.974] [ERROR] ma-core - Failed to finish the Task :failed to update the task testing testing testing
+[2021-11-30T11:59:17.975] [ERROR] ma-core - Failed to finish the Task :failed to update the task NaN post 1234
+[2021-11-30T11:59:17.983] [ERROR] ma-core - Failed to reject the Task :failed to update the task testing testing testing
+[2021-11-30T11:59:17.984] [ERROR] ma-core - Failed to reject the Task :failed to update the task NaN post 1234
+[2021-11-30T11:59:17.997] [ERROR] ma-core - Failed to start the Task :failed to update the task testing testing testing
+[2021-11-30T11:59:18.000] [ERROR] ma-core - Failed to start the Task :failed to update the task NaN post 1234
+[2021-11-30T11:59:18.008] [ERROR] ma-core - Failed to validate the Task :failed to update the task testing testing testing
+[2021-11-30T11:59:18.009] [ERROR] ma-core - Failed to validate the Task :failed to update the task NaN post 1234
+[2021-11-30T22:42:57.016] [ERROR] ma-core - get All result form :ResultForm.paginate is not a function /api/resultform/getAllResultForm GET ::1
+[2021-11-30T23:01:57.697] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "getall" at path "_id" for model "task" /api/task/:id GET ::1

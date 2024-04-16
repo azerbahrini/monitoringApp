@@ -1,0 +1,95 @@
+openapi: 3.0.0
+info:
+  description: Sync Shift Log
+  version: "1.0.0"
+  title: Sync Shift Log
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /shiftSyncLog/getLastShiftSyncLog:
+    get:
+      summary: Get Lates shift sync log
+      operationId: getLastSyncLog
+      description:  Get Lates Shift Sync Log
+      responses:
+        "200":
+          description: return Lates shift sync log
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/SyncShiftLog"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+components:
+  schemas:
+    SyncShiftLog:
+      type: object
+      properties:
+        _id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        syncedShifts:
+          type: number
+          example: 20
+        unSyncedShifts:
+          type: number
+          example: 10
+        shiftsSyncDate:
+          type: string
+          format: date
+          example: "2021-10-21T15:55:04.575+00:00"
+        user:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        syncedUsers:
+            type: object
+            properties:
+              firstName:
+                type: string
+                example: "Jhon"
+              lastName:
+                type: string
+                example: "Doe" 
+        errorDescription:
+          type: string
+          example: "error"          
+
+servers:
+  # Added by API Auto Mocking Plugin
+  # Added by API Auto Mocking Plugin
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/MonitoringActivity/1.0.0
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/Type/1.0.0
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/sysclass/1.0.0

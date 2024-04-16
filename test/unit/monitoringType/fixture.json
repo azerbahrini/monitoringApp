@@ -1,0 +1,35 @@
+{
+  "typeDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+    "libelle": "typeExemple",
+    "isActive": true
+  },
+  "typeDataTestWithoutID": {
+    "libelle": "typeExemple",
+    "isActive": true
+  },
+  "wrongTypeDataTest": {
+    "libelle": "typeExemple",
+    "isActive": true,
+    "randomProperty": "value"
+  },
+  "wrongID": "60ee0042d9b53b3e084209f6",
+  "emptyTypeDataTest": {},
+  "arrayofTypes": [
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "libelle": "typeExemple",
+      "isActive": true
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f6",
+      "libelle": "typeExemple",
+      "isActive": true
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f7",
+      "libelle": "typeExemple",
+      "isActive": true
+    }
+  ]
+}

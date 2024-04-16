@@ -1,0 +1,131 @@
+[2021-12-08T10:01:03.142] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:01:03.811] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:01:03.833] [INFO] ma-core - mongodb conected
+[2021-12-08T10:03:12.467] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:03:13.051] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:03:13.077] [INFO] ma-core - mongodb conected
+[2021-12-08T10:04:19.042] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:04:19.598] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:04:19.620] [INFO] ma-core - mongodb conected
+[2021-12-08T10:06:36.479] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:06:37.040] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:06:37.063] [INFO] ma-core - mongodb conected
+[2021-12-08T10:06:43.333] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:06:43.868] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:06:43.890] [INFO] ma-core - mongodb conected
+[2021-12-08T10:07:54.113] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:07:54.684] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:07:54.712] [INFO] ma-core - mongodb conected
+[2021-12-08T10:08:31.593] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T10:08:54.192] [INFO] ma-core - delete Result Form success /api/resultform/deleteResultForm/:id PATCH ::1
+[2021-12-08T10:09:00.847] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T10:11:37.358] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:11:37.977] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:11:38.009] [INFO] ma-core - mongodb conected
+[2021-12-08T10:19:07.029] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:19:07.587] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:19:07.609] [INFO] ma-core - mongodb conected
+[2021-12-08T10:22:06.496] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:22:07.046] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:22:07.068] [INFO] ma-core - mongodb conected
+[2021-12-08T10:26:24.979] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T10:26:25.534] [INFO] ma-core - server started at port 5000
+[2021-12-08T10:26:25.558] [INFO] ma-core - mongodb conected
+[2021-12-08T11:31:05.641] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:31:06.268] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:31:06.294] [INFO] ma-core - mongodb conected
+[2021-12-08T11:31:25.696] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:31:26.236] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:31:26.259] [INFO] ma-core - mongodb conected
+[2021-12-08T11:32:55.011] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:32:55.682] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:32:55.709] [INFO] ma-core - mongodb conected
+[2021-12-08T11:38:27.755] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:38:28.330] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:38:28.355] [INFO] ma-core - mongodb conected
+[2021-12-08T11:41:42.210] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:41:42.773] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:41:42.796] [INFO] ma-core - mongodb conected
+[2021-12-08T11:42:19.803] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:42:20.400] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:42:20.426] [INFO] ma-core - mongodb conected
+[2021-12-08T11:42:59.270] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:42:59.822] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:42:59.846] [INFO] ma-core - mongodb conected
+[2021-12-08T11:43:35.301] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:43:35.887] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:43:35.914] [INFO] ma-core - mongodb conected
+[2021-12-08T11:43:53.380] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:43:53.975] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:43:54.001] [INFO] ma-core - mongodb conected
+[2021-12-08T11:45:11.106] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:45:11.657] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:45:11.678] [INFO] ma-core - mongodb conected
+[2021-12-08T11:46:37.742] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:46:38.356] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:46:38.381] [INFO] ma-core - mongodb conected
+[2021-12-08T11:47:12.554] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:47:13.099] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:47:13.122] [INFO] ma-core - mongodb conected
+[2021-12-08T11:48:25.439] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:48:25.977] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:48:25.999] [INFO] ma-core - mongodb conected
+[2021-12-08T11:51:05.449] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:51:06.166] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:51:06.193] [INFO] ma-core - mongodb conected
+[2021-12-08T11:51:18.113] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:51:18.664] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:51:18.688] [INFO] ma-core - mongodb conected
+[2021-12-08T11:52:33.932] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:52:34.501] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:52:34.524] [INFO] ma-core - mongodb conected
+[2021-12-08T11:52:43.732] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:52:44.284] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:52:44.308] [INFO] ma-core - mongodb conected
+[2021-12-08T11:54:35.092] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:54:35.681] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:54:35.709] [INFO] ma-core - mongodb conected
+[2021-12-08T11:55:01.594] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T11:55:02.190] [INFO] ma-core - server started at port 5000
+[2021-12-08T11:55:02.214] [INFO] ma-core - mongodb conected
+[2021-12-08T15:58:11.757] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T15:58:12.376] [INFO] ma-core - server started at port 5000
+[2021-12-08T15:58:12.397] [INFO] ma-core - mongodb conected
+[2021-12-08T16:01:11.588] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:01:21.187] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:01:39.389] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:02:01.173] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:02:25.714] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:02:37.410] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:03:00.934] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:03:25.734] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:08:12.720] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:08:38.381] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:08:52.420] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:09:02.542] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:32:10.390] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T16:32:11.069] [INFO] ma-core - server started at port 5000
+[2021-12-08T16:32:11.090] [INFO] ma-core - mongodb conected
+[2021-12-08T16:32:28.106] [INFO] ma-core - add result form success /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:32:34.119] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:32:42.896] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:32:50.586] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:33:03.170] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:33:23.299] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:34:00.389] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:34:14.373] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:34:45.844] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:37:46.073] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T16:37:46.640] [INFO] ma-core - server started at port 5000
+[2021-12-08T16:37:46.665] [INFO] ma-core - mongodb conected
+[2021-12-08T16:38:54.475] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T16:38:55.033] [INFO] ma-core - server started at port 5000
+[2021-12-08T16:38:55.057] [INFO] ma-core - mongodb conected
+[2021-12-08T16:38:59.125] [ERROR] ma-core - get All result form :ResultForm.paginate(...).select is not a function /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:39:06.443] [ERROR] ma-core - get All result form :ResultForm.paginate(...).select is not a function /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:39:12.895] [ERROR] ma-core - get All result form :ResultForm.paginate(...).select is not a function /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:39:13.891] [ERROR] ma-core - get All result form :ResultForm.paginate(...).select is not a function /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:39:45.085] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-08T16:39:45.669] [INFO] ma-core - server started at port 5000
+[2021-12-08T16:39:45.693] [INFO] ma-core - mongodb conected
+[2021-12-08T16:40:42.719] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1

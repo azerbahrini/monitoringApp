@@ -1,0 +1,60 @@
+{
+  "licenceDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+    "startDate": "2021-12-02",
+    "endDate": "2023-12-02",
+    "customer": "608bde23c5a2a0a1607294a5"
+  },
+  "licenceDataTestWithoutID": {
+    "startDate": "2021-12-02",
+    "endDate": "2023-12-02",
+    "customer": "608bde23c5a2a0a1607294a5"
+  },
+  "wrongLicenceDataTest": {
+    "startDate": "2021-12-02",
+    "endDate": "2023-12-02",
+    "customer": "608bde23c5a2a0a1607294a5",
+    "randomProperty": "value"
+  },
+  "wrongID": "60ee0042d9b53b3e084209f6",
+  "emptyLicenceDataTest": {},
+  "arrayofLicences": [
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "startDate": "2021-12-02",
+      "endDate": "2023-12-02",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "isActive": true
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f6",
+      "startDate": "2021-12-02",
+      "endDate": "2023-12-02",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "isActive": true
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f7",
+      "startDate": "2021-12-02",
+      "endDate": "2023-12-02",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "isActive": false
+    }
+  ],
+  "arrayofActiveLicences": [
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "startDate": "2021-12-02",
+      "endDate": "2023-12-02",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "isActive": true
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f6",
+      "startDate": "2021-12-02",
+      "endDate": "2023-12-02",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "isActive": true
+    }
+  ]
+}

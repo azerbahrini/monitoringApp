@@ -1,0 +1,96 @@
+[2022-02-07T14:27:47.741] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T14:27:47.747] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T14:47:18.032] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:47:18.763] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:47:18.785] [INFO] ma-core - mongodb conected
+[2022-02-07T14:47:18.846] [INFO] ma-core - teamleadhistories Collection created
+[2022-02-07T14:49:24.765] [INFO] ma-core - get all posts success /api/newsfeed/getAllPosts GET ::1
+[2022-02-07T14:50:41.860] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:50:42.454] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:50:42.473] [INFO] ma-core - mongodb conected
+[2022-02-07T14:50:47.009] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:50:47.600] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:50:47.622] [INFO] ma-core - mongodb conected
+[2022-02-07T14:50:50.445] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:50:51.027] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:50:51.046] [INFO] ma-core - mongodb conected
+[2022-02-07T14:50:51.499] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:50:52.083] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:50:52.104] [INFO] ma-core - mongodb conected
+[2022-02-07T14:50:56.017] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:50:56.593] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:50:56.613] [INFO] ma-core - mongodb conected
+[2022-02-07T14:51:07.081] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:51:07.679] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:51:07.703] [INFO] ma-core - mongodb conected
+[2022-02-07T14:51:11.206] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:51:11.843] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:51:11.863] [INFO] ma-core - mongodb conected
+[2022-02-07T14:51:16.830] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:51:17.466] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:51:17.487] [INFO] ma-core - mongodb conected
+[2022-02-07T14:51:28.428] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:51:29.014] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:51:29.034] [INFO] ma-core - mongodb conected
+[2022-02-07T14:51:44.048] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:51:44.742] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:51:44.772] [INFO] ma-core - mongodb conected
+[2022-02-07T14:51:53.931] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:51:54.615] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:51:54.637] [INFO] ma-core - mongodb conected
+[2022-02-07T14:52:33.911] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:52:34.545] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:52:34.573] [INFO] ma-core - mongodb conected
+[2022-02-07T14:52:38.357] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:52:38.958] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:52:38.978] [INFO] ma-core - mongodb conected
+[2022-02-07T14:52:39.493] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T14:52:40.150] [INFO] ma-core - server started at port 5000
+[2022-02-07T14:52:40.178] [INFO] ma-core - mongodb conected
+[2022-02-07T14:53:34.045] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T14:53:34.050] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T14:54:51.453] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T14:54:51.458] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T14:55:26.988] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T14:55:26.993] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T14:56:21.567] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T14:56:21.571] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T15:28:36.364] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T15:28:36.368] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T15:36:01.322] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T15:36:01.327] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T15:38:54.584] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T15:38:54.589] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T15:40:40.172] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T15:40:40.176] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T16:10:52.462] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T16:10:52.468] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T16:11:22.505] [INFO] ma-core - get all posts success testing testing testing
+[2022-02-07T16:14:27.584] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T16:14:27.588] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T16:14:57.624] [INFO] ma-core - get all posts success testing testing testing
+[2022-02-07T16:15:27.659] [INFO] ma-core - get all posts success testing testing testing
+[2022-02-07T16:15:57.685] [INFO] ma-core - get all posts success NaN post 1234
+[2022-02-07T16:22:27.942] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T16:22:27.946] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T16:22:57.981] [INFO] ma-core - get all posts success testing testing testing
+[2022-02-07T16:23:28.016] [INFO] ma-core - get all posts success NaN post 1234
+[2022-02-07T16:24:33.108] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T16:24:33.113] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T16:25:03.151] [INFO] ma-core - get all posts success testing testing testing
+[2022-02-07T16:25:33.183] [INFO] ma-core - get all posts success NaN post 1234
+[2022-02-07T16:30:44.306] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T16:30:44.310] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T16:31:14.348] [INFO] ma-core - get all posts success testing testing testing
+[2022-02-07T16:31:44.390] [INFO] ma-core - get all posts success NaN post 1234
+[2022-02-07T16:36:32.570] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-07T16:36:33.149] [INFO] ma-core - server started at port 5000
+[2022-02-07T16:36:33.167] [INFO] ma-core - mongodb conected
+[2022-02-07T16:36:37.672] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T16:36:37.676] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T16:37:07.706] [INFO] ma-core - get all posts success testing testing testing
+[2022-02-07T16:37:37.746] [INFO] ma-core - get all posts success NaN post 1234
+[2022-02-07T16:40:36.144] [INFO] ma-core - add post success testing testing testing
+[2022-02-07T16:40:36.148] [INFO] ma-core - add post success NaN post 1234
+[2022-02-07T16:41:06.181] [INFO] ma-core - get all posts success testing testing testing
+[2022-02-07T16:41:36.211] [INFO] ma-core - get all posts success NaN post 1234

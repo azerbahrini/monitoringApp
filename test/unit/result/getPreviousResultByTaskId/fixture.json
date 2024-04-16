@@ -1,0 +1,67 @@
+{
+  "foundResult": {
+    "files": [],
+    "_id": "609089fa2b4129e18b2c875e",
+    "host": "",
+    "dataSet":[],
+    "task": "SM51",
+    "createdAt": "2021-05-03T23:40:42.703Z",
+    "updatedAt": "2021-05-03T23:40:42.703Z",
+    "__v": 0,
+    "taskID": "6091cc36b651f8639221fa5c"
+  },
+  "map": [{ "map": "60905c242b412971d52c866c" }],
+  "taskList": [
+    {
+      "_id": "6091cc36b651f8639221fa5c",
+      "type": "Monitoring",
+      "globalStatus": "Good",
+      "state": "Done",
+      "request": "Pending",
+      "resultat": ["6091cc71b651f8487d21fa73"],
+      "title": "SM51",
+      "description": "SAP Transaction",
+      "map": "60905c242b412971d52c866c",
+      "user": "6089dae7c5a2a04910729391",
+      "system": "608beed8c5a2a0c3017294b9",
+      "etimatedStart": "2021-05-04T20:00:00.000Z",
+      "__v": 0,
+      "createdAt": "2022-07-04T22:35:34.663Z",
+      "updatedAt": "2021-05-04T22:36:33.222Z"
+    },
+    {
+      "_id": "6090871e2b41293a182c8755",
+      "type": "Monitoring",
+      "globalStatus": "Good",
+      "state": "Done",
+      "request": "Pending",
+      "resultat": ["609089fa2b4129e18b2c875e"],
+      "title": "SM51",
+      "description": "SAP Transaction",
+      "map": "60905c242b412971d52c866c",
+      "user": "6089dae7c5a2a04910729391",
+      "system": "608beed8c5a2a0c3017294b9",
+      "etimatedStart": "2021-05-04T00:00:00.000Z",
+      "__v": 0,
+      "createdAt": "2021-05-03T23:28:30.207Z",
+      "updatedAt": "2021-05-03T23:40:42.707Z"
+    },
+    {
+      "_id": "609061c32b4129d92a2c867c",
+      "type": "Monitoring",
+      "globalStatus": "Good",
+      "state": "Done",
+      "request": "Pending",
+      "resultat": ["60908dec2b41291bf62c876c"],
+      "title": "SM51",
+      "description": "SAP Transaction",
+      "map": "60905c242b412971d52c866c",
+      "user": "6089dae7c5a2a04910729391",
+      "system": "61540c9adc0963494418542d",
+      "__v": 0,
+      "createdAt": "2021-05-03T20:49:07.366Z",
+      "updatedAt": "2021-05-03T23:57:32.050Z",
+      "estimatedStart": "2021-11-16T12:00:00.000Z"
+    }
+  ]
+}

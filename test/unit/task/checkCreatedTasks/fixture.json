@@ -1,0 +1,63 @@
+{
+    "inputTasks":[
+        {
+          "title": "SMQ2",
+          "description": "SAP Transaction",
+          "type": "Monitoring",
+          "map": "616561f922324be1b2a84301",
+          "globalStatus": "Good",
+          "priority": null,
+          "estimatedStart": "2021-11-15T10:10:00+01:00",
+          "timeSpent": 0,
+          "state": "Pending",
+          "assignee": "61796b52032f032893db8ab1",
+          "system": {
+            "_id": "617fb85c383afb640346696f",
+            "name": "systemName",
+            "customer": { "_id": "617fb85c383afb640346697d",
+                "name": "cust8"}
+          },
+          "resultat": null
+        },
+        {
+            "title": "SMQ2",
+            "description": "SAP Transaction",
+            "type": "Monitoring",
+            "map": "616561f922324be1b2a84301",
+            "globalStatus": "Good",
+            "priority": null,
+            "estimatedStart": "2021-11-15T14:10:00+01:00",
+            "timeSpent": 0,
+            "state": "Pending",
+            "assignee": "61796b52032f032893db8ab1",
+            "system": {
+              "_id": "617fb85c383afb640346696f",
+              "name": "systemName",
+              "customer": { "_id": "617fb85c383afb640346697d",
+                  "name": "cust8"}
+            },
+            "resultat": null
+          }
+      ],
+      "outputTasks":[
+        {
+          "title": "SMQ2",
+          "description": "SAP Transaction",
+          "type": "Monitoring",
+          "map": "616561f922324be1b2a84301",
+          "globalStatus": "Good",
+          "priority": null,
+          "estimatedStart": "2021-11-15T10:10:00+01:00",
+          "timeSpent": 0,
+          "state": "Pending",
+          "assignee": "61796b52032f032893db8ab1",
+          "system": {
+            "_id": "617fb85c383afb640346696f",
+            "name": "systemName",
+            "customer": { "_id": "617fb85c383afb640346697d",
+                "name": "cust8"}
+          },
+          "resultat": null
+        }
+      ]
+}

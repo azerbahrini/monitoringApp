@@ -1,0 +1,453 @@
+openapi: 3.0.0
+info:
+  description: Module API
+  version: "1.0.0"
+  title: Module API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /module :
+    post:
+      summary: adds a Module
+      operationId: addModule
+      description: Add module
+      responses:
+        '201':
+          description: Module created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  title:
+                    type: string
+                    example: Jira
+                  path:
+                     type: string
+                     example: Jira  
+                  isBasic:
+                    type: boolean
+                    example: false
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required           
+                   
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+             - title
+             - path
+             properties:
+              title:
+               type: string
+               example: Jira
+              path:
+               type: string
+               example: Jira  
+        description: Module item to add
+  /module/getOne/{id}:
+    get:
+      summary: get a single Module
+      operationId: getOneModule
+      description: get Module by Id
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: return specific Module
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      title:
+                        type: string
+                        example: Jira
+                      path:
+                        type: string
+                        example: Jira  
+                      isBasic:
+                        type: boolean
+                        example: true  
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  
+                
+                    
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Module not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Module not found 
+  /module/getAll:
+    get:
+      summary: Get all Module
+      operationId: getAllModule
+      description: 
+        get all existantes Module
+      parameters:
+        - name: page
+          in: query
+          description: page number
+          required: true
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: return all Module
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Module'
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required  
+  /module/getAllBasic:
+    get:
+      summary: Get all basic Module
+      operationId: getAllBasicModule
+      description: 
+        get all existantes Module
+      parameters:
+        - name: page
+          in: query
+          description: page number
+          required: true
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: return all Module
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Module'
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required       
+  /module/{id}:
+    patch:
+      summary: update a single Module
+      description: update one module
+      operationId: updateModule
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Module'
+       
+          description: "updated module"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Module not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Module not found
+        "501":
+          description: "no error displayed"
+        
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                 type: string
+                 example: Jira
+                path:
+                 type: string
+                 example: Jira  
+    delete:  
+      summary: delete a single Module
+      description: delete one Module
+      operationId: deleteModule
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Module'
+          description: "deleted module"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no Module found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Module not found
+      
+components:
+  schemas:
+    Module:
+      type: object
+      required:
+        - id
+        - title
+        - path
+        - isBasic
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        title:
+          type: string
+          example: Jira
+        path:
+          type: string
+          example: Jira  
+        isBasic:
+          type: boolean
+          example: true
+          
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/hamma19/module-api/1.0.0

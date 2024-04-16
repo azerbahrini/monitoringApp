@@ -1,0 +1,312 @@
+openapi: 3.0.0
+info:
+  description: RoleHistory API
+  version: 1.0.0-oas3
+  title: RoleHistory
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/roleHIstory/roleHistory-2.0.html
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /roleHistory:
+    get:
+      summary: Get all roleHistory
+      operationId: getAllroleHistory
+      parameters:
+      - name: page
+        in: query
+        description: page number
+        required: true
+        schema:
+         type: integer
+         format: int32
+      - name: size
+        in: query
+        description: number of elements
+        required: true
+        schema:
+         type: integer
+         format: int32
+      description: get all existantes roleHIstory in the system
+      responses:
+        '200':
+          description: return all roleHistory
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/RoleHistory"
+                      totalDocs:
+                        type: number
+                        example: 42
+                      offset:
+                        type: number
+                        example: 40
+                      limit:
+                        type: number
+                        example: 5
+                      totalPages:
+                        type: number
+                        example: 9
+                      page:
+                        type: number
+                        example: 9
+                      pagingCounter:
+                        type: number
+                        example: 41
+                      hasPrevPage:
+                        type: boolean
+                        example: true
+                      hasNextPage:
+                        type: boolean
+                        example: false
+                      prevPage:
+                        type: number
+                        example: 8
+                      nextPage:
+                        type: string
+                        example: null
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a roleHistory
+      operationId: addroleHistory
+      description: Adds roleHistory to the system
+      responses:
+        '201':
+          description: roleHistory created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  type:
+                    type: string
+                    example: Jira
+                  active:
+                    type: boolean
+                    example: true
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - user
+                - Role
+                - startDate
+                - endDate
+              properties:
+                type:
+                  type: string
+                  example: Jira
+                active:
+                  type: boolean
+        description: roleHistory item to add
+  /roleHistory/{id}:
+    get:
+      summary: get a roleHistory
+      operationId: getOneRoleHistory
+      description: get roleHistory by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: return specific roleHistory
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  user:
+                    type: string
+                    format: uuid
+                  Role:
+                    type: string
+                    format: uuid
+                  startDate:
+                    type: string
+                    example: 2021-01-30T00:30
+                  endDate:
+                    type: string
+                    example: 2021-01-30T00:30
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: roleHistory not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: roleHistory not found
+    patch:
+      summary: update a single roleHistory
+      description: update one roleHistory
+      operationId: updateRoleHistory
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RoleHistory'
+          description: updated roleHistory
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: roleHistory not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: roleHistory not found
+        '501':
+          description: no error displayed
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user:
+                  type: string
+                  format: uuid
+                Role:
+                  type: string
+                  format: uuid
+                startDate:
+                  type: string
+                  example: 2021-01-30T00:30
+                endDate:
+                  type: string
+                  example: 2021-01-30T00:30
+components:
+  schemas:
+    RoleHistory:
+      type: object
+      required:
+        - id
+        - user
+        - Role
+        - startDate
+        - endDate
+      properties:
+        id:
+          type: string
+          example: 60edffc2370e9734982cc555
+        user:
+          type: string
+          format: uuid
+        Role:
+          type: string
+          format: uuid
+        startDate:
+          type: string
+          example: 2021-01-30T00:30
+        endDate:
+          type: string
+          example: 2021-01-30T00:30

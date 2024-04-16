@@ -1,0 +1,32 @@
+{
+    "ModuleDataTest":{
+        "_id":"60ee0042d9b53b3e084209f5",
+        "title":"labelExemple",
+        "path":"pathExemple"
+    },
+    "ModuleDataTestWithoutID":{
+        "title":"labelExemple",
+        "path":"pathExemple"
+    },
+    "wrongModuleDataTest":{
+        "title":"labelExemple",
+        "path":"pathExemple",
+        "randomProperty":"value"
+    },
+    "wrongID":"60ee0042d9b53b3e084209f6",
+    "emptyModuleDataTest":{},
+    "arrayofModules":[
+        {   "_id":"60ee0042d9b53b3e084209f5",
+            "title":"labelExemple",
+            "path":"pathExemple"
+        },
+        {   "_id":"60ee0042d9b53b3e084209f6",
+            "title":"labelExemple",
+            "path":"pathExemple"
+        },
+        {   "_id":"60ee0042d9b53b3e084209f7",
+            "title":"labelExemple",
+             "path":"pathExemple"
+        }   
+    ]
+}

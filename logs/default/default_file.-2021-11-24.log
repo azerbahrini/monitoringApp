@@ -1,0 +1,1650 @@
+[2021-11-24T08:23:14.933] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T08:23:14.954] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T08:27:25.021] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T08:27:25.043] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T08:27:47.736] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T08:27:47.758] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T08:28:10.351] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T08:28:10.374] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T08:28:34.116] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T08:28:34.138] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T08:28:50.121] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T08:28:50.142] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T08:29:04.655] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T08:29:04.678] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T10:18:20.866] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T10:18:21.315] [INFO] ma-core - server started at port 5000
+[2021-11-24T10:18:21.315] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T10:18:21.332] [INFO] ma-core - mongodb conected
+[2021-11-24T11:10:00.736] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:10:01.227] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:10:01.228] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:10:01.247] [INFO] ma-core - mongodb conected
+[2021-11-24T11:10:11.097] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:10:11.118] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:10:42.226] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:10:42.658] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:10:42.658] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:10:42.677] [INFO] ma-core - mongodb conected
+[2021-11-24T11:11:07.272] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:11:07.703] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:11:07.704] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:11:07.721] [INFO] ma-core - mongodb conected
+[2021-11-24T11:11:14.434] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:11:14.457] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:12:04.006] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:12:04.028] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:17:55.524] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:17:55.930] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:17:55.930] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:17:55.947] [INFO] ma-core - mongodb conected
+[2021-11-24T11:18:02.516] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:18:02.538] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:18:17.754] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:18:18.167] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:18:18.168] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:18:18.185] [INFO] ma-core - mongodb conected
+[2021-11-24T11:20:38.996] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:20:39.409] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:20:39.410] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:20:39.427] [INFO] ma-core - mongodb conected
+[2021-11-24T11:20:44.381] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:20:44.404] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:22:03.388] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:22:03.796] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:22:03.797] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:22:03.815] [INFO] ma-core - mongodb conected
+[2021-11-24T11:24:26.935] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:24:27.375] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:24:27.375] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:24:27.394] [INFO] ma-core - mongodb conected
+[2021-11-24T11:24:36.714] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:24:36.735] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:26:06.112] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:26:06.540] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:26:06.540] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:26:06.559] [INFO] ma-core - mongodb conected
+[2021-11-24T11:26:10.712] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:26:10.734] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:32:15.379] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:32:15.797] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:32:15.797] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:32:15.815] [INFO] ma-core - mongodb conected
+[2021-11-24T11:33:04.747] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:33:05.166] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:33:05.166] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:33:05.184] [INFO] ma-core - mongodb conected
+[2021-11-24T11:33:29.520] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:33:29.943] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:33:29.943] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:33:29.960] [INFO] ma-core - mongodb conected
+[2021-11-24T11:33:35.406] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:33:35.825] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:33:35.825] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:33:35.844] [INFO] ma-core - mongodb conected
+[2021-11-24T11:37:44.325] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:37:44.885] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:37:44.885] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:37:44.906] [INFO] ma-core - mongodb conected
+[2021-11-24T11:37:44.965] [INFO] ma-core - add Client success testing testing testing
+[2021-11-24T11:37:44.967] [ERROR] ma-core - add Client :missing property testing testing testing
+[2021-11-24T11:37:44.968] [ERROR] ma-core - add Client :missing property NaN post 1234
+[2021-11-24T11:37:44.980] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/delete/deleteClient.service.test.js:62:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:44.982] [ERROR] ma-core - Delete Error : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/delete/deleteClient.service.test.js:72:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.006] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/getClientsBySystemId/getAllBySystemServiceTest.js:49:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.013] [ERROR] ma-core - Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/update/updateClient.service.test.js:70:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.025] [INFO] ma-core - get all Customer success testing testing testing
+[2021-11-24T11:37:45.026] [INFO] ma-core - get all Customer success NaN post 1234
+[2021-11-24T11:37:45.027] [INFO] ma-core - get all Customer success testing testing testing
+[2021-11-24T11:37:45.029] [INFO] ma-core - get all Customer error testing testing testing
+[2021-11-24T11:37:45.030] [INFO] ma-core - get all Customer error NaN post 1234
+[2021-11-24T11:37:45.035] [INFO] ma-core - get Customer success testing testing testing
+[2021-11-24T11:37:45.037] [INFO] ma-core - get Customer error testing testing testing
+[2021-11-24T11:37:45.041] [ERROR] ma-core - Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/customer/getById/getByIdCustomer.service.test.js:88:24)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.043] [INFO] ma-core - add customer success testing testing testing
+[2021-11-24T11:37:45.045] [ERROR] ma-core - add customer fail :missing property testing testing testing
+[2021-11-24T11:37:45.143] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/delete/deleteHost.service.test.js:72:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.150] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/getAllBySystem/getAllBySystemServiceTest.js:49:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.156] [ERROR] ma-core - Get by ID Error : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/getById/getByIdHost.service.test.js:58:24)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.162] [ERROR] ma-core - expected findOneAndUpdate to have been called exactly once, but it was called 0 times
+[2021-11-24T11:37:45.170] [ERROR] ma-core - Update Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/update/updateHost.service.test.js:79:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:43.644] [INFO] ma-core - cancel itOperation success testing testing testing
+[2021-11-24T11:37:43.644] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:37:43.645] [INFO] ma-core - finish itOperation success testing testing testing
+[2021-11-24T11:37:43.645] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:37:45.181] [INFO] ma-core - get All Active itOperation success testing testing testing
+[2021-11-24T11:37:45.185] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2021-11-24T11:37:45.194] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.202] [INFO] ma-core - add ItOperation success testing testing testing
+[2021-11-24T11:37:45.203] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2021-11-24T11:37:43.657] [INFO] ma-core - remind itOperation success testing testing testing
+[2021-11-24T11:37:43.657] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:37:43.658] [INFO] ma-core - send changes itOperation success testing testing testing
+[2021-11-24T11:37:43.658] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:37:45.216] [INFO] ma-core - update itOperation success testing testing testing
+[2021-11-24T11:37:45.217] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:37:45.241] [INFO] ma-core - delete licence success testing testing testing
+[2021-11-24T11:37:45.242] [INFO] ma-core - delete licence success NaN post 1234
+[2021-11-24T11:37:45.243] [ERROR] ma-core - delete Licence :licence not found testing testing testing
+[2021-11-24T11:37:45.244] [ERROR] ma-core - delete Licence :licence not found NaN post 1234
+[2021-11-24T11:37:45.250] [INFO] ma-core - get latest customer licence By Id success testing testing testing
+[2021-11-24T11:37:45.251] [INFO] ma-core - get latest customer licence By Id success NaN post 1234
+[2021-11-24T11:37:45.253] [ERROR] ma-core - get licence By Id :Missing Customer ID NaN post 1234
+[2021-11-24T11:37:45.254] [ERROR] ma-core - get licence By Id :Missing Customer ID testing testing testing
+[2021-11-24T11:37:45.255] [ERROR] ma-core - get licence By Id :licence not found testing testing testing
+[2021-11-24T11:37:45.256] [ERROR] ma-core - get licence By Id :licence not found NaN post 1234
+[2021-11-24T11:37:45.259] [ERROR] ma-core - Error occur while Getting Licence By Customer Id : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/licence/getActiveLicence/getActiveLIcenceServiceTest.js:52:17)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.263] [ERROR] ma-core - Error occur while Getting Licence By Customer Id : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/licence/getByCustomer/getByCustomerLicence.service.test.js:61:17)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.266] [INFO] ma-core - get licence By Id success testing testing testing
+[2021-11-24T11:37:45.267] [INFO] ma-core - get licence By Id success NaN post 1234
+[2021-11-24T11:37:45.269] [ERROR] ma-core - get licence By Id :licence not found testing testing testing
+[2021-11-24T11:37:45.270] [ERROR] ma-core - get licence By Id :licence not found NaN post 1234
+[2021-11-24T11:37:45.277] [INFO] ma-core - add Licence success testing testing testing
+[2021-11-24T11:37:45.281] [INFO] ma-core - add Licence success NaN post 1234
+[2021-11-24T11:37:45.283] [ERROR] ma-core - add Licence :missing property testing testing testing
+[2021-11-24T11:37:45.284] [ERROR] ma-core - add Licence :missing property NaN post 1234
+[2021-11-24T11:37:45.292] [INFO] ma-core - update licence By Customer success testing testing testing
+[2021-11-24T11:37:45.293] [INFO] ma-core - update licence By Customer success NaN post 1234
+[2021-11-24T11:37:45.295] [ERROR] ma-core - update licence By Customer :licence not found testing testing testing
+[2021-11-24T11:37:45.296] [ERROR] ma-core - update licence By Customer :licence not found NaN post 1234
+[2021-11-24T11:37:45.309] [ERROR] ma-core - delete Map By Id :MAP not found testing testing testing
+[2021-11-24T11:37:45.311] [ERROR] ma-core - delete Map By Id :missing ID testing testing testing
+[2021-11-24T11:37:45.328] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/map/getAllBySystem/getAllBySystemServiceTest.js:52:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.348] [INFO] ma-core - delete module success testing testing testing
+[2021-11-24T11:37:45.350] [INFO] ma-core - delete module success NaN post 1234
+[2021-11-24T11:37:45.351] [ERROR] ma-core - delete Module :module not found testing testing testing
+[2021-11-24T11:37:45.352] [ERROR] ma-core - delete Module :module not found NaN post 1234
+[2021-11-24T11:37:45.354] [ERROR] ma-core - delete Module :missing ID testing testing testing
+[2021-11-24T11:37:45.355] [ERROR] ma-core - delete Module :missing ID testing testing testing
+[2021-11-24T11:37:45.360] [INFO] ma-core - get All Basic Module success testing testing testing
+[2021-11-24T11:37:45.361] [INFO] ma-core - get All Basic Module success NaN post 1234
+[2021-11-24T11:37:45.364] [ERROR] ma-core - get All Basic Module :missing property testing testing testing
+[2021-11-24T11:37:45.365] [ERROR] ma-core - get All Basic Module :missing property NaN post 1234
+[2021-11-24T11:37:45.366] [INFO] ma-core - get All Module success testing testing testing
+[2021-11-24T11:37:45.370] [INFO] ma-core - get All Module success NaN post 1234
+[2021-11-24T11:37:45.372] [ERROR] ma-core - get All Module :missing property testing testing testing
+[2021-11-24T11:37:45.374] [ERROR] ma-core - get All Module :missing property NaN post 1234
+[2021-11-24T11:37:45.378] [INFO] ma-core - get module By Id success testing testing testing
+[2021-11-24T11:37:45.379] [INFO] ma-core - get module By Id success NaN post 1234
+[2021-11-24T11:37:45.381] [ERROR] ma-core - get module By Id :module not found testing testing testing
+[2021-11-24T11:37:45.382] [ERROR] ma-core - get module By Id :module not found testing testing testing
+[2021-11-24T11:37:45.384] [ERROR] ma-core - get module By Id :module not found NaN post 1234
+[2021-11-24T11:37:45.391] [INFO] ma-core - add Module success testing testing testing
+[2021-11-24T11:37:45.393] [INFO] ma-core - add Module success NaN post 1234
+[2021-11-24T11:37:45.394] [ERROR] ma-core - add Module :missing property testing testing testing
+[2021-11-24T11:37:45.396] [ERROR] ma-core - add Module :missing property NaN post 1234
+[2021-11-24T11:37:45.401] [INFO] ma-core - update module By Customer success testing testing testing
+[2021-11-24T11:37:45.402] [INFO] ma-core - update module By Customer success NaN post 1234
+[2021-11-24T11:37:45.404] [ERROR] ma-core - update module By Customer :module not found testing testing testing
+[2021-11-24T11:37:45.405] [ERROR] ma-core - update module By Customer :module not found testing testing testing
+[2021-11-24T11:37:45.407] [ERROR] ma-core - update module By Customer :module not found NaN post 1234
+[2021-11-24T11:37:45.475] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-11-24T11:37:45.476] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-11-24T11:37:45.477] [INFO] ma-core - get All nomenclature success NaN post 1234
+[2021-11-24T11:37:45.478] [ERROR] ma-core - get All nomenclature :get All nomenclature : testing testing testing
+[2021-11-24T11:37:45.480] [ERROR] ma-core - get All nomenclature :get All nomenclature : NaN post 1234
+[2021-11-24T11:37:45.501] [INFO] ma-core - delete Role success testing testing testing
+[2021-11-24T11:37:45.502] [INFO] ma-core - delete Role success NaN post 1234
+[2021-11-24T11:37:45.503] [ERROR] ma-core - delete Role :role not found testing testing testing
+[2021-11-24T11:37:45.504] [ERROR] ma-core - delete Role :role not found NaN post 1234
+[2021-11-24T11:37:45.506] [ERROR] ma-core - delete Role :missing ID testing testing testing
+[2021-11-24T11:37:45.507] [ERROR] ma-core - delete Role :missing ID testing testing testing
+[2021-11-24T11:37:45.513] [INFO] ma-core - get All Role success testing testing testing
+[2021-11-24T11:37:45.515] [INFO] ma-core - get All Role success NaN post 1234
+[2021-11-24T11:37:45.517] [ERROR] ma-core - get All Role :missing property testing testing testing
+[2021-11-24T11:37:45.519] [ERROR] ma-core - get All Role :missing property NaN post 1234
+[2021-11-24T11:37:45.522] [INFO] ma-core - get by id Role success testing testing testing
+[2021-11-24T11:37:45.524] [INFO] ma-core - get by id Role success NaN post 1234
+[2021-11-24T11:37:45.525] [ERROR] ma-core - get by id Role :role not found testing testing testing
+[2021-11-24T11:37:45.526] [ERROR] ma-core - get by id Role :role not found testing testing testing
+[2021-11-24T11:37:45.529] [ERROR] ma-core - get by id Role :role not found NaN post 1234
+[2021-11-24T11:37:45.537] [INFO] ma-core - get by user Role success testing testing testing
+[2021-11-24T11:37:45.538] [INFO] ma-core - get by user Role success NaN get 1234
+[2021-11-24T11:37:45.542] [ERROR] ma-core - get by user Role :user not found testing testing testing
+[2021-11-24T11:37:45.543] [ERROR] ma-core - get by user Role :role not found testing testing testing
+[2021-11-24T11:37:45.545] [ERROR] ma-core - get by user Role :role not found NaN get 1234
+[2021-11-24T11:37:45.547] [INFO] ma-core - add Role success testing testing testing
+[2021-11-24T11:37:45.549] [ERROR] ma-core - add Role :missing property testing testing testing
+[2021-11-24T11:37:45.551] [INFO] ma-core - add Role success NaN post 1234
+[2021-11-24T11:37:45.552] [ERROR] ma-core - add Role :missing property NaN post 1234
+[2021-11-24T11:37:45.561] [INFO] ma-core - update Role success testing testing testing
+[2021-11-24T11:37:45.562] [INFO] ma-core - update Role success NaN post 1234
+[2021-11-24T11:37:45.563] [ERROR] ma-core - update Role :role not found testing testing testing
+[2021-11-24T11:37:45.564] [ERROR] ma-core - update Role :role not found testing testing testing
+[2021-11-24T11:37:45.566] [ERROR] ma-core - update Role :role not found NaN post 1234
+[2021-11-24T11:37:45.572] [INFO] ma-core - add Role History success testing testing testing
+[2021-11-24T11:37:45.573] [INFO] ma-core - add Role History success NaN post 1234
+[2021-11-24T11:37:45.574] [ERROR] ma-core - add Client :missing property testing testing testing
+[2021-11-24T11:37:45.576] [ERROR] ma-core - add Client :missing property NaN post 1234
+[2021-11-24T11:37:45.593] [ERROR] ma-core - 
+[2021-11-24T11:37:45.608] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:37:45.629] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:37:45.652] [INFO] ma-core - delete sla success testing testing testing
+[2021-11-24T11:37:45.653] [INFO] ma-core - delete sla success NaN post 1234
+[2021-11-24T11:37:45.654] [ERROR] ma-core - delete Sla :sla not found testing testing testing
+[2021-11-24T11:37:45.655] [ERROR] ma-core - delete Sla :sla not found testing testing testing
+[2021-11-24T11:37:45.658] [ERROR] ma-core - delete Sla :sla not found NaN post 1234
+[2021-11-24T11:37:45.663] [INFO] ma-core - get sla By Id success testing testing testing
+[2021-11-24T11:37:45.664] [INFO] ma-core - get sla By Id success NaN post 1234
+[2021-11-24T11:37:45.666] [ERROR] ma-core - get sla By Id :sla not found testing testing testing
+[2021-11-24T11:37:45.668] [ERROR] ma-core - get sla By Id :sla not found testing testing testing
+[2021-11-24T11:37:45.669] [ERROR] ma-core - get sla By Id :sla not found NaN post 1234
+[2021-11-24T11:37:45.675] [ERROR] ma-core - Error occur while Getting Sla By slaContract Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/sla/getByslaContract/getslaBySlaContract.service.test.js:35:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.681] [INFO] ma-core - add Sla success testing testing testing
+[2021-11-24T11:37:45.683] [INFO] ma-core - add Sla success NaN post 1234
+[2021-11-24T11:37:45.684] [ERROR] ma-core - add Sla :missing property testing testing testing
+[2021-11-24T11:37:45.686] [ERROR] ma-core - add Sla :missing property NaN post 1234
+[2021-11-24T11:37:45.699] [INFO] ma-core - update sla By SlaContract success testing testing testing
+[2021-11-24T11:37:45.701] [INFO] ma-core - update sla By SlaContract success NaN post 1234
+[2021-11-24T11:37:45.703] [ERROR] ma-core - update sla By SlaContract :sla not found testing testing testing
+[2021-11-24T11:37:45.704] [ERROR] ma-core - update sla By SlaContract :sla not found testing testing testing
+[2021-11-24T11:37:45.706] [ERROR] ma-core - update sla By SlaContract :sla not found NaN post 1234
+[2021-11-24T11:37:45.712] [INFO] ma-core - delete slaContract success testing testing testing
+[2021-11-24T11:37:45.713] [INFO] ma-core - delete slaContract success NaN post 1234
+[2021-11-24T11:37:45.715] [ERROR] ma-core - delete SlaContract :slaContract not found testing testing testing
+[2021-11-24T11:37:45.716] [ERROR] ma-core - delete SlaContract :slaContract not found NaN post 1234
+[2021-11-24T11:37:45.726] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/slaContract/getAllSlaContractByCustomerId/getAllSlaContractByCustomerIdServiceTest.js:56:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.728] [INFO] ma-core - get slaContract By Customer success testing testing testing
+[2021-11-24T11:37:45.732] [INFO] ma-core - get slaContract By Customer success NaN post 1234
+[2021-11-24T11:37:45.734] [ERROR] ma-core - get slaContract By Customer :customer not found testing testing testing
+[2021-11-24T11:37:45.736] [ERROR] ma-core - get slaContract By Customer :customer not found NaN post 1234
+[2021-11-24T11:37:45.737] [INFO] ma-core - get slaContract By Id success testing testing testing
+[2021-11-24T11:37:45.739] [INFO] ma-core - get slaContract By Id success NaN post 1234
+[2021-11-24T11:37:45.740] [ERROR] ma-core - get slaContract By Id :slaContract not found testing testing testing
+[2021-11-24T11:37:45.741] [ERROR] ma-core - get slaContract By Id :slaContract not found NaN post 1234
+[2021-11-24T11:37:45.746] [INFO] ma-core - add SlaContract success testing testing testing
+[2021-11-24T11:37:45.750] [INFO] ma-core - add SlaContract success NaN post 1234
+[2021-11-24T11:37:45.751] [ERROR] ma-core - add SlaContract :missing property testing testing testing
+[2021-11-24T11:37:45.753] [ERROR] ma-core - add SlaContract :missing property NaN post 1234
+[2021-11-24T11:37:45.760] [INFO] ma-core - update slaContract By Customer success testing testing testing
+[2021-11-24T11:37:45.761] [INFO] ma-core - update slaContract By Customer success NaN post 1234
+[2021-11-24T11:37:45.763] [ERROR] ma-core - update slaContract By Customer :slaContract not found testing testing testing
+[2021-11-24T11:37:45.764] [ERROR] ma-core - update slaContract By Customer :slaContract not found NaN post 1234
+[2021-11-24T11:37:45.858] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getAllSystemByCustomerId/getAllSystemByCustomerIdServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.879] [ERROR] ma-core - Get Categories by Customer ID and Type ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getCategoryByTypesByCustomer/getCategoryByTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.907] [ERROR] ma-core - Get types by Customer ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getTypeByCustomer/getTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:37:45.940] [INFO] ma-core - get All Task success testing testing testing
+[2021-11-24T11:37:45.942] [INFO] ma-core - get All Task success NaN post 1234
+[2021-11-24T11:37:45.945] [INFO] ma-core - get by id Task success testing testing testing
+[2021-11-24T11:37:45.946] [INFO] ma-core - get by id Task success NaN post 1234
+[2021-11-24T11:37:45.948] [ERROR] ma-core - get by id Task :task not found testing testing testing
+[2021-11-24T11:37:45.949] [ERROR] ma-core - get by id Task :task not found NaN post 1234
+[2021-11-24T11:37:45.958] [INFO] ma-core - get All Task By ID success testing testing testing
+[2021-11-24T11:37:45.973] [INFO] ma-core - get All Task success testing testing testing
+[2021-11-24T11:37:45.990] [INFO] ma-core - add Task success testing testing testing
+[2021-11-24T11:37:45.992] [INFO] ma-core - add Task success NaN post 1234
+[2021-11-24T11:37:45.993] [ERROR] ma-core - add Task :missing property testing testing testing
+[2021-11-24T11:37:45.994] [ERROR] ma-core - add Task :missing property NaN post 1234
+[2021-11-24T11:37:46.000] [INFO] ma-core - add Many Task success testing testing testing
+[2021-11-24T11:37:46.001] [INFO] ma-core - add Many Task success NaN post 1234
+[2021-11-24T11:37:46.002] [ERROR] ma-core - add Many Task :missing property testing testing testing
+[2021-11-24T11:37:46.004] [ERROR] ma-core - add Many Task :missing property NaN post 1234
+[2021-11-24T11:37:46.011] [INFO] ma-core - update Task success testing testing testing
+[2021-11-24T11:37:46.013] [INFO] ma-core - update Task success NaN post 1234
+[2021-11-24T11:37:46.014] [ERROR] ma-core - update Task :task not found testing testing testing
+[2021-11-24T11:37:46.016] [ERROR] ma-core - update Task :task not found NaN post 1234
+[2021-11-24T11:37:46.022] [INFO] ma-core - Update Task Assignee success testing testing testing
+[2021-11-24T11:37:46.023] [INFO] ma-core - Update Task Assignee Incomplete testing testing testing
+[2021-11-24T11:37:46.025] [ERROR] ma-core - Update Task Assignee :task not found testing testing testing
+[2021-11-24T11:37:46.033] [INFO] ma-core - Canceled the Task testing testing testing
+[2021-11-24T11:37:46.034] [INFO] ma-core - Canceled the Task NaN post 1234
+[2021-11-24T11:37:46.038] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task testing testing testing
+[2021-11-24T11:37:46.039] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task NaN post 1234
+[2021-11-24T11:37:46.041] [INFO] ma-core - Deleted the Task testing testing testing
+[2021-11-24T11:37:46.042] [INFO] ma-core - Deleted the Task NaN post 1234
+[2021-11-24T11:37:46.046] [ERROR] ma-core - Failed to delete the Task :failed to update the task testing testing testing
+[2021-11-24T11:37:46.048] [ERROR] ma-core - Failed to delete the Task :failed to update the task NaN post 1234
+[2021-11-24T11:37:46.050] [INFO] ma-core - Finished the Task testing testing testing
+[2021-11-24T11:37:46.052] [INFO] ma-core - Finished the Task NaN post 1234
+[2021-11-24T11:37:46.056] [ERROR] ma-core - Failed to finish the Task :failed to update the task testing testing testing
+[2021-11-24T11:37:46.057] [ERROR] ma-core - Failed to finish the Task :failed to update the task NaN post 1234
+[2021-11-24T11:37:46.060] [INFO] ma-core - Rejected the Task testing testing testing
+[2021-11-24T11:37:46.062] [INFO] ma-core - Rejected the Task NaN post 1234
+[2021-11-24T11:37:46.066] [ERROR] ma-core - Failed to reject the Task :failed to update the task testing testing testing
+[2021-11-24T11:37:46.067] [ERROR] ma-core - Failed to reject the Task :failed to update the task NaN post 1234
+[2021-11-24T11:37:46.069] [INFO] ma-core - Started the Task testing testing testing
+[2021-11-24T11:37:46.073] [INFO] ma-core - Started the Task NaN post 1234
+[2021-11-24T11:37:46.078] [ERROR] ma-core - Failed to start the Task :failed to update the task testing testing testing
+[2021-11-24T11:37:46.079] [ERROR] ma-core - Failed to start the Task :failed to update the task NaN post 1234
+[2021-11-24T11:37:46.082] [INFO] ma-core - Validated the Task testing testing testing
+[2021-11-24T11:37:46.084] [INFO] ma-core - Validated the Task NaN post 1234
+[2021-11-24T11:37:46.089] [ERROR] ma-core - Failed to validate the Task :failed to update the task testing testing testing
+[2021-11-24T11:37:46.091] [ERROR] ma-core - Failed to validate the Task :failed to update the task NaN post 1234
+[2021-11-24T11:37:46.167] [ERROR] ma-core - random Error
+[2021-11-24T11:37:46.724] [ERROR] ma-core - random error
+[2021-11-24T11:38:29.557] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:38:29.579] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:39:54.487] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:39:54.509] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:40:42.625] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:40:43.193] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:40:43.193] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:40:43.213] [INFO] ma-core - mongodb conected
+[2021-11-24T11:40:43.273] [INFO] ma-core - add Client success testing testing testing
+[2021-11-24T11:40:43.275] [ERROR] ma-core - add Client :missing property testing testing testing
+[2021-11-24T11:40:43.276] [ERROR] ma-core - add Client :missing property NaN post 1234
+[2021-11-24T11:40:43.288] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/delete/deleteClient.service.test.js:62:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.290] [ERROR] ma-core - Delete Error : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/delete/deleteClient.service.test.js:72:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.313] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/getClientsBySystemId/getAllBySystemServiceTest.js:49:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.321] [ERROR] ma-core - Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/update/updateClient.service.test.js:70:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.333] [INFO] ma-core - get all Customer success testing testing testing
+[2021-11-24T11:40:43.334] [INFO] ma-core - get all Customer success NaN post 1234
+[2021-11-24T11:40:43.335] [INFO] ma-core - get all Customer success testing testing testing
+[2021-11-24T11:40:43.337] [INFO] ma-core - get all Customer error testing testing testing
+[2021-11-24T11:40:43.338] [INFO] ma-core - get all Customer error NaN post 1234
+[2021-11-24T11:40:43.344] [INFO] ma-core - get Customer success testing testing testing
+[2021-11-24T11:40:43.345] [INFO] ma-core - get Customer error testing testing testing
+[2021-11-24T11:40:43.350] [ERROR] ma-core - Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/customer/getById/getByIdCustomer.service.test.js:88:24)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.352] [INFO] ma-core - add customer success testing testing testing
+[2021-11-24T11:40:43.354] [ERROR] ma-core - add customer fail :missing property testing testing testing
+[2021-11-24T11:40:43.451] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/delete/deleteHost.service.test.js:72:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.459] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/getAllBySystem/getAllBySystemServiceTest.js:49:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.465] [ERROR] ma-core - Get by ID Error : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/getById/getByIdHost.service.test.js:58:24)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.470] [ERROR] ma-core - expected findOneAndUpdate to have been called exactly once, but it was called 0 times
+[2021-11-24T11:40:43.479] [ERROR] ma-core - Update Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/update/updateHost.service.test.js:79:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:41.931] [INFO] ma-core - cancel itOperation success testing testing testing
+[2021-11-24T11:40:41.931] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:40:41.932] [INFO] ma-core - finish itOperation success testing testing testing
+[2021-11-24T11:40:41.932] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:40:43.490] [INFO] ma-core - get All Active itOperation success testing testing testing
+[2021-11-24T11:40:43.493] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2021-11-24T11:40:43.502] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.510] [INFO] ma-core - add ItOperation success testing testing testing
+[2021-11-24T11:40:43.512] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2021-11-24T11:40:41.944] [INFO] ma-core - remind itOperation success testing testing testing
+[2021-11-24T11:40:41.944] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:40:41.946] [INFO] ma-core - send changes itOperation success testing testing testing
+[2021-11-24T11:40:41.946] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:40:43.525] [INFO] ma-core - update itOperation success testing testing testing
+[2021-11-24T11:40:43.526] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:40:43.552] [INFO] ma-core - delete licence success testing testing testing
+[2021-11-24T11:40:43.553] [INFO] ma-core - delete licence success NaN post 1234
+[2021-11-24T11:40:43.555] [ERROR] ma-core - delete Licence :licence not found testing testing testing
+[2021-11-24T11:40:43.556] [ERROR] ma-core - delete Licence :licence not found NaN post 1234
+[2021-11-24T11:40:43.562] [INFO] ma-core - get latest customer licence By Id success testing testing testing
+[2021-11-24T11:40:43.563] [INFO] ma-core - get latest customer licence By Id success NaN post 1234
+[2021-11-24T11:40:43.565] [ERROR] ma-core - get licence By Id :Missing Customer ID NaN post 1234
+[2021-11-24T11:40:43.566] [ERROR] ma-core - get licence By Id :Missing Customer ID testing testing testing
+[2021-11-24T11:40:43.567] [ERROR] ma-core - get licence By Id :licence not found testing testing testing
+[2021-11-24T11:40:43.569] [ERROR] ma-core - get licence By Id :licence not found NaN post 1234
+[2021-11-24T11:40:43.573] [ERROR] ma-core - Error occur while Getting Licence By Customer Id : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/licence/getActiveLicence/getActiveLIcenceServiceTest.js:52:17)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.576] [ERROR] ma-core - Error occur while Getting Licence By Customer Id : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/licence/getByCustomer/getByCustomerLicence.service.test.js:61:17)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.580] [INFO] ma-core - get licence By Id success testing testing testing
+[2021-11-24T11:40:43.581] [INFO] ma-core - get licence By Id success NaN post 1234
+[2021-11-24T11:40:43.583] [ERROR] ma-core - get licence By Id :licence not found testing testing testing
+[2021-11-24T11:40:43.584] [ERROR] ma-core - get licence By Id :licence not found NaN post 1234
+[2021-11-24T11:40:43.592] [INFO] ma-core - add Licence success testing testing testing
+[2021-11-24T11:40:43.596] [INFO] ma-core - add Licence success NaN post 1234
+[2021-11-24T11:40:43.597] [ERROR] ma-core - add Licence :missing property testing testing testing
+[2021-11-24T11:40:43.599] [ERROR] ma-core - add Licence :missing property NaN post 1234
+[2021-11-24T11:40:43.608] [INFO] ma-core - update licence By Customer success testing testing testing
+[2021-11-24T11:40:43.610] [INFO] ma-core - update licence By Customer success NaN post 1234
+[2021-11-24T11:40:43.611] [ERROR] ma-core - update licence By Customer :licence not found testing testing testing
+[2021-11-24T11:40:43.613] [ERROR] ma-core - update licence By Customer :licence not found NaN post 1234
+[2021-11-24T11:40:43.627] [ERROR] ma-core - delete Map By Id :MAP not found testing testing testing
+[2021-11-24T11:40:43.628] [ERROR] ma-core - delete Map By Id :missing ID testing testing testing
+[2021-11-24T11:40:43.648] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/map/getAllBySystem/getAllBySystemServiceTest.js:52:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:43.669] [INFO] ma-core - delete module success testing testing testing
+[2021-11-24T11:40:43.671] [INFO] ma-core - delete module success NaN post 1234
+[2021-11-24T11:40:43.672] [ERROR] ma-core - delete Module :module not found testing testing testing
+[2021-11-24T11:40:43.673] [ERROR] ma-core - delete Module :module not found NaN post 1234
+[2021-11-24T11:40:43.676] [ERROR] ma-core - delete Module :missing ID testing testing testing
+[2021-11-24T11:40:43.677] [ERROR] ma-core - delete Module :missing ID testing testing testing
+[2021-11-24T11:40:43.682] [INFO] ma-core - get All Basic Module success testing testing testing
+[2021-11-24T11:40:43.683] [INFO] ma-core - get All Basic Module success NaN post 1234
+[2021-11-24T11:40:43.686] [ERROR] ma-core - get All Basic Module :missing property testing testing testing
+[2021-11-24T11:40:43.687] [ERROR] ma-core - get All Basic Module :missing property NaN post 1234
+[2021-11-24T11:40:43.689] [INFO] ma-core - get All Module success testing testing testing
+[2021-11-24T11:40:43.693] [INFO] ma-core - get All Module success NaN post 1234
+[2021-11-24T11:40:43.694] [ERROR] ma-core - get All Module :missing property testing testing testing
+[2021-11-24T11:40:43.696] [ERROR] ma-core - get All Module :missing property NaN post 1234
+[2021-11-24T11:40:43.702] [INFO] ma-core - get module By Id success testing testing testing
+[2021-11-24T11:40:43.703] [INFO] ma-core - get module By Id success NaN post 1234
+[2021-11-24T11:40:43.704] [ERROR] ma-core - get module By Id :module not found testing testing testing
+[2021-11-24T11:40:43.706] [ERROR] ma-core - get module By Id :module not found testing testing testing
+[2021-11-24T11:40:43.708] [ERROR] ma-core - get module By Id :module not found NaN post 1234
+[2021-11-24T11:40:43.715] [INFO] ma-core - add Module success testing testing testing
+[2021-11-24T11:40:43.717] [INFO] ma-core - add Module success NaN post 1234
+[2021-11-24T11:40:43.719] [ERROR] ma-core - add Module :missing property testing testing testing
+[2021-11-24T11:40:43.721] [ERROR] ma-core - add Module :missing property NaN post 1234
+[2021-11-24T11:40:43.726] [INFO] ma-core - update module By Customer success testing testing testing
+[2021-11-24T11:40:43.727] [INFO] ma-core - update module By Customer success NaN post 1234
+[2021-11-24T11:40:43.729] [ERROR] ma-core - update module By Customer :module not found testing testing testing
+[2021-11-24T11:40:43.730] [ERROR] ma-core - update module By Customer :module not found testing testing testing
+[2021-11-24T11:40:43.733] [ERROR] ma-core - update module By Customer :module not found NaN post 1234
+[2021-11-24T11:40:43.804] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-11-24T11:40:43.805] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-11-24T11:40:43.806] [INFO] ma-core - get All nomenclature success NaN post 1234
+[2021-11-24T11:40:43.808] [ERROR] ma-core - get All nomenclature :get All nomenclature : testing testing testing
+[2021-11-24T11:40:43.809] [ERROR] ma-core - get All nomenclature :get All nomenclature : NaN post 1234
+[2021-11-24T11:40:43.830] [INFO] ma-core - delete Role success testing testing testing
+[2021-11-24T11:40:43.831] [INFO] ma-core - delete Role success NaN post 1234
+[2021-11-24T11:40:43.833] [ERROR] ma-core - delete Role :role not found testing testing testing
+[2021-11-24T11:40:43.834] [ERROR] ma-core - delete Role :role not found NaN post 1234
+[2021-11-24T11:40:43.836] [ERROR] ma-core - delete Role :missing ID testing testing testing
+[2021-11-24T11:40:43.837] [ERROR] ma-core - delete Role :missing ID testing testing testing
+[2021-11-24T11:40:43.844] [INFO] ma-core - get All Role success testing testing testing
+[2021-11-24T11:40:43.845] [INFO] ma-core - get All Role success NaN post 1234
+[2021-11-24T11:40:43.846] [ERROR] ma-core - get All Role :missing property testing testing testing
+[2021-11-24T11:40:43.848] [ERROR] ma-core - get All Role :missing property NaN post 1234
+[2021-11-24T11:40:43.852] [INFO] ma-core - get by id Role success testing testing testing
+[2021-11-24T11:40:43.853] [INFO] ma-core - get by id Role success NaN post 1234
+[2021-11-24T11:40:43.855] [ERROR] ma-core - get by id Role :role not found testing testing testing
+[2021-11-24T11:40:43.856] [ERROR] ma-core - get by id Role :role not found testing testing testing
+[2021-11-24T11:40:43.859] [ERROR] ma-core - get by id Role :role not found NaN post 1234
+[2021-11-24T11:40:43.868] [INFO] ma-core - get by user Role success testing testing testing
+[2021-11-24T11:40:43.870] [INFO] ma-core - get by user Role success NaN get 1234
+[2021-11-24T11:40:43.874] [ERROR] ma-core - get by user Role :user not found testing testing testing
+[2021-11-24T11:40:43.875] [ERROR] ma-core - get by user Role :role not found testing testing testing
+[2021-11-24T11:40:43.878] [ERROR] ma-core - get by user Role :role not found NaN get 1234
+[2021-11-24T11:40:43.879] [INFO] ma-core - add Role success testing testing testing
+[2021-11-24T11:40:43.881] [ERROR] ma-core - add Role :missing property testing testing testing
+[2021-11-24T11:40:43.882] [INFO] ma-core - add Role success NaN post 1234
+[2021-11-24T11:40:43.883] [ERROR] ma-core - add Role :missing property NaN post 1234
+[2021-11-24T11:40:43.893] [INFO] ma-core - update Role success testing testing testing
+[2021-11-24T11:40:43.895] [INFO] ma-core - update Role success NaN post 1234
+[2021-11-24T11:40:43.897] [ERROR] ma-core - update Role :role not found testing testing testing
+[2021-11-24T11:40:43.898] [ERROR] ma-core - update Role :role not found testing testing testing
+[2021-11-24T11:40:43.900] [ERROR] ma-core - update Role :role not found NaN post 1234
+[2021-11-24T11:40:43.906] [INFO] ma-core - add Role History success testing testing testing
+[2021-11-24T11:40:43.907] [INFO] ma-core - add Role History success NaN post 1234
+[2021-11-24T11:40:43.909] [ERROR] ma-core - add Client :missing property testing testing testing
+[2021-11-24T11:40:43.910] [ERROR] ma-core - add Client :missing property NaN post 1234
+[2021-11-24T11:40:43.930] [ERROR] ma-core - 
+[2021-11-24T11:40:43.945] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:40:43.967] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:40:43.988] [INFO] ma-core - delete sla success testing testing testing
+[2021-11-24T11:40:43.990] [INFO] ma-core - delete sla success NaN post 1234
+[2021-11-24T11:40:43.991] [ERROR] ma-core - delete Sla :sla not found testing testing testing
+[2021-11-24T11:40:43.993] [ERROR] ma-core - delete Sla :sla not found testing testing testing
+[2021-11-24T11:40:43.996] [ERROR] ma-core - delete Sla :sla not found NaN post 1234
+[2021-11-24T11:40:44.001] [INFO] ma-core - get sla By Id success testing testing testing
+[2021-11-24T11:40:44.002] [INFO] ma-core - get sla By Id success NaN post 1234
+[2021-11-24T11:40:44.004] [ERROR] ma-core - get sla By Id :sla not found testing testing testing
+[2021-11-24T11:40:44.006] [ERROR] ma-core - get sla By Id :sla not found testing testing testing
+[2021-11-24T11:40:44.007] [ERROR] ma-core - get sla By Id :sla not found NaN post 1234
+[2021-11-24T11:40:44.012] [ERROR] ma-core - Error occur while Getting Sla By slaContract Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/sla/getByslaContract/getslaBySlaContract.service.test.js:35:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:44.018] [INFO] ma-core - add Sla success testing testing testing
+[2021-11-24T11:40:44.020] [INFO] ma-core - add Sla success NaN post 1234
+[2021-11-24T11:40:44.021] [ERROR] ma-core - add Sla :missing property testing testing testing
+[2021-11-24T11:40:44.023] [ERROR] ma-core - add Sla :missing property NaN post 1234
+[2021-11-24T11:40:44.037] [INFO] ma-core - update sla By SlaContract success testing testing testing
+[2021-11-24T11:40:44.039] [INFO] ma-core - update sla By SlaContract success NaN post 1234
+[2021-11-24T11:40:44.040] [ERROR] ma-core - update sla By SlaContract :sla not found testing testing testing
+[2021-11-24T11:40:44.041] [ERROR] ma-core - update sla By SlaContract :sla not found testing testing testing
+[2021-11-24T11:40:44.043] [ERROR] ma-core - update sla By SlaContract :sla not found NaN post 1234
+[2021-11-24T11:40:44.049] [INFO] ma-core - delete slaContract success testing testing testing
+[2021-11-24T11:40:44.050] [INFO] ma-core - delete slaContract success NaN post 1234
+[2021-11-24T11:40:44.052] [ERROR] ma-core - delete SlaContract :slaContract not found testing testing testing
+[2021-11-24T11:40:44.053] [ERROR] ma-core - delete SlaContract :slaContract not found NaN post 1234
+[2021-11-24T11:40:44.064] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/slaContract/getAllSlaContractByCustomerId/getAllSlaContractByCustomerIdServiceTest.js:56:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:44.066] [INFO] ma-core - get slaContract By Customer success testing testing testing
+[2021-11-24T11:40:44.070] [INFO] ma-core - get slaContract By Customer success NaN post 1234
+[2021-11-24T11:40:44.071] [ERROR] ma-core - get slaContract By Customer :customer not found testing testing testing
+[2021-11-24T11:40:44.073] [ERROR] ma-core - get slaContract By Customer :customer not found NaN post 1234
+[2021-11-24T11:40:44.074] [INFO] ma-core - get slaContract By Id success testing testing testing
+[2021-11-24T11:40:44.076] [INFO] ma-core - get slaContract By Id success NaN post 1234
+[2021-11-24T11:40:44.077] [ERROR] ma-core - get slaContract By Id :slaContract not found testing testing testing
+[2021-11-24T11:40:44.078] [ERROR] ma-core - get slaContract By Id :slaContract not found NaN post 1234
+[2021-11-24T11:40:44.083] [INFO] ma-core - add SlaContract success testing testing testing
+[2021-11-24T11:40:44.086] [INFO] ma-core - add SlaContract success NaN post 1234
+[2021-11-24T11:40:44.087] [ERROR] ma-core - add SlaContract :missing property testing testing testing
+[2021-11-24T11:40:44.089] [ERROR] ma-core - add SlaContract :missing property NaN post 1234
+[2021-11-24T11:40:44.097] [INFO] ma-core - update slaContract By Customer success testing testing testing
+[2021-11-24T11:40:44.099] [INFO] ma-core - update slaContract By Customer success NaN post 1234
+[2021-11-24T11:40:44.100] [ERROR] ma-core - update slaContract By Customer :slaContract not found testing testing testing
+[2021-11-24T11:40:44.101] [ERROR] ma-core - update slaContract By Customer :slaContract not found NaN post 1234
+[2021-11-24T11:40:44.196] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getAllSystemByCustomerId/getAllSystemByCustomerIdServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:44.218] [ERROR] ma-core - Get Categories by Customer ID and Type ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getCategoryByTypesByCustomer/getCategoryByTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:44.246] [ERROR] ma-core - Get types by Customer ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getTypeByCustomer/getTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:40:44.278] [INFO] ma-core - get All Task success testing testing testing
+[2021-11-24T11:40:44.280] [INFO] ma-core - get All Task success NaN post 1234
+[2021-11-24T11:40:44.283] [INFO] ma-core - get by id Task success testing testing testing
+[2021-11-24T11:40:44.285] [INFO] ma-core - get by id Task success NaN post 1234
+[2021-11-24T11:40:44.286] [ERROR] ma-core - get by id Task :task not found testing testing testing
+[2021-11-24T11:40:44.287] [ERROR] ma-core - get by id Task :task not found NaN post 1234
+[2021-11-24T11:40:44.295] [INFO] ma-core - get All Task By ID success testing testing testing
+[2021-11-24T11:40:44.305] [INFO] ma-core - get All Task success testing testing testing
+[2021-11-24T11:40:44.313] [INFO] ma-core - add Task success testing testing testing
+[2021-11-24T11:40:44.314] [INFO] ma-core - add Task success NaN post 1234
+[2021-11-24T11:40:44.315] [ERROR] ma-core - add Task :missing property testing testing testing
+[2021-11-24T11:40:44.317] [ERROR] ma-core - add Task :missing property NaN post 1234
+[2021-11-24T11:40:44.322] [INFO] ma-core - add Many Task success testing testing testing
+[2021-11-24T11:40:44.324] [INFO] ma-core - add Many Task success NaN post 1234
+[2021-11-24T11:40:44.325] [ERROR] ma-core - add Many Task :missing property testing testing testing
+[2021-11-24T11:40:44.326] [ERROR] ma-core - add Many Task :missing property NaN post 1234
+[2021-11-24T11:40:44.334] [INFO] ma-core - update Task success testing testing testing
+[2021-11-24T11:40:44.336] [INFO] ma-core - update Task success NaN post 1234
+[2021-11-24T11:40:44.341] [ERROR] ma-core - update Task :task not found testing testing testing
+[2021-11-24T11:40:44.344] [ERROR] ma-core - update Task :task not found NaN post 1234
+[2021-11-24T11:40:44.355] [INFO] ma-core - Update Task Assignee success testing testing testing
+[2021-11-24T11:40:44.358] [INFO] ma-core - Update Task Assignee Incomplete testing testing testing
+[2021-11-24T11:40:44.360] [ERROR] ma-core - Update Task Assignee :task not found testing testing testing
+[2021-11-24T11:40:44.377] [INFO] ma-core - Canceled the Task testing testing testing
+[2021-11-24T11:40:44.378] [INFO] ma-core - Canceled the Task NaN post 1234
+[2021-11-24T11:40:44.382] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task testing testing testing
+[2021-11-24T11:40:44.384] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task NaN post 1234
+[2021-11-24T11:40:44.386] [INFO] ma-core - Deleted the Task testing testing testing
+[2021-11-24T11:40:44.387] [INFO] ma-core - Deleted the Task NaN post 1234
+[2021-11-24T11:40:44.391] [ERROR] ma-core - Failed to delete the Task :failed to update the task testing testing testing
+[2021-11-24T11:40:44.392] [ERROR] ma-core - Failed to delete the Task :failed to update the task NaN post 1234
+[2021-11-24T11:40:44.394] [INFO] ma-core - Finished the Task testing testing testing
+[2021-11-24T11:40:44.396] [INFO] ma-core - Finished the Task NaN post 1234
+[2021-11-24T11:40:44.400] [ERROR] ma-core - Failed to finish the Task :failed to update the task testing testing testing
+[2021-11-24T11:40:44.402] [ERROR] ma-core - Failed to finish the Task :failed to update the task NaN post 1234
+[2021-11-24T11:40:44.405] [INFO] ma-core - Rejected the Task testing testing testing
+[2021-11-24T11:40:44.407] [INFO] ma-core - Rejected the Task NaN post 1234
+[2021-11-24T11:40:44.411] [ERROR] ma-core - Failed to reject the Task :failed to update the task testing testing testing
+[2021-11-24T11:40:44.413] [ERROR] ma-core - Failed to reject the Task :failed to update the task NaN post 1234
+[2021-11-24T11:40:44.415] [INFO] ma-core - Started the Task testing testing testing
+[2021-11-24T11:40:44.418] [INFO] ma-core - Started the Task NaN post 1234
+[2021-11-24T11:40:44.424] [ERROR] ma-core - Failed to start the Task :failed to update the task testing testing testing
+[2021-11-24T11:40:44.425] [ERROR] ma-core - Failed to start the Task :failed to update the task NaN post 1234
+[2021-11-24T11:40:44.427] [INFO] ma-core - Validated the Task testing testing testing
+[2021-11-24T11:40:44.429] [INFO] ma-core - Validated the Task NaN post 1234
+[2021-11-24T11:40:44.434] [ERROR] ma-core - Failed to validate the Task :failed to update the task testing testing testing
+[2021-11-24T11:40:44.436] [ERROR] ma-core - Failed to validate the Task :failed to update the task NaN post 1234
+[2021-11-24T11:40:44.510] [ERROR] ma-core - random Error
+[2021-11-24T11:40:45.057] [ERROR] ma-core - random error
+[2021-11-24T11:41:38.664] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:41:39.224] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:41:39.224] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:41:39.245] [INFO] ma-core - mongodb conected
+[2021-11-24T11:41:39.305] [INFO] ma-core - add Client success testing testing testing
+[2021-11-24T11:41:39.307] [ERROR] ma-core - add Client :missing property testing testing testing
+[2021-11-24T11:41:39.309] [ERROR] ma-core - add Client :missing property NaN post 1234
+[2021-11-24T11:41:39.320] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/delete/deleteClient.service.test.js:62:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.323] [ERROR] ma-core - Delete Error : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/delete/deleteClient.service.test.js:72:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.346] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/getClientsBySystemId/getAllBySystemServiceTest.js:49:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.354] [ERROR] ma-core - Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/client/update/updateClient.service.test.js:70:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.366] [INFO] ma-core - get all Customer success testing testing testing
+[2021-11-24T11:41:39.368] [INFO] ma-core - get all Customer success NaN post 1234
+[2021-11-24T11:41:39.369] [INFO] ma-core - get all Customer success testing testing testing
+[2021-11-24T11:41:39.371] [INFO] ma-core - get all Customer error testing testing testing
+[2021-11-24T11:41:39.373] [INFO] ma-core - get all Customer error NaN post 1234
+[2021-11-24T11:41:39.378] [INFO] ma-core - get Customer success testing testing testing
+[2021-11-24T11:41:39.380] [INFO] ma-core - get Customer error testing testing testing
+[2021-11-24T11:41:39.385] [ERROR] ma-core - Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/customer/getById/getByIdCustomer.service.test.js:88:24)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.387] [INFO] ma-core - add customer success testing testing testing
+[2021-11-24T11:41:39.389] [ERROR] ma-core - add customer fail :missing property testing testing testing
+[2021-11-24T11:41:39.485] [ERROR] ma-core - Delete Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/delete/deleteHost.service.test.js:72:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.493] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/getAllBySystem/getAllBySystemServiceTest.js:49:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.499] [ERROR] ma-core - Get by ID Error : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/getById/getByIdHost.service.test.js:58:24)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.504] [ERROR] ma-core - expected findOneAndUpdate to have been called exactly once, but it was called 0 times
+[2021-11-24T11:41:39.513] [ERROR] ma-core - Update Error : Error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/host/update/updateHost.service.test.js:79:33)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:37.976] [INFO] ma-core - cancel itOperation success testing testing testing
+[2021-11-24T11:41:37.976] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:41:37.977] [INFO] ma-core - finish itOperation success testing testing testing
+[2021-11-24T11:41:37.977] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:41:39.523] [INFO] ma-core - get All Active itOperation success testing testing testing
+[2021-11-24T11:41:39.527] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2021-11-24T11:41:39.536] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.544] [INFO] ma-core - add ItOperation success testing testing testing
+[2021-11-24T11:41:39.546] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2021-11-24T11:41:37.989] [INFO] ma-core - remind itOperation success testing testing testing
+[2021-11-24T11:41:37.989] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:41:37.990] [INFO] ma-core - send changes itOperation success testing testing testing
+[2021-11-24T11:41:37.990] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:41:39.558] [INFO] ma-core - update itOperation success testing testing testing
+[2021-11-24T11:41:39.559] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2021-11-24T11:41:39.583] [INFO] ma-core - delete licence success testing testing testing
+[2021-11-24T11:41:39.584] [INFO] ma-core - delete licence success NaN post 1234
+[2021-11-24T11:41:39.586] [ERROR] ma-core - delete Licence :licence not found testing testing testing
+[2021-11-24T11:41:39.587] [ERROR] ma-core - delete Licence :licence not found NaN post 1234
+[2021-11-24T11:41:39.593] [INFO] ma-core - get latest customer licence By Id success testing testing testing
+[2021-11-24T11:41:39.594] [INFO] ma-core - get latest customer licence By Id success NaN post 1234
+[2021-11-24T11:41:39.595] [ERROR] ma-core - get licence By Id :Missing Customer ID NaN post 1234
+[2021-11-24T11:41:39.597] [ERROR] ma-core - get licence By Id :Missing Customer ID testing testing testing
+[2021-11-24T11:41:39.598] [ERROR] ma-core - get licence By Id :licence not found testing testing testing
+[2021-11-24T11:41:39.599] [ERROR] ma-core - get licence By Id :licence not found NaN post 1234
+[2021-11-24T11:41:39.602] [ERROR] ma-core - Error occur while Getting Licence By Customer Id : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/licence/getActiveLicence/getActiveLIcenceServiceTest.js:52:17)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.606] [ERROR] ma-core - Error occur while Getting Licence By Customer Id : Error: random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/licence/getByCustomer/getByCustomerLicence.service.test.js:61:17)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.609] [INFO] ma-core - get licence By Id success testing testing testing
+[2021-11-24T11:41:39.610] [INFO] ma-core - get licence By Id success NaN post 1234
+[2021-11-24T11:41:39.611] [ERROR] ma-core - get licence By Id :licence not found testing testing testing
+[2021-11-24T11:41:39.613] [ERROR] ma-core - get licence By Id :licence not found NaN post 1234
+[2021-11-24T11:41:39.620] [INFO] ma-core - add Licence success testing testing testing
+[2021-11-24T11:41:39.624] [INFO] ma-core - add Licence success NaN post 1234
+[2021-11-24T11:41:39.625] [ERROR] ma-core - add Licence :missing property testing testing testing
+[2021-11-24T11:41:39.626] [ERROR] ma-core - add Licence :missing property NaN post 1234
+[2021-11-24T11:41:39.634] [INFO] ma-core - update licence By Customer success testing testing testing
+[2021-11-24T11:41:39.636] [INFO] ma-core - update licence By Customer success NaN post 1234
+[2021-11-24T11:41:39.637] [ERROR] ma-core - update licence By Customer :licence not found testing testing testing
+[2021-11-24T11:41:39.639] [ERROR] ma-core - update licence By Customer :licence not found NaN post 1234
+[2021-11-24T11:41:39.652] [ERROR] ma-core - delete Map By Id :MAP not found testing testing testing
+[2021-11-24T11:41:39.654] [ERROR] ma-core - delete Map By Id :missing ID testing testing testing
+[2021-11-24T11:41:39.672] [ERROR] ma-core - Get by System Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/map/getAllBySystem/getAllBySystemServiceTest.js:52:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:39.691] [INFO] ma-core - delete module success testing testing testing
+[2021-11-24T11:41:39.693] [INFO] ma-core - delete module success NaN post 1234
+[2021-11-24T11:41:39.694] [ERROR] ma-core - delete Module :module not found testing testing testing
+[2021-11-24T11:41:39.695] [ERROR] ma-core - delete Module :module not found NaN post 1234
+[2021-11-24T11:41:39.697] [ERROR] ma-core - delete Module :missing ID testing testing testing
+[2021-11-24T11:41:39.699] [ERROR] ma-core - delete Module :missing ID testing testing testing
+[2021-11-24T11:41:39.704] [INFO] ma-core - get All Basic Module success testing testing testing
+[2021-11-24T11:41:39.705] [INFO] ma-core - get All Basic Module success NaN post 1234
+[2021-11-24T11:41:39.707] [ERROR] ma-core - get All Basic Module :missing property testing testing testing
+[2021-11-24T11:41:39.708] [ERROR] ma-core - get All Basic Module :missing property NaN post 1234
+[2021-11-24T11:41:39.710] [INFO] ma-core - get All Module success testing testing testing
+[2021-11-24T11:41:39.714] [INFO] ma-core - get All Module success NaN post 1234
+[2021-11-24T11:41:39.715] [ERROR] ma-core - get All Module :missing property testing testing testing
+[2021-11-24T11:41:39.717] [ERROR] ma-core - get All Module :missing property NaN post 1234
+[2021-11-24T11:41:39.721] [INFO] ma-core - get module By Id success testing testing testing
+[2021-11-24T11:41:39.723] [INFO] ma-core - get module By Id success NaN post 1234
+[2021-11-24T11:41:39.724] [ERROR] ma-core - get module By Id :module not found testing testing testing
+[2021-11-24T11:41:39.725] [ERROR] ma-core - get module By Id :module not found testing testing testing
+[2021-11-24T11:41:39.727] [ERROR] ma-core - get module By Id :module not found NaN post 1234
+[2021-11-24T11:41:39.734] [INFO] ma-core - add Module success testing testing testing
+[2021-11-24T11:41:39.736] [INFO] ma-core - add Module success NaN post 1234
+[2021-11-24T11:41:39.738] [ERROR] ma-core - add Module :missing property testing testing testing
+[2021-11-24T11:41:39.739] [ERROR] ma-core - add Module :missing property NaN post 1234
+[2021-11-24T11:41:39.745] [INFO] ma-core - update module By Customer success testing testing testing
+[2021-11-24T11:41:39.746] [INFO] ma-core - update module By Customer success NaN post 1234
+[2021-11-24T11:41:39.747] [ERROR] ma-core - update module By Customer :module not found testing testing testing
+[2021-11-24T11:41:39.748] [ERROR] ma-core - update module By Customer :module not found testing testing testing
+[2021-11-24T11:41:39.751] [ERROR] ma-core - update module By Customer :module not found NaN post 1234
+[2021-11-24T11:41:39.817] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-11-24T11:41:39.819] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-11-24T11:41:39.820] [INFO] ma-core - get All nomenclature success NaN post 1234
+[2021-11-24T11:41:39.821] [ERROR] ma-core - get All nomenclature :get All nomenclature : testing testing testing
+[2021-11-24T11:41:39.822] [ERROR] ma-core - get All nomenclature :get All nomenclature : NaN post 1234
+[2021-11-24T11:41:39.841] [INFO] ma-core - delete Role success testing testing testing
+[2021-11-24T11:41:39.843] [INFO] ma-core - delete Role success NaN post 1234
+[2021-11-24T11:41:39.844] [ERROR] ma-core - delete Role :role not found testing testing testing
+[2021-11-24T11:41:39.845] [ERROR] ma-core - delete Role :role not found NaN post 1234
+[2021-11-24T11:41:39.846] [ERROR] ma-core - delete Role :missing ID testing testing testing
+[2021-11-24T11:41:39.848] [ERROR] ma-core - delete Role :missing ID testing testing testing
+[2021-11-24T11:41:39.854] [INFO] ma-core - get All Role success testing testing testing
+[2021-11-24T11:41:39.855] [INFO] ma-core - get All Role success NaN post 1234
+[2021-11-24T11:41:39.857] [ERROR] ma-core - get All Role :missing property testing testing testing
+[2021-11-24T11:41:39.859] [ERROR] ma-core - get All Role :missing property NaN post 1234
+[2021-11-24T11:41:39.862] [INFO] ma-core - get by id Role success testing testing testing
+[2021-11-24T11:41:39.864] [INFO] ma-core - get by id Role success NaN post 1234
+[2021-11-24T11:41:39.865] [ERROR] ma-core - get by id Role :role not found testing testing testing
+[2021-11-24T11:41:39.866] [ERROR] ma-core - get by id Role :role not found testing testing testing
+[2021-11-24T11:41:39.869] [ERROR] ma-core - get by id Role :role not found NaN post 1234
+[2021-11-24T11:41:39.877] [INFO] ma-core - get by user Role success testing testing testing
+[2021-11-24T11:41:39.878] [INFO] ma-core - get by user Role success NaN get 1234
+[2021-11-24T11:41:39.882] [ERROR] ma-core - get by user Role :user not found testing testing testing
+[2021-11-24T11:41:39.883] [ERROR] ma-core - get by user Role :role not found testing testing testing
+[2021-11-24T11:41:39.885] [ERROR] ma-core - get by user Role :role not found NaN get 1234
+[2021-11-24T11:41:39.887] [INFO] ma-core - add Role success testing testing testing
+[2021-11-24T11:41:39.888] [ERROR] ma-core - add Role :missing property testing testing testing
+[2021-11-24T11:41:39.889] [INFO] ma-core - add Role success NaN post 1234
+[2021-11-24T11:41:39.891] [ERROR] ma-core - add Role :missing property NaN post 1234
+[2021-11-24T11:41:39.899] [INFO] ma-core - update Role success testing testing testing
+[2021-11-24T11:41:39.901] [INFO] ma-core - update Role success NaN post 1234
+[2021-11-24T11:41:39.902] [ERROR] ma-core - update Role :role not found testing testing testing
+[2021-11-24T11:41:39.903] [ERROR] ma-core - update Role :role not found testing testing testing
+[2021-11-24T11:41:39.905] [ERROR] ma-core - update Role :role not found NaN post 1234
+[2021-11-24T11:41:39.911] [INFO] ma-core - add Role History success testing testing testing
+[2021-11-24T11:41:39.912] [INFO] ma-core - add Role History success NaN post 1234
+[2021-11-24T11:41:39.913] [ERROR] ma-core - add Client :missing property testing testing testing
+[2021-11-24T11:41:39.915] [ERROR] ma-core - add Client :missing property NaN post 1234
+[2021-11-24T11:41:39.931] [ERROR] ma-core - 
+[2021-11-24T11:41:39.946] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-24T11:41:39.966] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-24T11:41:39.987] [INFO] ma-core - delete sla success testing testing testing
+[2021-11-24T11:41:39.988] [INFO] ma-core - delete sla success NaN post 1234
+[2021-11-24T11:41:39.990] [ERROR] ma-core - delete Sla :sla not found testing testing testing
+[2021-11-24T11:41:39.991] [ERROR] ma-core - delete Sla :sla not found testing testing testing
+[2021-11-24T11:41:39.993] [ERROR] ma-core - delete Sla :sla not found NaN post 1234
+[2021-11-24T11:41:39.999] [INFO] ma-core - get sla By Id success testing testing testing
+[2021-11-24T11:41:40.000] [INFO] ma-core - get sla By Id success NaN post 1234
+[2021-11-24T11:41:40.001] [ERROR] ma-core - get sla By Id :sla not found testing testing testing
+[2021-11-24T11:41:40.003] [ERROR] ma-core - get sla By Id :sla not found testing testing testing
+[2021-11-24T11:41:40.004] [ERROR] ma-core - get sla By Id :sla not found NaN post 1234
+[2021-11-24T11:41:40.009] [ERROR] ma-core - Error occur while Getting Sla By slaContract Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/sla/getByslaContract/getslaBySlaContract.service.test.js:35:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:40.015] [INFO] ma-core - add Sla success testing testing testing
+[2021-11-24T11:41:40.017] [INFO] ma-core - add Sla success NaN post 1234
+[2021-11-24T11:41:40.018] [ERROR] ma-core - add Sla :missing property testing testing testing
+[2021-11-24T11:41:40.020] [ERROR] ma-core - add Sla :missing property NaN post 1234
+[2021-11-24T11:41:40.033] [INFO] ma-core - update sla By SlaContract success testing testing testing
+[2021-11-24T11:41:40.035] [INFO] ma-core - update sla By SlaContract success NaN post 1234
+[2021-11-24T11:41:40.036] [ERROR] ma-core - update sla By SlaContract :sla not found testing testing testing
+[2021-11-24T11:41:40.037] [ERROR] ma-core - update sla By SlaContract :sla not found testing testing testing
+[2021-11-24T11:41:40.039] [ERROR] ma-core - update sla By SlaContract :sla not found NaN post 1234
+[2021-11-24T11:41:40.045] [INFO] ma-core - delete slaContract success testing testing testing
+[2021-11-24T11:41:40.046] [INFO] ma-core - delete slaContract success NaN post 1234
+[2021-11-24T11:41:40.048] [ERROR] ma-core - delete SlaContract :slaContract not found testing testing testing
+[2021-11-24T11:41:40.049] [ERROR] ma-core - delete SlaContract :slaContract not found NaN post 1234
+[2021-11-24T11:41:40.059] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/slaContract/getAllSlaContractByCustomerId/getAllSlaContractByCustomerIdServiceTest.js:56:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:40.061] [INFO] ma-core - get slaContract By Customer success testing testing testing
+[2021-11-24T11:41:40.065] [INFO] ma-core - get slaContract By Customer success NaN post 1234
+[2021-11-24T11:41:40.066] [ERROR] ma-core - get slaContract By Customer :customer not found testing testing testing
+[2021-11-24T11:41:40.067] [ERROR] ma-core - get slaContract By Customer :customer not found NaN post 1234
+[2021-11-24T11:41:40.069] [INFO] ma-core - get slaContract By Id success testing testing testing
+[2021-11-24T11:41:40.070] [INFO] ma-core - get slaContract By Id success NaN post 1234
+[2021-11-24T11:41:40.072] [ERROR] ma-core - get slaContract By Id :slaContract not found testing testing testing
+[2021-11-24T11:41:40.073] [ERROR] ma-core - get slaContract By Id :slaContract not found NaN post 1234
+[2021-11-24T11:41:40.078] [INFO] ma-core - add SlaContract success testing testing testing
+[2021-11-24T11:41:40.081] [INFO] ma-core - add SlaContract success NaN post 1234
+[2021-11-24T11:41:40.082] [ERROR] ma-core - add SlaContract :missing property testing testing testing
+[2021-11-24T11:41:40.083] [ERROR] ma-core - add SlaContract :missing property NaN post 1234
+[2021-11-24T11:41:40.091] [INFO] ma-core - update slaContract By Customer success testing testing testing
+[2021-11-24T11:41:40.092] [INFO] ma-core - update slaContract By Customer success NaN post 1234
+[2021-11-24T11:41:40.094] [ERROR] ma-core - update slaContract By Customer :slaContract not found testing testing testing
+[2021-11-24T11:41:40.095] [ERROR] ma-core - update slaContract By Customer :slaContract not found NaN post 1234
+[2021-11-24T11:41:40.186] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getAllSystemByCustomerId/getAllSystemByCustomerIdServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:40.206] [ERROR] ma-core - Get Categories by Customer ID and Type ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getCategoryByTypesByCustomer/getCategoryByTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:40.233] [ERROR] ma-core - Get types by Customer ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getTypeByCustomer/getTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:680:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:803:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:595:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:605:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:488:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:553:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:512:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:573:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-11-24T11:41:40.264] [INFO] ma-core - get All Task success testing testing testing
+[2021-11-24T11:41:40.266] [INFO] ma-core - get All Task success NaN post 1234
+[2021-11-24T11:41:40.269] [INFO] ma-core - get by id Task success testing testing testing
+[2021-11-24T11:41:40.271] [INFO] ma-core - get by id Task success NaN post 1234
+[2021-11-24T11:41:40.272] [ERROR] ma-core - get by id Task :task not found testing testing testing
+[2021-11-24T11:41:40.274] [ERROR] ma-core - get by id Task :task not found NaN post 1234
+[2021-11-24T11:41:40.281] [INFO] ma-core - get All Task By ID success testing testing testing
+[2021-11-24T11:41:40.291] [INFO] ma-core - get All Task success testing testing testing
+[2021-11-24T11:41:40.297] [INFO] ma-core - add Task success testing testing testing
+[2021-11-24T11:41:40.299] [INFO] ma-core - add Task success NaN post 1234
+[2021-11-24T11:41:40.300] [ERROR] ma-core - add Task :missing property testing testing testing
+[2021-11-24T11:41:40.301] [ERROR] ma-core - add Task :missing property NaN post 1234
+[2021-11-24T11:41:40.307] [INFO] ma-core - add Many Task success testing testing testing
+[2021-11-24T11:41:40.308] [INFO] ma-core - add Many Task success NaN post 1234
+[2021-11-24T11:41:40.310] [ERROR] ma-core - add Many Task :missing property testing testing testing
+[2021-11-24T11:41:40.311] [ERROR] ma-core - add Many Task :missing property NaN post 1234
+[2021-11-24T11:41:40.319] [INFO] ma-core - update Task success testing testing testing
+[2021-11-24T11:41:40.320] [INFO] ma-core - update Task success NaN post 1234
+[2021-11-24T11:41:40.325] [ERROR] ma-core - update Task :task not found testing testing testing
+[2021-11-24T11:41:40.327] [ERROR] ma-core - update Task :task not found NaN post 1234
+[2021-11-24T11:41:40.338] [INFO] ma-core - Update Task Assignee success testing testing testing
+[2021-11-24T11:41:40.341] [INFO] ma-core - Update Task Assignee Incomplete testing testing testing
+[2021-11-24T11:41:40.343] [ERROR] ma-core - Update Task Assignee :task not found testing testing testing
+[2021-11-24T11:41:40.357] [INFO] ma-core - Canceled the Task testing testing testing
+[2021-11-24T11:41:40.359] [INFO] ma-core - Canceled the Task NaN post 1234
+[2021-11-24T11:41:40.363] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task testing testing testing
+[2021-11-24T11:41:40.364] [ERROR] ma-core - Failed to Cancel the Task :failed to update the task NaN post 1234
+[2021-11-24T11:41:40.366] [INFO] ma-core - Deleted the Task testing testing testing
+[2021-11-24T11:41:40.368] [INFO] ma-core - Deleted the Task NaN post 1234
+[2021-11-24T11:41:40.372] [ERROR] ma-core - Failed to delete the Task :failed to update the task testing testing testing
+[2021-11-24T11:41:40.373] [ERROR] ma-core - Failed to delete the Task :failed to update the task NaN post 1234
+[2021-11-24T11:41:40.375] [INFO] ma-core - Finished the Task testing testing testing
+[2021-11-24T11:41:40.377] [INFO] ma-core - Finished the Task NaN post 1234
+[2021-11-24T11:41:40.380] [ERROR] ma-core - Failed to finish the Task :failed to update the task testing testing testing
+[2021-11-24T11:41:40.382] [ERROR] ma-core - Failed to finish the Task :failed to update the task NaN post 1234
+[2021-11-24T11:41:40.386] [INFO] ma-core - Rejected the Task testing testing testing
+[2021-11-24T11:41:40.387] [INFO] ma-core - Rejected the Task NaN post 1234
+[2021-11-24T11:41:40.391] [ERROR] ma-core - Failed to reject the Task :failed to update the task testing testing testing
+[2021-11-24T11:41:40.393] [ERROR] ma-core - Failed to reject the Task :failed to update the task NaN post 1234
+[2021-11-24T11:41:40.395] [INFO] ma-core - Started the Task testing testing testing
+[2021-11-24T11:41:40.399] [INFO] ma-core - Started the Task NaN post 1234
+[2021-11-24T11:41:40.404] [ERROR] ma-core - Failed to start the Task :failed to update the task testing testing testing
+[2021-11-24T11:41:40.406] [ERROR] ma-core - Failed to start the Task :failed to update the task NaN post 1234
+[2021-11-24T11:41:40.407] [INFO] ma-core - Validated the Task testing testing testing
+[2021-11-24T11:41:40.409] [INFO] ma-core - Validated the Task NaN post 1234
+[2021-11-24T11:41:40.414] [ERROR] ma-core - Failed to validate the Task :failed to update the task testing testing testing
+[2021-11-24T11:41:40.416] [ERROR] ma-core - Failed to validate the Task :failed to update the task NaN post 1234
+[2021-11-24T11:41:40.489] [ERROR] ma-core - random Error
+[2021-11-24T11:41:41.034] [ERROR] ma-core - random error
+[2021-11-24T11:51:02.595] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:51:03.026] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:51:03.026] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:51:03.045] [INFO] ma-core - mongodb conected
+[2021-11-24T11:53:00.967] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T11:53:01.393] [INFO] ma-core - server started at port 5000
+[2021-11-24T11:53:01.393] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T11:53:01.412] [INFO] ma-core - mongodb conected
+[2021-11-24T14:32:23.009] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T14:32:23.443] [INFO] ma-core - server started at port 5000
+[2021-11-24T14:32:23.444] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T14:32:23.461] [INFO] ma-core - mongodb conected
+[2021-11-24T14:47:10.650] [INFO] ma-core - get by id Task success /api/task/:id GET ::1
+[2021-11-24T14:50:44.875] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T14:50:45.311] [INFO] ma-core - server started at port 5000
+[2021-11-24T14:50:45.311] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T14:50:45.331] [INFO] ma-core - mongodb conected
+[2021-11-24T14:50:54.417] [INFO] ma-core - get by id Task success /api/task/:id GET ::1
+[2021-11-24T14:51:15.065] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T14:51:15.519] [INFO] ma-core - server started at port 5000
+[2021-11-24T14:51:15.519] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T14:51:15.537] [INFO] ma-core - mongodb conected
+[2021-11-24T14:51:23.709] [INFO] ma-core - get by id Task success /api/task/:id GET ::1
+[2021-11-24T14:51:32.171] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T14:51:32.604] [INFO] ma-core - server started at port 5000
+[2021-11-24T14:51:32.605] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T14:51:32.622] [INFO] ma-core - mongodb conected
+[2021-11-24T14:51:34.654] [INFO] ma-core - get by id Task success /api/task/:id GET ::1
+[2021-11-24T15:36:41.948] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T15:36:42.377] [INFO] ma-core - server started at port 5000
+[2021-11-24T15:36:42.378] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T15:36:42.396] [INFO] ma-core - mongodb conected
+[2021-11-24T16:21:09.195] [INFO] ma-core - add Many Task success /api/task/addMany POST ::1
+[2021-11-24T16:51:06.621] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T16:51:07.038] [INFO] ma-core - server started at port 5000
+[2021-11-24T16:51:07.039] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T16:51:07.056] [INFO] ma-core - mongodb conected
+[2021-11-24T16:51:56.548] [INFO] ma-core - add Many Task success /api/task/addMany POST ::1
+[2021-11-24T16:52:38.295] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T16:52:38.739] [INFO] ma-core - server started at port 5000
+[2021-11-24T16:52:38.739] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T16:52:38.759] [INFO] ma-core - mongodb conected
+[2021-11-24T16:53:44.736] [INFO] ma-core - add Many Task success /api/task/addMany POST ::1
+[2021-11-24T16:55:45.937] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T16:55:46.355] [INFO] ma-core - server started at port 5000
+[2021-11-24T16:55:46.355] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T16:55:46.373] [INFO] ma-core - mongodb conected
+[2021-11-24T17:01:53.938] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T17:01:54.416] [INFO] ma-core - server started at port 5000
+[2021-11-24T17:01:54.417] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T17:01:54.435] [INFO] ma-core - mongodb conected
+[2021-11-24T17:03:53.373] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T17:03:53.817] [INFO] ma-core - server started at port 5000
+[2021-11-24T17:03:53.817] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T17:03:53.834] [INFO] ma-core - mongodb conected
+[2021-11-24T17:04:40.565] [INFO] ma-core - add Many Task success /api/task/addMany POST ::1
+[2021-11-24T17:05:09.434] [INFO] ma-core - add Many Task success /api/task/addMany POST ::1
+[2021-11-24T17:06:45.020] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-24T17:06:45.466] [INFO] ma-core - server started at port 5000
+[2021-11-24T17:06:45.466] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-11-24T17:06:45.485] [INFO] ma-core - mongodb conected
+[2021-11-24T17:06:51.467] [INFO] ma-core - add Many Task success /api/task/addMany POST ::1

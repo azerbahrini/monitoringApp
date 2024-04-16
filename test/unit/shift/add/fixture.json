@@ -1,0 +1,100 @@
+{
+    "add": {
+        "success": {
+          "res": {
+            "statusCode": 201,
+            "headers": {
+              "content-type": "application/json"
+            }
+          },
+          "body": {
+            "status": "success",
+            "data": [
+                {
+                    "id": "60ef4e3f7221301cc8eaafbd",
+                    "userId": "hello test"
+                  }
+            ]
+          }
+        },
+        "failure": {
+            "res": {
+              "statusCode": 400,
+              "headers": {
+                "content-type": "application/json"
+              }
+            },
+            "body": {
+              "status": "error",
+              "message": "missing property."
+            }
+          }
+      },
+
+      "shiftsToAdd": [
+        {
+          "data": {
+            "role": "5fa02d8f785e4681ddfa3a6d",
+            "_id": "617bd61a1f02d54ca0e2a64d",
+            "shiftId": "SHFT_6612571c-26f6-47a7-85df-b8634184f213",
+            "userMicrosoftId": "1ac48324-846b-4000-8ee2-8d249c825412",
+            "name": "Day shift",
+            "startDate": "2021-10-31T07:30:00.000Z",
+            "endDate": "2021-10-31T16:30:00.000Z",
+            "updatedShiftAt": "2021-10-17T18:27:34.361Z",
+            "user": "61796b44032f036907db8a01",
+            "type": "shift",
+            "reference": null,
+            "theme": "yellow",
+            "color": "#ffb900",
+            "typeId": "617bccfc4d1d912c5856a26f",
+            "createdAt": "2021-10-29T11:08:10.318Z",
+            "updatedAt": "2021-10-29T11:08:10.318Z",
+            "__v": 0
+          },
+          "status": "success"
+        }
+      ],
+      "addedShift": [
+        {
+          "role": "5fa02d8f785e4681ddfa3a6d",
+          "_id": "617bd61a1f02d54ca0e2a64d",
+          "shiftId": "SHFT_6612571c-26f6-47a7-85df-b8634184f213",
+          "userMicrosoftId": "1ac48324-846b-4000-8ee2-8d249c825412",
+          "name": "Day shift",
+          "startDate": "2021-10-31T07:30:00.000Z",
+          "endDate": "2021-10-31T16:30:00.000Z",
+          "updatedShiftAt": "2021-10-17T18:27:34.361Z",
+          "user": "61796b44032f036907db8a01",
+          "type": "shift",
+          "reference": null,
+          "theme": "yellow",
+          "color": "#ffb900",
+          "typeId": "617bccfc4d1d912c5856a26f",
+          "createdAt": "2021-10-29T11:08:10.318Z",
+          "updatedAt": "2021-10-29T11:08:10.318Z",
+          "__v": 0
+        }
+      ],
+      "invalidShiftsToAdd": [
+        {
+          "role": "invalid Role",
+          "_id": "Invalid ID",
+          "shiftId": "SHFT_6612571c-   INVALID     -b8634184f213",
+          "userMicrosoftId": "INVALID Microsoft ID",
+          "name": "Day shift",
+          "startDate": "2021-10-31T07:30:00.000Z",
+          "endDate": "2021-10-31T16:30:00.000Z",
+          "updatedShiftAt": "2021-10-17T18:27:34.361Z",
+          "user": "61796b44032f036907db8a01",
+          "type": "shift",
+          "reference": null,
+          "theme": "yellow",
+          "color": "#ffb900",
+          "typeId": "617bccfc4d1d912c5856a26f",
+          "createdAt": "2021-10-29T11:08:10.318Z",
+          "updatedAt": "2021-10-29T11:08:10.318Z",
+          "__v": 0
+        }
+      ]
+    }

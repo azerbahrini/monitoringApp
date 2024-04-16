@@ -1,0 +1,686 @@
+{
+  "userToRegister": {
+    "firstName": "firstNameExemple",
+    "lastName": "lastNameExemple",
+    "email": "email@gmail.com",
+    "password": "123",
+    "phoneNumber": "12345689",
+    "status": false
+  },
+  "userToLogin": {
+    "email": "admin@live.fr",
+    "password": "12345678"
+  },
+  "errorObject": {
+    "err": "error message",
+    "status": "error"
+  },
+  "emptyUser": {},
+  "returnedUser": {
+    "_id": "60ee0042d9b53b3e084209f5",
+    "firstName": "firstNameExemple",
+    "lastName": "lastNameExemple",
+    "email": "email@gmail.com",
+    "password": "12345678",
+    "phoneNumber": "12345689",
+    "status": true,
+    "Roles": []
+  },
+  "returnedUserWithAccountIsNotActive": {
+    "_id": "60ee0042d9b53b3e084209f5",
+    "firstName": "firstNameExemple",
+    "lastName": "lastNameExemple",
+    "email": "email@gmail.com",
+    "password": "12345678",
+    "phoneNumber": "12345689",
+    "status": false
+  },
+  "arrayOfUsers": [
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "firstName": "firstNameExemple",
+      "lastName": "lastNameExemple",
+      "email": "email@gmail.com",
+      "password": "12345678",
+      "phoneNumber": "12345689",
+      "status": false,
+      "RoleHistory": [
+        {
+          "_id": "60f88aeed16e9d5aab468fe6",
+          "user": "60a319d6b3f8622968674ecc",
+          "Role": {
+            "_id": "5fa02d8f785e4681ddfa3a6d",
+            "rank": 100,
+            "__v": 0,
+            "updatedAt": "2021-05-31T15:39:52.714Z",
+            "listModule": [
+              "60529f2e8be52417f8991e60",
+              "60548528836fb2334818c8f0",
+              "60761be7b4a5b34b90ab8463",
+              "60763d29b4a5b34b90ab8467",
+              "60764b62b4a5b34b90ab846a",
+              "608b35ccfa73114decf8a5cb",
+              "60ac7283696b3d4b04776e1b",
+              "60ae59919384d322dcf28785",
+              "60ae5d649384d322dcf28787",
+              "6074dcdafed0de4d343eb4dd"
+            ],
+            "isActive": true,
+            "label": "Global Support"
+          },
+          "startDate": "2021-06-15T22:45:00.000Z",
+          "endDate": "2021-08-01T15:00:00.000Z",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "firstName": "firstNameExemple",
+      "lastName": "lastNameExemple",
+      "email": "email@gmail.com",
+      "password": "12345678",
+      "phoneNumber": "12345689",
+      "status": false,
+      "RoleHistory": [
+        {
+          "_id": "60f88aeed16e9d5aab468fe6",
+          "user": "60a319d6b3f8622968674ecc",
+          "Role": {
+            "_id": "5fa02d8f785e4681ddfa3a6d",
+            "rank": 100,
+            "__v": 0,
+            "updatedAt": "2021-05-31T15:39:52.714Z",
+            "listModule": [
+              "60529f2e8be52417f8991e60",
+              "60548528836fb2334818c8f0",
+              "60761be7b4a5b34b90ab8463",
+              "60763d29b4a5b34b90ab8467",
+              "60764b62b4a5b34b90ab846a",
+              "608b35ccfa73114decf8a5cb",
+              "60ac7283696b3d4b04776e1b",
+              "60ae59919384d322dcf28785",
+              "60ae5d649384d322dcf28787",
+              "6074dcdafed0de4d343eb4dd"
+            ],
+            "isActive": true,
+            "label": "Global Support"
+          },
+          "startDate": "2021-06-15T22:45:00.000Z",
+          "endDate": "2021-08-01T15:00:00.000Z",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "firstName": "firstNameExemple",
+      "lastName": "lastNameExemple",
+      "email": "email@gmail.com",
+      "password": "12345678",
+      "phoneNumber": "12345689",
+      "status": false,
+      "RoleHistory": [
+        {
+          "_id": "60f88aeed16e9d5aab468fe6",
+          "user": "60a319d6b3f8622968674ecc",
+          "Role": {
+            "_id": "5fa02d8f785e4681ddfa3a6d",
+            "rank": 100,
+            "__v": 0,
+            "updatedAt": "2021-05-31T15:39:52.714Z",
+            "listModule": [
+              "60529f2e8be52417f8991e60",
+              "60548528836fb2334818c8f0",
+              "60761be7b4a5b34b90ab8463",
+              "60763d29b4a5b34b90ab8467",
+              "60764b62b4a5b34b90ab846a",
+              "608b35ccfa73114decf8a5cb",
+              "60ac7283696b3d4b04776e1b",
+              "60ae59919384d322dcf28785",
+              "60ae5d649384d322dcf28787",
+              "6074dcdafed0de4d343eb4dd"
+            ],
+            "isActive": true,
+            "label": "Global Support"
+          },
+          "startDate": "2021-06-15T22:45:00.000Z",
+          "endDate": "001076-12-09T02:16:00.000Z",
+          "__v": 0
+        }
+      ]
+    }
+  ],
+  "timezone": 1628678204,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjExNGQ2YjU2M2RmNWM0MWI4OTc4YjE0In0sImlhdCI6MTYyODc1NTYzNywiZXhwIjoxNjI5MTE1NjM3fQ.kvZiIC-CfywJIsjG2dMvaU6Qcb3WgJUFZnCqbddaEGQ",
+  "microsoftId": "000",
+  "salt": "$2a$10$9W.kY..gRJZOU/eFLiTB2u",
+  "bcyptPassword": "$2a$10$9W.kY..gRJZOU/eFLiTB2u",
+  "wrongId": "60ee0042d9b53b3e084209f5",
+  "getAllMongoosePaginationArray": {
+    "docs": [
+      {
+        "_id": "60ee0042d9b53b3e084209f5",
+        "firstName": "firstNameExemple",
+        "lastName": "lastNameExemple",
+        "email": "email@gmail.com",
+        "password": "12345678",
+        "phoneNumber": "12345689",
+        "status": false,
+        "RoleHistory": [
+          {
+            "_id": "60f88aeed16e9d5aab468fe6",
+            "user": "60a319d6b3f8622968674ecc",
+            "Role": {
+              "_id": "5fa02d8f785e4681ddfa3a6d",
+              "rank": 100,
+              "__v": 0,
+              "updatedAt": "2021-05-31T15:39:52.714Z",
+              "listModule": [
+                "60529f2e8be52417f8991e60",
+                "60548528836fb2334818c8f0",
+                "60761be7b4a5b34b90ab8463",
+                "60763d29b4a5b34b90ab8467",
+                "60764b62b4a5b34b90ab846a",
+                "608b35ccfa73114decf8a5cb",
+                "60ac7283696b3d4b04776e1b",
+                "60ae59919384d322dcf28785",
+                "60ae5d649384d322dcf28787",
+                "6074dcdafed0de4d343eb4dd"
+              ],
+              "isActive": true,
+              "label": "Global Support"
+            },
+            "startDate": "2021-06-15T22:45:00.000Z",
+            "endDate": "2021-08-01T15:00:00.000Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f5",
+        "firstName": "firstNameExemple",
+        "lastName": "lastNameExemple",
+        "email": "email@gmail.com",
+        "password": "12345678",
+        "phoneNumber": "12345689",
+        "status": false,
+        "RoleHistory": [
+          {
+            "_id": "60f88aeed16e9d5aab468fe6",
+            "user": "60a319d6b3f8622968674ecc",
+            "Role": {
+              "_id": "5fa02d8f785e4681ddfa3a6d",
+              "rank": 100,
+              "__v": 0,
+              "updatedAt": "2021-05-31T15:39:52.714Z",
+              "listModule": [
+                "60529f2e8be52417f8991e60",
+                "60548528836fb2334818c8f0",
+                "60761be7b4a5b34b90ab8463",
+                "60763d29b4a5b34b90ab8467",
+                "60764b62b4a5b34b90ab846a",
+                "608b35ccfa73114decf8a5cb",
+                "60ac7283696b3d4b04776e1b",
+                "60ae59919384d322dcf28785",
+                "60ae5d649384d322dcf28787",
+                "6074dcdafed0de4d343eb4dd"
+              ],
+              "isActive": true,
+              "label": "Global Support"
+            },
+            "startDate": "2021-06-15T22:45:00.000Z",
+            "endDate": "2021-08-01T15:00:00.000Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f5",
+        "firstName": "firstNameExemple",
+        "lastName": "lastNameExemple",
+        "email": "email@gmail.com",
+        "password": "12345678",
+        "phoneNumber": "12345689",
+        "status": false,
+        "RoleHistory": [
+          {
+            "_id": "60f88aeed16e9d5aab468fe6",
+            "user": "60a319d6b3f8622968674ecc",
+            "Role": {
+              "_id": "5fa02d8f785e4681ddfa3a6d",
+              "rank": 100,
+              "__v": 0,
+              "updatedAt": "2021-05-31T15:39:52.714Z",
+              "listModule": [
+                "60529f2e8be52417f8991e60",
+                "60548528836fb2334818c8f0",
+                "60761be7b4a5b34b90ab8463",
+                "60763d29b4a5b34b90ab8467",
+                "60764b62b4a5b34b90ab846a",
+                "608b35ccfa73114decf8a5cb",
+                "60ac7283696b3d4b04776e1b",
+                "60ae59919384d322dcf28785",
+                "60ae5d649384d322dcf28787",
+                "6074dcdafed0de4d343eb4dd"
+              ],
+              "isActive": true,
+              "label": "Global Support"
+            },
+            "startDate": "2021-06-15T22:45:00.000Z",
+            "endDate": "001076-12-09T02:16:00.000Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+
+    "totalDocs": 42,
+    "offset": 40,
+    "limit": 5,
+    "totalPages": 9,
+    "page": 9,
+    "pagingCounter": 41,
+    "hasPrevPage": true,
+    "hasNextPage": false,
+    "prevPage": 8,
+    "nextPage": null
+  },
+  "changePasswordUser": {
+    "currentPassword": "123",
+    "newPassword": "1234"
+  },
+  "changeInformationUser": {
+    "firstName": "firstNameExempleChanged",
+    "lastName": "lastNameExempleChanged",
+    "email": "emailChanged@gmail.com",
+    "phoneNumber": "123456890",
+    "status": false
+  },
+  "role": {
+    "data": [
+      {
+        "role": {
+          "_id": "5fa02d8f785e4681ddfa3a6d",
+          "label": "Global Support"
+        },
+        "user": "614d1859663a802bc804a88d"
+      },
+      {
+        "role": {
+          "_id": "5fa02d8f785e4681ddfa3a6d",
+          "label": "Global Support"
+        },
+        "user": "617125de089bcf739c93190d"
+      },
+      {
+        "role": {
+          "_id": "5fa02d8f785e4681ddfa3a6d",
+          "label": "Global Support"
+        },
+        "user": "61713fc0f665f52e4ccd9ab0"
+      },
+      {
+        "role": {
+          "_id": "5fa02d8f785e4681ddfa3a6d",
+          "label": "Global Support"
+        },
+        "user": "6171403ec5ee5f77a4471d50"
+      },
+      {
+        "role": {
+          "_id": "5fa02d8f785e4681ddfa3a6d",
+          "label": "Global Support"
+        },
+        "user": "60a31a15b3f8622968674fd4"
+      }
+    ],
+    "status": "success"
+  },
+  "listOfUsers": {
+    "data": [
+      {
+        "_id": "60ee0042d9b53b3e084209f5",
+        "firstName": "firstNameExemple",
+        "lastName": "lastNameExemple",
+        "email": "email@gmail.com",
+        "password": "12345678",
+        "phoneNumber": "12345689",
+        "status": false,
+        "RoleHistory": [
+          {
+            "_id": "60f88aeed16e9d5aab468fe6",
+            "user": "60a319d6b3f8622968674ecc",
+            "Role": {
+              "_id": "5fa02d8f785e4681ddfa3a6d",
+              "rank": 100,
+              "__v": 0,
+              "updatedAt": "2021-05-31T15:39:52.714Z",
+              "listModule": [
+                "60529f2e8be52417f8991e60",
+                "60548528836fb2334818c8f0",
+                "60761be7b4a5b34b90ab8463",
+                "60763d29b4a5b34b90ab8467",
+                "60764b62b4a5b34b90ab846a",
+                "608b35ccfa73114decf8a5cb",
+                "60ac7283696b3d4b04776e1b",
+                "60ae59919384d322dcf28785",
+                "60ae5d649384d322dcf28787",
+                "6074dcdafed0de4d343eb4dd"
+              ],
+              "isActive": true,
+              "label": "Global Support"
+            },
+            "startDate": "2021-06-15T22:45:00.000Z",
+            "endDate": "2021-08-01T15:00:00.000Z",
+            "__v": 0
+          }
+        ],
+        "Roles": []
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f5",
+        "firstName": "firstNameExemple",
+        "lastName": "lastNameExemple",
+        "email": "email@gmail.com",
+        "password": "12345678",
+        "phoneNumber": "12345689",
+        "status": false,
+        "RoleHistory": [
+          {
+            "_id": "60f88aeed16e9d5aab468fe6",
+            "user": "60a319d6b3f8622968674ecc",
+            "Role": {
+              "_id": "5fa02d8f785e4681ddfa3a6d",
+              "rank": 100,
+              "__v": 0,
+              "updatedAt": "2021-05-31T15:39:52.714Z",
+              "listModule": [
+                "60529f2e8be52417f8991e60",
+                "60548528836fb2334818c8f0",
+                "60761be7b4a5b34b90ab8463",
+                "60763d29b4a5b34b90ab8467",
+                "60764b62b4a5b34b90ab846a",
+                "608b35ccfa73114decf8a5cb",
+                "60ac7283696b3d4b04776e1b",
+                "60ae59919384d322dcf28785",
+                "60ae5d649384d322dcf28787",
+                "6074dcdafed0de4d343eb4dd"
+              ],
+              "isActive": true,
+              "label": "Global Support"
+            },
+            "startDate": "2021-06-15T22:45:00.000Z",
+            "endDate": "2021-08-01T15:00:00.000Z",
+            "__v": 0
+          }
+        ],
+        "Roles": []
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f5",
+        "firstName": "firstNameExemple",
+        "lastName": "lastNameExemple",
+        "email": "email@gmail.com",
+        "password": "12345678",
+        "phoneNumber": "12345689",
+        "status": false,
+        "RoleHistory": [
+          {
+            "_id": "60f88aeed16e9d5aab468fe6",
+            "user": "60a319d6b3f8622968674ecc",
+            "Role": {
+              "_id": "5fa02d8f785e4681ddfa3a6d",
+              "rank": 100,
+              "__v": 0,
+              "updatedAt": "2021-05-31T15:39:52.714Z",
+              "listModule": [
+                "60529f2e8be52417f8991e60",
+                "60548528836fb2334818c8f0",
+                "60761be7b4a5b34b90ab8463",
+                "60763d29b4a5b34b90ab8467",
+                "60764b62b4a5b34b90ab846a",
+                "608b35ccfa73114decf8a5cb",
+                "60ac7283696b3d4b04776e1b",
+                "60ae59919384d322dcf28785",
+                "60ae5d649384d322dcf28787",
+                "6074dcdafed0de4d343eb4dd"
+              ],
+              "isActive": true,
+              "label": "Global Support"
+            },
+            "startDate": "2021-06-15T22:45:00.000Z",
+            "endDate": "001076-12-09T02:16:00.000Z",
+            "__v": 0
+          }
+        ],
+        "Roles": []
+      }
+    ],
+    "totalDocs": 42,
+    "offset": 40,
+    "limit": 5,
+    "totalPages": 9,
+    "page": 9,
+    "pagingCounter": 41,
+    "hasPrevPage": true,
+    "hasNextPage": false,
+    "prevPage": 8,
+    "nextPage": null
+  },
+  "roles": {
+    "data": [
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6d", "label": "Global Support" },
+        "user": "61796b42032f037bb5db89fd"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6f", "label": "Customer AMS" },
+        "user": "617fdc818d74dd539e10f943"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a70", "label": "Administrator" },
+        "user": "617fdc818d74dd539e10f943"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6d", "label": "Global Support" },
+        "user": "6180f6c0e5306829163bb750"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6f", "label": "Customer AMS" },
+        "user": "617970359f950f6bc0e40319"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6d", "label": "Global Support" },
+        "user": "61826145c2d5a024c6638e9b"
+      },
+      {
+        "role": { "_id": "60ac71aa696b3d4b04776e19", "label": "Task manager" },
+        "user": "61796d5e0ed3ab2f5855c381"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a70", "label": "Administrator" },
+        "user": "61796b42032f037bb5db89fd"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6d", "label": "Global Support" },
+        "user": "61796b44032f0301dcdb8a04"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6f", "label": "Customer AMS" },
+        "user": "61796b50032f036a48db8a54"
+      },
+      {
+        "role": { "_id": "614201e60df15e7638d16d7b", "label": "role test" },
+        "user": "61796b42032f037bb5db89fd"
+      }
+    ],
+    "status": "success"
+  },
+  "users": {
+    "data": {
+      "docs": [
+        {
+          "_id": "61796cee9f950f6bc0e40317",
+          "status": true,
+          "RoleHistory": ["60eb23965946fe343a65f742"],
+          "firstName": "Waelovic",
+          "lastName": "Ben Miloud",
+          "email": "waelovic@gmail.com",
+          "phoneNumber": "6666666",
+          "avatar": "//www.gravatar.com/avatar/470f4ffa74447353354fbe4385dbd28d?s=200&r=pg&d=mm",
+          "microsoftId": "123",
+          "createdAt": "2021-10-14T10:17:57.708Z",
+          "updatedAt": "2021-11-15T08:08:54.217Z",
+          "__v": 0,
+          "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjE3OTZjZWU5Zjk1MGY2YmMwZTQwMzE3IiwiaXAiOiI6OjEifSwiaWF0IjoxNjM2OTYzNzM0LCJleHAiOjE2MzY5OTI1MzR9._veWSn4SQc6BHBbIHLiFIJ4jIWBEVizXBdJ0aDVMyXc",
+          "isActive": true,
+          "id": "61796cee9f950f6bc0e40317"
+        },
+        {
+          "_id": "61c34bc3ee45bc25fcb5ec26",
+          "status": true,
+          "isActive": true,
+          "RoleHistory": [],
+          "firstName": "Dhia",
+          "lastName": "Djobbi",
+          "email": "dhia.djobbi@gmail.com",
+          "phoneNumber": "12345678",
+          "avatar": "//www.gravatar.com/avatar/8be9a32095f98d98412e43f04eca8c7e?s=200&r=pg&d=mm",
+          "microsoftId": null,
+          "createdAt": "2021-12-22T16:01:07.164Z",
+          "updatedAt": "2021-12-22T16:09:34.776Z",
+          "__v": 0,
+          "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFjMzRiYzNlZTQ1YmMyNWZjYjVlYzI2In0sImlhdCI6MTY0MDE4OTM3NCwiZXhwIjoxNjQwMjI1Mzc0fQ.IXSqr10Fox5K4Fs1BNOCbohiFJqCQYbb5PLktQNTXKo",
+          "id": "61c34bc3ee45bc25fcb5ec26"
+        }
+      ],
+      "totalDocs": 2,
+      "offset": 0,
+      "limit": 12,
+      "totalPages": 1,
+      "page": 1,
+      "pagingCounter": 1,
+      "hasPrevPage": false,
+      "hasNextPage": false,
+      "prevPage": null,
+      "nextPage": null
+    },
+    "status": "success"
+  },
+  "result":{
+    "data": [
+      {
+        "_id": "61796cee9f950f6bc0e40317",
+        "status": true,
+        "RoleHistory": ["60eb23965946fe343a65f742"],
+        "firstName": "Waelovic",
+        "lastName": "Ben Miloud",
+        "email": "waelovic@gmail.com",
+        "phoneNumber": "6666666",
+        "avatar": "//www.gravatar.com/avatar/470f4ffa74447353354fbe4385dbd28d?s=200&r=pg&d=mm",
+        "microsoftId": "123",
+        "createdAt": "2021-10-14T10:17:57.708Z",
+        "updatedAt": "2021-11-15T08:08:54.217Z",
+        "__v": 0,
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjE3OTZjZWU5Zjk1MGY2YmMwZTQwMzE3IiwiaXAiOiI6OjEifSwiaWF0IjoxNjM2OTYzNzM0LCJleHAiOjE2MzY5OTI1MzR9._veWSn4SQc6BHBbIHLiFIJ4jIWBEVizXBdJ0aDVMyXc",
+        "isActive": true,
+        "id": "61796cee9f950f6bc0e40317",
+        "Roles": []
+      },
+      {
+        "_id": "61c34bc3ee45bc25fcb5ec26",
+        "status": true,
+        "isActive": true,
+        "RoleHistory": [],
+        "firstName": "Dhia",
+        "lastName": "Djobbi",
+        "email": "dhia.djobbi@gmail.com",
+        "phoneNumber": "12345678",
+        "avatar": "//www.gravatar.com/avatar/8be9a32095f98d98412e43f04eca8c7e?s=200&r=pg&d=mm",
+        "microsoftId": null,
+        "createdAt": "2021-12-22T16:01:07.164Z",
+        "updatedAt": "2021-12-22T16:09:34.776Z",
+        "__v": 0,
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFjMzRiYzNlZTQ1YmMyNWZjYjVlYzI2In0sImlhdCI6MTY0MDE4OTM3NCwiZXhwIjoxNjQwMjI1Mzc0fQ.IXSqr10Fox5K4Fs1BNOCbohiFJqCQYbb5PLktQNTXKo",
+        "id": "61c34bc3ee45bc25fcb5ec26",
+        "Roles": []
+      }
+    ],
+    "totalDocs": 2,
+    "offset": 0,
+    "limit": 12,
+    "totalPages": 1,
+    "page": 1,
+    "pagingCounter": 1,
+    "hasPrevPage": false,
+    "hasNextPage": false,
+    "prevPage": null,
+    "nextPage": null
+  },
+  "users2": {
+    "data": {
+      "docs": [
+        {
+          "_id": "61826145c2d5a024c6638e9b",
+          "status": true,
+          "isActive": true,
+          "RoleHistory": ["60eb23965946fe343a65f742"],
+          "firstName": "Mohamed",
+          "lastName": "Bouazza",
+          "email": "mohamed.bouazza@avaxia-group.com",
+          "phoneNumber": "NaN",
+          "avatar": null,
+          "Level": null,
+          "microsoftId": "eb8cdfc3-cc81-4d4b-8695-669a9c889fa1",
+          "createdAt": "2021-11-03T10:15:33.315Z",
+          "updatedAt": "2021-11-22T10:22:11.613Z",
+          "__v": 0,
+          "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjE4MjYxNDVjMmQ1YTAyNGM2NjM4ZTliIiwiaXAiOiI6OmZmZmY6MTcyLjIwLjAuMTYwIiwiYWNjZXNzVG9rZW4iOiJleUowZVhBaU9pSktWMVFpTENKdWIyNWpaU0k2SWxSaGFHRnFjVk5RVVRWUk0xUlZWV1l3WVhCUFJYSmlhRTVYVG10WE5IaERSV3RXVjFaZmVUUXpVVmtpTENKaGJHY2lPaUpTVXpJMU5pSXNJbmcxZENJNkltd3pjMUV0TlRCalEwZzBlRUpXV2t4SVZFZDNibE5TTnpZNE1DSXNJbXRwWkNJNkltd3pjMUV0TlRCalEwZzBlRUpXV2t4SVZFZDNibE5TTnpZNE1DSjkuZXlKaGRXUWlPaUl3TURBd01EQXdNeTB3TURBd0xUQXdNREF0WXpBd01DMHdNREF3TURBd01EQXdNREFpTENKcGMzTWlPaUpvZEhSd2N6b3ZMM04wY3k1M2FXNWtiM2R6TG01bGRDODNaV05tTVdSallpMWxZMkV6TFRRM01qY3RPREl3TVMwME9XTm1OR001TkdJMk5qa3ZJaXdpYVdGMElqb3hOak0zTlRjMk1qSTVMQ0p1WW1ZaU9qRTJNemMxTnpZeU1qa3NJbVY0Y0NJNk1UWXpOelU0TURZNE9Dd2lZV05qZENJNk1Dd2lZV055SWpvaU1TSXNJbUZwYnlJNklrRlZVVUYxTHpoVVFVRkJRVzFaV21aNGVXZHdZekphT1Vock9VZ3paekJIVDFSeFNWVkRhU3QzVXpkaU9GQlZXSGRLWW05SFlYTnBkRkk0YzNRMWQzZG9ZVFJ3TUdRclpFdDVURE5CTDBneEt6QlFkMEZvZDAxMVIyTXJkREJzVEVWUlBUMGlMQ0poYlhJaU9sc2ljSGRrSWwwc0ltRndjRjlrYVhOd2JHRjVibUZ0WlNJNklrNXZaR1V1YW5NZ1IzSmhjR2dnSWl3aVlYQndhV1FpT2lKa09UUTFNbVEwWWkwM1lqa3dMVFE1WTJJdE9UWmhPUzFrWW1Rd00ySmlZbU14WldNaUxDSmhjSEJwWkdGamNpSTZJakFpTENKbVlXMXBiSGxmYm1GdFpTSTZJa0p2ZFdGNmVtRWlMQ0puYVhabGJsOXVZVzFsSWpvaVRXOW9ZVzFsWkNJc0ltbGtkSGx3SWpvaWRYTmxjaUlzSW1sd1lXUmtjaUk2SWpReExqSXpNUzQ0TXk0eE16QWlMQ0p1WVcxbElqb2lUVzlvWVcxbFpDQkNiM1ZoZW5waElpd2liMmxrSWpvaVpXSTRZMlJtWXpNdFkyTTRNUzAwWkRSaUxUZzJPVFV0TmpZNVlUbGpPRGc1Wm1FeElpd2ljR3hoZEdZaU9pSXpJaXdpY0hWcFpDSTZJakV3TURNeU1EQXdSakE0T0RVeE1USWlMQ0p5YUNJNklqQXVRVkk0UVhsNE0xQm1jVkJ6U2pCbFEwRlZibEJVU2xNeVlWVnpkRkprYlZGbE9IUktiSEZ1WWpCRWRUZDNaWGRtUVV4akxpSXNJbk5qY0NJNklrTm9ZVzV1Wld3dVVtVmhaRUpoYzJsakxrRnNiQ0JEYUdGdWJtVnNUV1Z6YzJGblpTNVNaV0ZrTGtGc2JDQkRhR0Z1Ym1Wc1RXVnpjMkZuWlM1VFpXNWtJRVJwY21WamRHOXllUzVTWldGa0xrRnNiQ0JIY205MWNDNVNaV0ZrTGtGc2JDQkhjbTkxY0M1U1pXRmtWM0pwZEdVdVFXeHNJRWR5YjNWd1RXVnRZbVZ5TGxKbFlXUXVRV3hzSUZOamFHVmtkV3hsTGxKbFlXUXVRV3hzSUZSbFlXMHVVbVZoWkVKaGMybGpMa0ZzYkNCVmMyVnlMbEpsWVdRZ1ZYTmxjaTVTWldGa0xrRnNiQ0JWYzJWeUxsSmxZV1JDWVhOcFl5NUJiR3dnY0hKdlptbHNaU0J2Y0dWdWFXUWdaVzFoYVd3aUxDSnphV2R1YVc1ZmMzUmhkR1VpT2xzaWFXNXJibTkzYm01MGQyc2lMQ0pyYlhOcElsMHNJbk4xWWlJNklrcFVRWFk1ZGtSRFRrd3RZMlpHVm1WUWJ5MXZaRkZpUTFkdVZtSk9kRzk1UVdveVlsUnFhRkZQZG5NaUxDSjBaVzVoYm5SZmNtVm5hVzl1WDNOamIzQmxJam9pUlZVaUxDSjBhV1FpT2lJM1pXTm1NV1JqWWkxbFkyRXpMVFEzTWpjdE9ESXdNUzAwT1dObU5HTTVOR0kyTmpraUxDSjFibWx4ZFdWZmJtRnRaU0k2SW0xdmFHRnRaV1F1WW05MVlYcDZZVUJoZG1GNGFXRXRaM0p2ZFhBdVkyOXRJaXdpZFhCdUlqb2liVzlvWVcxbFpDNWliM1ZoZW5waFFHRjJZWGhwWVMxbmNtOTFjQzVqYjIwaUxDSjFkR2tpT2lKWlVWOUtRWEpOUmtORllXOTBhV2xQUm1Oek0wRkJJaXdpZG1WeUlqb2lNUzR3SWl3aWVHMXpYM04wSWpwN0luTjFZaUk2SWs1Q1VtTXRkRlZ3YVRCUlZESjRXRkZPU1RGUVNrZzJOMWd3VGpSa1EzRTRPSFpsUzB0d01sUTRRWGNpZlN3aWVHMXpYM1JqWkhRaU9qRTFNRFV5TVRrM016VjkuSU55Tm1lSEpwbGlYZW1rQkd6S3JMTU55ejBYa1JDYnRMNllXLUNEdUNWS0ZwV2s0SFpsdUpmWktZX0FaOHdDUUFKTFZ3eW5TVVRlMHpFQnIwUkFtTTBJc3FsUnJ3dHF3d0dVd0NmZEpHd3lvVkRZQVpSbnNOa0M2cXJlUVVOYVZpNVJveEJ4OU92MlpDV0hBdVlTaG1fMHB6QW1oZ1ljNW1fWXZCNGxYY3YwQWVoMlQyNU1JendyVEtCdjFUcDRkM241Rm1ZQ1pZLUdKMWdXOWlzaVVfSTBkbW1CamFSUnZkYW1jREp1cWF2SUlscDV4ajRNYTZNc2FkQVUyNVlLZkZ5Y3pqSjRITm9vQXhQaE1lNTJvbm1QbGtyaTBaaVVnWkVqOTFJSDFLUWRuQnVtSVhENTRyN3NHTnhPclllc3ZmUUxIUURQZlQ5WjFCYmxGd2FpWVRRIn0sImlhdCI6MTYzNzU3NjUzMSwiZXhwIjoxNjM3NjA1MzMxfQ.Zwp92k45CsfTYBeAM1gdeX-6Biumow0rv7dzVWK8z5U",
+          "id": "61826145c2d5a024c6638e9b"
+        },
+        {
+          "_id": "61c34bc3ee45bc25fcb5ec26",
+          "status": true,
+          "isActive": true,
+          "RoleHistory": [],
+          "firstName": "Dhia",
+          "lastName": "Djobbi",
+          "email": "dhia.djobbi@gmail.com",
+          "phoneNumber": "12345678",
+          "avatar": "//www.gravatar.com/avatar/8be9a32095f98d98412e43f04eca8c7e?s=200&r=pg&d=mm",
+          "microsoftId": null,
+          "createdAt": "2021-12-22T16:01:07.164Z",
+          "updatedAt": "2021-12-22T16:09:34.776Z",
+          "__v": 0,
+          "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFjMzRiYzNlZTQ1YmMyNWZjYjVlYzI2In0sImlhdCI6MTY0MDE4OTM3NCwiZXhwIjoxNjQwMjI1Mzc0fQ.IXSqr10Fox5K4Fs1BNOCbohiFJqCQYbb5PLktQNTXKo",
+          "id": "61c34bc3ee45bc25fcb5ec26"
+        }
+      ],
+      "totalDocs": 56,
+      "offset": 0,
+      "limit": 100000,
+      "totalPages": 1,
+      "page": 1,
+      "pagingCounter": 1,
+      "hasPrevPage": false,
+      "hasNextPage": false,
+      "prevPage": null,
+      "nextPage": null
+    },
+    "status": "success"
+  },
+  "result2": {
+    "data": [],
+    "totalDocs": 0,
+    "offset": 0,
+    "limit": 100000,
+    "totalPages": 1,
+    "page": 1,
+    "pagingCounter": 1,
+    "hasPrevPage": false,
+    "hasNextPage": false,
+    "prevPage": null,
+    "nextPage": null
+}
+}

@@ -1,0 +1,95 @@
+[2021-12-20T18:00:08.716] [ERROR] ma-core - Migration error licence :  TypeError: mapId is not iterable
+    at /home/azer/avaxia-monitpring-app/core-service/ma-migrations/migrations/20211220150530-map-startTime.js:30:25
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:201:34
+    at next (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:437:9)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:482:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/find_cursor.js:66:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/utils.js:508:9
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:51:17
+    at callbackWithRetry (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:98:20)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cmap/connection_pool.js:272:25
+    at handleOperationResult (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/sdam/server.js:370:9)
+[2021-12-20T18:02:58.293] [ERROR] ma-core - Migration error licence :  ReferenceError: mId is not defined
+    at /home/azer/avaxia-monitpring-app/core-service/ma-migrations/migrations/20211220150530-map-startTime.js:30:23
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:201:34
+    at next (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:437:9)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:482:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/find_cursor.js:66:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/utils.js:508:9
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:51:17
+    at callbackWithRetry (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:98:20)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cmap/connection_pool.js:272:25
+    at handleOperationResult (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/sdam/server.js:370:9)
+[2021-12-20T18:03:47.977] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:03:47.978] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:03:47.978] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:03:47.978] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:03:47.979] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:03:47.979] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:06:24.290] [ERROR] ma-core - Migration error licence :  TypeError: mapId is not iterable
+    at /home/azer/avaxia-monitpring-app/core-service/ma-migrations/migrations/20211220150530-map-startTime.js:30:25
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:201:34
+    at next (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:437:9)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:482:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/find_cursor.js:66:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/utils.js:508:9
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:51:17
+    at callbackWithRetry (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:98:20)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cmap/connection_pool.js:272:25
+    at handleOperationResult (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/sdam/server.js:370:9)
+[2021-12-20T18:07:07.509] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:07:07.510] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:07:07.510] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:07:07.510] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:07:07.510] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:09:09.569] [ERROR] ma-core - Migration error licence :  TypeError: mapId is not iterable
+    at /home/azer/avaxia-monitpring-app/core-service/ma-migrations/migrations/20211220150530-map-startTime.js:30:25
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:201:34
+    at next (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:437:9)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:482:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/find_cursor.js:66:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/utils.js:508:9
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:51:17
+    at callbackWithRetry (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:98:20)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cmap/connection_pool.js:272:25
+    at handleOperationResult (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/sdam/server.js:370:9)
+[2021-12-20T18:12:32.502] [ERROR] ma-core - Migration error licence :  ReferenceError: mId is not defined
+    at /home/azer/avaxia-monitpring-app/core-service/ma-migrations/migrations/20211220150530-map-startTime.js:31:25
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:201:34
+    at next (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:437:9)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:482:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/find_cursor.js:66:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/utils.js:508:9
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:51:17
+    at callbackWithRetry (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:98:20)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cmap/connection_pool.js:272:25
+    at handleOperationResult (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/sdam/server.js:370:9)
+[2021-12-20T18:12:53.663] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:12:53.664] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:12:53.664] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:15:28.575] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:15:28.576] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:15:28.577] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:15:28.577] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:15:28.577] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:16:39.110] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:16:39.112] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:16:39.113] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:16:39.114] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:17:21.821] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:17:21.822] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:17:21.822] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:17:21.822] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:18:25.277] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:18:25.279] [ERROR] ma-core - An error has occured when creating Map update list !
+[2021-12-20T18:21:24.058] [ERROR] ma-core - Migration error licence :  ReferenceError: map is not defined
+    at /home/azer/avaxia-monitpring-app/core-service/ma-migrations/migrations/20211220150530-map-startTime.js:32:16
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:201:34
+    at next (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:437:9)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/abstract_cursor.js:482:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cursor/find_cursor.js:66:13
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/utils.js:508:9
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:51:17
+    at callbackWithRetry (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/operations/execute_operation.js:98:20)
+    at /usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/cmap/connection_pool.js:272:25
+    at handleOperationResult (/usr/lib/node_modules/migrate-mongo/node_modules/mongodb/lib/sdam/server.js:370:9)

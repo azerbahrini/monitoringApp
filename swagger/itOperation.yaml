@@ -1,0 +1,615 @@
+openapi: 3.0.0
+info:
+  description: ItOperation API
+  version: "1.0.0"
+  title: ItOperation API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /itOperation :
+    post:
+      summary: adds a ItOperation
+      operationId: addItOperation
+      description: Adds itOperation to the system
+      parameters: 
+        - in: query
+          name: sendMail
+          required: true
+          schema:
+            type: boolean
+      responses:
+        '201':
+          description: ItOperation created
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/ItOperation'
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required           
+                   
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+              - title
+              - description
+              - timeZone
+              - startDate
+              - endDate
+              - ticket
+              - system
+             properties:
+              title:
+                type: string
+                example: itOperation1
+              description:
+                type: string
+                example: desc1  
+              timeZone:
+                type: string
+                example: tunis/africa 
+              startDate:
+                type: string
+                example: "2021-12-02T15:00"
+              endDate:
+                type: string
+                example: "2021-12-03T04:00"
+              ticket:
+                type: string
+                example: 80
+              system:
+                type: string
+                example: "60edffc2370e9734982ab123"
+        description: ItOperation item to add
+  /itOperation/getAllArchived:
+    get:
+      summary: Get all Archived ItOperation
+      operationId: getAllArchivedItOperation
+      description: 
+        get all Archived ItOperation
+      parameters: 
+        - in: query
+          name: page
+          required: true
+          schema:
+            type: number
+        - in: query
+          name: size
+          required: true
+          schema:
+            type: number
+        - in: query
+          name: sort
+          required: true
+          schema:
+            type: number
+            enum: [-1, 1]
+      responses:
+        '200':
+          description: return all archived ItOperation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ItOperation'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required      
+  /itOperation/getAllActive:
+    get:
+      summary: Get all Active ItOperation
+      operationId: getAllActiveItOperation
+      description: 
+        get all Active ItOperation
+      parameters: 
+        - in: query
+          name: page
+          required: true
+          schema:
+            type: number
+        - in: query
+          name: size
+          required: true
+          schema:
+            type: number
+        - in: query
+          name: sort
+          required: true
+          schema:
+            type: number
+            enum: [-1, 1]
+      responses:
+        '200':
+          description: return all active ItOperation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ItOperation'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /itOperation/AllItOperationBySystemID/{sysId}:
+    get:
+      summary: Get all ItOperation By System
+      operationId: getAllItOperationBySystemID
+      description: 
+        Get all ItOperation By System
+      parameters: 
+        - in: path
+          name: sysId
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: page
+          required: true
+          schema:
+            type: number
+        - in: query
+          name: size
+          required: true
+          schema:
+            type: number
+        - in: query
+          name: sort
+          required: true
+          schema:
+            type: number
+            enum: [-1, 1]
+      responses:
+        '200':
+          description: return all ItOperation by System
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ItOperation'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /itOperation/update/{id}:
+    patch:
+      summary: update a single ItOperation
+      description: update one itOperation
+      operationId: updateItOperation
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: sendMail
+          required: true
+          schema:
+            type: boolean
+        - in: query
+          name: change
+          required: true
+          schema:
+            type: string
+            enum: [updated, postponed, extended]
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItOperation'
+       
+          description: "updated itOperation"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: ItOperation not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: ItOperation not found
+        "501":
+          description: "no error displayed"
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+              - title
+              - description
+              - timeZone
+              - startDate
+              - endDate
+              - ticket
+              - system
+             properties:
+              title:
+                type: string
+                example: itOperation1
+              description:
+                type: string
+                example: desc1  
+              timeZone:
+                type: string
+                example: tunis/africa 
+              startDate:
+                type: string
+                example: "2021-12-02T15:00"
+              endDate:
+                type: string
+                example: "2021-12-03T04:00"
+              ticket:
+                type: string
+                example: 80
+              system:
+                type: string
+                example: "60edffc2370e9734982ab123"
+        description: ItOperation item to update 
+  /itOperation/cancel/{id}:
+    patch:
+      summary: cancel a single ItOperation
+      description: cancel one itOperation
+      operationId: cancelItOperation
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: sendMail
+          required: true
+          schema:
+            type: boolean
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItOperation'
+       
+          description: "canceled itOperation"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: ItOperation not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: ItOperation not found
+        "501":
+          description: "no error displayed"
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+              - cancelNotes
+             properties:
+              title:
+                type: string
+                example: canceled notes1
+        description: cancel notes 
+  /itOperation/finish/{id}:
+    patch:
+      summary: finish a single ItOperation
+      description: finish one itOperation
+      operationId: finishItOperation
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: sendMail
+          required: true
+          schema:
+            type: boolean
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItOperation'
+       
+          description: "finidhed itOperation"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: ItOperation not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: ItOperation not found
+        "501":
+          description: "no error displayed"   
+  /itOperation/remind/{id}:
+    patch:
+      summary: remind a single ItOperation
+      description: remind one itOperation
+      operationId: remindItOperation
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItOperation'
+       
+          description: "reminded itOperation"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: ItOperation not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: ItOperation not found
+        "501":
+          description: "no error displayed"
+  /itOperation/sendChanges/{id}:
+    patch:
+      summary: send changes not comunicated of single ItOperation
+      description: send changes not comunicated of an itOperation
+      operationId: sendChangesItOperation
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ItOperation'
+       
+          description: "changes sent of itOperation"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: ItOperation not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: ItOperation not found
+        "501":
+          description: "no error displayed"      
+components:
+  schemas:
+    ItOperation:
+      type: object
+      required:
+        - id
+        - title
+        - description
+        - timeZone
+        - startDate
+        - endDate
+        - ticket
+        - system
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        title:
+          type: string
+          example: itOperation1
+        description:
+          type: string
+          example: desc1  
+        timeZone:
+          type: string
+          example: tunis/africa 
+        startDate:
+          type: string
+          example: "2021-12-02T15:00"
+        endDate:
+          type: string
+          example: "2021-12-03T04:00"
+        ticket:
+          type: string
+          example: 80
+        system:
+          type: string
+          example: "60edffc2370e9734982ab123"
+          
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/hamma19/itOperation-api/1.0.0

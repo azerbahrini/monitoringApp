@@ -1,0 +1,347 @@
+openapi: 3.0.0
+info:
+  description: Licence API
+  version: "1.0.0"
+  title: Licence API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /licence :
+    post:
+      summary: adds a Licence
+      operationId: addLicence
+      description: Adds licence to the customer
+      responses:
+        '201':
+          description: Licence created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _id:
+                    type: string
+                    format: uuid
+                  startDate:
+                    type: string
+                    example: "2021-12-02T00:00:00.000Z" 
+                  endDate:
+                     type: string
+                     example: "2022-12-02T00:00:00.000Z"  
+                  customer:
+                        type: string
+                        example: "60edffc2370e9734982cc555"
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required           
+                   
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+             - startDate
+             - endDate
+             - customer
+             properties:
+              startDate:
+               type: string
+               example: "2022-12-02T00:00:00.000Z"
+              endDate:
+               type: string
+               example: "2022-12-02T00:00:00.000Z"  
+              customer:
+                type: string
+                example: "2022-12-02T00:00:00.000Z"
+        description: Licence item to add
+  /licence/getbycustomer/{id}:
+    get:
+      summary: Get all Licence
+      operationId: getAllLicence
+      description: 
+        get all active Licence of a customer
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: return all Licence of a customer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Licence'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: customer not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer not found     
+  /licence/getone/{id}:
+    get:
+      summary: get a single Licence
+      operationId: getOneLicence
+      description: get Licence by Id
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: return specific Licence
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      _id:
+                        type: string
+                        format: uuid
+                      startDate:
+                        type: string
+                        example: "2021-12-02T00:00:00.000Z"
+                      endDate:
+                        type: string
+                        example: "2022-12-02T00:00:00.000Z"  
+                      isActive:
+                        type: boolean
+                        example: true
+                      customer:
+                        type: string
+                        example: "60edffc2370e9734982cc555"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  
+                
+                    
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Licence not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Licence not found       
+  /licence/update/{id}:
+    patch:
+      summary: update a single Licence
+      description: update one licence
+      operationId: updateLicence
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Licence'
+       
+          description: "updated licence"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Licence not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Licence not found
+        "501":
+          description: "no error displayed"
+        
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                startDate:
+                 type: string
+                 example: "2021-12-02T00:00:00.000Z"
+                endDate:
+                 type: string
+                 example: "2022-12-02T00:00:00.000Z"  
+
+  /licence/delete/{id}:  
+    patch:  
+      summary: delete a single Licence
+      description: delete one Licence
+      operationId: deleteLicence
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Licence'
+          description: "deleted licence"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no Licence found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Licence not found
+      
+components:
+  schemas:
+    Licence:
+      type: object
+      required:
+        - startDate
+        - endDate
+        - customer
+      properties:
+        _id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        startDate:
+          type: string
+          example: "2021-12-02T00:00:00.000Z"
+        endDate:
+          type: string
+          example: "2022-12-02T00:00:00.000Z" 
+        customer:
+          type: string
+          example: "60edffc2370e9734982cc555" 
+        isActive:
+          type: boolean
+          example: true
+          
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/hamma19/licence-api/1.0.0

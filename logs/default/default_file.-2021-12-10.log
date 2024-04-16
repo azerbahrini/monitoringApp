@@ -1,0 +1,207 @@
+[2021-12-10T08:47:24.083] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T08:47:24.780] [INFO] ma-core - server started at port 5000
+[2021-12-10T08:47:24.803] [INFO] ma-core - mongodb conected
+[2021-12-10T08:47:34.401] [INFO] ma-core - delete Result Form success testing testing testing
+[2021-12-10T08:47:34.407] [INFO] ma-core - delete Result Form success NaN post 1234
+[2021-12-10T08:47:34.410] [ERROR] ma-core - delete Result Form :task not found testing testing testing
+[2021-12-10T08:47:34.413] [ERROR] ma-core - delete Result Form :task not found NaN post 1234
+[2021-12-10T08:47:34.428] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-10T08:47:34.430] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-10T08:47:34.433] [ERROR] ma-core - get All result form :missing property testing testing testing
+[2021-12-10T08:47:34.436] [ERROR] ma-core - get All result form :missing property NaN post 1234
+[2021-12-10T08:47:34.442] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-10T08:47:34.444] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-10T08:47:34.445] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-10T08:47:34.446] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-10T08:47:34.453] [INFO] ma-core - add result form success testing testing testing
+[2021-12-10T08:47:34.454] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-10T08:47:34.456] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-10T08:47:34.457] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-10T08:47:34.463] [INFO] ma-core - update Result Form success testing testing testing
+[2021-12-10T08:47:34.464] [INFO] ma-core - update Result Form success NaN post 1234
+[2021-12-10T08:47:34.466] [ERROR] ma-core - update Result Form  :task not found testing testing testing
+[2021-12-10T08:47:34.467] [ERROR] ma-core - update Result Form  :task not found NaN post 1234
+[2021-12-10T09:55:46.289] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T09:55:46.917] [INFO] ma-core - server started at port 5000
+[2021-12-10T09:55:46.944] [INFO] ma-core - mongodb conected
+[2021-12-10T10:26:55.364] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:26:55.910] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:26:55.931] [INFO] ma-core - mongodb conected
+[2021-12-10T10:28:08.867] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:28:09.446] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:28:09.467] [INFO] ma-core - mongodb conected
+[2021-12-10T10:29:54.890] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:29:55.490] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:29:55.514] [INFO] ma-core - mongodb conected
+[2021-12-10T10:30:47.184] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:30:47.765] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:30:47.787] [INFO] ma-core - mongodb conected
+[2021-12-10T10:32:00.110] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:32:00.645] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:32:00.666] [INFO] ma-core - mongodb conected
+[2021-12-10T10:32:13.203] [INFO] ma-core - delete Result Form success testing testing testing
+[2021-12-10T10:32:13.208] [INFO] ma-core - delete Result Form success NaN post 1234
+[2021-12-10T10:32:13.210] [ERROR] ma-core - delete Result Form :task not found testing testing testing
+[2021-12-10T10:32:13.211] [ERROR] ma-core - delete Result Form :task not found NaN post 1234
+[2021-12-10T10:32:13.226] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-10T10:32:13.227] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-10T10:32:13.229] [ERROR] ma-core - get All result form :missing property testing testing testing
+[2021-12-10T10:32:13.231] [ERROR] ma-core - get All result form :missing property NaN post 1234
+[2021-12-10T10:32:13.235] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-10T10:32:13.237] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-10T10:32:13.239] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-10T10:32:13.241] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-10T10:32:13.248] [INFO] ma-core - add result form success testing testing testing
+[2021-12-10T10:32:13.250] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-10T10:32:13.251] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-10T10:32:13.253] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-10T10:32:13.258] [INFO] ma-core - update Result Form success testing testing testing
+[2021-12-10T10:32:13.260] [INFO] ma-core - update Result Form success NaN post 1234
+[2021-12-10T10:32:13.261] [ERROR] ma-core - update Result Form  :task not found testing testing testing
+[2021-12-10T10:32:13.264] [ERROR] ma-core - update Result Form  :task not found NaN post 1234
+[2021-12-10T10:36:04.567] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:36:05.101] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:36:05.122] [INFO] ma-core - mongodb conected
+[2021-12-10T10:38:40.222] [ERROR] ma-core - get Monitoring Activities Without Result Forms :MonitorIndActivity is not defined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T10:39:21.060] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:39:21.650] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:39:21.679] [INFO] ma-core - mongodb conected
+[2021-12-10T10:40:55.933] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:40:56.464] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:40:56.488] [INFO] ma-core - mongodb conected
+[2021-12-10T10:41:30.173] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:41:30.713] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:41:30.735] [INFO] ma-core - mongodb conected
+[2021-12-10T10:41:40.553] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T10:50:37.859] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T10:50:38.453] [INFO] ma-core - server started at port 5000
+[2021-12-10T10:50:38.481] [INFO] ma-core - mongodb conected
+[2021-12-10T10:50:43.255] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T10:54:37.542] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:29:07.500] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:29:08.363] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:29:08.389] [INFO] ma-core - mongodb conected
+[2021-12-10T11:29:35.796] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:29:36.559] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:29:36.594] [INFO] ma-core - mongodb conected
+[2021-12-10T11:29:40.649] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:31:20.274] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:31:21.010] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:31:21.052] [INFO] ma-core - mongodb conected
+[2021-12-10T11:31:23.166] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:31:49.306] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:31:50.004] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:31:50.035] [INFO] ma-core - mongodb conected
+[2021-12-10T11:31:52.214] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:32:48.526] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:32:49.150] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:32:49.187] [INFO] ma-core - mongodb conected
+[2021-12-10T11:32:56.587] [ERROR] ma-core - get Monitoring Activities Without Result Forms :monitorindActivity.filter is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:34:03.347] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:34:03.925] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:34:03.944] [INFO] ma-core - mongodb conected
+[2021-12-10T11:34:07.081] [ERROR] ma-core - get Monitoring Activities Without Result Forms :Cannot read property 'filter' of undefined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:35:21.346] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:35:21.992] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:35:22.024] [INFO] ma-core - mongodb conected
+[2021-12-10T11:35:23.617] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:35:36.367] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:35:36.981] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:35:37.012] [INFO] ma-core - mongodb conected
+[2021-12-10T11:35:40.138] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:36:03.268] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:36:03.826] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:36:03.848] [INFO] ma-core - mongodb conected
+[2021-12-10T11:36:07.167] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:36:07.709] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:36:07.732] [INFO] ma-core - mongodb conected
+[2021-12-10T11:36:09.087] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:36:40.343] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:36:40.933] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:36:40.960] [INFO] ma-core - mongodb conected
+[2021-12-10T11:36:42.145] [ERROR] ma-core - get Monitoring Activities Without Result Forms :monitorindActivity is not defined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:36:51.381] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:36:52.028] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:36:52.062] [INFO] ma-core - mongodb conected
+[2021-12-10T11:36:54.787] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:37:35.381] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:49:48.239] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:49:48.890] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:49:48.921] [INFO] ma-core - mongodb conected
+[2021-12-10T11:49:56.639] [ERROR] ma-core - get Monitoring Activities Without Result Forms :resultFormService.getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:51:04.167] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:51:04.732] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:51:04.762] [INFO] ma-core - mongodb conected
+[2021-12-10T11:51:11.367] [ERROR] ma-core - get Monitoring Activities Without Result Forms :resultFormService.getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:51:12.158] [ERROR] ma-core - get Monitoring Activities Without Result Forms :resultFormService.getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:51:12.731] [ERROR] ma-core - get Monitoring Activities Without Result Forms :resultFormService.getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:51:44.766] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:51:45.362] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:51:45.402] [INFO] ma-core - mongodb conected
+[2021-12-10T11:51:50.070] [ERROR] ma-core - get Monitoring Activities Without Result Forms :getAllResultFormService is not defined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:52:29.103] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:52:29.714] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:52:29.747] [INFO] ma-core - mongodb conected
+[2021-12-10T11:52:34.955] [ERROR] ma-core - get Monitoring Activities Without Result Forms :getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:52:35.772] [ERROR] ma-core - get Monitoring Activities Without Result Forms :getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:52:36.386] [ERROR] ma-core - get Monitoring Activities Without Result Forms :getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:54:24.560] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:54:25.093] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:54:25.115] [INFO] ma-core - mongodb conected
+[2021-12-10T11:55:00.557] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:55:01.190] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:55:01.217] [INFO] ma-core - mongodb conected
+[2021-12-10T11:55:01.914] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:55:02.499] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:55:02.521] [INFO] ma-core - mongodb conected
+[2021-12-10T11:55:10.819] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:55:11.426] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:55:11.448] [INFO] ma-core - mongodb conected
+[2021-12-10T11:55:17.391] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:57:54.428] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:57:55.029] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:57:55.064] [INFO] ma-core - mongodb conected
+[2021-12-10T11:58:00.005] [ERROR] ma-core - get Monitoring Activities Without Result Forms :id2 is not defined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:59:23.262] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T11:59:23.843] [INFO] ma-core - server started at port 5000
+[2021-12-10T11:59:23.868] [INFO] ma-core - mongodb conected
+[2021-12-10T11:59:31.057] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T14:38:07.984] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T14:42:42.184] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T14:44:45.267] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T14:44:46.046] [INFO] ma-core - server started at port 5000
+[2021-12-10T14:44:46.082] [INFO] ma-core - mongodb conected
+[2021-12-10T14:44:47.475] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T15:04:42.830] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T15:04:56.176] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T15:06:44.398] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T15:06:45.288] [INFO] ma-core - server started at port 5000
+[2021-12-10T15:06:45.318] [INFO] ma-core - mongodb conected
+[2021-12-10T15:07:26.576] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T15:07:27.171] [INFO] ma-core - server started at port 5000
+[2021-12-10T15:07:27.172] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-10T15:07:27.194] [INFO] ma-core - mongodb conected
+[2021-12-10T15:07:29.027] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T15:07:29.448] [INFO] ma-core - server started at port 5000
+[2021-12-10T15:07:29.448] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-10T15:07:29.467] [INFO] ma-core - mongodb conected
+[2021-12-10T15:07:43.951] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T15:07:44.389] [INFO] ma-core - server started at port 5000
+[2021-12-10T15:07:44.390] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-10T15:07:44.409] [INFO] ma-core - mongodb conected
+[2021-12-10T15:08:20.922] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T15:08:21.335] [INFO] ma-core - server started at port 5000
+[2021-12-10T15:08:21.335] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-10T15:08:21.353] [INFO] ma-core - mongodb conected
+[2021-12-10T15:08:38.478] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T15:08:38.914] [INFO] ma-core - server started at port 5000
+[2021-12-10T15:08:38.914] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-10T15:08:38.939] [INFO] ma-core - mongodb conected
+[2021-12-10T15:08:46.725] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T15:08:47.155] [INFO] ma-core - server started at port 5000
+[2021-12-10T15:08:47.155] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-10T15:08:47.173] [INFO] ma-core - mongodb conected
+[2021-12-10T15:19:42.931] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-10T15:19:43.503] [INFO] ma-core - server started at port 5000
+[2021-12-10T15:19:43.524] [INFO] ma-core - mongodb conected
+[2021-12-10T15:20:24.176] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1

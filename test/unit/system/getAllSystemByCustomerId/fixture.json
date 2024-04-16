@@ -1,0 +1,89 @@
+{
+  "all": {
+    "success": {
+      "res": {
+        "statusCode": 200,
+        "headers": {
+          "content-type": "application/json"
+        }
+      },
+      "body": {
+        "status": "success",
+        "data": {
+          "docs": [
+            {
+              "name": "Name",
+              "type": "610d502489e61a36e88e1d27",
+              "category": "610d502489e61a36e88e1d27",
+              "customer": "610d502489e61a36e88e1d27",
+              "deployType": "Cloud",
+              "deployDesc": "Cloud",
+              "fqdn": "fqdn",
+              "class": "610d502489e61a36e88e1d27",
+              "listInstance": [
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27"
+              ],
+              "listMap": [
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27"
+              ],
+              "listTechnicalUser": [
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27"
+              ],
+              "listCustomerContact": [
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27"
+              ],
+              "isActive": true
+            },
+            {
+              "name": "Name",
+              "type": "610d502489e61a36e88e1d27",
+              "category": "610d502489e61a36e88e1d27",
+              "customer": "610d502489e61a36e88e1d27",
+              "deployType": "Cloud",
+              "deployDesc": "Cloud",
+              "fqdn": "fqdn",
+              "class": "610d502489e61a36e88e1d27",
+              "listInstance": [
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27"
+              ],
+              "listMap": [
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27"
+              ],
+              "listTechnicalUser": [
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27"
+              ],
+              "listCustomerContact": [
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27",
+                "610d502489e61a36e88e1d27"
+              ],
+              "isActive": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

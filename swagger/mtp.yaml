@@ -1,0 +1,373 @@
+openapi: 3.0.0
+info:
+  description: MTP API
+  version: "1.0.0"
+  title: MTP API
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /mtp:
+    get:
+      summary: Get all Mtps
+      operationId: getAllMTP
+      description: get all existantes Mtps
+      parameters:
+        - name: page
+          in: query
+          description: page number
+          required: true
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          required: true
+          schema:
+            type: integer
+            format: int32
+        - name: isActive
+          in: query
+          description: Active elements
+          required: false
+          schema:
+            type: string  
+      responses:
+        "200":
+          description: return all Mtps
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/MTP"
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+        "204":
+          description: "No data"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string          
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a mtp
+      operationId: addCategory
+      description: Add MTP 
+      responses:
+        "201":
+          description: MTP created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/MTP'
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - title
+                - description
+                - type
+                - estimatedStart
+              properties:
+                mtp:
+                  type: string
+                  example: libelle
+                active:
+                  type: boolean
+                  example: true
+        description: MTP item to add
+
+  /mtp/{id}:
+    get:
+      summary: get a single MTP
+      description: get MTP by ID
+      operationId: getMTPById
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/MTP"
+
+          description: "updated MTP"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: MTP not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: MTP not found
+        "501":
+          description: "no error displayed"
+  /mtp/update/{id}:        
+    patch:
+      summary: update MTP
+      description: update MTP
+      operationId: updateMTP
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/MTP'
+
+          description: "updated MTP"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                mtp:
+                  type: string
+                  example: libelleExemple
+                active:
+                  type: string
+                  example: true
+  /mtp/delete/{id}:        
+    patch:
+      summary: update MTP
+      description: update MTP
+      operationId: deleteMtp
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          description: "updated MTP"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/MTP'
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                mtp:
+                  type: string
+                  example: libelleExemple
+                active:
+                  type: string
+                  example: true
+                  
+components:
+  schemas:
+    MTP:
+      type: object
+      required:
+        - title
+        - description
+        - type
+        - map
+        - estimatedStart
+        - system
+        - isActive
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        description:
+          type: string
+          example: libelleExemple
+        type:
+          type: string
+          example: libelleExemple 
+        estimatedStart:
+          type: string
+          example: "12:00"  
+        isActive:
+          type: boolean
+          example: true
+        map:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        system:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        title:
+          type: string
+          example: "sm50"  
+
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/Monitoring-app/mtp/1.0.0-oas3

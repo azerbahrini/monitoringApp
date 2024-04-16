@@ -1,0 +1,65 @@
+{
+    "document": {
+      "isActive": true,
+      "isBlocked": false,
+      "_id": "6213a05da766086c3b0389fc",
+      "title": "ttttttttttt ",
+      "text": "test text",
+      "user": "617970359f950f6bc0e40319",
+      "likes": [],
+      "createdAt": "2022-02-21T14:23:25.058Z",
+      "updatedAt": "2022-02-21T14:23:25.058Z",
+      "__v": 0
+  },
+  "documentWithoutID": {
+    "title": "ttttttttttt ",
+	"text": "test text",
+	"user": "617970359f950f6bc0e40319"
+  },
+  "wrongDocumentWithoutID": {
+    "title": null,
+	"text": "test text",
+	"user": null
+  },
+  "getAllDocument":{
+    "data": {
+      "docs": [
+          {
+              "isActive": true,
+              "_id": "6213a05da766086c3b0389fc",
+              "title": "ttttttttttt ",
+              "text": "test text",
+              "user": {
+                  "_id": "617970359f950f6bc0e40319",
+                  "firstName": "Nassim",
+                  "lastName": "Jalloud",
+                  "role": [
+                      {
+                          "label": "Global Support",
+                          "_id": "5fa02d8f785e4681ddfa3a6d"
+                      },
+                      {
+                          "label": "Customer AMS",
+                          "_id": "5fa02d8f785e4681ddfa3a6f"
+                      }
+                  ]
+              },
+              "likes": [],
+              "createdAt": "2022-02-21T14:23:25.058Z",
+              "updatedAt": "2022-02-21T14:23:25.058Z",
+              "__v": 0
+          }
+      ],
+      "totalDocs": 1,
+      "offset": null,
+      "limit": 1,
+      "totalPages": 1,
+      "page": null,
+      "pagingCounter": null,
+      "hasPrevPage": false,
+      "hasNextPage": false,
+      "prevPage": null,
+      "nextPage": null
+  }
+  }
+}

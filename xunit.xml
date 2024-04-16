@@ -1,0 +1,121 @@
+<testExecutions version="1">
+<file path="test/unit/map/add/addMapControllerTest.js">
+<testCase name="controller get system by id test : send a correct system class object " duration="1">
+<failure message="Cannot read property &apos;timeZone&apos; of undefined"><![CDATA[TypeError: Cannot read property 'timeZone' of undefined
+    at Object.exports.addMap (controllers/map.controller.js:17:95)
+    at Context.<anonymous> (test/unit/map/add/addMapControllerTest.js:31:25)
+    at processImmediate (internal/timers.js:464:21)]]></failure>
+</testCase>
+<testCase name="controller get system by id test : expect to return an error - Invalid Status" duration="0">
+<failure message="Cannot read property &apos;timeZone&apos; of undefined"><![CDATA[TypeError: Cannot read property 'timeZone' of undefined
+    at Object.exports.addMap (controllers/map.controller.js:17:95)
+    at Context.<anonymous> (test/unit/map/add/addMapControllerTest.js:51:25)
+    at processImmediate (internal/timers.js:464:21)]]></failure>
+</testCase>
+<testCase name="controller get system by id test : send a wrong data form - Missing Property" duration="1">
+<failure message="Cannot read property &apos;timeZone&apos; of undefined"><![CDATA[TypeError: Cannot read property 'timeZone' of undefined
+    at Object.exports.addMap (controllers/map.controller.js:17:95)
+    at Context.<anonymous> (test/unit/map/add/addMapControllerTest.js:67:25)
+    at processImmediate (internal/timers.js:464:21)]]></failure>
+</testCase>
+</file>
+<file path="test/unit/map/add/addMapServiceTest.js">
+<testCase name="testing POST Map service: expect to return an success object" duration="5"/>
+<testCase name="testing POST Map service: expect to return an success object - adding random property " duration="1"/>
+<testCase name="testing POST Map service: expect to return an error object - empty object" duration="1"/>
+<testCase name="testing POST Map service: expect to return an error object - missing property" duration="2"/>
+</file>
+<file path="test/unit/map/delete/deleteMapControllerTest.js">
+<testCase name="controller DELETE MAP test : expect to send MAP by that ID" duration="2"/>
+<testCase name="controller DELETE MAP test : expect to return an error - Wrong Id" duration="5"/>
+<testCase name="controller DELETE MAP test : expect to return an error Invalid Status" duration="1"/>
+<testCase name="controller DELETE MAP test : expect to return an error - Missing ID" duration="4"/>
+<testCase name="controller DELETE MAP test : expect to return an error - Missing ID + statusCode" duration="5"/>
+<testCase name="controller DELETE MAP test : expect to return an error - Missing ID + route + method + ip" duration="5"/>
+</file>
+<file path="test/unit/map/delete/deleteMapServiceTest.js">
+<testCase name="testing delete by id system class service: expect to return an success object" duration="1"/>
+<testCase name="testing delete by id system class service: expect to return an fail object - no id" duration="2"/>
+<testCase name="testing delete by id system class service: expect to return an fail object - wrong id" duration="2"/>
+<testCase name="testing delete by id system class service: expect to throw an error" duration="2"/>
+</file>
+<file path="test/unit/map/getAll/getMapsControllerTest.js">
+<testCase name="controller GET ALL test : expect to send all Maps" duration="4"/>
+<testCase name="controller GET ALL test : expect to return an error - Invalid Status" duration="1"/>
+<testCase name="controller GET ALL test : expect not to send all Maps 400 Error" duration="2"/>
+</file>
+<file path="test/unit/map/getAll/getMapsServiceTest.js">
+<testCase name="testing get all Maps service: expect to return an success object" duration="10"/>
+<testCase name="testing get all Maps service: expect to throw an exception" duration="1"/>
+</file>
+<file path="test/unit/map/getAllBySystem/getAllBySystemControllerTest.js">
+<testCase name="controller get host by system test : expect to send host by that ID" duration="2"/>
+<testCase name="controller get host by system test : expect to return an error - ID Does not exist" duration="3"/>
+<testCase name="controller get host by system test : expect to return an error - Missing System ID in Query" duration="4"/>
+<testCase name="controller get host by system test : expect to return an error - Without Status code" duration="3"/>
+</file>
+<file path="test/unit/map/getAllBySystem/getAllBySystemServiceTest.js">
+<testCase name="GET ALL Maps By System service: Expect to return an success object" duration="8">
+<failure message="expected { Object (err, status) } to have property &apos;data&apos;"><![CDATA[AssertionError: expected { Object (err, status) } to have property 'data'
+    at Context.<anonymous> (test/unit/map/getAllBySystem/getAllBySystemServiceTest.js:74:25)]]></failure>
+</testCase>
+<testCase name="GET ALL Maps By System service: Expect to return a 404 Error" duration="3"/>
+<testCase name="GET ALL Maps By System service: Expect to throw an exception" duration="5"/>
+</file>
+<file path="test/unit/map/getMapsBySystems/getMapsBySystemsServiceTest.js">
+<testCase name="GET ALL Maps By Systems Ids service: Expect to return an success object" duration="5"/>
+<testCase name="GET ALL Maps By Systems Ids service: Expect to throw an exception" duration="1"/>
+</file>
+<file path="test/unit/map/getOne/getOneMapControllerTest.js">
+<testCase name="controller get system by id test : expect to send Map by that ID" duration="2"/>
+<testCase name="controller get system by id test : expect to return an error - Invalid Status" duration="3"/>
+<testCase name="controller get system by id test : expect NOT to send Map by that ID" duration="3"/>
+<testCase name="controller get system by id test : expect to return an error - ID Does not exist" duration="2"/>
+</file>
+<file path="test/unit/map/getOne/getOneMapServiceTest.js">
+<testCase name="testing get by id Map service: expect to return an success object" duration="2">
+<failure message="expected { Object (err, status) } to have property &apos;data&apos;"><![CDATA[AssertionError: expected { Object (err, status) } to have property 'data'
+    at Context.<anonymous> (test/unit/map/getOne/getOneMapServiceTest.js:42:25)]]></failure>
+</testCase>
+<testCase name="testing get by id Map service: expect to return an fail object - wrong id" duration="1"/>
+<testCase name="testing get by id Map service: expect to throw an error" duration="1"/>
+</file>
+<file path="test/unit/map/update/updateMapControllerTest.js">
+<testCase name="controller UPDATE Map test : expect to return success" duration="2">
+<failure message="Cannot read property &apos;timeZone&apos; of undefined"><![CDATA[TypeError: Cannot read property 'timeZone' of undefined
+    at Object.exports.updateMap (controllers/map.controller.js:63:95)
+    at Context.<anonymous> (test/unit/map/update/updateMapControllerTest.js:37:25)
+    at processImmediate (internal/timers.js:464:21)]]></failure>
+</testCase>
+<testCase name="controller UPDATE Map test : expect to return an error (create but fail to delete)" duration="3">
+<failure message="Cannot read property &apos;timeZone&apos; of undefined"><![CDATA[TypeError: Cannot read property 'timeZone' of undefined
+    at Object.exports.updateMap (controllers/map.controller.js:63:95)
+    at Context.<anonymous> (test/unit/map/update/updateMapControllerTest.js:62:25)
+    at processImmediate (internal/timers.js:464:21)]]></failure>
+</testCase>
+<testCase name="controller UPDATE Map test : expect to return an error Without Status Code" duration="1">
+<failure message="Cannot read property &apos;timeZone&apos; of undefined"><![CDATA[TypeError: Cannot read property 'timeZone' of undefined
+    at Object.exports.updateMap (controllers/map.controller.js:63:95)
+    at Context.<anonymous> (test/unit/map/update/updateMapControllerTest.js:85:25)
+    at processImmediate (internal/timers.js:464:21)]]></failure>
+</testCase>
+<testCase name="controller UPDATE Map test : expect to return an error Invalid Status" duration="2">
+<failure message="Cannot read property &apos;timeZone&apos; of undefined"><![CDATA[TypeError: Cannot read property 'timeZone' of undefined
+    at Object.exports.updateMap (controllers/map.controller.js:63:95)
+    at Context.<anonymous> (test/unit/map/update/updateMapControllerTest.js:108:25)
+    at processImmediate (internal/timers.js:464:21)]]></failure>
+</testCase>
+<testCase name="controller UPDATE Map test : expect to return an error - ID Does not exist" duration="1">
+<failure message="Cannot read property &apos;timeZone&apos; of undefined"><![CDATA[TypeError: Cannot read property 'timeZone' of undefined
+    at Object.exports.updateMap (controllers/map.controller.js:63:95)
+    at Context.<anonymous> (test/unit/map/update/updateMapControllerTest.js:131:25)
+    at processImmediate (internal/timers.js:464:21)]]></failure>
+</testCase>
+</file>
+<file path="test/unit/map/update/updateMapServiceTest.js">
+<testCase name="testing UPDATE Map service: expect to return an success object" duration="2"/>
+<testCase name="testing UPDATE Map service: expect to return an fail object - no id" duration="0"/>
+<testCase name="testing UPDATE Map service: expect to return an fail object - wrong id" duration="1"/>
+<testCase name="testing UPDATE Map service: expect to throw an error" duration="1"/>
+</file>
+</testExecutions>

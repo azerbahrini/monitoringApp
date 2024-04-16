@@ -1,0 +1,89 @@
+{
+    "SystemDataTest": {
+  
+      "_id": "60ee0042d9b53b3e084209f5",
+  
+      "name": "systemExemple",
+  
+      "type":"60ee0042d9b53b3e089209f5",
+  
+      "category":"60ee0042d0b53b3e089209f5",
+  
+      "customer":"60ee004200b53b3e089209f5",
+  
+      "listClient":["60ee0042d8b53b31084209f5"],
+  
+      "listMap":["60ee0042d8b53b31084309f5"],
+  
+      "class":"50ee0042d8b53b31084309f5",
+  
+      "deployType":"Cloud",
+  
+      "deployDesc":"descTest",
+  
+      "fqdn":"test",
+  
+      "listTechnicalUser":["50ee0042d8b53b32084309f5"],
+      
+      "listCustomerContact": ["50ee0062d8b53b32084309f5"],
+  
+      "listItOperation":["50ee0062d8b53b32084309f5"],
+  
+      "isActive":true
+    },
+  
+    "SystemDataTestWithoutID": {
+      "name": "systemExemple",
+  
+      "type":"60ee0042d9b53b3e089209f5",
+  
+      "category":"60ee0042d0b53b3e089209f5",
+  
+      "customer":"60ee004200b53b3e089209f5",
+  
+      "listClient":["60ee0042d8b53b31084209f5"],
+  
+      "listMap":["60ee0042d8b53b31084309f5"],
+  
+      "class":"50ee0042d8b53b31084309f5",
+  
+      "deployType":"Cloud",
+  
+      "deployDesc":"descTest",
+  
+      "fqdn":"test",
+  
+      "listTechnicalUser":["50ee0042d8b53b32084309f5"],
+      
+      "listCustomerContact":["50ee0062d8b53b32084309f5"],
+  
+      "listItOperation":["50ee0062d8b53b32084309f5"],
+  
+      "isActive":false
+    }
+    ,
+    "wrongSystemDataTest": {
+      "name": "systemExemple",
+      "randomProperty": "value"
+    },
+  
+    "wrongID": "60eeee42d9b53b3e084209f6",
+  
+    "emptySytemDataTest": {},
+  
+    "arrayofSystems": [
+      {
+        "_id": "60ee0042d9b53b3e084209f5",
+        "name": "system"
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f6",
+        "name": "systemExemple"
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f7",
+        "name": "systemTest"
+      }
+    ]
+  }
+  

@@ -1,0 +1,34 @@
+{
+  "all": {
+    "success": {
+      "res": {
+        "statusCode": 200,
+        "headers": {
+          "content-type": "application/json"
+        }
+      },
+      "body": {
+        "status": "success",
+        "data": {
+          "docs": [
+            {
+              "clientNumber": 99888,
+              "system": "610d502489e61a36e88e1d27",
+              "isActive": true
+            },
+            {
+              "clientNumber": 99888,
+              "system": "610d502489e61a36e88e1d27",
+              "isActive": true
+            },
+            {
+              "clientNumber": 99888,
+              "system": "610d502489e61a36e88e1d27",
+              "isActive": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

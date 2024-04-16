@@ -1,0 +1,44 @@
+{
+    "hostDataTest": {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "host": "hostExemple",
+      "isActive": true,
+      "system" : "60ee0042d9b53b3e084209f5"
+    },
+    "hostDataTestWithoutID": {
+      "host": "hostExemple",
+      "isActive": true,
+      "system" : "60ee0042d9b53b3e084209f5"
+    },
+  
+    "wrongHostDataTest": {
+      "host": "hostExemple",
+      "isActive": true,
+      "system" : "60ee0042d9b53b3e084209f5",
+      "randomProperty": "value"
+    },
+    "wrongID": "60ee0042d9b53b3e084209f6",
+    "emptyHostDataTest": {},
+    "systemId": "610903550f30c3d041e7e7dc",
+    "arrayofHosts": [
+      {
+        "_id": "60ee0042d9b53b3e084209f5",
+        "host": "hostExemple",
+        "isActive": true,
+        "system" : "60ee0042d9b53b3e084209f5"
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f6",
+        "host": "hostExemple",
+        "isActive": true,
+        "system" : "60ee0042d9b53b3e084209f5"
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f7",
+        "host": "hostExemple",
+        "isActive": true,
+        "system" : "60ee0042d9b53b3e084209f5"
+      }
+    ]
+  }
+  

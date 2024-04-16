@@ -1,0 +1,450 @@
+openapi: 3.0.0
+info:
+  description: Comment API
+  version: "1.0.0"
+  title: Comment API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/system/SYSTEM-2.0.html"
+paths:
+  /comment/{feedID}/addComment:
+    post:
+      summary: adds a comment to a newsfeed
+      operationId: addComment
+      description: Adds a comment to a newsfeed
+      parameters:
+        - name: feedID
+          in: path
+          description: ID of the newsfeed
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "201":
+          description: Comment added
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Successfully added the comment
+                  data:
+                    type: object
+                    properties:
+                      comment:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          feed:
+                            type: string
+                            format: uuid
+                          user:
+                            type: string
+                            format: uuid
+                          content:
+                            type: string
+                          createdAt:
+                            type: string
+                            format: date-time
+                          updatedAt:
+                            type: string
+                            format: date-time
+                          isActive:
+                            type: boolean
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: an error occurred
+                  status:
+                    type: string
+                    example: error
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: Invalid Token
+                  status:
+                    type: string
+                    example: error
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - content
+              properties:
+                content:
+                  type: string
+                  example: This is a comment
+        description: Comment  to add
+  /comment/{id}/edit:
+    post:
+      summary:  edit a comment
+      operationId:  editComment
+      description: Edit a comment
+      parameters:
+        - name:   id
+          in: path
+          description: ID of the comment
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "201":
+          description:  Comment edited
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Successfully edited the comment
+                  status:
+                    type: string
+                    example: success
+                  data:
+                    type: object
+                    properties:
+                      comment:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          feed:
+                            type: string
+                            format: uuid
+                          user:
+                            type: string
+                            format: uuid
+                          content:
+                            type: string
+                          createdAt:
+                            type: string
+                            format: date-time
+                          updatedAt:
+                            type: string
+                            format: date-time
+                          isActive:
+                            type: boolean
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: an error occurred
+                  status:
+                    type: string
+                    example: error
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: Invalid Token
+                  status:
+                    type: string
+                    example: error
+        "404":
+          description: comment not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: Comment not found
+                  status:
+                    type: string
+                    example: error
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - content
+              properties:
+                content:
+                  type: string
+                  example: This is a comment 22
+                isActive:
+                  type: boolean
+                  example: true
+        description: new updated comment
+  /comment/{id}/delete:
+    put:
+      summary: delete a comment
+      operationId: deleteComment
+      description: Delete a comment
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Comment deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Successfully deleted the comment
+                  status:
+                    type: string
+                    example: success
+                  data:
+                    type: object
+                    properties:
+                      comment:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                            format: uuid
+                          feed:
+                            type: string
+                            format: uuid
+                          user:
+                            type: string
+                            format: uuid
+                          content:
+                            type: string
+                          createdAt:
+                            type: string
+                            format: date-time
+                          updatedAt:
+                            type: string
+                            format: date-time
+                          isActive:
+                            type: boolean
+                            example: false
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: an error occurred
+                  status:
+                    type: string
+                    example: error
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Invalid Token
+                  status:
+                    type: string
+                    example: error
+        "404":
+          description: comment not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Comment not found
+                  status:
+                    type: string
+                    example: error
+  /comment/getCommentsByFeedID/{id}:
+    get:
+      summary: get comments by newsfeed id
+      operationId: getCommentsByFeedID
+      description: Get comments by newsfeed id
+      parameters:
+        - name: id
+          in: path
+          description: ID of the newsfeed
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "200":
+          description: comments
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        feed:
+                          type: string
+                          format: uuid
+                        user:
+                          type: string
+                          format: uuid
+                        content:
+                          type: string
+                        createdAt:
+                          type: string
+                          format: date-time
+                        updatedAt:
+                          type: string
+                          format: date-time
+                        isActive:
+                          type: boolean
+                          example: true
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: an error occurred
+                  status:
+                    type: string
+                    example: error
+        "204":
+          description: no comments found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: No Comments found for this newsfeed ID !
+                  status:
+                    type: string
+                    example: success
+
+  /comment/getCommentsByUserID/{id}:
+    get:
+      summary: get comments by  user id
+      operationId: getCommentsByUserID
+      description: Get comments by user id
+      parameters:
+        - name: id
+          in: path
+          description: ID of the user
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "200":
+          description: comments
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          format: uuid
+                        feed:
+                          type: string
+                          format: uuid
+                        user:
+                          type: string
+                          format: uuid
+                        content:
+                          type: string
+                        createdAt:
+                          type: string
+                          format: date-time
+                        updatedAt:
+                          type: string
+                          format: date-time
+                        isActive:
+                          type: boolean
+                          example: true
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: an error occurred
+                  status:
+                    type: string
+                    example: error
+        "204":
+          description: no comments found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+                    example: No Comments found for this User ID !
+                  status:
+                    type: string
+                    example: success

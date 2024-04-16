@@ -1,0 +1,27 @@
+{
+  "levelDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+    "label": 3
+  },
+  "levelDataTestWithoutID": {
+    "label": 3
+  },
+  "wrongLevelDataTest": {
+    "label": 3,
+
+    "randomProperty": "value"
+  },
+  "wrongID": "60ee0042d9b53b3e084209f6",
+  "emptyLevelDataTest": {},
+  "arrayofLevels": [
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "label": 3
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f6",
+      "label": 3
+    },
+    { "_id": "60ee0042d9b53b3e084209f7", "label": 3 }
+  ]
+}

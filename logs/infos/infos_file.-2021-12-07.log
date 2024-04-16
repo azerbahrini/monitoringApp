@@ -1,0 +1,260 @@
+[2021-12-07T14:41:32.854] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T14:41:33.168] [INFO] ma-core - server started at port 5000
+[2021-12-07T14:41:33.193] [INFO] ma-core - mongodb conected
+[2021-12-07T14:41:33.259] [INFO] ma-core - add Client success testing testing testing
+[2021-12-07T14:41:33.314] [INFO] ma-core - get all Customer success testing testing testing
+[2021-12-07T14:41:33.315] [INFO] ma-core - get all Customer success NaN post 1234
+[2021-12-07T14:41:33.317] [INFO] ma-core - get all Customer success testing testing testing
+[2021-12-07T14:41:33.318] [INFO] ma-core - get all Customer error testing testing testing
+[2021-12-07T14:41:33.319] [INFO] ma-core - get all Customer error NaN post 1234
+[2021-12-07T14:41:33.324] [INFO] ma-core - get Customer success testing testing testing
+[2021-12-07T14:41:33.326] [INFO] ma-core - get Customer error testing testing testing
+[2021-12-07T14:41:33.331] [INFO] ma-core - add customer success testing testing testing
+[2021-12-07T14:41:32.257] [INFO] ma-core - cancel itOperation success testing testing testing
+[2021-12-07T14:41:32.258] [INFO] ma-core - finish itOperation success testing testing testing
+[2021-12-07T14:41:33.458] [INFO] ma-core - get All Active itOperation success testing testing testing
+[2021-12-07T14:41:33.461] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2021-12-07T14:41:33.474] [INFO] ma-core - add ItOperation success testing testing testing
+[2021-12-07T14:41:32.271] [INFO] ma-core - remind itOperation success testing testing testing
+[2021-12-07T14:41:32.273] [INFO] ma-core - send changes itOperation success testing testing testing
+[2021-12-07T14:41:33.491] [INFO] ma-core - update itOperation success testing testing testing
+[2021-12-07T14:41:33.514] [INFO] ma-core - delete licence success testing testing testing
+[2021-12-07T14:41:33.516] [INFO] ma-core - delete licence success NaN post 1234
+[2021-12-07T14:41:33.524] [INFO] ma-core - get latest customer licence By Id success testing testing testing
+[2021-12-07T14:41:33.525] [INFO] ma-core - get latest customer licence By Id success NaN post 1234
+[2021-12-07T14:41:33.540] [INFO] ma-core - get licence By Id success testing testing testing
+[2021-12-07T14:41:33.541] [INFO] ma-core - get licence By Id success NaN post 1234
+[2021-12-07T14:41:33.552] [INFO] ma-core - add Licence success testing testing testing
+[2021-12-07T14:41:33.553] [INFO] ma-core - add Licence success NaN post 1234
+[2021-12-07T14:41:33.564] [INFO] ma-core - update licence By Customer success testing testing testing
+[2021-12-07T14:41:33.565] [INFO] ma-core - update licence By Customer success NaN post 1234
+[2021-12-07T14:41:33.629] [INFO] ma-core - delete module success testing testing testing
+[2021-12-07T14:41:33.631] [INFO] ma-core - delete module success NaN post 1234
+[2021-12-07T14:41:33.641] [INFO] ma-core - get All Basic Module success testing testing testing
+[2021-12-07T14:41:33.643] [INFO] ma-core - get All Basic Module success NaN post 1234
+[2021-12-07T14:41:33.647] [INFO] ma-core - get All Module success testing testing testing
+[2021-12-07T14:41:33.649] [INFO] ma-core - get All Module success NaN post 1234
+[2021-12-07T14:41:33.656] [INFO] ma-core - get module By Id success testing testing testing
+[2021-12-07T14:41:33.657] [INFO] ma-core - get module By Id success NaN post 1234
+[2021-12-07T14:41:33.671] [INFO] ma-core - add Module success testing testing testing
+[2021-12-07T14:41:33.673] [INFO] ma-core - add Module success NaN post 1234
+[2021-12-07T14:41:33.681] [INFO] ma-core - update module By Customer success testing testing testing
+[2021-12-07T14:41:33.682] [INFO] ma-core - update module By Customer success NaN post 1234
+[2021-12-07T14:41:33.748] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-12-07T14:41:33.749] [INFO] ma-core - get All nomenclature success testing testing testing
+[2021-12-07T14:41:33.750] [INFO] ma-core - get All nomenclature success NaN post 1234
+[2021-12-07T14:41:33.806] [INFO] ma-core - delete Result Form success testing testing testing
+[2021-12-07T14:41:33.808] [INFO] ma-core - delete Result Form success NaN post 1234
+[2021-12-07T14:41:33.814] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-07T14:41:33.815] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-07T14:41:33.818] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-07T14:41:33.820] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-07T14:41:33.828] [INFO] ma-core - add result form success testing testing testing
+[2021-12-07T14:41:33.829] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-07T14:41:33.838] [INFO] ma-core - update Result Form success testing testing testing
+[2021-12-07T14:41:33.839] [INFO] ma-core - update Result Form success NaN post 1234
+[2021-12-07T14:41:33.849] [INFO] ma-core - delete Role success testing testing testing
+[2021-12-07T14:41:33.851] [INFO] ma-core - delete Role success NaN post 1234
+[2021-12-07T14:41:33.862] [INFO] ma-core - get All Role success testing testing testing
+[2021-12-07T14:41:33.864] [INFO] ma-core - get All Role success NaN post 1234
+[2021-12-07T14:41:33.870] [INFO] ma-core - get by id Role success testing testing testing
+[2021-12-07T14:41:33.874] [INFO] ma-core - get by id Role success NaN post 1234
+[2021-12-07T14:41:33.886] [INFO] ma-core - get by user Role success testing testing testing
+[2021-12-07T14:41:33.888] [INFO] ma-core - get by user Role success NaN get 1234
+[2021-12-07T14:41:33.894] [INFO] ma-core - add Role success testing testing testing
+[2021-12-07T14:41:33.897] [INFO] ma-core - add Role success NaN post 1234
+[2021-12-07T14:41:33.906] [INFO] ma-core - update Role success testing testing testing
+[2021-12-07T14:41:33.907] [INFO] ma-core - update Role success NaN post 1234
+[2021-12-07T14:41:33.917] [INFO] ma-core - add Role History success testing testing testing
+[2021-12-07T14:41:33.919] [INFO] ma-core - add Role History success NaN post 1234
+[2021-12-07T14:41:33.961] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-12-07T14:41:33.980] [INFO] ma-core - Get all members success testing testing testing
+[2021-12-07T14:41:33.997] [INFO] ma-core - delete sla success testing testing testing
+[2021-12-07T14:41:33.999] [INFO] ma-core - delete sla success NaN post 1234
+[2021-12-07T14:41:34.009] [INFO] ma-core - get sla By Id success testing testing testing
+[2021-12-07T14:41:34.010] [INFO] ma-core - get sla By Id success NaN post 1234
+[2021-12-07T14:41:34.029] [INFO] ma-core - add Sla success testing testing testing
+[2021-12-07T14:41:34.031] [INFO] ma-core - add Sla success NaN post 1234
+[2021-12-07T14:41:34.047] [INFO] ma-core - update sla By SlaContract success testing testing testing
+[2021-12-07T14:41:34.049] [INFO] ma-core - update sla By SlaContract success NaN post 1234
+[2021-12-07T14:41:34.059] [INFO] ma-core - delete slaContract success testing testing testing
+[2021-12-07T14:41:34.060] [INFO] ma-core - delete slaContract success NaN post 1234
+[2021-12-07T14:41:34.075] [INFO] ma-core - get slaContract By Customer success testing testing testing
+[2021-12-07T14:41:34.076] [INFO] ma-core - get slaContract By Customer success NaN post 1234
+[2021-12-07T14:41:34.080] [INFO] ma-core - get slaContract By Id success testing testing testing
+[2021-12-07T14:41:34.081] [INFO] ma-core - get slaContract By Id success NaN post 1234
+[2021-12-07T14:41:34.088] [INFO] ma-core - add SlaContract success testing testing testing
+[2021-12-07T14:41:34.090] [INFO] ma-core - add SlaContract success NaN post 1234
+[2021-12-07T14:41:34.101] [INFO] ma-core - update slaContract By Customer success testing testing testing
+[2021-12-07T14:41:34.102] [INFO] ma-core - update slaContract By Customer success NaN post 1234
+[2021-12-07T14:41:34.264] [INFO] ma-core - get All Task success testing testing testing
+[2021-12-07T14:41:34.265] [INFO] ma-core - get All Task success NaN post 1234
+[2021-12-07T14:41:34.268] [INFO] ma-core - get All Task By filter success testing testing testing
+[2021-12-07T14:41:34.270] [INFO] ma-core - get All Task By filter success testing testing testing
+[2021-12-07T14:41:34.272] [INFO] ma-core - get by id Task success testing testing testing
+[2021-12-07T14:41:34.273] [INFO] ma-core - get by id Task success NaN post 1234
+[2021-12-07T14:41:34.280] [INFO] ma-core - get All Task By filter success testing testing testing
+[2021-12-07T14:41:34.283] [INFO] ma-core - get All Task By filter success testing testing testing
+[2021-12-07T14:41:34.358] [INFO] ma-core - get All Task By ID success testing testing testing
+[2021-12-07T14:41:34.370] [INFO] ma-core - get All Task success testing testing testing
+[2021-12-07T14:41:34.385] [INFO] ma-core - get Created Tasks success testing testing testing
+[2021-12-07T14:41:34.390] [INFO] ma-core - get Created Tasks success NaN post 1234
+[2021-12-07T14:41:34.404] [INFO] ma-core - add Task success testing testing testing
+[2021-12-07T14:41:34.406] [INFO] ma-core - add Task success NaN post 1234
+[2021-12-07T14:41:34.415] [INFO] ma-core - add Many Task success testing testing testing
+[2021-12-07T14:41:34.418] [INFO] ma-core - add Many Task success NaN post 1234
+[2021-12-07T14:41:34.428] [INFO] ma-core - update Task success testing testing testing
+[2021-12-07T14:41:34.429] [INFO] ma-core - update Task success NaN post 1234
+[2021-12-07T14:41:34.439] [INFO] ma-core - Update Task Assignee success testing testing testing
+[2021-12-07T14:41:34.441] [INFO] ma-core - Update Task Assignee Incomplete testing testing testing
+[2021-12-07T14:41:34.449] [INFO] ma-core - Canceled the Task testing testing testing
+[2021-12-07T14:41:34.451] [INFO] ma-core - Canceled the Task NaN post 1234
+[2021-12-07T14:41:34.458] [INFO] ma-core - Deleted the Task testing testing testing
+[2021-12-07T14:41:34.459] [INFO] ma-core - Deleted the Task NaN post 1234
+[2021-12-07T14:41:34.466] [INFO] ma-core - Finished the Task testing testing testing
+[2021-12-07T14:41:34.467] [INFO] ma-core - Finished the Task NaN post 1234
+[2021-12-07T14:41:34.475] [INFO] ma-core - Rejected the Task testing testing testing
+[2021-12-07T14:41:34.476] [INFO] ma-core - Rejected the Task NaN post 1234
+[2021-12-07T14:41:34.483] [INFO] ma-core - Validated the Task testing testing testing
+[2021-12-07T14:41:34.485] [INFO] ma-core - Validated the Task NaN post 1234
+[2021-12-07T14:41:34.494] [INFO] ma-core - update Task success testing testing testing
+[2021-12-07T14:41:34.499] [INFO] ma-core - update Task success NaN post 1234
+[2021-12-07T14:41:53.524] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T14:41:55.667] [INFO] ma-core - server started at port 5000
+[2021-12-07T14:41:55.687] [INFO] ma-core - mongodb conected
+[2021-12-07T14:41:55.920] [INFO] ma-core - add Client success /api/client/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:55.964] [INFO] ma-core - add customer success /api/customer/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.009] [INFO] ma-core - get Customer success /api/customer/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.021] [INFO] ma-core - update Customer success /api/customer/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.344] [INFO] ma-core - add ItOperation success /api/ItOperation/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.369] [INFO] ma-core - cancel itOperation success /api/itOperation/cancel/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.381] [INFO] ma-core - finish itOperation success /api/itOperation/finish/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.398] [INFO] ma-core - get All Active itOperation success /api/itOperation/getAllActive GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.412] [INFO] ma-core - get All Archived itOperation success /api/itOperation/getAllArchived GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.443] [INFO] ma-core - remind itOperation success /api/itOperation/remind/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.455] [INFO] ma-core - send changes itOperation success /api/itOperation/sendChanges/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.467] [INFO] ma-core - update itOperation success /api/itOperation/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.539] [INFO] ma-core - add Licence success /api/licence/ POST ::ffff:127.0.0.1
+[2021-12-07T14:41:56.555] [INFO] ma-core - delete licence success /api/licence/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:41:56.563] [INFO] ma-core - get latest customer licence By Id success /api/licence/latestLicence/:id GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.594] [INFO] ma-core - get licence By Id success /api/licence/getone/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:41:56.604] [INFO] ma-core - update licence By Customer success /api/licence/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:01.730] [INFO] ma-core - add Module success /api/module/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:01.747] [INFO] ma-core - delete module success /api/module/:id DELETE ::ffff:127.0.0.1
+[2021-12-07T14:42:01.770] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::ffff:127.0.0.1
+[2021-12-07T14:42:01.781] [INFO] ma-core - get All Module success /api/module/getAll GET ::ffff:127.0.0.1
+[2021-12-07T14:42:01.791] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:01.800] [INFO] ma-core - update module By Customer success /api/module/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:26.931] [INFO] ma-core - add result form success /api/resultform/addFormSchema POST ::ffff:127.0.0.1
+[2021-12-07T14:42:26.957] [INFO] ma-core - add Role success /api/role/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:26.977] [INFO] ma-core - delete Role success /api/role/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:26.995] [INFO] ma-core - get by user Role success /api/role/getRoleByUser GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.012] [INFO] ma-core - get All Role success /api/role/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.028] [INFO] ma-core - get by id Role success /api/role/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.039] [INFO] ma-core - update Role success /api/role/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:27.050] [INFO] ma-core - add Role History success /api/roleHistory/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.168] [INFO] ma-core - add Sla success /api/sla/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.188] [INFO] ma-core - delete sla success /api/sla/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:27.198] [INFO] ma-core - get sla By Id success /api/sla/getone/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.222] [INFO] ma-core - update sla By SlaContract success /api/sla/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:27.232] [INFO] ma-core - add SlaContract success /api/slaContract/ POST ::ffff:127.0.0.1
+[2021-12-07T14:42:27.254] [INFO] ma-core - delete slaContract success /api/slaContract/delete/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:27.293] [INFO] ma-core - get slaContract By Customer success /api/slaContract/getbycustomer/:id GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.309] [INFO] ma-core - get slaContract By Id success /api/slaContract/getone/:id/ GET ::ffff:127.0.0.1
+[2021-12-07T14:42:27.320] [INFO] ma-core - update slaContract By Customer success /api/slaContract/update/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:42:47.707] [INFO] ma-core - Canceled the Task /api/task/cancelTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:42:47.737] [INFO] ma-core - Deleted the Task /api/task/deleteTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:42:52.770] [INFO] ma-core - Finished the Task /api/task/finishTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:43:07.860] [INFO] ma-core - Rejected the Task /api/task/rejectTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:43:07.900] [INFO] ma-core - update Task success /api/task/:id PATCH ::ffff:127.0.0.1
+[2021-12-07T14:43:07.920] [INFO] ma-core - Validated the Task /api/task/validateTask/:id PUT ::ffff:127.0.0.1
+[2021-12-07T14:44:40.378] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T14:44:41.767] [INFO] ma-core - server started at port 5000
+[2021-12-07T14:44:41.786] [INFO] ma-core - mongodb conected
+[2021-12-07T14:44:41.852] [INFO] ma-core - add result form success /api/resultform/addFormSchema POST ::ffff:127.0.0.1
+[2021-12-07T17:06:31.820] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:06:32.399] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:06:32.423] [INFO] ma-core - mongodb conected
+[2021-12-07T17:12:13.935] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:12:14.480] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:12:14.498] [INFO] ma-core - mongodb conected
+[2021-12-07T17:12:47.652] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:12:48.224] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:12:48.247] [INFO] ma-core - mongodb conected
+[2021-12-07T17:17:14.581] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:17:15.127] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:17:15.146] [INFO] ma-core - mongodb conected
+[2021-12-07T17:17:27.611] [INFO] ma-core - add result form success /api/resultForm/addFormSchema POST ::1
+[2021-12-07T17:17:49.802] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:18:53.821] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:18:54.360] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:18:54.378] [INFO] ma-core - mongodb conected
+[2021-12-07T17:19:47.579] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:19:48.132] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:19:48.155] [INFO] ma-core - mongodb conected
+[2021-12-07T17:20:06.401] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:20:06.971] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:20:06.992] [INFO] ma-core - mongodb conected
+[2021-12-07T17:20:08.708] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:20:43.103] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:20:43.634] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:20:43.652] [INFO] ma-core - mongodb conected
+[2021-12-07T17:20:47.413] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:20:47.956] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:20:47.977] [INFO] ma-core - mongodb conected
+[2021-12-07T17:20:52.320] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-07T17:21:22.483] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:21:23.052] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:21:23.073] [INFO] ma-core - mongodb conected
+[2021-12-07T17:22:11.060] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:22:11.608] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:22:11.626] [INFO] ma-core - mongodb conected
+[2021-12-07T17:22:46.582] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:22:47.134] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:22:47.152] [INFO] ma-core - mongodb conected
+[2021-12-07T17:24:02.246] [INFO] ma-core - get by id Result Form /api/resultform/getResultFormById/:id GET ::1
+[2021-12-07T17:25:01.703] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:25:02.262] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:25:02.284] [INFO] ma-core - mongodb conected
+[2021-12-07T17:25:05.953] [INFO] ma-core - get by id Result Form /api/resultform/getResultFormById/:id GET ::1
+[2021-12-07T17:25:42.811] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:25:43.495] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:25:43.523] [INFO] ma-core - mongodb conected
+[2021-12-07T17:26:55.978] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:26:56.555] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:26:56.582] [INFO] ma-core - mongodb conected
+[2021-12-07T17:27:57.688] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:27:58.228] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:27:58.250] [INFO] ma-core - mongodb conected
+[2021-12-07T17:28:07.766] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:28:08.368] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:28:08.394] [INFO] ma-core - mongodb conected
+[2021-12-07T17:29:02.319] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:29:02.886] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:29:02.908] [INFO] ma-core - mongodb conected
+[2021-12-07T17:29:08.130] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:29:08.683] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:29:08.708] [INFO] ma-core - mongodb conected
+[2021-12-07T17:29:09.842] [INFO] ma-core - update Result Form success /api/resultform/updateResultForm/:id PATCH ::1
+[2021-12-07T17:29:44.723] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:29:45.382] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:29:45.406] [INFO] ma-core - mongodb conected
+[2021-12-07T17:29:56.146] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:29:56.771] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:29:56.802] [INFO] ma-core - mongodb conected
+[2021-12-07T17:30:24.872] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:30:25.439] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:30:25.464] [INFO] ma-core - mongodb conected
+[2021-12-07T17:30:55.931] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:30:56.680] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:30:56.727] [INFO] ma-core - mongodb conected
+[2021-12-07T17:31:11.759] [INFO] ma-core - delete Result Form success /api/resultform/deleteResultForm/:id DELETE ::1
+[2021-12-07T17:33:19.176] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:33:19.942] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:33:19.966] [INFO] ma-core - mongodb conected
+[2021-12-07T17:39:52.127] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:39:52.666] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:39:52.688] [INFO] ma-core - mongodb conected
+[2021-12-07T17:41:43.730] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-07T17:41:44.286] [INFO] ma-core - server started at port 5000
+[2021-12-07T17:41:44.308] [INFO] ma-core - mongodb conected

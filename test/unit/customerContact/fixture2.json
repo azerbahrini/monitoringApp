@@ -1,0 +1,99 @@
+{
+  "emptyCustomerContact": {},
+  "inexistantCustomerContact": "5fd1e65f93dd352dbcbf8cc2",
+  "customerContactDataTest": {
+    "_id": "5fd1e65f93dd352dbcbf8cc9",
+    "mail": "mail",
+    "lastName": "lastName",
+    "phoneNumber": 12345678
+  },
+  "systemDataTest": {
+    "_id": "5fd1e65f93dd352dbcbf8cc1",
+    "system": "systemName",
+    "listCustomerContact": [
+      "5fd1e65f93dd352dbcbf8cc9",
+      "5fd1e65f93dd352dbcbf8cc7",
+      "5fd1e65f93dd352dbcbf8cc8"
+    ]
+  },
+  "arrayOfSystem": [
+    {
+      "_id": "5fd1e65f93dd352dbcbf8cc6",
+      "system": "systemName",
+      "listCustomerContact": [
+        "5fd1e65f93dd352dbcbf8cc6",
+        "5fd1e65f93dd352dbcbf8cc7",
+        "5fd1e65f93dd352dbcbf8cc8"
+      ]
+    },
+    {
+      "_id": "5fd1e65f93dd352dbcbf8cc6",
+      "system": "systemName",
+      "listCustomerContact": [
+        "5fd1e65f93dd352dbcbf8cc6",
+        "5fd1e65f93dd352dbcbf8cc7",
+        "5fd1e65f93dd352dbcbf8cc8"
+      ]
+    }
+  ],
+  "customerContactDataTestWithoutID": {
+    "mail": "mail",
+    "lastName": "lastName",
+    "phoneNumber": 12345678
+  },
+  "arrayOfCustomerContact": [
+    {
+      "_id": "5fd1e65f93dd352dbcbf8cc6",
+      "mail": "mail",
+      "lastName": "lastName",
+      "phoneNumber": 12345678
+    },
+    {
+      "_id": "5fd1e65f93dd352dbcbf8cc6",
+      "mail": "mail",
+      "lastName": "lastName",
+      "phoneNumber": 12345678
+    },
+    {
+      "_id": "5fd1e65f93dd352dbcbf8cc6",
+      "mail": "mail",
+      "lastName": "lastName",
+      "phoneNumber": 12345678
+    }
+  ],
+  "customerId": "5fd1e65f93dd352dbcbf8cc6",
+  "WrongID": "5fd1e65f93dd352dbcbf8cc0",
+  "getAllMongoosePaginationArray": {
+    "docs": [
+      {
+        "_id": "5fd1e65f93dd352dbcbf8cc6",
+        "mail": "mail",
+        "lastName": "lastName",
+        "phoneNumber": 12345678
+      },
+      {
+        "_id": "5fd1e65f93dd352dbcbf8cc6",
+        "mail": "mail",
+        "lastName": "lastName",
+        "phoneNumber": 12345678
+      },
+      {
+        "_id": "5fd1e65f93dd352dbcbf8cc6",
+        "mail": "mail",
+        "lastName": "lastName",
+        "phoneNumber": 12345678
+      }
+    ],
+
+    "totalDocs": 42,
+    "offset": 40,
+    "limit": 5,
+    "totalPages": 9,
+    "page": 9,
+    "pagingCounter": 41,
+    "hasPrevPage": true,
+    "hasNextPage": false,
+    "prevPage": 8,
+    "nextPage": null
+  }
+}

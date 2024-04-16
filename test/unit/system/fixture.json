@@ -1,0 +1,293 @@
+{
+  "SystemDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+
+    "name": "systemExemple",
+
+    "type": "60ee0042d9b53b3e089209f5",
+
+    "category": "60ee0042d0b53b3e089209f5",
+
+    "customer": "60ee004200b53b3e089209f5",
+
+    "listClient": ["60ee0042d8b53b31084209f5"],
+
+    "class": "50ee0042d8b53b31084309f5",
+
+    "deployType": "Cloud",
+
+    "deployDesc": "descTest",
+
+    "fqdn": "test",
+
+    "listTechnicalUser": ["50ee0042d8b53b32084309f5"],
+
+    "listCustomerContact": ["50ee0062d8b53b32084309f5"],
+
+    "listItOperation": ["50ee0062d8b53b32084309f5"],
+
+    "isActive": true
+  },
+
+  "SystemDataTestWithoutID": {
+    "name": "systemExemple",
+
+    "type": "60ee0042d9b53b3e089209f5",
+
+    "category": "60ee0042d0b53b3e089209f5",
+
+    "customer": "60ee004200b53b3e089209f5",
+
+    "listClient": ["60ee0042d8b53b31084209f5"],
+
+    "class": "50ee0042d8b53b31084309f5",
+
+    "deployType": "Cloud",
+
+    "deployDesc": "descTest",
+
+    "fqdn": "test",
+
+    "listTechnicalUser": ["50ee0042d8b53b32084309f5"],
+
+    "listCustomerContact": ["50ee0062d8b53b32084309f5"],
+
+    "isActive": false
+  },
+  "wrongSystemDataTest": {
+    "name": "systemExemple",
+    "randomProperty": "value"
+  },
+
+  "wrongID": "60eeee42d9b53b3e084209f6",
+
+  "emptySytemDataTest": {},
+  "arrayofcategoriesSystems": [
+    [
+      {
+        "_id": "608be4b7c5a2a005c87294b1",
+        "category": "SAP-ECC"
+      },
+      {
+        "_id": "608be4d2c5a2a083e47294b3",
+        "category": "SAP-BI/BW"
+      },
+      {
+        "_id": "608bfb6ac5a2a07d1c7294cc",
+        "category": "SAP-SOLMAN"
+      },
+      {
+        "_id": "608bfcc9c5a2a033a57294d4",
+        "category": "SAP-ADS"
+      },
+      {
+        "_id": "608bfcbfc5a2a08f1c7294d3",
+        "category": "SAP-BODS"
+      },
+      {
+        "_id": "608bfcb5c5a2a0f0ef7294d2",
+        "category": "SAP-BO"
+      },
+      {
+        "_id": "608bfd0ac5a2a0e0447294d5",
+        "category": "SAP-CS"
+      }
+    ]
+  ],
+  "arrayofSystems": [
+    {
+      "listTechnicalUser": [],
+      "listCustomerContact": [],
+      "isActive": true,
+      "_id": "608beed8c5a2a0c3017294b9",
+      "listHost": [
+        "608beed8c5a2a01f117294b7",
+        "608bf8bec5a2a014d37294c1",
+        "608bf9f8c5a2a026c47294c2",
+        "608bf9fbc5a2a044187294c3",
+        "608bfa05c5a2a052437294c4",
+        "608bfa09c5a2a03ff77294c5",
+        "608bfa13c5a2a03fe87294c6",
+        "608bfa17c5a2a05a3b7294c7",
+        "608bfc24c5a2a0688c7294d1",
+        "608bfe2dc5a2a0f3e07294d7",
+        "608bfe33c5a2a0284c7294d8",
+        "608bfe3ec5a2a0d7e67294d9"
+      ],
+      "listClient": [
+        "610d502489e61a36e88e1d27",
+        "610d5046dcfbbb59a0f6e4b2",
+        "60997775ec0b160ef26b49b0"
+      ],
+      "listMap": [
+        "609324b5b651f857aa21fb5a",
+        "6093e358995e13627d39a452",
+        "6093fd91995e13728239a479",
+        "609927b46398ff20b63c6219",
+        "609927d96398ff21b73c621a",
+        "609927e26398ff06493c621b",
+        "609928836398ff0c653c6221",
+        "6099288f6398ff33b53c6222",
+        "609928df6398ff8a943c6228",
+        "609c61c0a5ae62cdc1229be0",
+        "60a33126861e901d3be5368f",
+        "60a3338d861e901d3be53690",
+        "60ada738335e2b08301c6c75",
+        "60b4da93f92fb5585c3bce04",
+        "60b4fca2f92fb5585c3bce0c",
+        "60b4fcb0f92fb5585c3bce0d",
+        "60b4fcbef92fb5585c3bce0e",
+        "60c0d2b8f2fdd61260ba311e",
+        "60c227f625b782062c48f24e",
+        "60c32e4670d6ba2c250ddef9",
+        "60c781fadfec1d201459a6b4",
+        "60c787c65efe85255c221363",
+        "60c9fbe394cbfd3dc8303c15",
+        "60c9fc2094cbfd3dc8303c16",
+        "60ca06f9b42b840a48f32636",
+        "60ca0a0ab42b840a48f3265b",
+        "60d1b0f9e0566c28d874d290",
+        "60db37dfdf283113ce55105c",
+        "60fb05f93623ba13f20c5a06"
+      ],
+      "ListTechnicalUser": [
+        "60a644038367242050c3589e",
+        "60af9477bd89076d8803dab4",
+        "60b11898e9c2bc64407800cf",
+        "60b11faf673fbd0b5cb28168",
+        "60b487e475a50f1faf407f88",
+        "60b4e188f92fb5585c3bce09"
+      ],
+      "ListCustomerContact": ["60a8688c89105b24ccd44818"],
+      "listItOperation": [
+        "60a637ec817a193224ffa7df",
+        "60a7e1ccfd1bf533f878d6f5",
+        "60ac7396696b3d4b04776e1c",
+        "60b0c0c5326fd6857476ec9f",
+        "60b0c28d326fd6857476eca0",
+        "60b6b7ba8b784f0838c87431",
+        "60b8d81766040c4104bff88f",
+        "60b8dc6466040c4104bff891",
+        "60b8e29f66040c4104bff894",
+        "60b8d8d566040c4104bff890",
+        "60b8df3766040c4104bff893",
+        "60cb239621c3ee3ab3e5427a",
+        "60cb36a563dc1b74ca8fcf4f",
+        "60cb56aa9cc95186c022ee11",
+        "60cb57ca61119287deade390",
+        "60cb5851ebe570882d69cb6f",
+        "60cb6028ebe570882d69cb70",
+        "60cb6311ebe570882d69cb71",
+        "60cb64a2ebe570882d69cb74",
+        "60cc7e1debe570882d69cb76",
+        "60ccc429ebe570882d69cb77",
+        "60ccc48febe570882d69cb78",
+        "60ccc4fbebe570882d69cb79",
+        "60ccc7ceebe570882d69cb7a",
+        "60ccc82cebe570882d69cb7b",
+        "60ccc942ebe570882d69cb7c",
+        "60cccc9bebe570882d69cb7d",
+        "60ccce05ebe570882d69cb7e",
+        "60ccce83ebe570882d69cb7f",
+        "60d2fd834de75d50583a79d7",
+        "60d5cc6e72696d3ce0cf822a",
+        "60d5ccc558335fe49e00f141",
+        "60d5cef93a43741e94def1a6",
+        "60c886d377f899cfbd8b276d",
+        "60d99952df283113ce551028",
+        "60d999c9df283113ce551029",
+        "60d9b785df283113ce55102c",
+        "60d99fdedf283113ce55102a",
+        "60d9c8a5df283113ce55102d",
+        "60d9b3c0df283113ce55102b",
+        "60d9de86df283113ce55102e",
+        "60da260afb91584ddcb897cd",
+        "60cb57370165e88746882800",
+        "60dc5513a613641f449f9ca0",
+        "60b8df0a66040c4104bff892",
+        "60cb55bf7c62468677ba47eb",
+        "60cb550170578a75d7ebc2d0",
+        null,
+        null,
+        "60d9ded3df283113ce55102f",
+        "60ffd5a392c9a11d60594b10",
+        "60ffdef592c9a11d60594ef4",
+        "60ffd53392c9a11d60594af9"
+      ],
+      "system": "PR1",
+      "type": "608be0f0c5a2a0bd397294aa",
+      "category": "608be4b7c5a2a005c87294b1",
+      "class": "608be15ec5a2a054387294ab",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "deployType": "Cloud",
+      "deployDesc": "Azure",
+      "name": "ok",
+      "fqdn": "jpprsapap01.jera.co.jp",
+      "createdAt": "2021-04-30T11:49:44.929Z",
+      "updatedAt": "2021-07-27T10:26:47.668Z",
+      "__v": 0
+    },
+    {
+      "listTechnicalUser": [],
+      "listCustomerContact": [],
+      "isActive": true,
+      "_id": "608bfac8c5a2a084227294ca",
+      "listHost": ["608bfac8c5a2a000357294c8", "608bfae9c5a2a0566b7294cb"],
+      "listClient": ["608bfac8c5a2a020577294c9"],
+      "listMap": [],
+      "ListTechnicalUser": [
+        "60acf71920fa7a5fd8e696dc",
+        "60b11d0c1aeeac36209a8a09",
+        "60b1208466c1ec74e4d684eb",
+        "60b1218b5579956f2c82cf33",
+        "60b56e0945df293d702389c3",
+        "60b56e4c45df293d702389c4",
+        "60b56efa45df293d702389c5",
+        "60b56f2845df293d702389c6"
+      ],
+      "ListCustomerContact": [],
+      "listItOperation": [],
+      "system": "BW",
+      "type": "608be0f0c5a2a0bd397294aa",
+      "category": "608be4d2c5a2a083e47294b3",
+      "class": "608be15ec5a2a054387294ab",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "deployType": "Cloud",
+      "deployDesc": "Azure",
+      "name": "ok",
+      "fqdn": "jpprsapiap01.jera.co.jp",
+      "createdAt": "2021-04-30T12:40:40.467Z",
+      "updatedAt": "2021-05-31T23:20:09.273Z",
+      "__v": 0
+    },
+    {
+      "listTechnicalUser": [],
+      "listCustomerContact": [],
+      "isActive": true,
+      "_id": "608bfbc1c5a2a0994f7294cf",
+      "listHost": [
+        "608bfbc1c5a2a00eee7294cd",
+        "608bfbe2c5a2a096c47294d0",
+        "608bfe6cc5a2a082907294da",
+        "608bfe73c5a2a0e5097294db"
+      ],
+      "listClient": ["608bfbc1c5a2a068937294ce"],
+      "listMap": [],
+      "ListTechnicalUser": [],
+      "ListCustomerContact": [],
+      "listItOperation": [],
+      "system": "SOLMAN",
+      "type": "608be0f0c5a2a0bd397294aa",
+      "category": "608bfb6ac5a2a07d1c7294cc",
+      "class": "608be15ec5a2a054387294ab",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "deployType": "Cloud",
+      "deployDesc": "Azure",
+      "name": "ok",
+      "fqdn": "jpprsalap01.jera.co.jp",
+      "createdAt": "2021-04-30T12:44:49.722Z",
+      "updatedAt": "2021-04-30T12:56:19.894Z",
+      "__v": 0
+    }
+  ]
+}

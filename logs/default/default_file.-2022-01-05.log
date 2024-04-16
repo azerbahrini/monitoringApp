@@ -1,0 +1,15 @@
+[2022-01-05T10:19:28.811] [INFO] ma-core - Get all shifts success testing testing testing
+[2022-01-05T10:19:28.832] [INFO] ma-core - Get all members success testing testing testing
+[2022-01-05T15:35:57.269] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-01-05T15:35:58.022] [INFO] ma-core - server started at port 5000
+[2022-01-05T15:35:58.053] [INFO] ma-core - mongodb conected
+[2022-01-05T15:39:05.932] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-01-05T15:39:06.516] [INFO] ma-core - server started at port 5000
+[2022-01-05T15:39:06.550] [INFO] ma-core - mongodb conected
+[2022-01-05T15:43:02.086] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-01-05T15:43:02.614] [INFO] ma-core - server started at port 5000
+[2022-01-05T15:43:02.636] [INFO] ma-core - mongodb conected
+[2022-01-05T15:43:25.512] [INFO] ma-core - Get all shifts success testing testing testing
+[2022-01-05T15:43:25.538] [INFO] ma-core - Get all members success testing testing testing
+[2022-01-05T15:46:38.590] [INFO] ma-core - Get all shifts success testing testing testing
+[2022-01-05T15:46:38.613] [INFO] ma-core - Get all members success testing testing testing

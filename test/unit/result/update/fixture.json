@@ -1,0 +1,37 @@
+{
+    "update": {
+          "success": {
+            "res": {
+              "statusCode": 201,
+              "headers": {
+                "content-type": "application/json"
+              }
+            },
+            "body": {
+              "status": "success",
+              "data": 
+                {
+                    "id": "60ef4e3f7221301cc8eaafbd",
+                    "result": {"name":"test1"},
+                    "host": true,
+                    "task": true,
+                    "client": true
+                  }
+                
+            }
+          },
+          "failure": {
+            "res": {
+              "statusCode": 400,
+              "headers": {
+                "content-type": "application/json"
+              }
+            },
+            "body": {
+              "status": "error",
+              "message": "Result doesn't exist"
+            }
+          }
+        }
+      }
+    

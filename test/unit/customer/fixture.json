@@ -1,0 +1,102 @@
+{
+    "fileDataTest":{
+        "fieldname": "logo",
+        "originalname": "7aa1ef3e-890b-4949-8320-58bd617e4433.png",
+        "encoding": "7bit",
+        "mimetype": "image/png",
+        "destination": "./uploads/",
+        "filename": "ce8af17c-17a8-4f5e-896e-ae8de71765ab.png",
+        "path": "uploads\\ce8af17c-17a8-4f5e-896e-ae8de71765ab.png",
+        "size": 37930
+      },
+      "customerDataTest":
+      {
+        "_id": "61199781017d2d15acfc979c",
+        "label":"customer 4",
+        "isActive": false,
+        "address": "nabel",
+        "firstReport": "23:00",
+        "timeZone": ["tunis","madrid"],
+        "listMonitoringType":["61016d525f7a4b5864f1daca"]
+      },
+      "customerDataTestWithoutID":{
+        "label":"customer 4",
+        "isActive": "true",
+        "address": "nabel",
+        "firstReport": "23:00",
+        "timeZone": "tunis,madrid",
+        "listMonitoringType":"61016d525f7a4b5864f1daca",
+        "startDate": "2021-12-02",
+        "endDate": "2023-12-02",
+        "customer": "608bde23c5a2a0a1607294a5"
+        },
+        "customerDataTestWithoutIDWithoutLicence":{
+          "label":"customer 4",
+          "isActive": false,
+          "address": "nabel",
+          "firstReport": "23:00",
+          "timeZone": "tunis,madrid",
+          "listMonitoringType":"61016d525f7a4b5864f1daca",
+          "startDate": "2021-12-02",
+          "endDate": "2023-12-02",
+          "customer": "608bde23c5a2a0a1607294a5"
+          },
+      "wrongCustomerDataTest":{
+        "label":"customer 4",
+        "isActive": false,
+        "address": "nabel",
+        "firstReport": "23:00",
+        "timeZone": "tunis,madrid",
+        "listMonitoringType":"61016d525f7a4b5864f1daca",
+        "randomProperty":"value"
+        },
+      "wrongID":"60ee0042d9b53b3e084209f6",
+      "emptyCustomerDataTest":{},
+      "arrayofCustomers":[
+        {
+            "timeZone": [
+                "tunis"
+            ],
+            "listMonitoringType": [
+                "61016d525f7a4b5864f1daca",
+                "610a4da71d62d33a904e7bb7"
+            ],
+            "listSlaContract": [],
+            "listSystem": [],
+            "listLicence": [],
+            "contactsForReports": [],
+            "_id": "611e17d8fce0c01b78986760",
+            "isActive": true,
+            "label": "customer 1",
+            "address": "abcd",
+            "firstReport": "23:00",
+            "logo": "7aa1ef3e-890b-4949-8320-58bd617e4433.png",
+            "createdAt": "2021-08-19T08:35:36.575Z",
+            "updatedAt": "2021-08-19T08:35:36.575Z",
+            "__v": 0
+        },
+        {
+            "timeZone": [
+                "tunis",
+                "dubai",
+                "canada"
+            ],
+            "listMonitoringType": [
+                "610a4da71d62d33a904e7bb7"
+            ],
+            "listSlaContract": [],
+            "listSystem": [],
+            "listLicence": [],
+            "contactsForReports": [],
+            "_id": "611e17f0fce0c01b78986762",
+            "isActive": false,
+            "label": "customer 1.2",
+            "address": "abcd489",
+            "firstReport": "23:00",
+            "logo": "e277d285-4504-46b6-b283-c104d0c00392.png",
+            "createdAt": "2021-08-19T08:36:00.532Z",
+            "updatedAt": "2021-08-19T09:00:59.257Z",
+            "__v": 0
+        }
+    ]
+}

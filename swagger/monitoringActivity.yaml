@@ -1,0 +1,244 @@
+openapi: 3.0.0
+info:
+  description: Monitoring Activity API
+  version: "1.0.0"
+  title: Monitoring Activity API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /monitoringActivity:
+    get:
+      summary: Get all Monitoring Activity
+      operationId: getAllMonitoringActivity
+      tags:
+        - MonitoringActivity
+      description: get all existantes Monitoring Activity in the system
+      responses:
+        "200":
+          description: return all Monitoring Activity
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/MonitoringActivity"
+                      totalDocs:
+                        type: number
+                        example: 42
+                      offset:
+                        type: number
+                        example: 40
+                      limit:
+                        type: number
+                        example: 5
+                      totalPages:
+                        type: number
+                        example: 9
+                      page:
+                        type: number
+                        example: 9
+                      pagingCounter:
+                        type: number
+                        example: 41
+                      hasPrevPage:
+                        type: boolean
+                        example: true
+                      hasNextPage:
+                        type: boolean
+                        example: false
+                      prevPage:
+                        type: number
+                        example: 8
+                      nextPage:
+                        type: string
+                        example: null
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a Monitoring Activity
+      operationId: addMonitoringActivity
+      tags:
+        - MonitoringActivity
+      description: Adds MonitoringActivity to the system
+      responses:
+        "201":
+          description: MonitoringActivity created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/MonitoringActivity"
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - activity
+                - type
+                - description
+              properties:
+                activiy:
+                  type: string
+                  example: activityExemple
+                type:
+                  type: string
+                  example: typeExemple
+                description:
+                  type: string
+                  example: descriptionExemple
+        description: MonitoringActivity item to add
+
+  /monitoringActivity/{id}:
+    patch:
+      summary: update a single MonitoringActivity
+      description: update one MonitoringActivity
+      operationId: updateMonitoringActivity
+      tags:
+        - MonitoringActivity
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/MonitoringActivity"
+          description: "updated MonitoringActivity"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: MonitoringActivity not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: MonitoringActivity not found
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                activity:
+                  type: string
+                  example: activityExemple
+                type:
+                  type: string
+                  example: typeExemple
+                description:
+                  type: string
+                  example: descriptionExemple
+components:
+  schemas:
+    MonitoringActivity:
+      type: object
+      required:
+        - id
+        - activity
+        - type
+        - description
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        activity:
+          type: string
+          example: activityExemple
+        type:
+          type: string
+          example: typeExemple
+        description:
+          type: string
+          example: descriptionExemple
+
+servers:
+  # Added by API Auto Mocking Plugin
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/Type/1.0.0
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/sysclass/1.0.0

@@ -1,0 +1,7 @@
+[2023-12-04T01:53:27.331] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2023-12-04T01:53:32.110] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2023-12-04T01:53:42.766] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2023-12-04T01:53:48.966] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2023-12-04T01:54:32.238] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2023-12-04T02:07:24.238] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-12-04T02:07:25.324] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1

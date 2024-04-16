@@ -1,0 +1,45 @@
+{
+  "emptyCustomerContact": {},
+  "customerContactDataTest": {
+    "_id": "5fd1e65f93dd352dbcbf8cc6",
+    "mail": "mail",
+    "lastName": "lastName",
+    "phoneNumber": 12345678,
+    "isActive": true
+  },
+  "customerContactDataTestWithoutID": {
+    "mail": "mail",
+    "lastName": "lastName",
+    "phoneNumber": 12345678,
+    "customer": "5fd1e65f93dd352dbcbf8cc6",
+    "isActive": true
+  },
+  "customerId": "608bde23c5a2a0a1607294a5",
+  "WrongID": "5fd1e65f93dd352dbcbf8cc0",
+  "SystemDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+
+    "name": "systemExemple",
+
+    "type": "60ee0042d9b53b3e089209f5",
+
+    "category": "60ee0042d0b53b3e089209f5",
+
+    "customer": "608bde23c5a2a0a1607294a5",
+
+    "class": "50ee0042d8b53b31084309f5",
+
+    "deployType": "Cloud",
+
+    "deployDesc": "descTest",
+
+    "fqdn": "test",
+    "listTechnicalUser": ["50ee0042d8b53b32084309f5"],
+    "listCustomerContact": [
+      "614cac857b36d6747c85d05d",
+      "614cac867b36d6747c85d05e"
+    ],
+
+    "isActive": true
+  }
+}

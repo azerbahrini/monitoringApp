@@ -1,0 +1,57 @@
+{
+  "SystemDataTest": {
+    "name": "systemExemple",
+
+    "type": "60ee0042d9b53b3e089209f5",
+
+    "category": "60ee0042d0b53b3e089209f5",
+
+    "customer": "608bde23c5a2a0a1607294a5",
+
+    "class": "50ee0042d8b53b31084309f5",
+
+    "deployType": "Cloud",
+
+    "deployDesc": "descTest",
+
+    "fqdn": "test",
+
+    "listTechnicalUser": ["50ee0042d8b53b32084309f5"],
+
+    "listCustomerContact": ["50ee0062d8b53b32084309f5"],
+
+    "isActive": true
+  },
+  "ListContacts": [
+    {
+      "lastName": "med kkk",
+      "mail": "mohamed.bouazza@esprit.tn",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "phoneNumber": 29661380,
+      "createdAt": "2021-09-23T16:34:13.813Z",
+      "updatedAt": "2021-09-28T11:02:12.388Z",
+      "__v": 0,
+      "isActive": true
+    },
+    {
+      "lastName": "med hédi2",
+      "mail": "mohamed.bouazza@esprit.tn",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "phoneNumber": 29661380,
+      "createdAt": "2021-09-23T16:34:14.182Z",
+      "updatedAt": "2021-09-26T01:35:23.661Z",
+      "__v": 0,
+      "isActive": true
+    },
+    {
+      "lastName": "med hédi3",
+      "mail": "med.bouazza@esprit.tn",
+      "customer": "608bde23c5a2a0a1607294a5",
+      "phoneNumber": 29661380,
+      "createdAt": "2021-09-23T16:34:14.182Z",
+      "updatedAt": "2021-09-26T01:35:23.661Z",
+      "__v": 0,
+      "isActive": true
+    }
+  ]
+}

@@ -1,0 +1,1168 @@
+[2022-02-15T08:55:26.076] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T08:55:31.694] [INFO] ma-core - server started at port 5000
+[2022-02-15T08:55:31.742] [INFO] ma-core - mongodb conected
+[2022-02-15T08:55:41.613] [ERROR] ma-core - get All Active ItOperation :condtions is not defined /api/itoperation/getAllActive GET ::1
+[2022-02-15T08:56:26.770] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T08:56:28.158] [INFO] ma-core - server started at port 5000
+[2022-02-15T08:56:28.194] [INFO] ma-core - mongodb conected
+[2022-02-15T08:56:30.355] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T08:59:29.332] [ERROR] ma-core - "page" is required /api/itoperation/getAllActive GET ::1
+[2022-02-15T08:59:37.835] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T08:59:44.882] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T08:59:48.356] [ERROR] ma-core - "paginate" is required /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:00:02.726] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:05:01.922] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:05:02.757] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:05:02.776] [INFO] ma-core - mongodb conected
+[2022-02-15T09:05:06.342] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:05:07.077] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:05:07.107] [INFO] ma-core - mongodb conected
+[2022-02-15T09:05:10.098] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:05:10.700] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:05:10.720] [INFO] ma-core - mongodb conected
+[2022-02-15T09:05:12.504] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:05:13.116] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:05:13.135] [INFO] ma-core - mongodb conected
+[2022-02-15T09:05:30.379] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:05:31.091] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:05:31.114] [INFO] ma-core - mongodb conected
+[2022-02-15T09:05:46.390] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:06:36.827] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:06:37.467] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:06:37.490] [INFO] ma-core - mongodb conected
+[2022-02-15T09:06:39.776] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:06:40.437] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:06:40.474] [INFO] ma-core - mongodb conected
+[2022-02-15T09:06:43.506] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:06:44.099] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:06:44.117] [INFO] ma-core - mongodb conected
+[2022-02-15T09:06:46.815] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:06:47.445] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:06:47.463] [INFO] ma-core - mongodb conected
+[2022-02-15T09:06:49.709] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:08:54.853] [ERROR] ma-core - "customerId" must be a string /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:10:21.274] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:10:28.834] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:13:43.117] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:13:44.531] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:13:44.570] [INFO] ma-core - mongodb conected
+[2022-02-15T09:13:47.000] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:27:23.511] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:27:33.464] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:27:34.620] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:27:35.457] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:28:34.905] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:29:39.071] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:29:39.690] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:29:39.709] [INFO] ma-core - mongodb conected
+[2022-02-15T09:29:48.454] [ERROR] ma-core - get All Active ItOperation :Arguments must be aggregate pipeline operators /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:29:57.938] [ERROR] ma-core - get All Active ItOperation :Arguments must be aggregate pipeline operators /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:30:59.347] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:31:00.232] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:31:00.256] [INFO] ma-core - mongodb conected
+[2022-02-15T09:31:02.285] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:31:02.943] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:31:02.963] [INFO] ma-core - mongodb conected
+[2022-02-15T09:31:10.729] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:31:11.375] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:31:11.394] [INFO] ma-core - mongodb conected
+[2022-02-15T09:31:18.659] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:31:20.968] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:31:21.717] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:31:22.001] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:31:40.406] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:31:41.234] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:31:41.255] [INFO] ma-core - mongodb conected
+[2022-02-15T09:31:42.343] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:31:42.970] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:31:42.990] [INFO] ma-core - mongodb conected
+[2022-02-15T09:36:33.824] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:36:34.639] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:36:34.658] [INFO] ma-core - mongodb conected
+[2022-02-15T09:36:41.834] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:36:42.952] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:36:43.009] [INFO] ma-core - mongodb conected
+[2022-02-15T09:36:50.063] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:36:50.677] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:36:50.696] [INFO] ma-core - mongodb conected
+[2022-02-15T09:36:52.727] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:36:53.511] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:36:53.558] [INFO] ma-core - mongodb conected
+[2022-02-15T09:36:57.020] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:36:58.084] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:36:58.105] [INFO] ma-core - mongodb conected
+[2022-02-15T09:36:59.667] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:37:00.693] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:37:00.713] [INFO] ma-core - mongodb conected
+[2022-02-15T09:37:04.916] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:37:05.569] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:37:05.588] [INFO] ma-core - mongodb conected
+[2022-02-15T09:37:12.787] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:37:13.890] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:37:13.909] [INFO] ma-core - mongodb conected
+[2022-02-15T09:37:14.805] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:37:15.468] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:37:15.515] [INFO] ma-core - mongodb conected
+[2022-02-15T09:37:16.115] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:37:16.970] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:37:16.991] [INFO] ma-core - mongodb conected
+[2022-02-15T09:37:31.981] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:37:32.557] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:37:32.576] [INFO] ma-core - mongodb conected
+[2022-02-15T09:37:41.572] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:37:42.376] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:37:42.396] [INFO] ma-core - mongodb conected
+[2022-02-15T09:37:43.289] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T09:37:44.088] [INFO] ma-core - server started at port 5000
+[2022-02-15T09:37:44.146] [INFO] ma-core - mongodb conected
+[2022-02-15T09:37:50.374] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:38:29.500] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:38:46.624] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T09:41:27.254] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:07:11.571] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:07:26.208] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:07:55.062] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:08:35.414] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:08:48.975] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:08:58.661] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:09:07.584] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:28:11.162] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:28:11.962] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:28:11.989] [INFO] ma-core - mongodb conected
+[2022-02-15T11:29:11.349] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:29:11.963] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:29:11.984] [INFO] ma-core - mongodb conected
+[2022-02-15T11:29:13.802] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:29:14.515] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:29:14.544] [INFO] ma-core - mongodb conected
+[2022-02-15T11:29:17.404] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:29:18.120] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:29:18.145] [INFO] ma-core - mongodb conected
+[2022-02-15T11:29:26.659] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:29:27.415] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:29:27.434] [INFO] ma-core - mongodb conected
+[2022-02-15T11:30:15.310] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive GET ::1
+[2022-02-15T11:49:37.216] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:49:37.923] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:49:37.950] [INFO] ma-core - mongodb conected
+[2022-02-15T11:52:26.908] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:52:27.494] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:52:27.521] [INFO] ma-core - mongodb conected
+[2022-02-15T11:52:37.956] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:52:38.570] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:52:38.593] [INFO] ma-core - mongodb conected
+[2022-02-15T11:52:42.203] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:52:42.801] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:52:42.824] [INFO] ma-core - mongodb conected
+[2022-02-15T11:52:45.433] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:52:46.032] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:52:46.057] [INFO] ma-core - mongodb conected
+[2022-02-15T11:52:49.128] [ERROR] ma-core - "customerId" is not allowed /api/itoperation/getAllActive POST ::1
+[2022-02-15T11:53:43.734] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:53:44.341] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:53:44.366] [INFO] ma-core - mongodb conected
+[2022-02-15T11:53:45.137] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:53:45.740] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:53:45.759] [INFO] ma-core - mongodb conected
+[2022-02-15T11:53:46.980] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:53:47.595] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:53:47.615] [INFO] ma-core - mongodb conected
+[2022-02-15T11:53:51.933] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:53:52.539] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:53:52.563] [INFO] ma-core - mongodb conected
+[2022-02-15T11:53:53.564] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:53:54.245] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:53:54.267] [INFO] ma-core - mongodb conected
+[2022-02-15T11:53:56.512] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T11:53:57.184] [INFO] ma-core - server started at port 5000
+[2022-02-15T11:53:57.206] [INFO] ma-core - mongodb conected
+[2022-02-15T11:53:59.786] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T11:54:36.293] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T11:54:52.883] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T14:52:55.328] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T14:52:56.320] [INFO] ma-core - server started at port 5000
+[2022-02-15T14:52:56.353] [INFO] ma-core - mongodb conected
+[2022-02-15T14:53:41.825] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T14:54:23.030] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T15:40:47.289] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:40:48.010] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:40:48.030] [INFO] ma-core - mongodb conected
+[2022-02-15T15:40:50.373] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:40:51.089] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:40:51.109] [INFO] ma-core - mongodb conected
+[2022-02-15T15:41:19.523] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:41:20.126] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:41:20.146] [INFO] ma-core - mongodb conected
+[2022-02-15T15:42:16.552] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:42:17.277] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:42:17.301] [INFO] ma-core - mongodb conected
+[2022-02-15T15:42:23.164] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T15:42:44.680] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:42:45.318] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:42:45.342] [INFO] ma-core - mongodb conected
+[2022-02-15T15:42:56.364] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:42:57.001] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:42:57.022] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:05.190] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:05.921] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:05.955] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:12.703] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:13.377] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:13.398] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:14.427] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:15.088] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:15.108] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:16.687] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:17.421] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:17.444] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:19.279] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:19.887] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:19.911] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:20.531] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:21.214] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:21.241] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:30.446] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:31.058] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:31.083] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:34.768] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:35.511] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:35.531] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:40.824] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:41.496] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:41.531] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:46.906] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:47.532] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:47.552] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:48.411] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:49.018] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:49.038] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:51.659] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:52.281] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:52.307] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:53.381] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:54.054] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:54.074] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:55.977] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:56.590] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:56.615] [INFO] ma-core - mongodb conected
+[2022-02-15T15:43:57.720] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:43:58.435] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:43:58.455] [INFO] ma-core - mongodb conected
+[2022-02-15T15:44:06.401] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:44:06.991] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:44:07.011] [INFO] ma-core - mongodb conected
+[2022-02-15T15:44:59.062] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:44:59.683] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:44:59.702] [INFO] ma-core - mongodb conected
+[2022-02-15T15:45:09.821] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:45:10.868] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:45:10.915] [INFO] ma-core - mongodb conected
+[2022-02-15T15:45:31.413] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:45:32.025] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:45:32.044] [INFO] ma-core - mongodb conected
+[2022-02-15T15:45:39.442] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:45:40.118] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:45:40.139] [INFO] ma-core - mongodb conected
+[2022-02-15T15:45:44.563] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:45:45.156] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:45:45.175] [INFO] ma-core - mongodb conected
+[2022-02-15T15:45:56.350] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:45:56.958] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:45:56.981] [INFO] ma-core - mongodb conected
+[2022-02-15T15:46:12.102] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:46:12.714] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:46:12.760] [INFO] ma-core - mongodb conected
+[2022-02-15T15:46:25.187] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:46:25.785] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:46:25.805] [INFO] ma-core - mongodb conected
+[2022-02-15T15:46:33.852] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:46:34.738] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:46:34.773] [INFO] ma-core - mongodb conected
+[2022-02-15T15:46:38.404] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:46:39.020] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:46:39.045] [INFO] ma-core - mongodb conected
+[2022-02-15T15:47:39.628] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:47:40.449] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:47:40.472] [INFO] ma-core - mongodb conected
+[2022-02-15T15:47:41.633] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:47:42.271] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:47:42.296] [INFO] ma-core - mongodb conected
+[2022-02-15T15:47:47.114] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:47:47.715] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:47:47.736] [INFO] ma-core - mongodb conected
+[2022-02-15T15:47:49.905] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:47:50.587] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:47:50.615] [INFO] ma-core - mongodb conected
+[2022-02-15T15:48:02.493] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:48:03.099] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:48:03.119] [INFO] ma-core - mongodb conected
+[2022-02-15T15:48:06.840] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:48:07.449] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:48:07.476] [INFO] ma-core - mongodb conected
+[2022-02-15T15:48:08.991] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:48:09.586] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:48:09.606] [INFO] ma-core - mongodb conected
+[2022-02-15T15:49:34.066] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:49:34.696] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:49:34.718] [INFO] ma-core - mongodb conected
+[2022-02-15T15:49:35.461] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:49:36.050] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:49:36.069] [INFO] ma-core - mongodb conected
+[2022-02-15T15:49:40.574] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:49:41.551] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:49:41.577] [INFO] ma-core - mongodb conected
+[2022-02-15T15:49:42.458] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:49:43.269] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:49:43.294] [INFO] ma-core - mongodb conected
+[2022-02-15T15:49:43.856] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:49:44.445] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:49:44.465] [INFO] ma-core - mongodb conected
+[2022-02-15T15:49:48.641] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:49:49.258] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:49:49.279] [INFO] ma-core - mongodb conected
+[2022-02-15T15:49:53.541] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:49:54.215] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:49:54.235] [INFO] ma-core - mongodb conected
+[2022-02-15T15:49:57.666] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:49:58.700] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:49:58.729] [INFO] ma-core - mongodb conected
+[2022-02-15T15:52:18.612] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:52:19.207] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:52:19.226] [INFO] ma-core - mongodb conected
+[2022-02-15T15:53:21.698] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:53:22.309] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:53:22.328] [INFO] ma-core - mongodb conected
+[2022-02-15T15:53:46.560] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:53:47.168] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:53:47.192] [INFO] ma-core - mongodb conected
+[2022-02-15T15:53:53.390] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:53:53.999] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:53:54.020] [INFO] ma-core - mongodb conected
+[2022-02-15T15:53:57.536] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:53:58.137] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:53:58.162] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:02.303] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:03.151] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:03.182] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:06.859] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:07.482] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:07.506] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:14.608] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:15.237] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:15.260] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:17.800] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:18.556] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:18.579] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:19.714] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:20.331] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:20.356] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:24.037] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:24.781] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:24.834] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:26.078] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:26.832] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:26.871] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:28.085] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:28.707] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:28.736] [INFO] ma-core - mongodb conected
+[2022-02-15T15:54:32.255] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:54:32.921] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:54:32.946] [INFO] ma-core - mongodb conected
+[2022-02-15T15:55:50.955] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:55:51.550] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:55:51.569] [INFO] ma-core - mongodb conected
+[2022-02-15T15:55:58.275] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:55:58.968] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:55:58.992] [INFO] ma-core - mongodb conected
+[2022-02-15T15:56:08.986] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:56:09.705] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:56:09.728] [INFO] ma-core - mongodb conected
+[2022-02-15T15:57:51.923] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:57:52.546] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:57:52.573] [INFO] ma-core - mongodb conected
+[2022-02-15T15:58:36.862] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:58:37.510] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:58:37.530] [INFO] ma-core - mongodb conected
+[2022-02-15T15:58:42.859] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T15:59:09.948] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:59:10.548] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:59:10.569] [INFO] ma-core - mongodb conected
+[2022-02-15T15:59:12.820] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T15:59:13.481] [INFO] ma-core - server started at port 5000
+[2022-02-15T15:59:13.500] [INFO] ma-core - mongodb conected
+[2022-02-15T16:02:17.471] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T16:17:36.578] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:17:37.393] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:17:37.418] [INFO] ma-core - mongodb conected
+[2022-02-15T16:20:26.255] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:20:26.863] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:20:26.882] [INFO] ma-core - mongodb conected
+[2022-02-15T16:20:38.933] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:20:39.560] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:20:39.580] [INFO] ma-core - mongodb conected
+[2022-02-15T16:20:41.676] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:20:42.278] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:20:42.304] [INFO] ma-core - mongodb conected
+[2022-02-15T16:21:09.469] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:21:10.059] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:21:10.083] [INFO] ma-core - mongodb conected
+[2022-02-15T16:21:13.689] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:21:14.385] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:21:14.412] [INFO] ma-core - mongodb conected
+[2022-02-15T16:21:15.145] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:21:15.941] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:21:15.992] [INFO] ma-core - mongodb conected
+[2022-02-15T16:21:16.945] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:21:17.577] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:21:17.597] [INFO] ma-core - mongodb conected
+[2022-02-15T16:21:22.668] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:21:23.301] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:21:23.323] [INFO] ma-core - mongodb conected
+[2022-02-15T16:21:25.309] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:21:25.935] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:21:25.954] [INFO] ma-core - mongodb conected
+[2022-02-15T16:23:43.496] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:23:44.178] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:23:44.201] [INFO] ma-core - mongodb conected
+[2022-02-15T16:23:47.175] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T16:26:27.446] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:26:28.182] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:26:28.205] [INFO] ma-core - mongodb conected
+[2022-02-15T16:26:35.792] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:26:36.408] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:26:36.428] [INFO] ma-core - mongodb conected
+[2022-02-15T16:26:40.037] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:26:40.671] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:26:40.690] [INFO] ma-core - mongodb conected
+[2022-02-15T16:26:53.803] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:26:54.557] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:26:54.576] [INFO] ma-core - mongodb conected
+[2022-02-15T16:26:56.182] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:26:56.799] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:26:56.824] [INFO] ma-core - mongodb conected
+[2022-02-15T16:27:20.702] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:27:21.334] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:27:21.363] [INFO] ma-core - mongodb conected
+[2022-02-15T16:27:22.017] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:27:22.646] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:27:22.668] [INFO] ma-core - mongodb conected
+[2022-02-15T16:27:46.705] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:27:47.494] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:27:47.521] [INFO] ma-core - mongodb conected
+[2022-02-15T16:27:57.698] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T16:28:25.013] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:28:25.766] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:28:25.793] [INFO] ma-core - mongodb conected
+[2022-02-15T16:28:35.036] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:28:35.752] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:28:35.780] [INFO] ma-core - mongodb conected
+[2022-02-15T16:29:04.063] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T16:29:04.675] [INFO] ma-core - server started at port 5000
+[2022-02-15T16:29:04.697] [INFO] ma-core - mongodb conected
+[2022-02-15T16:29:11.483] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T17:00:44.859] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:00:46.669] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:00:46.698] [INFO] ma-core - mongodb conected
+[2022-02-15T17:00:47.700] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:00:48.582] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:00:48.613] [INFO] ma-core - mongodb conected
+[2022-02-15T17:00:53.141] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:00:54.231] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:00:54.287] [INFO] ma-core - mongodb conected
+[2022-02-15T17:00:57.119] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:00:59.096] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:00:59.165] [INFO] ma-core - mongodb conected
+[2022-02-15T17:01:04.196] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T17:01:37.451] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:01:38.199] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:01:38.229] [INFO] ma-core - mongodb conected
+[2022-02-15T17:01:45.291] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T17:02:06.516] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:02:07.596] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:02:07.632] [INFO] ma-core - mongodb conected
+[2022-02-15T17:02:12.792] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:02:13.627] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:02:13.658] [INFO] ma-core - mongodb conected
+[2022-02-15T17:02:19.322] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:02:20.176] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:02:20.196] [INFO] ma-core - mongodb conected
+[2022-02-15T17:02:20.849] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:02:21.460] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:02:21.479] [INFO] ma-core - mongodb conected
+[2022-02-15T17:02:33.092] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:02:34.595] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:02:34.622] [INFO] ma-core - mongodb conected
+[2022-02-15T17:02:51.050] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:02:53.859] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:02:53.911] [INFO] ma-core - mongodb conected
+[2022-02-15T17:03:02.948] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T17:04:00.643] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:01.509] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:01.548] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:03.382] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:04.054] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:04.076] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:23.010] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:23.745] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:23.765] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:25.773] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:26.420] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:26.439] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:34.515] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:35.118] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:35.141] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:38.922] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:39.642] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:39.664] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:41.863] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:42.715] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:42.734] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:50.672] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:51.330] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:51.360] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:53.841] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:54.670] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:54.698] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:56.714] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:04:57.610] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:04:57.639] [INFO] ma-core - mongodb conected
+[2022-02-15T17:04:59.720] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:00.708] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:00.733] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:03.104] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:03.885] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:03.904] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:08.703] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:09.337] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:09.361] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:10.617] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:11.243] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:11.263] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:12.485] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:13.172] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:13.208] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:16.969] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:17.575] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:17.594] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:20.201] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:20.980] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:21.002] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:27.945] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:28.709] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:28.750] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:30.904] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:31.530] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:31.573] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:34.157] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:34.857] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:34.876] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:40.911] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:41.600] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:41.621] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:44.181] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:44.833] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:44.857] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:50.200] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:50.789] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:50.814] [INFO] ma-core - mongodb conected
+[2022-02-15T17:05:54.377] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:05:54.987] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:05:55.008] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:04.528] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:05.122] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:05.159] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:07.755] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:08.398] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:08.420] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:15.347] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:16.034] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:16.056] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:19.019] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:19.728] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:19.748] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:23.927] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:24.532] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:24.551] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:27.676] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:28.274] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:28.300] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:33.608] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:34.210] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:34.237] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:36.568] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:37.248] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:37.269] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:39.245] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:39.886] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:39.920] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:46.141] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:46.954] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:47.008] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:49.167] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:49.780] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:49.811] [INFO] ma-core - mongodb conected
+[2022-02-15T17:06:51.480] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:06:52.091] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:06:52.120] [INFO] ma-core - mongodb conected
+[2022-02-15T17:07:23.586] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:07:24.158] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:07:24.180] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:00.632] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:01.267] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:01.291] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:04.001] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:04.658] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:04.678] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:08.515] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:09.494] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:09.531] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:11.214] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:12.236] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:12.272] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:14.009] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:14.626] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:14.649] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:17.848] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:18.500] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:18.529] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:19.938] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:20.598] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:20.620] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:35.647] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:36.238] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:36.259] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:41.966] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:42.564] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:42.589] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:45.167] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:45.775] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:45.799] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:48.722] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:49.368] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:49.387] [INFO] ma-core - mongodb conected
+[2022-02-15T17:08:51.513] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:08:52.117] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:08:52.136] [INFO] ma-core - mongodb conected
+[2022-02-15T17:09:00.456] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:09:01.060] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:09:01.079] [INFO] ma-core - mongodb conected
+[2022-02-15T17:09:04.000] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:09:04.731] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:09:04.751] [INFO] ma-core - mongodb conected
+[2022-02-15T17:09:16.405] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:09:17.043] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:09:17.065] [INFO] ma-core - mongodb conected
+[2022-02-15T17:09:19.291] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:09:19.985] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:09:20.006] [INFO] ma-core - mongodb conected
+[2022-02-15T17:09:27.825] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T17:09:28.537] [INFO] ma-core - server started at port 5000
+[2022-02-15T17:09:28.561] [INFO] ma-core - mongodb conected
+[2022-02-15T17:09:59.506] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T20:03:54.460] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:03:55.122] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:03:55.144] [INFO] ma-core - mongodb conected
+[2022-02-15T20:03:58.908] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:03:59.638] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:03:59.667] [INFO] ma-core - mongodb conected
+[2022-02-15T20:04:11.332] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:04:11.921] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:04:11.944] [INFO] ma-core - mongodb conected
+[2022-02-15T20:04:47.260] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:04:47.260] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:04:47.263] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:04:47.263] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:04:52.322] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:04:52.333] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:04:52.348] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:04:52.350] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:04:47.281] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:04:47.281] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:04:47.282] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:04:47.282] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:04:52.372] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:04:52.375] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:05:46.164] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:05:47.254] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:05:47.296] [INFO] ma-core - mongodb conected
+[2022-02-15T20:06:13.854] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T20:07:44.619] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:07:45.244] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:07:45.266] [INFO] ma-core - mongodb conected
+[2022-02-15T20:07:45.900] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:07:46.534] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:07:46.570] [INFO] ma-core - mongodb conected
+[2022-02-15T20:07:47.987] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:07:48.558] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:07:48.577] [INFO] ma-core - mongodb conected
+[2022-02-15T20:07:51.879] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:07:52.484] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:07:52.510] [INFO] ma-core - mongodb conected
+[2022-02-15T20:07:53.880] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:07:54.647] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:07:54.679] [INFO] ma-core - mongodb conected
+[2022-02-15T20:08:07.115] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:08:07.693] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:08:07.713] [INFO] ma-core - mongodb conected
+[2022-02-15T20:08:15.557] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:08:16.124] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:08:16.151] [INFO] ma-core - mongodb conected
+[2022-02-15T20:08:27.614] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:08:28.310] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:08:28.339] [INFO] ma-core - mongodb conected
+[2022-02-15T20:09:05.511] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:09:06.113] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:09:06.133] [INFO] ma-core - mongodb conected
+[2022-02-15T20:10:28.378] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:10:29.128] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:10:29.157] [INFO] ma-core - mongodb conected
+[2022-02-15T20:12:33.524] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:12:34.179] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:12:34.199] [INFO] ma-core - mongodb conected
+[2022-02-15T20:12:38.614] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:12:39.220] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:12:39.245] [INFO] ma-core - mongodb conected
+[2022-02-15T20:12:51.272] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T20:13:25.196] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T20:14:03.574] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:14:04.170] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:14:04.190] [INFO] ma-core - mongodb conected
+[2022-02-15T20:14:35.977] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:14:36.640] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:14:36.663] [INFO] ma-core - mongodb conected
+[2022-02-15T20:14:43.590] [INFO] ma-core - get All Active itOperation success /api/itoperation/getAllActive POST ::1
+[2022-02-15T20:15:33.032] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:15:33.657] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:15:33.677] [INFO] ma-core - mongodb conected
+[2022-02-15T20:15:58.115] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:15:58.704] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:15:58.724] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:03.610] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:04.215] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:04.238] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:09.363] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:09.991] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:10.013] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:10.954] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:11.539] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:11.563] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:25.264] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:25.851] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:25.870] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:29.144] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:29.945] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:29.970] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:31.694] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:32.301] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:32.325] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:35.866] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:36.525] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:36.545] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:37.438] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:38.016] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:38.036] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:43.401] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:43.987] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:44.006] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:48.031] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:48.610] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:48.630] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:53.036] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:53.756] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:53.799] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:56.205] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:56.842] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:56.863] [INFO] ma-core - mongodb conected
+[2022-02-15T20:16:57.799] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:16:58.421] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:16:58.441] [INFO] ma-core - mongodb conected
+[2022-02-15T20:17:02.749] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:17:03.689] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:17:03.712] [INFO] ma-core - mongodb conected
+[2022-02-15T20:17:05.878] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:17:06.484] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:17:06.503] [INFO] ma-core - mongodb conected
+[2022-02-15T20:17:10.388] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:17:10.992] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:17:11.012] [INFO] ma-core - mongodb conected
+[2022-02-15T20:17:20.043] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:17:20.671] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:17:20.692] [INFO] ma-core - mongodb conected
+[2022-02-15T20:17:23.955] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:17:24.775] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:17:24.807] [INFO] ma-core - mongodb conected
+[2022-02-15T20:17:25.401] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:17:26.011] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:17:26.034] [INFO] ma-core - mongodb conected
+[2022-02-15T20:17:27.063] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:17:27.717] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:17:27.744] [INFO] ma-core - mongodb conected
+[2022-02-15T20:17:54.648] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:17:55.241] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:17:55.262] [INFO] ma-core - mongodb conected
+[2022-02-15T20:18:12.810] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-02-15T20:18:13.434] [INFO] ma-core - server started at port 5000
+[2022-02-15T20:18:13.454] [INFO] ma-core - mongodb conected
+[2022-02-15T20:18:19.575] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:18:19.575] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:18:19.578] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:18:19.578] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:18:24.641] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:18:24.649] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:18:24.664] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:18:24.665] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:18:19.595] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:18:19.595] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:18:19.596] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:18:19.596] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:18:24.684] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:18:24.685] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:19:08.560] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:19:08.560] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:19:08.562] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:19:08.562] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:19:18.629] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:19:18.638] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:19:18.656] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:19:18.659] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:19:08.579] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:19:08.579] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:19:08.581] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:19:08.581] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:19:18.683] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:19:18.686] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:27:02.824] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:27:02.824] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:27:02.826] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:27:02.826] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:27:12.884] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:27:12.896] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:27:12.915] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:27:12.918] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:27:02.842] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:27:02.842] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:27:02.844] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:27:02.844] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:27:12.936] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:27:12.939] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:31:26.930] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:31:26.930] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:31:26.933] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:31:26.933] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:31:37.003] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:31:37.016] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:31:37.029] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:31:37.031] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:31:26.949] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:31:26.949] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:31:26.951] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:31:26.951] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:31:37.047] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:31:37.049] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:32:46.871] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:32:46.871] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:32:46.873] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:32:46.873] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:32:56.941] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:32:56.950] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:32:56.964] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:32:56.965] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:32:46.891] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:32:46.891] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:32:46.892] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:32:46.892] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:32:56.981] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:32:56.984] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:42:31.030] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:42:31.030] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:42:31.033] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:42:31.033] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:42:41.101] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:42:41.109] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:42:41.123] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:42:41.125] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:42:31.050] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:42:31.050] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:42:31.052] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:42:31.052] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:42:41.146] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:42:41.149] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:44:20.514] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:44:20.514] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:44:20.517] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:44:20.517] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:44:20.567] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:44:20.575] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:44:20.590] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:44:20.592] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:44:20.533] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:44:20.533] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:44:20.534] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:44:20.534] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:44:20.608] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:44:20.610] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:45:09.148] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:45:09.148] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:45:09.150] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:45:09.150] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:45:09.215] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:45:09.225] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:45:09.239] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:45:09.241] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:45:09.167] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:45:09.167] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:45:09.169] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:45:09.169] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:45:09.258] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:45:09.261] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:51:45.398] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:51:45.398] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:51:45.401] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:51:45.401] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:51:45.469] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:51:45.480] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:51:45.495] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:51:45.497] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:51:45.416] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:51:45.416] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:51:45.418] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:51:45.418] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:51:45.519] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:51:45.521] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:53:33.909] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:53:33.909] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:53:33.912] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:53:33.912] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:53:33.962] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:53:33.971] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:53:33.986] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:53:33.988] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:53:33.927] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:53:33.927] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:53:33.929] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:53:33.929] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:53:34.011] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:53:34.013] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:59:13.362] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T20:59:13.362] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:59:13.364] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T20:59:13.364] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:59:13.425] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T20:59:13.433] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T20:59:13.447] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T20:59:13.448] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T20:59:13.381] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T20:59:13.381] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:59:13.382] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T20:59:13.382] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T20:59:13.463] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T20:59:13.465] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing
+[2022-02-15T21:00:44.787] [INFO] ma-core - cancel itOperation success testing testing testing
+[2022-02-15T21:00:44.787] [ERROR] ma-core - cancel ItOperation :itOperation not found testing testing testing
+[2022-02-15T21:00:44.790] [INFO] ma-core - finish itOperation success testing testing testing
+[2022-02-15T21:00:44.790] [ERROR] ma-core - finish ItOperation :itOperation not found testing testing testing
+[2022-02-15T21:00:44.856] [INFO] ma-core - get All Archived itOperation success testing testing testing
+[2022-02-15T21:00:44.865] [ERROR] ma-core - Error occur while Getting ItOperation By System Id : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/itOperation/getAllBySystem/getAllBySystemServiceTest.js:50:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2022-02-15T21:00:44.881] [INFO] ma-core - add ItOperation success testing testing testing
+[2022-02-15T21:00:44.883] [ERROR] ma-core - add ItOperation fail :missing property testing testing testing
+[2022-02-15T21:00:44.808] [INFO] ma-core - remind itOperation success testing testing testing
+[2022-02-15T21:00:44.808] [ERROR] ma-core - remind ItOperation :itOperation not found testing testing testing
+[2022-02-15T21:00:44.810] [INFO] ma-core - send changes itOperation success testing testing testing
+[2022-02-15T21:00:44.810] [ERROR] ma-core - send changes ItOperation :itOperation not found testing testing testing
+[2022-02-15T21:00:44.900] [INFO] ma-core - update itOperation success testing testing testing
+[2022-02-15T21:00:44.903] [ERROR] ma-core - update ItOperation :itOperation not found testing testing testing

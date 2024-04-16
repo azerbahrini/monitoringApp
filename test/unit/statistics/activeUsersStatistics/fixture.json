@@ -1,0 +1,27 @@
+{
+    "result": {
+      "data": [
+        {
+          "createdAt": "2022-01-17T13:13:14.103Z",
+          "activeusers": 30720,
+          "unit": "MB"
+        },
+        { "createdAt": "2022-01-17T18:09:33.930Z", "activeusers": 750, "unit": "MB" },
+        { "createdAt": "2022-01-17T18:09:56.367Z", "activeusers": 2048, "unit": "MB" },
+        {
+          "createdAt": "2022-01-17T16:31:07.747Z",
+          "activeusers": 581959680,
+          "unit": "MB"
+        }
+      ],
+      "status": "success",
+      "statusCode": 200
+    },
+    "serviceResult": [
+      { "createdAt": "2022-01-17T13:13:14.103Z", "activeusers": "30", "unit": "GB" },
+      { "createdAt": "2022-01-17T18:09:33.930Z", "activeusers": "750", "unit": "MB" },
+      { "createdAt": "2022-01-17T18:09:56.367Z", "activeusers": "2", "unit": "GB" },
+      { "createdAt": "2022-01-17T16:31:07.747Z", "activeusers": "555", "unit": "TB" }
+    ]
+  }
+  

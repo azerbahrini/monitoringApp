@@ -1,0 +1,151 @@
+{
+  "document": {
+    "isActive": true,
+    "_id": "61dc30750ae7e613e45b0bba",
+    "content": "this is the content of the comment",
+    "feed": "6061f415eda4ab2cc80ef660",
+    "user": "61796b50032f036a48db8a54",
+    "createdAt": "2022-01-10T13:11:17.848Z",
+    "updatedAt": "2022-01-10T13:11:17.848Z",
+    "__v": 0
+  },
+  "documentWithoutID": {
+    "isActive": true,
+    "content": "this is the content of the comment",
+    "feed": "6061f415eda4ab2cc80ef660",
+    "user": "61796b50032f036a48db8a54"
+  },
+  "addedComent": {
+    "content": "this is the content of the comment",
+    "feed": "61dc30750ae7e613e45b0bba",
+    "user": "61796b50032f036a48db8a54",
+    "isActive": true
+  },
+  "documents": [
+    {
+      "isActive": true,
+      "_id": "61ead5d02093d83650fc3bf6",
+      "content": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "feed": "6061f415eda4ab2cc80ef660",
+      "user": {
+        "_id": "61796b42032f037bb5db89fd",
+        "firstName": "Ilyes",
+        "lastName": "Khorchani",
+        "avatar": null
+      },
+      "createdAt": "2022-01-21T15:48:32.173Z",
+      "updatedAt": "2022-01-21T15:48:32.173Z",
+      "__v": 0
+    }
+  ],
+  "newValues": {
+    "isActive": true,
+    "content": "this is the content of the comment"
+  },
+  "updatedComment": {
+    "_id": "61dc30750ae7e613e45b0bba",
+    "isActive": false,
+    "content": "this is the content of the comment",
+    "feed": "6061f415eda4ab2cc80ef660",
+    "user": "61796b50032f036a48db8a54",
+    "createdAt": "2022-01-10T13:37:42.788Z",
+    "updatedAt": "2022-01-10T16:09:02.206Z",
+    "__v": 0
+  },
+  "invalidID": {
+    "_id": "61dc30750ae7e613e45b0b4a"
+  },
+  "updateResult": {
+    "status": "success",
+    "data": {
+      "isActive": true,
+      "_id": "61dc30750ae7e613e45b0bba",
+      "content": "this is the content of the comment",
+      "feed": "6061f415eda4ab2cc80ef660",
+      "user": "61796b50032f036a48db8a54",
+      "createdAt": "2022-01-10T13:11:17.848Z",
+      "updatedAt": "2022-01-10T13:11:17.848Z",
+      "__v": 0
+    },
+    "message": "Successfully edited the comment"
+  },
+  "deletedResult": {
+    "status": "success",
+    "data": {
+      "isActive": false,
+      "_id": "61dc30750ae7e613e45b0bba",
+      "content": "this is the content of the comment",
+      "feed": "6061f415eda4ab2cc80ef660",
+      "user": "61796b50032f036a48db8a54",
+      "createdAt": "2022-01-10T13:11:17.848Z",
+      "updatedAt": "2022-01-10T13:11:17.848Z",
+      "__v": 0
+    },
+    "message": "'Successfully deleted the comment"
+  },
+  "comment": {
+    "status": "success",
+    "data": {
+      "isActive": true,
+      "_id": "61f2a70dce5c081e8058b57c",
+      "content": "this is the content of the dddd",
+      "feed": "6061f415eda4ab2cc80ef660",
+      "user": "61796b50032f036a48db8a54",
+      "createdAt": "2022-01-27T14:07:09.438Z",
+      "updatedAt": "2022-01-27T14:08:33.621Z",
+      "__v": 0
+    },
+    "statusCode": 200
+  },
+  "comment2": {
+    "status": "success",
+    "data": {
+      "isActive": true,
+      "_id": "61f2a70dce5c081e8058b57c",
+      "content": "this is the content of the dddd",
+      "feed": "6061f415eda4ab2cc80ef660",
+      "user": "61796b50032f036a48db8a84",
+      "createdAt": "2022-01-27T14:07:09.438Z",
+      "updatedAt": "2022-01-27T14:08:33.621Z",
+      "__v": 0
+    },
+    "statusCode": 200
+  },
+  "roles": {
+    "data": [
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a70", "label": "Administrator" },
+        "user": "61796b50032f036a48db8a54"
+      },
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6f", "label": "Customer AMS" },
+        "user": "61796b50032f036a48db8a54"
+      }
+    ],
+    "status": "success"
+  },
+  "roles2": {
+    "data": [
+      {
+        "role": { "_id": "5fa02d8f785e4681ddfa3a6f", "label": "Customer AMS" },
+        "user": "61796b50032f036a48db8a54"
+      }
+    ],
+    "status": "success"
+  },
+  "blockedResult": {
+    "status": "success",
+    "data": {
+      "isActive": false,
+      "_id": "61dc30750ae7e613e45b0bba",
+      "content": "this is the content of the comment",
+      "feed": "6061f415eda4ab2cc80ef660",
+      "isBlocked": true,
+      "user": "61796b50032f036a48db8a54",
+      "createdAt": "2022-01-10T13:11:17.848Z",
+      "updatedAt": "2022-01-10T13:11:17.848Z",
+      "__v": 0
+    },
+    "message": "'Successfully blocked the comment"
+  }
+}

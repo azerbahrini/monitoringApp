@@ -1,0 +1,375 @@
+[2023-10-14T18:36:57.536] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-14T18:36:59.292] [INFO] ma-core - server started at port 5000
+[2023-10-14T18:36:59.324] [INFO] ma-core - mongodb conected
+[2023-10-14T18:37:55.460] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-14T18:37:58.993] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-14T18:37:59.395] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-14T18:38:14.472] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-14T18:38:14.573] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-14T18:38:15.543] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-14T18:38:15.691] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-14T18:38:31.344] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-14T18:38:33.389] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-14T18:38:34.029] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-14T18:38:34.607] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-14T18:38:48.377] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-14T18:38:57.201] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-14T18:41:31.296] [INFO] ma-core - add new shifts success /api/shift/sync PATCH ::1
+[2023-10-14T18:41:31.327] [INFO] ma-core - sync shift success /api/shift/sync PATCH ::1
+[2023-10-14T18:41:32.471] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.476] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.481] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.486] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.510] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.540] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.544] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.548] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.553] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.562] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.565] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.574] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.581] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.589] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.595] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.601] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.612] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.619] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.626] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.635] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.644] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.653] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.662] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.667] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.673] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.678] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.682] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.687] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.709] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.713] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.719] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.724] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.729] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.737] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.744] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.750] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.757] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.759] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.773] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.781] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.791] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.798] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.808] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.816] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.823] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.833] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.842] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:32.851] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.075] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.078] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.080] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.083] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.085] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.088] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.093] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.099] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.106] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.114] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.889] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.891] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.892] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.894] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.895] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.896] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:33.901] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.903] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.904] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:33.905] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:35.095] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.097] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.099] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.100] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:35.104] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.105] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.107] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.111] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.120] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.123] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.184] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.186] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.187] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.189] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.190] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.192] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.193] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.195] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.196] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:35.197] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.221] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.223] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.225] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.227] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.228] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.229] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.233] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.235] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.238] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.240] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.244] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.248] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:35.251] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.253] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.255] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.257] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.259] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.261] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.263] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.267] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.270] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:35.272] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.275] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.277] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.278] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:35.281] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.283] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.286] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.289] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.292] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.298] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.301] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.303] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.306] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.308] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.309] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.311] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.312] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:35.314] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:35.316] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.322] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.325] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.326] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.328] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.329] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.331] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.332] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.334] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.335] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.337] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.346] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.348] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.349] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.351] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.352] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.355] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.356] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.358] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.360] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.362] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.364] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.367] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.369] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.371] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.374] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.376] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.379] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.382] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.385] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.387] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.395] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.398] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.400] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.402] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.404] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.406] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.409] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:35.420] [INFO] ma-core - Add user in sync shifts: semah.dridi@avaxia-group.com
+[2023-10-14T18:41:35.433] [INFO] ma-core - Add user in sync shifts: hamza.mraihi@avaxia-group.com
+[2023-10-14T18:41:35.483] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.483] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.484] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.486] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.487] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.489] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.491] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.495] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.496] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.497] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.499] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.503] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.504] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.505] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.506] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.506] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.507] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.507] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.507] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:35.508] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-14T18:41:36.018] [INFO] ma-core - add new shifts success /api/shift/sync PATCH testing
+[2023-10-14T18:41:36.036] [INFO] ma-core - sync shift success /api/shift/sync PATCH testing
+[2023-10-14T18:41:36.421] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.423] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.427] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.429] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.436] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.438] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.440] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.443] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.445] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.448] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.451] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.452] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.457] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.459] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.461] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.462] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.467] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.469] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.472] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.474] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.475] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.477] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.479] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.481] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.482] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.484] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.484] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.487] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.489] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.490] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.493] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.496] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.498] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.499] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.501] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.502] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.504] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.505] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.507] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.508] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.510] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.511] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.513] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.514] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.516] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.517] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.519] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.520] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.521] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.523] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.526] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.528] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.529] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.531] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.532] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.534] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.535] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.536] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.540] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.542] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.544] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.545] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.551] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.552] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.554] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.555] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.557] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.559] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.561] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.562] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.563] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.565] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.566] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.568] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.569] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.571] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.572] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.573] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.575] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.576] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.578] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.579] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.581] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.582] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.583] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.585] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.586] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.587] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.589] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.590] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.592] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.594] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.595] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.597] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.598] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.601] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.604] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.605] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.610] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.613] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.615] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.618] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.619] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.622] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.626] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.629] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.631] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.634] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.635] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.637] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.640] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.643] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.647] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.651] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.653] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.654] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.657] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.660] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.664] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.666] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.668] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.669] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.673] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.676] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.678] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.681] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.682] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.684] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.685] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.686] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.688] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.690] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.693] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.694] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.698] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.700] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.702] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.705] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.708] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.710] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.711] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.713] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.715] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.717] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.719] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.720] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.724] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.726] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.727] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.729] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.730] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.731] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.733] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.735] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.735] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.737] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.739] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.741] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.742] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.743] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.744] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-14T18:41:36.746] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.752] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.754] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:41:36.756] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-14T18:43:12.837] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-14T18:43:48.736] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2023-10-14T18:43:55.998] [INFO] ma-core - update user : add new role success :  /api/user/update/:id PATCH

@@ -1,0 +1,710 @@
+openapi: 3.0.0
+info:
+  description: User API
+  version: "1.0.0"
+  title: User API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+  - name: User
+    description: User routes
+  - name: Auth
+    description: Auth routes (login & register)
+paths:
+  /auth/login:
+    post:
+      summary: login to a user account
+      operationId: loginUser
+      tags:
+        - Auth
+      description: login to the application services
+      responses:
+        "200":
+          description: user logged in
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      token:
+                        type: string
+
+        "400":
+          description: wrong email or wrong password
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - password
+              properties:
+                email:
+                  type: string
+                  example: email@example.com
+                password:
+                  type: string
+                  example: password123
+        description: User to log in
+  /auth/register:
+    post:
+      summary: Create an account
+      operationId: registerUser
+      tags:
+        - Auth
+      description: register to the application services
+      responses:
+        "200":
+          description: user sign up
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      token:
+                        type: string
+
+        "400":
+          description: email already exist or error creating user
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - firstName
+                - lastName
+                - phoneNumber
+                - status
+                - shift
+                - avatar
+                - Level
+                - email
+                - password
+              properties:
+                firstaName:
+                  type: string
+                  example: firstNameExemple
+                lastName:
+                  type: string
+                  example: lastNameExemple
+                email:
+                  type: string
+                  example: email@example.com
+                password:
+                  type: string
+                  example: password123
+                phoneNumber:
+                  type: string
+                  example: 123456789
+                shift:
+                  type: string
+                  example: "60edffc2370e9734982cc555"
+                Level:
+                  type: string
+                  example: "60edffc2370e9734982cc555"
+                status:
+                  type: boolean
+                  example: false
+
+        description: User to create
+  /auth:
+    get:
+      summary: get current User authorization
+      operationId: getCurrentUserAuthorization
+      tags:
+        - Auth
+      description: get current user authorization by id in the system
+      responses:
+        "200":
+          description: return current user authorization
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/User"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "404":
+          description: role not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /user/activateUser/{id}: 
+    patch:
+      summary: Activate User
+      description: Activate User
+      operationId: activateUser
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/User'
+
+          description: "User Activated"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: User not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: User not found
+        "501":
+          description: "no error displayed"
+  /user/deleteUser/{id}: 
+    patch:
+      summary: Delete User
+      description: Delete User
+      operationId: deleteUserById
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/User'
+
+          description: "User Deleted"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: User not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: User not found
+        "501":
+          description: "no error displayed"        
+  /user:
+    get:
+      summary: Get all User
+      operationId: getAllUser
+      tags:
+        - User
+      description: get all existantes User in the system
+      responses:
+        "200":
+          description: return all User
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/User"
+                      totalDocs:
+                        type: number
+                        example: 42
+                      offset:
+                        type: number
+                        example: 40
+                      limit:
+                        type: number
+                        example: 5
+                      totalPages:
+                        type: number
+                        example: 9
+                      page:
+                        type: number
+                        example: 9
+                      pagingCounter:
+                        type: number
+                        example: 41
+                      hasPrevPage:
+                        type: boolean
+                        example: true
+                      hasNextPage:
+                        type: boolean
+                        example: false
+                      prevPage:
+                        type: number
+                        example: 8
+                      nextPage:
+                        type: string
+                        example: null
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /user/microsoft:
+    get:
+      summary: Get Microsoft User
+      operationId: getMUser
+      tags:
+        - User
+      description: get User by microsoftId in
+      responses:
+        "200":
+          description: return all User
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/UserWithoutPassword"
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /user/getOne/{id}:
+    get:
+      summary: get User by id
+      operationId: getUserById
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      tags:
+        - User
+      description: get user by id in the system
+      responses:
+        "200":
+          description: return one user
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/UserWithoutPasswordWithRole"
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /user/getCurrent:
+    get:
+      summary: get current User 
+      operationId: getCurrentUser
+      tags:
+        - User
+      description: get user by id in the system
+      responses:
+        "200":
+          description: return current user
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/UserWithoutPasswordWithRole"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "404":
+          description: user not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /user/update/{id}:
+    patch:
+      summary: update User
+      operationId: UpdateUser
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      tags:
+        - User
+      description: get user by id in the system
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - firstName
+                - lastName
+                - phoneNumber
+                - roles
+              properties:
+                firstaName:
+                  type: string
+                  example: firstNameExemple
+                lastName:
+                  type: string
+                  example: lastNameExemple
+                phoneNumber:
+                  type: string
+                  example: 123456789
+                roles:
+                  type: array
+                  items:
+                    type : string           
+                    example: 60edffc2370e9734982cc555
+      responses:
+        "200":
+          description: return one user
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/User"
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+components:
+  schemas:
+    User:
+      type: object
+      required:
+        - id
+        - firstName
+        - lastName
+        - email
+        - password
+        - phoneNumber
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        firstName:
+          type: string
+          example: firstNameExample
+        lastName:
+          type: string
+          example: lastNameExample
+        email:
+          type: string
+          example: email@example.com
+        password:
+          type: string
+          example: passwordExample
+        phoneNumber:
+          type: string
+          example: 12345678
+        status:
+          type: boolean
+          example: true
+        shift:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        microsoftId:
+          type: string
+          example: "000"
+        avatar:
+          type: string
+        verified:
+          type: boolean
+        RoleHistory:
+          type: array
+          items:
+            type: string
+    UserWithoutPassword:
+      type: object
+      required:
+        - id
+        - firstName
+        - lastName
+        - email
+        - password
+        - phoneNumber
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        firstName:
+          type: string
+          example: firstNameExample
+        lastName:
+          type: string
+          example: lastNameExample
+        email:
+          type: string
+          example: email@example.com
+        phoneNumber:
+          type: string
+          example: 12345678
+        status:
+          type: boolean
+          example: true
+        shift:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        microsoftId:
+          type: string
+          example: "000"
+        avatar:
+          type: string
+        verified:
+          type: boolean
+        RoleHistory:
+          type: array
+          items:
+            type: string
+    UserWithoutPasswordWithRole:
+      type: object
+      required:
+        - id
+        - firstName
+        - lastName
+        - email
+        - password
+        - phoneNumber
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        firstName:
+          type: string
+          example: firstNameExample
+        lastName:
+          type: string
+          example: lastNameExample
+        email:
+          type: string
+          example: email@example.com
+        phoneNumber:
+          type: string
+          example: 12345678
+        status:
+          type: boolean
+          example: true
+        shift:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        microsoftId:
+          type: string
+          example: "000"
+        avatar:
+          type: string
+        verified:
+          type: boolean
+        RoleHistory:
+          type: array
+          items:
+            type: string
+        Roles:
+          type: array
+          items :
+            type : object
+            properties:
+              _id: 
+                type: string
+              label:
+                type: string
+            
+
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/sysclass/1.0.0

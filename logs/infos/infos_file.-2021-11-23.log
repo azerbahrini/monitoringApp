@@ -1,0 +1,51 @@
+[2021-11-23T10:26:08.731] [INFO] ma-core - add Client success testing testing testing
+[2021-11-23T10:44:26.626] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T10:44:27.041] [INFO] ma-core - server started at port 5000
+[2021-11-23T10:44:27.059] [INFO] ma-core - mongodb conected
+[2021-11-23T10:53:49.375] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T10:53:49.814] [INFO] ma-core - server started at port 5000
+[2021-11-23T10:53:49.835] [INFO] ma-core - mongodb conected
+[2021-11-23T10:54:38.347] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T10:54:38.776] [INFO] ma-core - server started at port 5000
+[2021-11-23T10:54:38.793] [INFO] ma-core - mongodb conected
+[2021-11-23T10:54:45.617] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-23T10:54:45.638] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-23T11:00:31.807] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T11:00:32.234] [INFO] ma-core - server started at port 5000
+[2021-11-23T11:00:32.252] [INFO] ma-core - mongodb conected
+[2021-11-23T11:00:33.951] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T11:00:34.377] [INFO] ma-core - server started at port 5000
+[2021-11-23T11:00:34.397] [INFO] ma-core - mongodb conected
+[2021-11-23T11:00:38.849] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-23T11:00:38.871] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-23T16:49:12.944] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T16:49:13.377] [INFO] ma-core - server started at port 5000
+[2021-11-23T16:49:13.397] [INFO] ma-core - mongodb conected
+[2021-11-23T16:49:25.816] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T16:49:26.247] [INFO] ma-core - server started at port 5000
+[2021-11-23T16:49:26.266] [INFO] ma-core - mongodb conected
+[2021-11-23T16:49:57.660] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-23T16:49:57.683] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-23T16:51:29.392] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T16:51:29.799] [INFO] ma-core - server started at port 5000
+[2021-11-23T16:51:29.818] [INFO] ma-core - mongodb conected
+[2021-11-23T16:51:42.148] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-23T16:51:42.171] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-23T16:53:22.095] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T16:53:22.516] [INFO] ma-core - server started at port 5000
+[2021-11-23T16:53:22.535] [INFO] ma-core - mongodb conected
+[2021-11-23T16:53:30.541] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-23T16:53:30.564] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-23T17:01:54.759] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T17:01:55.198] [INFO] ma-core - server started at port 5000
+[2021-11-23T17:01:55.217] [INFO] ma-core - mongodb conected
+[2021-11-23T17:02:07.285] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-23T17:02:07.308] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-23T17:03:45.712] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T17:03:46.132] [INFO] ma-core - server started at port 5000
+[2021-11-23T17:03:46.150] [INFO] ma-core - mongodb conected
+[2021-11-23T17:03:54.059] [INFO] ma-core - Get all shifts success testing testing testing
+[2021-11-23T17:03:54.080] [INFO] ma-core - Get all members success testing testing testing
+[2021-11-23T17:04:08.878] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-11-23T17:04:09.305] [INFO] ma-core - server started at port 5000
+[2021-11-23T17:04:09.323] [INFO] ma-core - mongodb conected

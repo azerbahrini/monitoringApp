@@ -1,0 +1,56 @@
+{
+  "userToRegister": {
+    "firstName": "firstNameExemple",
+    "lastName": "lastNameExemple",
+    "email": "email@gmail.com",
+    "password": "123456789",
+    "phoneNumber": "12345689",
+    "microsoftId": "000",
+    "isActive": true
+  },
+  "userToRegisterWithEncryptedPassword": {
+    "firstName": "firstNameExemple",
+    "lastName": "lastNameExemple",
+    "email": "email@gmail.com",
+    "password": "$2a$12$rSpOFaCwyYtTHURoIG4j7.Nq47PREYa1foaA8B40SGbdXtn2bpjnm",
+    "phoneNumber": "12345689",
+    "microsoftId": "000"
+  },
+  "userToLogin": {
+    "email": "email@gmail.com",
+    "password": "123456789"
+  },
+  "wrongPasswordUserToLogin": {
+    "email": "email@gmail.com",
+    "password": "12345678"
+  },
+  "wrongEmailUserToLogin": {
+    "email": "wrongEmail@gmail.com",
+    "password": "12345678"
+  },
+  "emptyUser": {},
+  "userUpdate": {
+    "user": {
+      "_id": "6114d6b563df5c41b8978b14",
+      "firstName": "admin",
+      "lastName": "admin",
+      "email": "admin@live.fr",
+      "password": "$2a$10$gmic3SntjDLilKRlR6c6wuh3YZUfBhGobWa18Zbm/Q/dVMud8Dhta",
+      "phoneNumber": "12345689"
+    },
+    "psw": {
+      "current": "12345678",
+      "new": "12"
+    }
+  },
+  "changePasswordUser": {
+    "currentPassword": "123456789",
+    "newPassword": "1234"
+  },
+  "changeInformationUser": {
+    "firstName": "firstNameExempleChanged",
+    "lastName": "lastNameExempleChanged",
+    "email": "emailChanged@gmail.com",
+    "phoneNumber": "123456890"
+  }
+}

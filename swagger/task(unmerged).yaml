@@ -1,0 +1,1428 @@
+openapi: 3.0.0
+info:
+  description: Task API
+  version: "1.0.0"
+  title: Task API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /task :
+    get:
+      summary: Get all Task
+      operationId: getAllTask
+      description: 
+        get all existantes Task
+      parameters:
+        - name: page
+          in: query
+          description: page number
+          required: true
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: return all Task
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Task'
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a Task
+      operationId: addTask
+      description: Add task
+      responses:
+        '201':
+          description: Task created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Task"
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required           
+                   
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+                - title
+                - description
+                - type
+                - priority
+                - user
+                - map
+                - system
+             properties:
+                title:
+                  type: string
+                  example: Task1
+                description:
+                  type: string
+                  example: task desc 1  
+                type:
+                  type: string
+                  enum:
+                    - Other
+                    - Monitoring
+                    - Other monitoring
+                priority:
+                  type: number
+                  example: tunis/africa  
+                user:
+                  type: string
+                  example: "60edffc2370e9734982ab123"
+                map:
+                  type: string
+                  example: "60edffc2370e9734982ab123"
+                system:
+                  type: string
+                  example: "60edffc2370e9734982ab123"
+        description: Task item to add       
+  /task/getTasksByFilter :
+    get:
+      summary: Get Tasks by filter
+      operationId: getTasksByFilter
+      description: 
+        Get Tasks by filter ( customer / system / category / type/ user / startdate & endDate)
+      parameters:
+        - name: customerId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: typeId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: categoryId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: memberId
+          in: query
+          required: true
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: timeZone
+          in: query
+          required: true
+          schema:
+            type: string
+            example: Africa/Tunis
+        - name: startDate
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 2021-11-15T08:00
+        - name: endDate
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 2021-11-15T17:00
+        - name: teamLeaderId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: systemId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+      responses:
+        '200':
+          description: return all Task
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Task'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+  /task/getCreatedTasks :
+    get:
+      summary: Get Created Tasks
+      operationId: getCreatedTasks
+      description: 
+        Get Created Tasks( customer / system / category / type/ user / startdate & endDate)
+      parameters:
+        - name: customerId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: typeId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: categoryId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: memberId
+          in: query
+          required: true
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: timeZone
+          in: query
+          required: true
+          schema:
+            type: string
+            example: Africa/Tunis
+        - name: startDate
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 2021-11-15T08:00
+        - name: endDate
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 2021-11-15T17:00
+        - name: teamLeaderId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+        - name: systemId
+          in: query
+          required: false
+          schema:
+            type: string
+            example: 60edffc2370e9734982ab123
+      responses:
+        '200':
+          description: return all Task
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Task'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required                  
+  /task/{id}:
+    get:
+      summary: get a single Task
+      operationId: getOneTask
+      description: get Task by Id
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: return specific Task
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Task" 
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  
+                
+                    
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Task not found
+    patch:
+      summary: update a single Task
+      description: update one task
+      operationId: updateTask
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+       
+          description: "updated task"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Task not found
+        "501":
+          description: "no error displayed"
+        
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                  title:
+                    type: string
+                    example: Task1
+                  description:
+                    type: string
+                    example: task desc 1  
+                  type:
+                    type: string
+                    enum:
+                      - Other
+                      - Monitoring
+                      - Other monitoring
+                  priority:
+                    type: number
+                    example: tunis/africa  
+                  user:
+                    type: string
+                    example: "60edffc2370e9734982ab123"
+                  map:
+                    type: string
+                    example: "60edffc2370e9734982ab123"
+                  system:
+                    type: string
+                    example: "60edffc2370e9734982ab123"
+    delete:  
+      summary: delete a single task
+      description: delete one task
+      operationId: deleteTask
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+          description: "deleted task"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no task found"  
+  /startTask/{id}:
+    put:
+      summary: start a Task
+      operationId: StartOneTask
+      description: change task state from "Pending" to "In progress"
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      _id: 
+                        type: string
+                        example: "609061c32b4129d2262c8681"
+                      description:
+                        type:  string
+                        example: "SAP Transaction"                        
+                      type:
+                        type:  string
+                        example: "Monitoring"
+                      map:
+                        type:  string
+                        example: "60905d102b412970c92c866e"                        
+                      globalStatus: 
+                        type:  string
+                        example: "Critical"
+                      priority:
+                        type: integer
+                        format: int32
+                        example: 28
+                      estimatedStart: 
+                        type:  string
+                        example: "2021-05-04T00:30:00.000Z"
+                      timeSpent:
+                        type: integer
+                        format: int32
+                        example: 4                        
+                      state: 
+                        type:  string
+                        example: "In progress"
+                      assignee: 
+                        type:  string
+                        example: "6089dae7c5a2a04910729391"           
+                      system: 
+                        type:  string
+                        example: "608beed8c5a2a0c3017294b9"
+                      resultat: 
+                        type:  array
+                        items:
+                           type: string
+                           example: "60908c3b2b4129615e2c8767"
+                      createdAt: 
+                        type:  string
+                        example: "2021-05-03T20:49:07.366Z"                      
+                      updatedAt: 
+                        type:  string
+                        example: "2021-11-04T11:03:52.712Z"
+                  message:
+                    type: string
+                    example: "Successfully started the task"   
+          description: "updated the task"
+          
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Cannot change the Task State from Done to In progress."
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: No task can be found with this ID.
+        "501":
+          description: "no error displayed"
+
+  /finishTask/{id}:
+    put:
+      summary: finish a Task
+      operationId: FinishOneTask
+      description: change task state from "In Progress" to "Done"
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      _id: 
+                        type: string
+                        example: "609061c32b4129d2262c8681"
+                      description:
+                        type:  string
+                        example: "SAP Transaction"                        
+                      type:
+                        type:  string
+                        example: "Monitoring"
+                      map:
+                        type:  string
+                        example: "60905d102b412970c92c866e"                        
+                      globalStatus: 
+                        type:  string
+                        example: "Critical"
+                      priority:
+                        type: integer
+                        format: int32
+                        example: 28
+                      estimatedStart: 
+                        type:  string
+                        example: "2021-05-04T00:30:00.000Z"
+                      timeSpent:
+                        type: integer
+                        format: int32
+                        example: 4                        
+                      state: 
+                        type:  string
+                        example: "Done"
+                      assignee: 
+                        type:  string
+                        example: "6089dae7c5a2a04910729391"           
+                      system: 
+                        type:  string
+                        example: "608beed8c5a2a0c3017294b9"
+                      resultat: 
+                        type:  array
+                        items:
+                           type: string
+                           example: "60908c3b2b4129615e2c8767"
+                      createdAt: 
+                        type:  string
+                        example: "2021-05-03T20:49:07.366Z"                      
+                      updatedAt: 
+                        type:  string
+                        example: "2021-11-04T11:03:52.712Z"
+                  message:
+                    type: string
+                    example: "Successfully Finished the task"   
+          description: "updated the task"
+          
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Cannot change the Task State from Canceled to Done."
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: No task can be found with this ID.
+        "501":
+          description: "no error displayed"
+
+# cancel task
+  /cancelTask/{id}:
+    put:
+      summary: cancel a Task
+      operationId: CancelOneTask
+      description: change task state from "" to "Canceled"
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      _id: 
+                        type: string
+                        example: "609061c32b4129d2262c8681"
+                      description:
+                        type:  string
+                        example: "SAP Transaction"                        
+                      type:
+                        type:  string
+                        example: "Monitoring"
+                      map:
+                        type:  string
+                        example: "60905d102b412970c92c866e"                        
+                      globalStatus: 
+                        type:  string
+                        example: "Critical"
+                      priority:
+                        type: integer
+                        format: int32
+                        example: 28
+                      estimatedStart: 
+                        type:  string
+                        example: "2021-05-04T00:30:00.000Z"
+                      timeSpent:
+                        type: integer
+                        format: int32
+                        example: 4                        
+                      state: 
+                        type:  string
+                        example: "Canceled"
+                      assignee: 
+                        type:  string
+                        example: "6089dae7c5a2a04910729391"           
+                      system: 
+                        type:  string
+                        example: "608beed8c5a2a0c3017294b9"
+                      resultat: 
+                        type:  array
+                        items:
+                           type: string
+                           example: "60908c3b2b4129615e2c8767"
+                      createdAt: 
+                        type:  string
+                        example: "2021-05-03T20:49:07.366Z"                      
+                      updatedAt: 
+                        type:  string
+                        example: "2021-11-04T11:03:52.712Z"
+                  message:
+                    type: string
+                    example: "Successfully Finished the task"   
+          description: "updated the task"
+          
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Cannot change the Task State from Canceled to Canceled."
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: No task can be found with this ID.
+        "501":
+          description: "no error displayed"
+# cancel task
+
+# close task
+  /closeTask/{id}:
+    put:
+      summary: Close a Task
+      operationId: CloseOneTask
+      description: Change task state from "Completed" to "Done"
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      _id: 
+                        type: string
+                        example: "609061c32b4129d2262c8681"
+                      description:
+                        type:  string
+                        example: "SAP Transaction"                        
+                      type:
+                        type:  string
+                        example: "Monitoring"
+                      map:
+                        type:  string
+                        example: "60905d102b412970c92c866e"                        
+                      globalStatus: 
+                        type:  string
+                        example: "Critical"
+                      priority:
+                        type: integer
+                        format: int32
+                        example: 28
+                      estimatedStart: 
+                        type:  string
+                        example: "2021-05-04T00:30:00.000Z"
+                      timeSpent:
+                        type: integer
+                        format: int32
+                        example: 4                        
+                      state: 
+                        type:  string
+                        example: "Canceled"
+                      assignee: 
+                        type:  string
+                        example: "6089dae7c5a2a04910729391"           
+                      system: 
+                        type:  string
+                        example: "608beed8c5a2a0c3017294b9"
+                      resultat: 
+                        type:  array
+                        items:
+                           type: string
+                           example: "60908c3b2b4129615e2c8767"
+                      createdAt: 
+                        type:  string
+                        example: "2021-05-03T20:49:07.366Z"                      
+                      updatedAt: 
+                        type:  string
+                        example: "2021-11-04T11:03:52.712Z"
+                  message:
+                    type: string
+                    example: "Successfully Closed the task"   
+          description: "updated the task"
+          
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Cannot change the Task State from Canceled to Canceled."
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: No task can be found with this ID.
+        "501":
+          description: "no error displayed"
+  /validateTask/{id}:
+    put:
+      summary: validate a Task
+      operationId: ValidateOneTask
+      description:  change task state from "To be validated" to "Pending"
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      _id: 
+                        type: string
+                        example: "609061c32b4129d2262c8681"
+                      description:
+                        type:  string
+                        example: "SAP Transaction"                        
+                      type:
+                        type:  string
+                        example: "Monitoring"
+                      map:
+                        type:  string
+                        example: "60905d102b412970c92c866e"                        
+                      globalStatus: 
+                        type:  string
+                        example: "Critical"
+                      priority:
+                        type: integer
+                        format: int32
+                        example: 28
+                      estimatedStart: 
+                        type:  string
+                        example: "2021-05-04T00:30:00.000Z"
+                      timeSpent:
+                        type: integer
+                        format: int32
+                        example: 4                        
+                      state: 
+                        type:  string
+                        example: "Pending"
+                      assignee: 
+                        type:  string
+                        example: "6089dae7c5a2a04910729391"           
+                      system: 
+                        type:  string
+                        example: "608beed8c5a2a0c3017294b9"
+                      resultat: 
+                        type:  array
+                        items:
+                           type: string
+                           example: "60908c3b2b4129615e2c8767"
+                      createdAt: 
+                        type:  string
+                        example: "2021-05-03T20:49:07.366Z"                      
+                      updatedAt: 
+                        type:  string
+                        example: "2021-11-04T11:03:52.712Z"
+                  message:
+                    type: string
+                    example: "Successfully Validated the task"   
+          description: "updated the task"
+          
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Cannot change the Task State from Canceled to Pending."
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: No task can be found with this ID.
+        "501":
+          description: "no error displayed"
+
+  /rejectTask/{id}:
+    put:
+      summary: reject a Task
+      operationId: RejectOneTask
+      description:  change task state from "To be validated" to "Rejected"
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      _id: 
+                        type: string
+                        example: "609061c32b4129d2262c8681"
+                      description:
+                        type:  string
+                        example: "SAP Transaction"                        
+                      type:
+                        type:  string
+                        example: "Monitoring"
+                      map:
+                        type:  string
+                        example: "60905d102b412970c92c866e"                        
+                      globalStatus: 
+                        type:  string
+                        example: "Critical"
+                      priority:
+                        type: integer
+                        format: int32
+                        example: 28
+                      estimatedStart: 
+                        type:  string
+                        example: "2021-05-04T00:30:00.000Z"
+                      timeSpent:
+                        type: integer
+                        format: int32
+                        example: 4                        
+                      state: 
+                        type:  string
+                        example: "Rejected"
+                      assignee: 
+                        type:  string
+                        example: "6089dae7c5a2a04910729391"           
+                      system: 
+                        type:  string
+                        example: "608beed8c5a2a0c3017294b9"
+                      resultat: 
+                        type:  array
+                        items:
+                           type: string
+                           example: "60908c3b2b4129615e2c8767"
+                      createdAt: 
+                        type:  string
+                        example: "2021-05-03T20:49:07.366Z"                      
+                      updatedAt: 
+                        type:  string
+                        example: "2021-11-04T11:03:52.712Z"
+                  message:
+                    type: string
+                    example: "Successfully Rejected the task"   
+          description: "updated the task"
+          
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Cannot change the Task State from Canceled to Rejected."
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: No task can be found with this ID.
+        "501":
+          description: "no error displayed"
+
+  /deleteTask/{id}:
+    put:
+      summary: delete a Task
+      operationId: DeleteOneTask
+      description:  change task state from "To be validated" to "Deleted"
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      _id: 
+                        type: string
+                        example: "609061c32b4129d2262c8681"
+                      description:
+                        type:  string
+                        example: "SAP Transaction"                        
+                      type:
+                        type:  string
+                        example: "Monitoring"
+                      map:
+                        type:  string
+                        example: "60905d102b412970c92c866e"                        
+                      globalStatus: 
+                        type:  string
+                        example: "Critical"
+                      priority:
+                        type: integer
+                        format: int32
+                        example: 28
+                      estimatedStart: 
+                        type:  string
+                        example: "2021-05-04T00:30:00.000Z"
+                      timeSpent:
+                        type: integer
+                        format: int32
+                        example: 4                        
+                      state: 
+                        type:  string
+                        example: "Deleted"
+                      assignee: 
+                        type:  string
+                        example: "6089dae7c5a2a04910729391"           
+                      system: 
+                        type:  string
+                        example: "608beed8c5a2a0c3017294b9"
+                      resultat: 
+                        type:  array
+                        items:
+                           type: string
+                           example: "60908c3b2b4129615e2c8767"
+                      createdAt: 
+                        type:  string
+                        example: "2021-05-03T20:49:07.366Z"                      
+                      updatedAt: 
+                        type:  string
+                        example: "2021-11-04T11:03:52.712Z"
+                  message:
+                    type: string
+                    example: "Successfully Deleted the task"   
+          description: "updated the task"
+          
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Cannot change the Task State from Canceled to Deleted."
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Task not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: No task can be found with this ID.
+        "501":
+          description: "no error displayed"
+  /task/system/getSystemStats :
+    get:
+      summary: get System Task stats
+      operationId: getSystemTaskStats
+      description: 
+        get the list of system stats (system name , targetTasks and createdTasks )
+      parameters: 
+      - in: query
+        name: customerIDFilter
+        description: Filter by Customer ID
+        required: false
+        schema:
+          type: string
+          example: "608bde23c5a2a0a1607294a5"
+      - in: query
+        name: startDate
+        description: start date of the shift
+        required: true
+        schema:
+          type: string
+          example: "2021-11-16T08:00:00.000Z"
+      - in: query
+        name: endDate
+        description: end date of the shift
+        required: true
+        schema:
+          type: string
+          example: "2021-11-16T17:00:00.000Z"
+      - in: query
+        name: timeZone
+        description: The TimeZone
+        required: true
+        schema:
+          type: string
+          example: "Africa/Tunis"      
+      - in: query
+        name: userId
+        description: The User Object ID
+        required: true
+        schema:
+          type: string
+          example: "61796b44032f034827db8a02"
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      statistics:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            systemName: 
+                              type: string
+                              example: "WK System3"                        
+                            customerName: 
+                              type: string
+                              example: "Jera Corporation"
+                            targetTasks:
+                              type:  number
+                              example: 206                        
+                            createdTasks:
+                              type:  number
+                              example: 3
+                      highlights:
+                        type: object
+                        properties:
+                          Pending: 
+                            type: number
+                            example: 3                        
+                          In progress: 
+                            type: number
+                            example: 5
+                          Done:
+                            type:  number
+                            example: 2                        
+                          Canceled:
+                            type:  number
+                            example: 4
+                          Completed:
+                            type:  number
+                            example: 5
+          description: "return the stats of systems"
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "No data cant be found."
+                  status:
+                    type: string
+                    example: "error"
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+            
+components:
+  schemas:
+    Task:
+      type: object
+      required:
+        - id
+        - title
+        - description
+        - type
+        - priority
+        - user
+        - map
+        - system
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        title:
+          type: string
+          example: Task1
+        description:
+          type: string
+          example: task desc 1  
+        type:
+          type: string
+          enum:
+            - Other
+            - Monitoring
+            - Other monitoring
+        priority:
+          type: number
+          example: tunis/africa  
+        user:
+          type: string
+          example: "60edffc2370e9734982ab123"
+        map:
+          type: string
+          example: "60edffc2370e9734982ab123"
+        system:
+          type: string
+          example: "60edffc2370e9734982ab123"
+          
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/hamma19/task-api/1.0.0

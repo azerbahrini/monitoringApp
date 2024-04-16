@@ -1,0 +1,139 @@
+{
+  "resultForm": {
+    "docs": [
+      {
+        "isActive": true,
+        "_id": "61a8f0ccb84249838014cb0d",
+        "formSchema": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "title": "Status",
+              "type": "string",
+              "enum": ["Active", "Canceled", "Ready"]
+            },
+            "job": { "title": "Job", "type": "string" },
+            "error": { "title": "Error", "type": "string" },
+            "host": { "title": "Host", "type": "string" },
+            "frequency": { "title": "Frequency", "type": "string" },
+            "date": {
+              "title": "Date",
+              "type": "string",
+              "pattern": "(0[1-9]|1[0-9]|2[0-9]|3[01])/(0[1-9]|1[012])/[0-9]{4}"
+            },
+            "time": {
+              "title": "Time",
+              "type": "string",
+              "pattern": "(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]"
+            }
+          },
+          "required": ["status", "job", "error", "host", "frequency"]
+        },
+        "formLimits": { "min": 0, "max": 0 },
+        "formUISchema": {
+          "status": {
+            "ui:column": "col-2",
+            "title": "Status",
+            "type": "string",
+            "ui:options": { "label": false },
+            "ui:placeholder": "Status*"
+          },
+          "job": {
+            "ui:column": "col-5",
+            "ui:emptyValue": "",
+            "ui:options": { "label": false },
+            "ui:placeholder": "Job*"
+          },
+          "error": {
+            "ui:column": "col-5",
+            "ui:emptyValue": "",
+            "ui:options": { "label": false },
+            "ui:placeholder": "Error*"
+          },
+          "host": {
+            "ui:column": "col-3",
+            "ui:emptyValue": "",
+            "ui:options": { "label": false },
+            "ui:placeholder": "Host*"
+          },
+          "frequency": {
+            "ui:column": "col-3",
+            "ui:emptyValue": "",
+            "ui:options": { "label": false },
+            "ui:placeholder": "Frequency*"
+          },
+          "date": {
+            "ui:column": "col-3",
+            "ui:emptyValue": "",
+            "ui:options": { "label": false },
+            "ui:placeholder": "Date DD/MM/YYYY"
+          },
+          "time": {
+            "ui:column": "col-3",
+            "ui:emptyValue": "",
+            "ui:options": { "label": false },
+            "ui:placeholder": "Time HH:mm"
+          }
+        },
+        "monitoringActivity": "608bc913c5a2a0b46a729488",
+        "__v": 0,
+        "monitActTitle": "SM37"
+      }
+    ],
+    "totalDocs": 35,
+    "offset": null,
+    "limit": 35,
+    "totalPages": 1,
+    "page": null,
+    "pagingCounter": null,
+    "hasPrevPage": false,
+    "hasNextPage": false,
+    "prevPage": null,
+    "nextPage": null
+  },
+
+  "monitorindActivity": {
+    "data": {
+      "docs": [
+        {
+          "_id": "608bc953c5a2a00235729489",
+          "activity": "ST22",
+          "type": "Transaction",
+          "description": "SAP Transaction",
+          "createdAt": "2021-04-30T09:09:39.019Z",
+          "updatedAt": "2021-12-21T13:49:25.542Z",
+          "__v": 0,
+          "isActive": true,
+          "id": "608bc953c5a2a00235729489"
+        }
+      ],
+      "totalDocs": 40,
+      "offset": 0,
+      "limit": 40,
+      "totalPages": 1,
+      "page": 1,
+      "pagingCounter": 1,
+      "hasPrevPage": false,
+      "hasNextPage": false,
+      "prevPage": null,
+      "nextPage": null
+    },
+    "status": "success"
+  },
+  "result": {
+    "data": [
+      {
+        "_id": "608bc953c5a2a00235729489",
+        "activity": "ST22",
+        "type": "Transaction",
+        "description": "SAP Transaction",
+        "createdAt": "2021-04-30T09:09:39.019Z",
+        "updatedAt": "2021-12-21T13:49:25.542Z",
+        "__v": 0,
+        "isActive": true,
+        "id": "608bc953c5a2a00235729489"
+      }
+    ],
+    "status": "success"
+  }
+}

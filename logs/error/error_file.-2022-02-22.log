@@ -1,0 +1,3 @@
+[2022-02-22T12:22:06.788] [ERROR] ma-core - add post :missing property testing testing testing
+[2022-02-22T12:22:06.802] [ERROR] ma-core - get All posts :An error message testing testing testing
+[2022-02-22T12:22:06.804] [ERROR] ma-core - get All posts :An error message NaN post 1234

@@ -1,0 +1,77 @@
+{
+  "shiftsForTL": [
+    {
+      "_id": { "$oid": "60888969d62aae67bdbfb48c" },
+      "id": "SHFT_13c77c9b-25af-4083-8982-f32783bb8cc4",
+      "userId": "5440b777-1495-4804-91d8-147283a39e49",
+      "schedulingGroupId": "TAG_6f6323d2-1321-4ece-b977-33a4cf016888",
+      "createdDateTime": null,
+      "lastModifiedDateTime": { "$date": "2021-04-25T12:33:36.137Z" },
+      "Sharedshift": {
+        "displayName": "night shift",
+        "notes": null,
+        "startDateTime": { "$date": "2021-04-27T00:00:00.000Z" },
+        "endDateTime": { "$date": "2021-04-27T06:30:00.000Z" },
+        "theme": "darkBlue",
+        "activities": []
+      },
+      "user": { "$oid": "60888969d62aae3d71bfb48b" },
+      "__v": 0
+    },
+
+    {
+      "_id": { "$oid": "6089dae8c5a2a023657293a7" },
+      "id": "SHFT_e687a735-2e26-42a8-9ba3-e4c41890b042",
+      "userId": "8206a5cb-4c7d-46e0-929c-d444396171e9",
+      "schedulingGroupId": "TAG_6f6323d2-1321-4ece-b977-33a4cf016888",
+      "createdDateTime": null,
+      "lastModifiedDateTime": { "$date": "2021-04-25T12:33:36.137Z" },
+      "Sharedshift": {
+        "displayName": "Day shift 2/2",
+        "notes": null,
+        "startDateTime": { "$date": "2021-04-28T12:00:00.000Z" },
+        "endDateTime": { "$date": "2021-04-28T18:30:00.000Z" },
+        "theme": "yellow",
+        "activities": []
+      },
+      "user": { "$oid": "6089dae8c5a2a080837293a2" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "608b2c64c5a2a0134b7293f8" },
+      "id": "SHFT_5ef982ce-6105-4e50-bbc5-394dfea8025f",
+      "userId": "73cd4e5b-7007-4f35-81b3-5e5f1663f076",
+      "schedulingGroupId": "TAG_1c71804e-b3a0-4b97-bf62-578ea2178093",
+      "createdDateTime": null,
+      "lastModifiedDateTime": { "$date": "2021-03-25T21:04:47.702Z" },
+      "Sharedshift": {
+        "displayName": "On-call-1 ",
+        "notes": "Phone: +216 29 336 619",
+        "startDateTime": { "$date": "2021-04-29T15:00:00.000Z" },
+        "endDateTime": { "$date": "2021-04-30T15:00:00.000Z" },
+        "theme": "darkGreen",
+        "activities": []
+      },
+      "user": { "$oid": "6089dae5c5a2a05ceb72933d" },
+      "__v": 0
+    },
+    {
+      "_id": { "$oid": "608b2c64c5a2a0ddeb7293f9" },
+      "id": "SHFT_0ee31d4c-ac79-442e-9a03-7d9eb15849ed",
+      "userId": "73cd4e5b-7007-4f35-81b3-5e5f1663f076",
+      "schedulingGroupId": "TAG_1c71804e-b3a0-4b97-bf62-578ea2178093",
+      "createdDateTime": null,
+      "lastModifiedDateTime": { "$date": "2021-03-25T21:04:47.702Z" },
+      "Sharedshift": {
+        "displayName": "On-call-1 ",
+        "notes": "Phone: +216 29 336 619",
+        "startDateTime": { "$date": "2021-04-30T15:00:00.000Z" },
+        "endDateTime": { "$date": "2021-05-01T15:00:00.000Z" },
+        "theme": "darkGreen",
+        "activities": []
+      },
+      "user": { "$oid": "6089dae5c5a2a05ceb72933d" },
+      "__v": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[2023-07-07T18:13:02.893] [ERROR] ma-core - unlike posts :post has not yet been liked /api/newsFeed/unlike/:id PUT ::1
+[2023-07-07T18:13:05.027] [ERROR] ma-core - unlike posts :post has not yet been liked /api/newsFeed/unlike/:id PUT ::1
+[2023-07-07T18:13:08.225] [ERROR] ma-core - unlike posts :post has not yet been liked /api/newsFeed/unlike/:id PUT ::1
+[2023-07-07T18:13:12.467] [ERROR] ma-core - unlike posts :post has not yet been liked /api/newsFeed/unlike/:id PUT ::1
+[2023-07-07T18:30:53.217] [ERROR] ma-core - "paginate" must be a boolean /api/role/ GET ::1
+[2023-07-07T18:31:22.084] [ERROR] ma-core - "paginate" must be a boolean /api/role/ GET ::1
+[2023-07-07T18:31:26.556] [ERROR] ma-core - update user : add new role error :shift validation failed: role: Cast to ObjectId failed for value "none" (type string) at path "role" /api/user/update/:id PATCH
+[2023-07-07T18:31:28.866] [ERROR] ma-core - "paginate" must be a boolean /api/role/ GET ::1
+[2023-07-07T18:31:50.767] [ERROR] ma-core - "paginate" must be a boolean /api/role/ GET ::1
+[2023-07-07T18:31:57.056] [ERROR] ma-core - update user : add new role error :shift validation failed: role: Cast to ObjectId failed for value "none" (type string) at path "role" /api/user/update/:id PATCH
+[2023-07-07T18:31:59.526] [ERROR] ma-core - "paginate" must be a boolean /api/role/ GET ::1
+[2023-07-07T18:32:07.758] [ERROR] ma-core - update user : add new role error :shift validation failed: role: Cast to ObjectId failed for value "none" (type string) at path "role" /api/user/update/:id PATCH
+[2023-07-07T18:32:10.292] [ERROR] ma-core - "paginate" must be a boolean /api/role/ GET ::1
+[2023-07-07T18:32:24.776] [ERROR] ma-core - "paginate" must be a boolean /api/role/ GET ::1
+[2023-07-07T18:32:49.616] [ERROR] ma-core - "paginate" must be a boolean /api/role/ GET ::1
+[2023-07-07T18:53:43.522] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2023-07-07T18:53:49.794] [ERROR] ma-core - add Licence :Licence Already Exist During This Periode /api/licence/ POST ::1
+[2023-07-07T19:35:16.500] [ERROR] ma-core - get slaContract By Id :Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "slaContract" /api/slaContract/getone/:id/ GET ::1

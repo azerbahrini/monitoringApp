@@ -1,0 +1,28 @@
+{
+    "all": {
+      "success": {
+        "res": {
+          "statusCode": 200,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "success",
+          "data": {
+            "docs": [
+              {
+                "_id": "608be0f0c5a2a0bd397294aa",
+                "type": "PRD"
+            },
+            {
+              "_id": "608be0f0c5a2a0bd397294aa",
+              "type": "QAS"
+          }
+            ]
+          }
+        }
+      }
+    }
+  }
+  

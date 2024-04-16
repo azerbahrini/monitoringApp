@@ -1,0 +1,37 @@
+{
+    "all": {
+      "success": {
+        "res": {
+          "statusCode": 200,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "success",
+          "data": {
+            "docs": [
+              {
+                "id": "60ef4e3f7221301cc8eaafbd",
+                "host": "test1",
+                "isActive": true,
+                "system" : "60ef4e3f7221301cc8eaafbd"
+              },
+              {
+                "id": "60ef4e3f7221301cc8eaafbd",
+                "host": "test1",
+                "isActive": true,
+                "system" : "60ef4e3f7221301cc8eaafbd"
+              },
+              {
+                "id": "60ef4e3f7221301cc8eaafbd",
+                "host": "test1",
+                "isActive": true,
+                "system" : "60ef4e3f7221301cc8eaafbd"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,9 @@
+[2021-12-24T03:00:00.024] [INFO] ma-core - Running Sync Shift 2PM UTC
+[2021-12-24T03:00:09.244] [INFO] ma-core - add new shifts success /api/shift/sync PATCH ::ffff:127.0.0.1
+[2021-12-24T03:00:09.262] [INFO] ma-core - sync shift success /api/shift/sync PATCH ::ffff:127.0.0.1
+[2021-12-24T03:00:09.275] [INFO] ma-core - {"message":"Shift sync success"}
+[2021-12-24T11:45:11.434] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-24T11:45:12.132] [INFO] ma-core - server started at port 5000
+[2021-12-24T11:45:12.152] [INFO] ma-core - mongodb conected
+[2021-12-24T12:43:37.303] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2021-12-24T12:43:41.308] [INFO] ma-core - get all Customer success /api/customer/ GET ::1

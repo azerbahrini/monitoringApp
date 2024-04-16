@@ -1,0 +1,13 @@
+{
+    "mapTest":{
+        "periodicity":30,
+        "active": true,
+        "estimation" : 50,
+        "startTime" : 400,
+        "task" :"60ef4e3f7221301cc8eaafbe" ,
+        "system" : "60ef4e3f7221301cc8eaafbe",
+        "monitoringAct" : "60ef4e3f7221301cc8eaafbe"
+},
+"wrongId":"60ef4e3f7221301cc8eaafbe",
+"emptyObject":{}
+}

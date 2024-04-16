@@ -1,0 +1,282 @@
+openapi: 3.0.0
+info:
+  description: Client API
+  version: 1.0.0-oas3
+  title: Client
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/client/client-2.0.html
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /client:
+    get:
+      summary: Get all client
+      operationId: getAllClient
+      parameters:
+      - name: page
+        in: query
+        description: page number
+        required: true
+        schema:
+         type: integer
+         format: int32
+      - name: size
+        in: query
+        description: number of elements
+        required: true
+        schema:
+         type: integer
+         format: int32
+      description: get all existantes client in the system
+      responses:
+        '200':
+          description: return all client
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/Client"
+                      totalDocs:
+                        type: number
+                        example: 42
+                      offset:
+                        type: number
+                        example: 40
+                      limit:
+                        type: number
+                        example: 5
+                      totalPages:
+                        type: number
+                        example: 9
+                      page:
+                        type: number
+                        example: 9
+                      pagingCounter:
+                        type: number
+                        example: 41
+                      hasPrevPage:
+                        type: boolean
+                        example: true
+                      hasNextPage:
+                        type: boolean
+                        example: false
+                      prevPage:
+                        type: number
+                        example: 8
+                      nextPage:
+                        type: string
+                        example: null
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a client
+      operationId: addClient
+      description: Adds client to the system
+      responses:
+        '201':
+          description: client created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Client'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - clientNumber
+                - isActive
+              properties:
+                clientNumber:
+                  type: number
+                  example: 100
+                isActive:
+                  type: boolean
+                  example: true
+        description: client item to add
+  /client/{id}:
+    get:
+      summary: get a client
+      operationId: getOneClient
+      description: get client by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: return specific client
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Client"
+                    
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: client not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: client not found
+    patch:
+      summary: update Client
+      description: update Client
+      operationId: updateClient
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Client'
+          description: updated client
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: client not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: client not found
+        '501':
+          description: no error displayed
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                clientNumber:
+                  type: number
+                  example: 100
+                isActive:
+                  type: boolean
+                  example: true
+            
+components:
+  schemas:
+    Client:
+      type: object
+      required:
+        - id
+        - clientNumber
+        - isActive
+      properties:
+        id:
+          type: string
+          example: 60edffc2370e9734982cc555
+        clientNumber:
+          type: number
+          example: 100
+        isActive:
+          type: boolean
+          example: true

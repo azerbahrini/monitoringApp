@@ -1,0 +1,41 @@
+{
+  "permissions": [
+    {
+      "_id": "61c4928201466029a8f028ef",
+      "populatedModules": [
+        {
+          "_id": "60529f2e8be52417f8991e60",
+          "listPermission": [
+            "60417bb317d673226060f30c",
+            "6045e3761a10354520b4bc82",
+            "6045e39e1a10354520b4bc83",
+            "6045e3d01a10354520b4bc84",
+            "6045e3e51a10354520b4bc85",
+            "6045e3fb1a10354520b4bc86",
+            "6045e40e1a10354520b4bc87",
+            "6045e4201a10354520b4bc88",
+            "6041882d1ada9d1c64ca2e5b"
+          ],
+          "title": "It Operation",
+          "path": "/operationManagement",
+          "createdAt": "2021-03-17T19:30:38.288Z",
+          "updatedAt": "2021-03-17T19:30:38.288Z",
+          "__v": 0,
+          "isBasic": true
+        },
+        {
+          "_id": "609a4acfd1a70d4348939056",
+          "module": "Module",
+          "path": "/Admin",
+          "route": "/api/module/add",
+          "action": "addModule",
+          "type": "POST",
+          "createdAt": "2021-03-08T15:49:43.849Z",
+          "updatedAt": "2021-04-23T03:06:32.876Z",
+          "__v": 0,
+          "relatedPermissions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+[2023-07-04T19:08:12.301] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-07-04T19:08:13.883] [INFO] ma-core - server started at port 5000
+[2023-07-04T19:08:13.956] [INFO] ma-core - mongodb conected
+[2023-07-04T19:10:07.315] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:10:07.464] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:10:15.401] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:10:15.599] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:10:17.460] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:10:17.585] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:11:44.276] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:11:44.365] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:11:59.412] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-07-04T19:12:34.812] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2023-07-04T19:12:42.114] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2023-07-04T19:12:55.228] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2023-07-04T19:13:04.937] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2023-07-04T19:13:06.214] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-07-04T19:13:06.269] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-07-04T19:13:11.854] [INFO] ma-core - get by id Result Form /api/resultForm/getResultFormById/:id GET ::1
+[2023-07-04T19:13:49.335] [INFO] ma-core - add new shifts success /api/shift/sync PATCH ::1
+[2023-07-04T19:13:49.383] [INFO] ma-core - sync shift success /api/shift/sync PATCH ::1
+[2023-07-04T19:13:49.701] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:49.708] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:49.716] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:49.730] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:49.936] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:49.951] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:49.988] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:49.991] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:49.995] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.002] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.013] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.029] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.035] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-07-04T19:13:50.049] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.055] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.063] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.067] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-07-04T19:13:50.070] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.074] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.080] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.157] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.164] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.168] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-07-04T19:13:50.173] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.196] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.207] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.215] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.222] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.226] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.334] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.338] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.340] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-07-04T19:13:50.348] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:50.355] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-07-04T19:13:54.862] [INFO] ma-core - Add user in sync shifts: mohamed.barkaoui@avaxia-group.com
+[2023-07-04T19:13:54.865] [INFO] ma-core - Add user in sync shifts: bilel.sadraoui@avaxia-group.com
+[2023-07-04T19:13:54.867] [INFO] ma-core - Add user in sync shifts: eya.bennasr@avaxia-group.com
+[2023-07-04T19:13:54.887] [INFO] ma-core - Add user in sync shifts: amenallah.bensalem@avaxia-group.com
+[2023-07-04T19:13:55.898] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:55.899] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:55.900] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:55.901] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:55.901] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:55.913] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.217] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.217] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.218] [INFO] ma-core - Add user in sync shifts: ghaida.sayah@avaxia-group.com
+[2023-07-04T19:13:58.223] [INFO] ma-core - Add user in sync shifts: rahma.messadi@avaxia-group.com
+[2023-07-04T19:13:58.229] [INFO] ma-core - Add user in sync shifts: youssef.chouchene@avaxia-group.com
+[2023-07-04T19:13:58.587] [INFO] ma-core - Add user in sync shifts: lina.ghraibi@avaxia-group.com
+[2023-07-04T19:13:58.596] [INFO] ma-core - Add user in sync shifts: aziz.nafti@avaxia-group.com
+[2023-07-04T19:13:58.745] [INFO] ma-core - Add user in sync shifts: seifeddine.ayadi@avaxia-group.com
+[2023-07-04T19:13:58.749] [INFO] ma-core - Add user in sync shifts: nour.bachchaouch@avaxia-group.com
+[2023-07-04T19:13:58.816] [INFO] ma-core - Add user in sync shifts: houssem.hmida@avaxia-group.com
+[2023-07-04T19:13:58.887] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.888] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.889] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.891] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.892] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.892] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.894] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:58.894] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.014] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.018] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.021] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.023] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.028] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.029] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.030] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.032] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.034] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.035] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.049] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.052] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.064] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.066] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.069] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.070] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.072] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.073] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.075] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.078] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.082] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.083] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.084] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.085] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.086] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.087] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.087] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.088] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.091] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.092] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.093] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.093] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.094] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.094] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.095] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.095] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.097] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.101] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.103] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.105] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.106] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.109] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.110] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.111] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.112] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.112] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.113] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.115] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.119] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.121] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.121] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.122] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.125] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.127] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.130] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.133] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.137] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.140] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.145] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.146] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.148] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.149] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.150] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.151] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.152] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.152] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.153] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.154] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.154] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.155] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.155] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.156] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.157] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:13:59.157] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-07-04T19:14:16.875] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:14:21.458] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:14:21.554] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:14:26.078] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:14:26.234] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:14:27.104] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:14:27.185] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:14:28.304] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:14:28.418] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T19:14:30.321] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-07-04T19:40:02.447] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-07-04T19:40:03.781] [INFO] ma-core - server started at port 5000
+[2023-07-04T19:40:03.801] [INFO] ma-core - mongodb conected
+[2023-07-04T19:41:31.535] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:41:31.933] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:43:07.780] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:43:08.024] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:43:15.022] [INFO] ma-core - like posts success /api/newsFeed/like/:id PUT ::1
+[2023-07-04T19:43:15.263] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:43:17.140] [INFO] ma-core - like posts success /api/newsFeed/like/:id PUT ::1
+[2023-07-04T19:43:17.384] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:45:04.925] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:45:05.233] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:45:26.264] [INFO] ma-core - add post success /api/newsFeed/ POST ::1
+[2023-07-04T19:45:26.537] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:45:30.268] [INFO] ma-core - like posts success /api/newsFeed/like/:id PUT ::1
+[2023-07-04T19:45:30.554] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:49:36.725] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T19:49:37.553] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-07-04T20:45:24.661] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-07-04T20:45:25.014] [INFO] ma-core - get all Customer success /api/customer/ GET ::1

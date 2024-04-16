@@ -1,0 +1,26 @@
+{
+  "result": {
+    "data": [
+      {
+        "createdAt": "2022-01-17T13:13:14.103Z",
+        "growth": 30720,
+        "unit": "MB"
+      },
+      { "createdAt": "2022-01-17T18:09:33.930Z", "growth": 750, "unit": "MB" },
+      { "createdAt": "2022-01-17T18:09:56.367Z", "growth": 2048, "unit": "MB" },
+      {
+        "createdAt": "2022-01-17T16:31:07.747Z",
+        "growth": 581959680,
+        "unit": "MB"
+      }
+    ],
+    "status": "success",
+    "statusCode": 200
+  },
+  "serviceResult": [
+    { "createdAt": "2022-01-17T13:13:14.103Z", "growth": "30", "unit": "GB" },
+    { "createdAt": "2022-01-17T18:09:33.930Z", "growth": "750", "unit": "MB" },
+    { "createdAt": "2022-01-17T18:09:56.367Z", "growth": "2", "unit": "GB" },
+    { "createdAt": "2022-01-17T16:31:07.747Z", "growth": "555", "unit": "TB" }
+  ]
+}

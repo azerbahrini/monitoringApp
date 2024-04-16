@@ -1,0 +1,171 @@
+[2021-12-05T20:30:05.311] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:30:05.780] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:30:05.780] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:30:05.797] [INFO] ma-core - mongodb conected
+[2021-12-05T20:30:18.531] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-05T20:30:25.306] [INFO] ma-core - add result form success /api/resultform/addFormSchema POST ::1
+[2021-12-05T20:31:06.318] [INFO] ma-core - add result form success /api/resultform/addFormSchema POST ::1
+[2021-12-05T20:31:28.250] [INFO] ma-core - add result form success /api/resultform/addFormSchema POST ::1
+[2021-12-05T20:31:33.038] [INFO] ma-core - get all result form success /api/resultform/getAllResultForm GET ::1
+[2021-12-05T20:33:20.905] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:33:21.312] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:33:21.312] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:33:21.329] [INFO] ma-core - mongodb conected
+[2021-12-05T20:34:06.894] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:34:07.320] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:34:07.320] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:34:07.340] [INFO] ma-core - mongodb conected
+[2021-12-05T20:39:19.331] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:39:19.783] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:39:19.784] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:39:19.803] [INFO] ma-core - mongodb conected
+[2021-12-05T20:43:21.587] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:43:21.999] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:43:21.999] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:43:22.016] [INFO] ma-core - mongodb conected
+[2021-12-05T20:43:24.235] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:43:24.645] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:43:24.645] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:43:24.663] [INFO] ma-core - mongodb conected
+[2021-12-05T20:48:32.408] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:48:32.820] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:48:32.820] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:48:32.840] [INFO] ma-core - mongodb conected
+[2021-12-05T20:51:44.495] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:51:44.908] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:51:44.909] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:51:44.927] [INFO] ma-core - mongodb conected
+[2021-12-05T20:56:21.764] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T20:56:22.210] [INFO] ma-core - server started at port 5000
+[2021-12-05T20:56:22.210] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T20:56:22.228] [INFO] ma-core - mongodb conected
+[2021-12-05T21:08:03.282] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:08:03.713] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:08:03.713] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:08:03.735] [INFO] ma-core - mongodb conected
+[2021-12-05T21:17:30.342] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:17:30.758] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:17:30.758] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:17:30.775] [INFO] ma-core - mongodb conected
+[2021-12-05T21:20:21.312] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:20:21.725] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:20:21.725] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:20:21.743] [INFO] ma-core - mongodb conected
+[2021-12-05T21:21:23.971] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:21:24.379] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:21:24.380] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:21:24.399] [INFO] ma-core - mongodb conected
+[2021-12-05T21:21:32.095] [INFO] ma-core - add result form success testing testing testing
+[2021-12-05T21:21:32.099] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-05T21:21:32.101] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-05T21:21:32.103] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-05T21:22:28.276] [INFO] ma-core - add result form success testing testing testing
+[2021-12-05T21:22:28.279] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-05T21:22:28.281] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-05T21:22:28.283] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-05T21:24:59.369] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:24:59.806] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:24:59.807] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:24:59.824] [INFO] ma-core - mongodb conected
+[2021-12-05T21:30:48.392] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:30:48.798] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:30:48.798] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:30:48.815] [INFO] ma-core - mongodb conected
+[2021-12-05T21:30:56.234] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-05T21:30:56.237] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-05T21:30:56.245] [INFO] ma-core - add result form success testing testing testing
+[2021-12-05T21:30:56.247] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-05T21:30:56.249] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-05T21:30:56.250] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-05T21:31:59.587] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:32:00.062] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:32:00.063] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:32:00.080] [INFO] ma-core - mongodb conected
+[2021-12-05T21:36:00.021] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:36:00.435] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:36:00.436] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:36:00.454] [INFO] ma-core - mongodb conected
+[2021-12-05T21:36:05.025] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-05T21:36:05.028] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-05T21:36:05.032] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-05T21:36:05.034] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-05T21:36:05.036] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-05T21:36:05.037] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-05T21:36:05.043] [INFO] ma-core - add result form success testing testing testing
+[2021-12-05T21:36:05.045] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-05T21:36:05.046] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-05T21:36:05.048] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-05T21:36:58.915] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-05T21:36:58.920] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-05T21:37:47.294] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-05T21:37:47.299] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-05T21:37:47.301] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-05T21:37:47.303] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-05T21:38:02.297] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-05T21:38:02.300] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-05T21:38:02.306] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-05T21:38:02.307] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-05T21:38:02.309] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-05T21:38:02.311] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-05T21:38:02.316] [INFO] ma-core - add result form success testing testing testing
+[2021-12-05T21:38:02.318] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-05T21:38:02.320] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-05T21:38:02.322] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-05T21:38:48.172] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:38:48.640] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:38:48.640] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:38:48.658] [INFO] ma-core - mongodb conected
+[2021-12-05T21:42:49.442] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:42:49.857] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:42:49.857] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:42:49.877] [INFO] ma-core - mongodb conected
+[2021-12-05T21:43:02.757] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-05T21:43:02.760] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-05T21:43:02.765] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-05T21:43:02.766] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-05T21:43:02.768] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-05T21:43:02.770] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-05T21:43:02.775] [INFO] ma-core - add result form success testing testing testing
+[2021-12-05T21:43:02.777] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-05T21:43:02.778] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-05T21:43:02.780] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-05T21:43:02.785] [INFO] ma-core - update Result Form success testing testing testing
+[2021-12-05T21:43:02.787] [INFO] ma-core - update Result Form success NaN post 1234
+[2021-12-05T21:43:02.788] [ERROR] ma-core - update Result Form  :task not found testing testing testing
+[2021-12-05T21:43:02.790] [ERROR] ma-core - update Result Form  :task not found NaN post 1234
+[2021-12-05T21:43:43.662] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:43:44.084] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:43:44.084] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:43:44.101] [INFO] ma-core - mongodb conected
+[2021-12-05T21:46:52.635] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:46:53.043] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:46:53.043] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:46:53.062] [INFO] ma-core - mongodb conected
+[2021-12-05T21:46:56.760] [INFO] ma-core - delete Result Form success testing testing testing
+[2021-12-05T21:46:56.764] [INFO] ma-core - delete Result Form success NaN post 1234
+[2021-12-05T21:46:56.766] [ERROR] ma-core - delete Result Form :task not found testing testing testing
+[2021-12-05T21:46:56.768] [ERROR] ma-core - delete Result Form :task not found NaN post 1234
+[2021-12-05T21:46:56.776] [INFO] ma-core - get all result form success testing testing testing
+[2021-12-05T21:46:56.777] [INFO] ma-core - get all result form success NaN post 1234
+[2021-12-05T21:46:56.781] [INFO] ma-core - get by id Result Form testing testing testing
+[2021-12-05T21:46:56.783] [INFO] ma-core - get by id Result Form NaN post 1234
+[2021-12-05T21:46:56.785] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-05T21:46:56.786] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-05T21:46:56.792] [INFO] ma-core - add result form success testing testing testing
+[2021-12-05T21:46:56.794] [INFO] ma-core - add result form success NaN post 1234
+[2021-12-05T21:46:56.795] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-05T21:46:56.797] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-05T21:46:56.802] [INFO] ma-core - update Result Form success testing testing testing
+[2021-12-05T21:46:56.804] [INFO] ma-core - update Result Form success NaN post 1234
+[2021-12-05T21:46:56.805] [ERROR] ma-core - update Result Form  :task not found testing testing testing
+[2021-12-05T21:46:56.807] [ERROR] ma-core - update Result Form  :task not found NaN post 1234
+[2021-12-05T21:59:06.022] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T21:59:06.693] [INFO] ma-core - server started at port 5000
+[2021-12-05T21:59:06.694] [TRACE] ma-core - A user connected, Total users connected is: 
+[2021-12-05T21:59:06.712] [INFO] ma-core - mongodb conected
+[2021-12-05T22:04:42.948] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T22:04:43.613] [INFO] ma-core - server started at port 5000
+[2021-12-05T22:04:43.630] [INFO] ma-core - mongodb conected
+[2021-12-05T22:04:53.697] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2021-12-05T22:04:54.207] [INFO] ma-core - server started at port 5000
+[2021-12-05T22:04:54.225] [INFO] ma-core - mongodb conected

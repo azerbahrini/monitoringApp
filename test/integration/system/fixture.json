@@ -1,0 +1,85 @@
+{
+  "SystemDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+
+    "name": "systemExemple",
+
+    "type": "60ee0042d9b53b3e089209f5",
+
+    "category": "60ee0042d0b53b3e089209f5",
+
+    "customer": "608bde23c5a2a0a1607294a5",
+
+    "listMap": ["60ee0042d8b53b31084309f5"],
+
+    "class": "50ee0042d8b53b31084309f5",
+
+    "deployType": "Cloud",
+
+    "deployDesc": "descTest",
+
+    "fqdn": "test",
+
+    "listTechnicalUser": ["50ee0042d8b53b32084309f5"],
+
+    "listCustomerContact": ["50ee0062d8b53b32084309f5"],
+
+    "isActive": true
+  },
+
+  "SystemDataTestWithoutID": {
+    "name": "systemExemple",
+
+    "type": "60ee0042d9b53b3e089209f5",
+
+    "category": "60ee0042d0b53b3e089209f6",
+
+    "customer": "608bde23c5a2a0a1607294a5",
+
+    "class": "50ee0042d8b53b31084309f5",
+
+    "deployType": "Cloud",
+
+    "deployDesc": "descTest",
+
+    "fqdn": "test",
+
+    "listTechnicalUser": ["50ee0042d8b53b32084309f5"],
+
+    "listCustomerContact": [{
+      "_id": "60220555ed429437986ed58c",
+      "lastName": "hamma",
+      "mail": "med.bouazza@outlook.fr",
+      "customer": "5fd1e65f93dd352dbcbf8cc6",
+      "phoneNumber": 6632565,
+      "createdAt": "2021-02-09T03:45:25.713Z",
+      "updatedAt": "2021-02-09T03:45:25.713Z",
+      "__v": 0
+  }],
+
+    "isActive": true
+  },
+  "wrongSystemDataTest": {
+    "name": "systemExemple",
+    "randomProperty": "value"
+  },
+
+  "wrongID": "60eeeeeed9b53b3e084209f6",
+
+  "emptySytemDataTest": {},
+
+  "arrayofSystems": [
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "name": "system"
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f6",
+      "name": "systemExemple"
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f7",
+      "name": "systemTest"
+    }
+  ]
+}

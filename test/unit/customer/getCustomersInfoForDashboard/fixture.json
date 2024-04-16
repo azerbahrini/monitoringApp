@@ -1,0 +1,58 @@
+{
+  "customersInfo": [
+    {
+      "_id": "61540c9adc0963494418542d",
+      "customerID": "608bde23c5a2a0a1607294a5",
+      "customerName": "Jera Corporation",
+      "systemName": "WK System3",
+      "Warning": 0,
+      "Critical": 0,
+      "Good": 21
+    },
+    {
+      "_id": "6172c4d1050b766b91994db6",
+      "customerID": "608bde23c5a2a0a1607294a5",
+      "customerName": "Jera Corporation",
+      "systemName": "TST",
+      "Warning": 0,
+      "Critical": 1,
+      "Good": 0
+    },
+    {
+      "_id": "6153474bdc0963c396185428",
+      "customerID": "608bde23c5a2a0a1607294a5",
+      "customerName": "Jera Corporation",
+      "systemName": "System 1",
+      "Warning": 5,
+      "Critical": 0,
+      "Good": 0
+    },
+    {
+      "_id": "6172c542050b760ce2994db7",
+      "customerID": "608bde23c5a2a0a1607294a5",
+      "customerName": "Jera Corporation",
+      "systemName": "kkkk",
+      "Warning": 0,
+      "Critical": 0,
+      "Good": 0
+    },
+    {
+      "_id": "6153202cf979c1a08d12c39b",
+      "customerID": "608bde23c5a2a0a1607294a5",
+      "customerName": "Jera Corporation",
+      "systemName": "PRD 667",
+      "Warning": 0,
+      "Critical": 0,
+      "Good": 1
+    },
+    {
+      "_id": "6172afce050b7697aa994da7",
+      "customerID": "608bde23c5a2a0a1607294a5",
+      "customerName": "Jera Corporation",
+      "systemName": "Aziz",
+      "Warning": 0,
+      "Critical": 0,
+      "Good": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "roleHistory": {
+    "_id": "60ee0042d9b53bde084209f5",
+    "user":"611933550f30c3d041e7e7dc",
+    "Role":"611937550f30c3d041e7e7dc",
+    "startDate":"2021-12-02",
+    "endDate":"2022-12-02"
+  },
+  "roleHistoryDataTestWithoutID": {
+    "user":"611933550f30c3d041e7e7dc",
+    "Role":"611937550f30c3d041e7e7dc",
+    "startDate":"2021-12-02",
+    "endDate":"2022-12-02"
+  },
+
+  "wrongRoleHistoryDataTest": {
+    "user":"611933550f30c3d041e7e7dc",
+    "Role":"611937550f30c3d041e7e7dc",
+    "startDate":"2021-12-02",
+    "endDate":"2022-12-02",
+    "randomProperty": "value"
+  },
+  "wrongID":"0000000000053bde084209f5",
+  "emptyRoleHistoryDataTest": {},
+
+  "arrayofRoleHistory": [
+    {
+      "_id": "60ee0042d9b53b3e084209f5",
+      "user":"611933550f30c3d041e7e7dc",
+      "Role":"611937550f30c3d041e7e7dc",
+      "startDate":"2021-12-02",
+      "endDate":"2022-12-02"
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f6",
+      "user":"611933550f30c3d041e7e7dc",
+      "Role":"611937550f30c3d041e7e7dc",
+      "startDate":"2021-12-02",
+      "endDate":"2022-12-02"
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f7",
+      "user":"611933550f30c3d041e7e7dc",
+      "Role":"611937550f30c3d041e7e7dc",
+      "startDate":"2021-12-02",
+      "endDate":"2022-12-02"
+    }
+  ]
+}

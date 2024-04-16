@@ -1,0 +1,41 @@
+{
+  "getLatest": {
+    "data": [{
+      "_id": "60b4969d2516ff74c0d2d878",
+      "syncedShifts": 311,
+      "unSyncedShifts": 0,
+      "shiftsSyncDate": "2021-06-31T07:56:13.241Z",
+      "user": null,
+      "syncedUsers": []
+    },
+    {
+      "_id": "60c73be645cabc9280b27be8",
+      "syncedShifts": 289,
+      "unSyncedShifts": 0,
+      "shiftsSyncDate": "2021-05-14T11:22:14.553Z",
+      "user": null,
+      "syncedUsers": []
+    }]
+  },
+  "getLatestWithoutDate": {
+    "data": [{
+      "_id": "60c73be645cabc9280b27be8",
+      "syncedShifts": 289,
+      "unSyncedShifts": 0,
+      "shiftsSyncDate": null,
+      "user": null,
+      "syncedUsers": []
+    }]
+  },
+  "getLatestWithEmptyDate": {
+    "data": [{
+      "_id": "60c73be645cabc9280b27be8",
+      "syncedShifts": 289,
+      "unSyncedShifts": 0,
+      "shiftsSyncDate": 0,
+      "user": null,
+      "syncedUsers": []
+    }]
+  }
+
+}

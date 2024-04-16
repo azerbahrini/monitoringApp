@@ -1,0 +1,2585 @@
+openapi: 3.0.0
+info:
+  description: Monitoring Type API
+  version: "1.0.0"
+  title: Monitoring Type API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: Host
+    description: Host routes
+  - name: Level
+    description: Level routes
+  - name: Licence
+    description: Licence routes
+  - name: MonitoringType
+    description: MonitoringType routes
+  - name: Role
+    description: Role routes
+  - name: SLA
+    description: SLA routes
+  - name: SLAContract
+    description: SLAContract routes
+  - name: Sysclass
+    description: Sysclass routes
+  - name: Type
+    description: Type routes
+paths:
+  /host:
+    get:
+      summary: Get all host
+      operationId: getAllHost
+      tags:
+        - Host
+      description: get all existantes host in the system
+      responses:
+        "200":
+          description: return all host
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Host"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a host
+      operationId: addHost
+      description: Adds host to the system
+      tags:
+        - Host
+      responses:
+        "201":
+          description: host created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  host:
+                    type: string
+                    example: hostExemple
+                  isActive:
+                    type: boolean
+                    example: true
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - host
+                - isActive
+              properties:
+                host:
+                  type: string
+                  example: hostExemple
+                isActive:
+                  type: boolean
+        description: host item to add
+  /host/{id}:
+    get:
+      summary: get a host
+      operationId: getOneHost
+      tags:
+        - Host
+      description: get host by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return specific host
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Host"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: type not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: type not found
+  /host/update/{id}:
+    patch:
+      summary: update a single host
+      description: update one host
+      operationId: updateHost
+      tags:
+        - Host
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Host"
+
+          description: "updated host"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: host not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: type not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                host:
+                  type: string
+                  example: hostExemple
+                active:
+                  type: boolean
+                  example: true
+  /host/delete/{id}:
+    patch:
+      summary: delete a single host
+      description: delete one host
+      operationId: deleteHost
+      tags:
+        - Host
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "204":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Host"
+          description: "delete host"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: host not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: host not found
+        "501":
+          description: "no error displayed"
+  /level:
+    get:
+      summary: Get all Levels
+      operationId: getAlllevels
+      tags:
+        - Level
+      description: get all existantes level in the system
+      responses:
+        "200":
+          description: return all levels
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Level"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a Level
+      operationId: addLevel
+      tags:
+        - Level
+      description: Adds Level to the system
+      responses:
+        "201":
+          description: Level created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Level"
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - label
+              properties:
+                label:
+                  type: number
+                  example: 1
+        description: Level item to add
+
+  /level/{id}:
+    patch:
+      summary: update a single Level
+      description: update one Level
+      tags:
+        - Level
+      operationId: updateLevel
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Level"
+
+          description: "updated Level"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Level not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Level not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                label:
+                  type: number
+                  example: 1
+  /licence:
+    post:
+      summary: adds a Licence
+      operationId: addLicence
+      tags:
+        - Licence
+      description: Adds licence to the customer
+      responses:
+        "201":
+          description: Licence created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _id:
+                    type: string
+                    format: uuid
+                  startDate:
+                    type: string
+                    example: "2021-12-02T00:00:00.000Z"
+                  endDate:
+                    type: string
+                    example: "2022-12-02T00:00:00.000Z"
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - startDate
+                - endDate
+                - customerId
+              properties:
+                startDate:
+                  type: string
+                  example: "2022-12-02T00:00:00.000Z"
+                endDate:
+                  type: string
+                  example: "2022-12-02T00:00:00.000Z"
+                customerId:
+                  type: string
+        description: Licence item to add
+  /licence/getbycustomer/{id}:
+    get:
+      summary: Get all Licence
+      operationId: getAllLicence
+      tags:
+        - Licence
+      description: get all active Licence of a customer
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return all Licence of a customer
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Licence"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: customer not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer not found
+  /licence/getone/{id}:
+    get:
+      summary: get a single Licence
+      operationId: getOneLicence
+      tags:
+        - Licence
+      description: get Licence by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return specific Licence
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _id:
+                    type: string
+                    format: uuid
+                  startDate:
+                    type: string
+                    example: "2021-12-02T00:00:00.000Z"
+                  endDate:
+                    type: string
+                    example: "2022-12-02T00:00:00.000Z"
+                  isActive:
+                    type: boolean
+                    example: true
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Licence not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Licence not found
+  /licence/update/{id}:
+    patch:
+      summary: update a single Licence
+      description: update one licence
+      tags:
+        - Licence
+      operationId: updateLicence
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Licence"
+
+          description: "updated licence"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Licence not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Licence not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                startDate:
+                  type: string
+                  example: "2021-12-02T00:00:00.000Z"
+                endDate:
+                  type: string
+                  example: "2022-12-02T00:00:00.000Z"
+
+  /licence/delete/{id}:
+    patch:
+      summary: delete a single Licence
+      description: delete one Licence
+      tags:
+        - Licence
+      operationId: deleteLicence
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Licence"
+          description: "deleted licence"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no Licence found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Licence not found
+  /monitoringType:
+    get:
+      summary: Get all Monitoring Type
+      operationId: getAllMonitoringType
+      tags:
+        - MonitoringType
+      description: get all existantes Monitoring Type in the system
+      responses:
+        "200":
+          description: return all Monitoring Type
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/MonitoringType"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a Monitoring Type
+      operationId: addMonitoringType
+      tags:
+        - MonitoringType
+      description: Adds MonitoringType to the system
+      responses:
+        "201":
+          description: MonitoringType created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MonitoringType"
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - libelle
+                - isActive
+              properties:
+                libelle:
+                  type: string
+                  example: libelle
+                isActive:
+                  type: boolean
+                  example: true
+        description: MonitoringType item to add
+
+  /monitoringType/{id}:
+    get:
+      summary: get a single MonitoringType
+      description: get by ID one MonitoringType
+      tags:
+        - MonitoringType
+      operationId: getByIdMonitoringType
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MonitoringType"
+
+          description: "updated MonitoringType"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: MonitoringType not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: MonitoringType not found
+        "501":
+          description: "no error displayed"
+
+  /monitoringType/update/{id}:
+    patch:
+      summary: update a single MonitoringType
+      description: update one MonitoringType
+      tags:
+        - MonitoringType
+      operationId: updateMonitoringType
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MonitoringType"
+
+          description: "updated MonitoringType"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: MonitoringType not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: MonitoringType not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                libelle:
+                  type: string
+                  example: libelleExemple
+                isActive:
+                  type: string
+                  example: true
+  /monitoringType/delete/{id}:
+    delete:
+      summary: delete a single MonitoringType
+      description: delete one MonitoringType
+      operationId: deleteMonitoringType
+      tags:
+        - MonitoringType
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MonitoringType"
+
+          description: "updated MonitoringType"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: MonitoringType not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: MonitoringType not found
+        "501":
+          description: "no error displayed"
+  /role:
+    get:
+      summary: Get all Role
+      operationId: getAllRole
+      tags:
+        - Role
+      description: get all existantes Role
+      responses:
+        "200":
+          description: return all Role
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Role"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a Role
+      operationId: addRole
+      tags:
+        - Role
+      description: Add role
+      responses:
+        "201":
+          description: Role created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  label:
+                    type: string
+                    example: Jira
+                  rank:
+                    type: number
+                    example: Jira
+                  isActive:
+                    type: boolean
+                    example: true
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - label
+                - isActive
+                - rank
+              properties:
+                label:
+                  type: string
+                  example: Jira
+                rank:
+                  type: number
+                  example: Jira
+                isActive:
+                  type: boolean
+        description: Role item to add
+  /role/{id}:
+    get:
+      summary: get a single Role
+      operationId: getOneRole
+      tags:
+        - Role
+      description: get Role by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return specific Role
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  label:
+                    type: string
+                    example: Jira
+                  rank:
+                    type: number
+                    example: Jira
+                  isActive:
+                    type: boolean
+                    example: true
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Role not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Role not found
+  /role/update/{id}:
+    patch:
+      summary: update a single Role
+      description: update one role
+      tags:
+        - Role
+      operationId: updateRole
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Role"
+
+          description: "updated role"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Role not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Role not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                label:
+                  type: string
+                  example: Jira
+                rank:
+                  type: number
+                  example: Jira
+                isActive:
+                  type: boolean
+                  example: true
+  /role/delete/{id}:
+    patch:
+      summary: delete a single Role
+      description: delete one Role
+      tags:
+        - Role
+      operationId: deleteRole
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Role"
+          description: "deleted role"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no Role found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Role not found
+  /sla:
+    post:
+      summary: adds a Sla
+      operationId: addSla
+      tags:
+        - SLA
+      description: Adds sla to the slaContract
+      responses:
+        "201":
+          description: Sla created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  kpi:
+                    type: string
+                    enum: [escalation, response, takeOver, resolution]
+                    example: response
+                  unity:
+                    type: string
+                    enum: [second, minute, hour, day]
+                    example: minute
+                  desc:
+                    type: string
+                    example: desc1
+                  priority:
+                    type: string
+                    example: high
+                  time:
+                    type: number
+                    example: 80
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - kpi
+                - unity
+                - desc
+                - priority
+                - time
+                - slaContractId
+              properties:
+                kpi:
+                  type: string
+                  enum: [escalation, response, takeOver, resolution]
+                  example: response
+                unity:
+                  type: string
+                  enum: [second, minute, hour, day]
+                  example: minute
+                desc:
+                  type: string
+                  example: desc1
+                priority:
+                  type: string
+                  example: high
+                time:
+                  type: number
+                  example: 80
+                slaContractId:
+                  type: string
+        description: Sla item to add
+  /sla/getbyslaContract/{id}:
+    get:
+      summary: Get all Sla
+      operationId: getAllSla
+      tags:
+        - SLA
+      description: get all active Sla of a slaContract
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return all Sla of a slaContract
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Sla"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: slaContract not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: SlaContract not found
+  /sla/getone/{id}:
+    get:
+      summary: get a single Sla
+      operationId: getOneSla
+      tags:
+        - SLA
+      description: get Sla by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return specific Sla
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  kpi:
+                    type: string
+                    enum: [escalation, response, takeOver, resolution]
+                    example: response
+                  unity:
+                    type: string
+                    enum: [second, minute, hour, day]
+                    example: minute
+                  desc:
+                    type: string
+                    example: desc1
+                  priority:
+                    type: string
+                    example: high
+                  time:
+                    type: number
+                    example: 80
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Sla not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Sla not found
+  /sla/update/{id}:
+    patch:
+      summary: update a single Sla
+      description: update one sla
+      tags:
+        - SLA
+      operationId: updateSla
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Sla"
+
+          description: "updated sla"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: Sla not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Sla not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                kpi:
+                  type: string
+                  enum: [escalation, response, takeOver, resolution]
+                  example: response
+                unity:
+                  type: string
+                  enum: [second, minute, hour, day]
+                  example: minute
+                desc:
+                  type: string
+                  example: desc1
+                priority:
+                  type: string
+                  example: high
+                time:
+                  type: number
+                  example: 80
+
+  /sla/delete/{id}:
+    patch:
+      summary: delete a single Sla
+      description: delete one Sla
+      operationId: deleteSla
+      tags:
+        - SLA
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Sla"
+          description: "deleted sla"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no Sla found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Sla not found
+  /slaContract:
+    post:
+      summary: adds a SlaContract
+      operationId: addSlaContract
+      tags:
+        - SLAContract
+      description: Adds slaContract to the customer
+      responses:
+        "201":
+          description: SlaContract created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  startDate:
+                    type: string
+                    example: "2021-12-02T00:00:00.000Z"
+                  endDate:
+                    type: string
+                    example: "2022-12-02T00:00:00.000Z"
+                  class:
+                    type: string
+                    format: uuid
+                  customerId:
+                    type: string
+                    format: uuid
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - startDate
+                - endDate
+                - customerId
+                - class
+              properties:
+                startDate:
+                  type: string
+                  example: "2022-12-02T00:00:00.000Z"
+                endDate:
+                  type: string
+                  example: "2022-12-02T00:00:00.000Z"
+                customerId:
+                  type: string
+                class:
+                  type: string
+        description: SlaContract item to add
+  /slaContract/getbycustomer/{id}:
+    get:
+      summary: Get all SlaContract
+      operationId: getAllSlaContract
+      tags:
+        - SLAContract
+      description: get all active SlaContract of a customer
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return all SlaContract of a customer
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SlaContract"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: customer not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer not found
+  /slaContract/getone/{id}:
+    get:
+      summary: get a single SlaContract
+      operationId: getOneSlaContract
+      tags:
+        - SLAContract
+      description: get SlaContract by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return specific SlaContract
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  startDate:
+                    type: string
+                    example: "2021-12-02T00:00:00.000Z"
+                  endDate:
+                    type: string
+                    example: "2022-12-02T00:00:00.000Z"
+                  class:
+                    type: string
+                    format: uuid
+                  isActive:
+                    type: boolean
+                    example: true
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: SlaContract not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: SlaContract not found
+  /slaContract/update/{id}:
+    patch:
+      summary: update a single SlaContract
+      description: update one slaContract
+      operationId: updateSlaContract
+      tags:
+        - SLAContract
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SlaContract"
+
+          description: "updated slaContract"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: SlaContract not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: SlaContract not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                startDate:
+                  type: string
+                  example: "2021-12-02T00:00:00.000Z"
+                endDate:
+                  type: string
+                  example: "2022-12-02T00:00:00.000Z"
+                class:
+                  type: string
+                customerId:
+                  type: string
+  /slaContract/delete/{id}:
+    patch:
+      summary: delete a single SlaContract
+      description: delete one SlaContract
+      tags:
+        - SLAContract
+      operationId: deleteSlaContract
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SlaContract"
+          description: "deleted slaContract"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no SlaContract found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: SlaContract not found
+  /sysclass:
+    get:
+      summary: Get all System Class
+      operationId: getAllSysClass
+      tags:
+        - Sysclass
+      description: get all existantes system class in the system
+      responses:
+        "200":
+          description: return all system class
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SysClass"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a system class
+      operationId: addSysClass
+      tags:
+        - Sysclass
+      description: Adds sytem class to the system
+      responses:
+        "201":
+          description: system class created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  libelle:
+                    type: string
+                    example: Jira
+                  active:
+                    type: boolean
+                    example: true
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - libelle
+                - active
+              properties:
+                libelle:
+                  type: string
+                  example: Jira
+                active:
+                  type: boolean
+        description: System Class item to add
+  /sysclass/{id}:
+    get:
+      summary: get a single system class
+      operationId: getOneSysClass
+      tags:
+        - Sysclass
+      description: get system class by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return specific system class
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  category:
+                    type: string
+                    example: Jira
+                  active:
+                    type: boolean
+                    example: true
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: system class not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: system class not found
+    patch:
+      summary: update a single system class
+      description: update one sysclass
+      operationId: updateSysClass
+      tags:
+        - Sysclass
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SysClass"
+
+          description: "updated sysclass"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: system class not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: system class not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                libelle:
+                  type: string
+                  example: Jira
+                active:
+                  type: boolean
+                  example: true
+    delete:
+      summary: delete a single system class
+      description: delete one system class
+      operationId: deleteSysClass
+      tags:
+        - Sysclass
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SysClass"
+          description: "deleted category"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no system class found"
+  /type:
+    get:
+      summary: Get all type
+      operationId: getAllType
+      tags:
+        - Type
+      description: get all existantes type in the system
+      responses:
+        "200":
+          description: return all type
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Type"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a type
+      operationId: addType
+      tags:
+        - Type
+      description: Adds type to the system
+      responses:
+        "201":
+          description: type created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  type:
+                    type: string
+                    example: Jira
+                  active:
+                    type: boolean
+                    example: true
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - type
+                - active
+              properties:
+                type:
+                  type: string
+                  example: Jira
+                active:
+                  type: boolean
+        description: type item to add
+  /type/{id}:
+    get:
+      summary: get a type
+      operationId: getOneType
+      tags:
+        - Type
+      description: get type by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return specific type
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  type:
+                    type: string
+                    example: Jira
+                  active:
+                    type: boolean
+                    example: true
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: type not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: type not found
+    patch:
+      summary: update a single type
+      description: update one type
+      operationId: updateType
+      tags:
+        - Type
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Type"
+
+          description: "updated type"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: system class not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: type not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                type:
+                  type: string
+                  example: Jira
+                active:
+                  type: boolean
+                  example: true
+
+components:
+  schemas:
+    Level:
+      type: object
+      required:
+        - id
+        - label
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        label:
+          type: number
+          example: 1
+    Host:
+      type: object
+      required:
+        - id
+        - host
+        - isActive
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        host:
+          type: string
+          example: hostExemple
+        isActive:
+          type: boolean
+          example: true
+    Licence:
+      type: object
+      required:
+        - startDate
+        - endDate
+        - customerId
+      properties:
+        _id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        startDate:
+          type: string
+          example: "2021-12-02T00:00:00.000Z"
+        endDate:
+          type: string
+          example: "2022-12-02T00:00:00.000Z"
+        isActive:
+          type: boolean
+          example: true
+    MonitoringType:
+      type: object
+      required:
+        - id
+        - libelle
+        - isActive
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        libelle:
+          type: string
+          example: libelleExemple
+        isActive:
+          type: boolean
+          example: true
+    Role:
+      type: object
+      required:
+        - id
+        - label
+        - rank
+        - isActive
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        label:
+          type: string
+          example: Jira
+        rank:
+          type: number
+          example: Jira
+        isActive:
+          type: boolean
+          example: true
+    Sla:
+      type: object
+      required:
+        - id
+        - kpi
+        - unity
+        - desc
+        - priority
+        - time
+        - slaContractId
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        kpi:
+          type: string
+          enum: [escalation, response, takeOver, resolution]
+          example: response
+        unity:
+          type: string
+          enum: [second, minute, hour, day]
+          example: minute
+        desc:
+          type: string
+          example: desc1
+        priority:
+          type: string
+          example: high
+        time:
+          type: number
+          example: 80
+        isActive:
+          type: boolean
+          example: true
+    SlaContract:
+      type: object
+      required:
+        - id
+        - startDate
+        - endDate
+        - class
+        - customerId
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        startDate:
+          type: string
+          example: "2021-12-02T00:00:00.000Z"
+        endDate:
+          type: string
+          example: "2022-12-02T00:00:00.000Z"
+        class:
+          type: string
+          example: "60edffc2370e9734982cab5f"
+        isActive:
+          type: boolean
+          example: true
+    SysClass:
+      type: object
+      required:
+        - id
+        - libelle
+        - active
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        libelle:
+          type: string
+          example: Jira
+        active:
+          type: boolean
+          example: true
+    Type:
+      type: object
+      required:
+        - id
+        - type
+        - active
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        type:
+          type: string
+          example: Jira
+        active:
+          type: boolean
+          example: true
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/skander12354/MonitoringActivity/1.0.0

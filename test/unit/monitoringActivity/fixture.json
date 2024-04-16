@@ -1,0 +1,104 @@
+{
+  "activityDataTest": {
+    "_id": "60ee0042d9b53b3e084209f5",
+    "activity": "activityExemple",
+    "type": "typeExemple",
+    "description": "descriptionExemple"
+  },
+  "activityDataTestWithoutID": {
+    "activity": "activityExemple",
+    "type": "typeExemple",
+    "description": "descriptionExemple"
+  },
+  "wrongActivityDataTest": {
+    "activity": "activityExemple",
+    "type": "typeExemple",
+    "description": "descriptionExemple",
+    "randomProperty": "value"
+  },
+  "systemID": "608beed8c5a2a0c3017294b9",
+  "wrongID": "60ee0042d9b53b3e084209f6",
+  "emptyActivityDataTest": {},
+
+  "arrayofMAPS": [
+    {
+      "periodicity": "60ee0042d9b53b3e084209f5",
+      "active": "activityExemple",
+      "estimation": "typeExemple",
+      "startTime": "descriptionExemple",
+      "task": "60ee0042d9b53b3e08420910",
+      "system": "60ee0042d9b53b3e084259f5",
+      "monitoringAct": { "_id": "60ee0042d9b57b3e084209f5" }
+    },
+    {
+      "periodicity": "60ee0042d9b53b3e084209f5",
+      "active": "activityExemple",
+      "estimation": "typeExemple",
+      "startTime": "descriptionExemple",
+      "task": "60ee0042d9b53b3e08420910",
+      "system": "60ee0042d9b53b3e084259f5",
+      "monitoringAct": { "_id": "60ee0042d9b57b3e084209f5" }
+    },
+    {
+      "periodicity": "60ee0042d9b53b3e084209f5",
+      "active": "activityExemple",
+      "estimation": "typeExemple",
+      "startTime": "descriptionExemple",
+      "task": "60ee0042d9b53b3e08420910",
+      "system": "60ee0042d9b53b3e084259f5",
+      "monitoringAct": { "_id": "60ee0042d9b57b3e084209f5" }
+    }
+  ],
+
+  "arrayofActivities": [
+    {
+      "_id": "60ee0042d9b57b3e084209f5",
+      "activity": "activityExemple",
+      "type": "typeExemple",
+      "description": "descriptionExemple"
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f6",
+      "activity": "activityExemple",
+      "type": "typeExemple",
+      "description": "descriptionExemple"
+    },
+    {
+      "_id": "60ee0042d9b53b3e084209f7",
+      "activity": "activityExemple",
+      "type": "typeExemple",
+      "description": "descriptionExemple"
+    }
+  ],
+  "getAllPaignateMonitoringActivities": {
+    "docs": [
+      {
+        "_id": "60ee0042d9b57b3e084209f5",
+        "activity": "activityExemple",
+        "type": "typeExemple",
+        "description": "descriptionExemple"
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f6",
+        "activity": "activityExemple",
+        "type": "typeExemple",
+        "description": "descriptionExemple"
+      },
+      {
+        "_id": "60ee0042d9b53b3e084209f7",
+        "activity": "activityExemple",
+        "type": "typeExemple",
+        "description": "descriptionExemple"
+      }
+    ],
+    "totalDocs": 2,
+    "limit": 10,
+    "totalPages": 1,
+    "page": null,
+    "pagingCounter": null,
+    "hasPrevPage": false,
+    "hasNextPage": false,
+    "prevPage": null,
+    "nextPage": null
+  }
+}

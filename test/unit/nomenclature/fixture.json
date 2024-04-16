@@ -1,0 +1,61 @@
+{"arrayOfNomenclature":[
+    {
+        "_id": "614d26a0f1005349002e08c5",
+        "name": "night shift",
+        "createdAt": "2021-09-24T01:15:12.205Z",
+        "updatedAt": "2021-09-24T01:15:12.205Z",
+        "__v": 0
+    },
+    {
+        "_id": "614d26a0f1005349002e08c6",
+        "name": "night shift (2/2)",
+        "createdAt": "2021-09-24T01:15:12.206Z",
+        "updatedAt": "2021-09-24T01:15:12.206Z",
+        "__v": 0
+    },
+    {
+        "_id": "614d26a0f1005349002e08c9",
+        "name": "Daily shift",
+        "createdAt": "2021-09-24T01:15:12.207Z",
+        "updatedAt": "2021-09-24T01:15:12.207Z",
+        "__v": 0
+    },
+    {
+        "_id": "614d26a0f1005349002e08c7",
+        "name": "mid-night shift",
+        "createdAt": "2021-09-24T01:15:12.206Z",
+        "updatedAt": "2021-09-24T01:15:12.206Z",
+        "__v": 0
+    },
+    {
+        "_id": "614d26a0f1005349002e08c8",
+        "name": "Day shift",
+        "createdAt": "2021-09-24T01:15:12.206Z",
+        "updatedAt": "2021-09-24T01:15:12.206Z",
+        "__v": 0
+    },
+    {
+        "_id": "615adf707fb668591426aea1",
+        "name": "intermediate shift",
+        "createdAt": "2021-10-04T11:03:12.663Z",
+        "updatedAt": "2021-10-04T11:03:12.663Z",
+        "__v": 0
+    }
+],
+"docs": [
+    {
+      "_id": "614d26a0f1005349002e08c5",
+      "name": "night shift",
+      "createdAt": "2021-09-24T01:15:12.205Z",
+      "updatedAt": "2021-09-24T01:15:12.205Z",
+      "__v": 0
+    },
+    {
+      "_id": "614d26a0f1005349002e08c6",
+      "name": "night shift (2/2)",
+      "createdAt": "2021-09-24T01:15:12.206Z",
+      "updatedAt": "2021-09-24T01:15:12.206Z",
+      "__v": 0
+    }
+  ]
+}

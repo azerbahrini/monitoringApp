@@ -1,0 +1,33 @@
+[2021-12-10T08:47:34.410] [ERROR] ma-core - delete Result Form :task not found testing testing testing
+[2021-12-10T08:47:34.413] [ERROR] ma-core - delete Result Form :task not found NaN post 1234
+[2021-12-10T08:47:34.433] [ERROR] ma-core - get All result form :missing property testing testing testing
+[2021-12-10T08:47:34.436] [ERROR] ma-core - get All result form :missing property NaN post 1234
+[2021-12-10T08:47:34.445] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-10T08:47:34.446] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-10T08:47:34.456] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-10T08:47:34.457] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-10T08:47:34.466] [ERROR] ma-core - update Result Form  :task not found testing testing testing
+[2021-12-10T08:47:34.467] [ERROR] ma-core - update Result Form  :task not found NaN post 1234
+[2021-12-10T10:32:13.210] [ERROR] ma-core - delete Result Form :task not found testing testing testing
+[2021-12-10T10:32:13.211] [ERROR] ma-core - delete Result Form :task not found NaN post 1234
+[2021-12-10T10:32:13.229] [ERROR] ma-core - get All result form :missing property testing testing testing
+[2021-12-10T10:32:13.231] [ERROR] ma-core - get All result form :missing property NaN post 1234
+[2021-12-10T10:32:13.239] [ERROR] ma-core - get by id Result Form :task not found testing testing testing
+[2021-12-10T10:32:13.241] [ERROR] ma-core - get by id Result Form :task not found NaN post 1234
+[2021-12-10T10:32:13.251] [ERROR] ma-core - add result form :missing property testing testing testing
+[2021-12-10T10:32:13.253] [ERROR] ma-core - add result form :missing property NaN post 1234
+[2021-12-10T10:32:13.261] [ERROR] ma-core - update Result Form  :task not found testing testing testing
+[2021-12-10T10:32:13.264] [ERROR] ma-core - update Result Form  :task not found NaN post 1234
+[2021-12-10T10:38:40.222] [ERROR] ma-core - get Monitoring Activities Without Result Forms :MonitorIndActivity is not defined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:32:56.587] [ERROR] ma-core - get Monitoring Activities Without Result Forms :monitorindActivity.filter is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:34:07.081] [ERROR] ma-core - get Monitoring Activities Without Result Forms :Cannot read property 'filter' of undefined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:36:42.145] [ERROR] ma-core - get Monitoring Activities Without Result Forms :monitorindActivity is not defined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:49:56.639] [ERROR] ma-core - get Monitoring Activities Without Result Forms :resultFormService.getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:51:11.367] [ERROR] ma-core - get Monitoring Activities Without Result Forms :resultFormService.getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:51:12.158] [ERROR] ma-core - get Monitoring Activities Without Result Forms :resultFormService.getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:51:12.731] [ERROR] ma-core - get Monitoring Activities Without Result Forms :resultFormService.getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:51:50.070] [ERROR] ma-core - get Monitoring Activities Without Result Forms :getAllResultFormService is not defined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:52:34.955] [ERROR] ma-core - get Monitoring Activities Without Result Forms :getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:52:35.772] [ERROR] ma-core - get Monitoring Activities Without Result Forms :getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:52:36.386] [ERROR] ma-core - get Monitoring Activities Without Result Forms :getAllResultFormService is not a function /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2021-12-10T11:58:00.005] [ERROR] ma-core - get Monitoring Activities Without Result Forms :id2 is not defined /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1

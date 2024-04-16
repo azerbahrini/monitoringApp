@@ -1,0 +1,2 @@
+[2022-01-19T18:38:19.194] [ERROR] ma-core - like posts :post already liked /api/newsfeed/like/:id PUT ::1
+[2022-01-19T18:39:53.593] [ERROR] ma-core - unlike posts :post has not yet been liked /api/newsfeed/unlike/:id PUT ::1

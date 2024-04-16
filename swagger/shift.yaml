@@ -1,0 +1,687 @@
+openapi: 3.0.0
+info:
+  description: Shift API
+  version: 1.0.0-oas3
+  title: Shift API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /shift/members:
+    get:
+      summary: Get all Members
+      operationId: getAllMembers
+      description: get list of members (having shifts) to be assigned as teamleaders + number of tl history
+      parameters:
+        - in: query
+          name: paginate
+          required: true
+          schema:
+            type: boolean
+        - in: query
+          name: page
+          schema:
+            type: number
+        - in: query
+          name: size
+          schema:
+            type: number        
+      responses:
+        '200':
+          description: return all Members
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Member'
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required  
+
+  /shift/currentMembers:
+    get:
+      summary: Get Current Members
+      operationId: getCurrentMembers
+      description: get the members of the current shift (except the team lead)
+      parameters:   []
+      responses:
+        '200':
+          description: return Current Members
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties: 
+                        _id:
+                          type: string
+                          example: "61796b44032f03cd98db8a00"
+                        status:
+                          type: boolean
+                          example: false
+                        isActive:
+                          type: boolean
+                          example: true
+                        RoleHistory:
+                          type: array
+                          items: {}
+                        firstName:
+                          type: string
+                          example: "Dhia"
+                        lastName:
+                          type: string
+                          example: "Djobbi"
+                        email:
+                          type: string
+                          example: "dhia.djobbi@avaxia-group.com"
+                        password:
+                          type: string
+                          example: "$2a$10$NzF9a270fZElfVyyNUOKU.40Z.bo9JzNPqrQZcbvFXh/VQMQF9OxS"
+                        phoneNumber:
+                          type: string
+                          example: "NaN"
+                        microsoftId:
+                          type: string
+                          example: "6b680c30-10fb-4459-b535-fe9ac3de156a"
+                        createdAt:
+                          type: string
+                          example: "2021-10-27T15:08:01.035Z"
+                        updatedAt:
+                          type: string
+                          example: "2021-10-27T15:08:01.035Z"
+                        __v:
+                          type: number
+                          example: 0
+        '404':
+          description: No shifts can be found.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "No shifts can be found."
+                    
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required  
+
+  /shift:
+    get:
+      summary: Get all Shifts
+      operationId: getAllShifts
+      description: get all existantes Shifts
+      parameters:
+        - in: query
+          name: startDate
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: endDate
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: shift
+          required: false
+          schema:
+            type: string
+            example: Day shift
+        - in: query
+          name: user
+          required: false
+          schema:
+            type: string
+            example: 617921d0d8c1f61eb823af67
+        - in: query
+          name: assigned
+          required: true
+          schema:
+            type: boolean
+        - in: query
+          name: unassigned
+          required: true
+          schema:
+            type: boolean
+        - in: query
+          name: paginate
+          required: true
+          schema:
+            type: boolean
+        - in: query
+          name: page
+          schema:
+            type: number
+        - in: query
+          name: size
+          schema:
+            type: number
+      responses:
+        '200':
+          description: return all Shifts
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            shift:
+                              type: object
+                              properties:
+                                _id:
+                                  type: string
+                                  example: shift_001
+                                name:
+                                  type: string
+                                  example: mid-night shift 
+                                startDate:
+                                  type: string
+                                  example: "2021-10-13T04:00:00.000Z"
+                                endDate:
+                                  type: string
+                                  example: "2021-10-13T13:00:00.000Z"
+                                color:
+                                  type: string
+                                  example: "#4e257f"
+                                theme:
+                                  type: string
+                                  example: darkPurple
+                                typeId:
+                                  type: string
+                                  example: 617176ccf857245154b46398
+                            members:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  _id:
+                                    type: string
+                                    example: mid-night shift 
+                                  firstName:
+                                    type: string
+                                    example: "Mohamed"
+                                  lastName:
+                                    type: string
+                                    example: "Bouazza"
+                            teamLeader:
+                              type: object
+                              properties:
+                                _id:
+                                  type: string
+                                  example: mid-night shift 
+                                firstName:
+                                  type: string
+                                  example: "Mohamed"
+                                lastName:
+                                  type: string
+                                  example: "Bouazza"
+                      totalDocs:
+                        type: integer
+                        format: int32
+                      offset:
+                        type: integer
+                        format: int32
+                      limit:
+                        type: integer
+                        format: int32
+                      totalPages:
+                        type: integer
+                        format: int32
+                      page:
+                        type: integer
+                        format: int32
+                      pagingCounter:
+                        type: integer
+                        format: int32
+                      hasPrevPage:
+                        type: boolean
+                      hasNextPage:
+                        type: boolean
+                      prevPage:
+                        type: integer
+                        format: int32
+                      nextPage:
+                        type: integer
+                        format: int32
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: add a Shift
+      operationId: addShift
+      description: Add Shift
+      responses:
+        '201':
+          description: Shift created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Shift'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - id
+                - userId
+              properties:
+                id:
+                  type: string
+                  example: 60edffc2370e9734982cc555
+                userId:
+                  type: string
+                  example: 60edffc2370e9734982cc555
+        description: Shift item to add
+  /shift/{id}:
+    get:
+      summary: get a single Shift
+      description: get Shift by ID
+      operationId: getShiftById
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Shift'
+          description: updated Shift
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: Shift not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Shift not found
+        '501':
+          description: no error displayed
+    patch:
+      summary: update Shift
+      description: update Shift
+      operationId: updateShift
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Shift'
+          description: updated Shift
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        '404':
+          description: MonitoringType not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: MonitoringType not found
+        '501':
+          description: no error displayed
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  example: "60edffc2370e9734982cc555"
+                userId:
+                  type: string
+                  example: "60edffc2370e9734982cc555"
+  /assignTeamLeader :
+    post:
+      summary: Assign a teamLeader
+      operationId: assigneTl
+      description: Assign a teamLeader by creationg a new shift with tL role
+      responses:
+        '200':
+          description: Team Lead Assigned
+          content:
+            application/json:
+              schema:
+                type: string
+                example: Team Leader assigned successfully
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        '401':
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - user
+                - shifts
+              properties:
+                user:
+                  type: string
+                  example: 60edffc2370e9734982cc555
+                shifts:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                        example: Day shift 
+                      startDate:
+                        type: string
+                        example: "2021-10-13T04:00:00.000Z"
+        description: Shift item to add
+
+  /shift/deleteAll:
+    delete:
+      summary: Delete all Shifts
+      description: Delete All
+      operationId: deleteAllShifts
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      deletedCount:
+                        type: integer
+          description: Shifts Deleted 
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string  
+components:
+  schemas:
+    Shift:
+      type: object
+      required:
+        - id
+        - userId
+      properties:
+        id:
+          type: string
+          example: 60edffc2370e9734982cc555
+        userId:
+          type: string
+          example: libelleExemple
+        schedulingGroupId:
+          type: boolean
+          example: true
+        createdDateTime:
+          type: string
+          example: true 
+        lastModifiedDateTime:
+          type: string
+          example: true
+        user:
+          type: object
+          example: true
+        Sharedshift:
+          type : object
+          properties:
+            displayName:
+              type: string
+              example: true 
+            startDateTime:
+              type: string
+              example: true
+            endDateTime:
+              type: string
+              example: true
+    AssignTl:
+      type: object
+      required:
+        - id
+        - userId
+      properties:
+        id:
+          type: string
+          example: 60edffc2370e9734982cc555
+        shiftId:
+          type: string
+          example: true
+        userMicrosoftId:
+          type: string
+          example: true 
+        role:
+          type: string
+          example: true
+        user:
+          type: object
+          example: true
+        name:
+          type: object
+          example: true
+        startDate:
+          type: object
+          example: true
+        endDate:
+          type: object
+          example: true
+        updatedShift:
+          type: object
+          example: true
+        type:
+          type: object
+          example: true          
+                  
+    Member:
+      type: object
+      properties:
+        user:
+          type: object
+          properties:
+            _id:
+              type: string
+              example: 60edffc2370e9734982cc555 
+            firstName:
+              type: string
+              example: Mohamed
+            lastName:
+              type: string
+              example: Bouazza
+        total:
+          type: number
+          example: 2
+        
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/Monitoring-app/shift/1.0.0-oas3

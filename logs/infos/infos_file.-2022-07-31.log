@@ -1,0 +1,13 @@
+[2022-07-31T13:42:29.807] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-07-31T13:42:30.586] [INFO] ma-core - server started at port 5000
+[2022-07-31T13:42:30.607] [INFO] ma-core - mongodb conected
+[2022-07-31T13:49:11.767] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-07-31T13:49:12.379] [INFO] ma-core - server started at port 5000
+[2022-07-31T13:49:12.404] [INFO] ma-core - mongodb conected
+[2022-07-31T13:49:30.886] [INFO] ma-core - update user : update old shift endDate success /api/user/update/:id PATCH
+[2022-07-31T13:51:03.326] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-07-31T13:51:03.932] [INFO] ma-core - server started at port 5000
+[2022-07-31T13:51:03.951] [INFO] ma-core - mongodb conected
+[2022-07-31T14:10:27.708] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2022-07-31T14:10:28.382] [INFO] ma-core - server started at port 5000
+[2022-07-31T14:10:28.406] [INFO] ma-core - mongodb conected

@@ -1,0 +1,32 @@
+{
+    "SysClassDataTest":{
+        "_id":"60ee0042d9b53b3e084209f5",
+        "libelle":"libelleExemple",
+        "active":true
+    },
+    "SysClassDataTestWithoutID":{
+        "libelle":"libelleExemple",
+        "active":true
+    },
+    "wrongSysClassDataTest":{
+        "libelle":"libelleExemple",
+        "active":true,
+        "randomProperty":"value"
+    },
+    "wrongID":"60ee0042d9b53b3e084209f6",
+    "emptySysClassDataTest":{},
+    "arrayofSysClasses":[
+        {   "_id":"60ee0042d9b53b3e084209f5",
+            "libelle":"libelleExemple",
+            "active":true
+        },
+        {   "_id":"60ee0042d9b53b3e084209f6",
+            "libelle":"libelleExemple",
+            "active":true
+        },
+        {   "_id":"60ee0042d9b53b3e084209f7",
+            "libelle":"libelleExemple",
+            "active":true
+        }   
+    ]
+}

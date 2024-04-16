@@ -1,0 +1,52 @@
+{
+  "all": {
+    "success": {
+      "res": {
+        "statusCode": 200,
+        "headers": {
+          "content-type": "application/json"
+        }
+      },
+      "body": {
+        "status": "success",
+        "data": {
+          "docs": [
+            {
+              "title": "title",
+              "description": "description",
+              "timeZone": "timeZone",
+              "startDate": "2021-08-06T15:35:12.193+00:00",
+              "endDate": "2021-08-06T15:35:12.193+00:00",
+              "spoc": "610d502489e61a36e88e1d27",
+              "system": "610d502489e61a36e88e1d27",
+              "type": "planned",
+              "ticket": "ticket"
+            },
+            {
+              "title": "title",
+              "description": "description",
+              "timeZone": "timeZone",
+              "startDate": "2021-08-06T15:35:12.193+00:00",
+              "endDate": "2021-08-06T15:35:12.193+00:00",
+              "spoc": "610d502489e61a36e88e1d27",
+              "system": "610d502489e61a36e88e1d27",
+              "type": "planned",
+              "ticket": "ticket"
+            },
+            {
+              "title": "title",
+              "description": "description",
+              "timeZone": "timeZone",
+              "startDate": "2021-08-06T15:35:12.193+00:00",
+              "endDate": "2021-08-06T15:35:12.193+00:00",
+              "spoc": "610d502489e61a36e88e1d27",
+              "system": "610d502489e61a36e88e1d27",
+              "type": "planned",
+              "ticket": "ticket"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

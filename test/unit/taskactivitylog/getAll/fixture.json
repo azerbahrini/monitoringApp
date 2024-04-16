@@ -1,0 +1,123 @@
+{
+  "result": {
+    "statusCode": 200,
+    "data": [
+      {
+        "shift": {
+          "name": "night shift",
+          "startDate": "2022-02-08T07:30:00.000Z",
+          "endDate": "2022-02-08T19:30:00.000Z"
+        },
+        "result": [
+          {
+            "systemName": "WK System3",
+            "customerName": "Jera Corporation",
+            "targetTasks": 67,
+            "createdTasks": 4,
+            "canceledTasks": 0
+          },
+          {
+            "systemName": "PRD 667",
+            "customerName": "Jera Corporation",
+            "targetTasks": 6,
+            "createdTasks": 5,
+            "canceledTasks": 0
+          },
+          {
+            "systemName": "PJR",
+            "customerName": "CCBJI",
+            "targetTasks": 13,
+            "createdTasks": 0,
+            "canceledTasks": 0
+          },
+          {
+            "systemName": "PJO",
+            "customerName": "CCBJI",
+            "targetTasks": 6,
+            "createdTasks": 0,
+            "canceledTasks": 0
+          },
+          {
+            "systemName": "AeroSim",
+            "customerName": "Avaxia_TN",
+            "targetTasks": 41,
+            "createdTasks": 0,
+            "canceledTasks": 0
+          },
+          {
+            "systemName": "DJR",
+            "customerName": "CCBJI",
+            "targetTasks": 9,
+            "createdTasks": 0,
+            "canceledTasks": 0
+          }
+        ],
+        "_id": "62026e0f4ed4ef2b98c18cf7",
+        "__v": 2
+      }
+    ],
+    "status": "success"
+  },
+  "error": {
+    "statusCode": 400,
+    "status": "error",
+    "err": {
+      "message": "invalid request error"
+    }
+  },
+  "foundTaskActivityLogs": [
+    {
+      "shift": {
+        "name": "night shift",
+        "startDate": "2022-02-08T07:30:00.000Z",
+        "endDate": "2022-02-08T19:30:00.000Z"
+      },
+      "result": [
+        {
+          "systemName": "WK System3",
+          "customerName": "Jera Corporation",
+          "targetTasks": 67,
+          "createdTasks": 4,
+          "canceledTasks": 0
+        },
+        {
+          "systemName": "PRD 667",
+          "customerName": "Jera Corporation",
+          "targetTasks": 6,
+          "createdTasks": 5,
+          "canceledTasks": 0
+        },
+        {
+          "systemName": "PJR",
+          "customerName": "CCBJI",
+          "targetTasks": 13,
+          "createdTasks": 0,
+          "canceledTasks": 0
+        },
+        {
+          "systemName": "PJO",
+          "customerName": "CCBJI",
+          "targetTasks": 6,
+          "createdTasks": 0,
+          "canceledTasks": 0
+        },
+        {
+          "systemName": "AeroSim",
+          "customerName": "Avaxia_TN",
+          "targetTasks": 41,
+          "createdTasks": 0,
+          "canceledTasks": 0
+        },
+        {
+          "systemName": "DJR",
+          "customerName": "CCBJI",
+          "targetTasks": 9,
+          "createdTasks": 0,
+          "canceledTasks": 0
+        }
+      ],
+      "_id": "62026e0f4ed4ef2b98c18cf7",
+      "__v": 2
+    }
+  ]
+}

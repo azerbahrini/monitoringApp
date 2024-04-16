@@ -1,0 +1,8 @@
+[2023-09-26T16:27:55.310] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-09-26T16:27:57.375] [INFO] ma-core - server started at port 5000
+[2023-09-26T16:27:57.459] [INFO] ma-core - mongodb conected
+[2023-09-26T16:29:44.558] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-09-26T16:55:20.342] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-09-26T16:55:20.572] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-09-26T16:55:30.654] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-26T16:55:32.723] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1

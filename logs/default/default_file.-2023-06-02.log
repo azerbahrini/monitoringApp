@@ -1,0 +1,19 @@
+[2023-06-02T13:04:07.799] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-06-02T13:04:11.133] [INFO] ma-core - server started at port 5000
+[2023-06-02T13:04:11.256] [INFO] ma-core - mongodb conected
+[2023-06-02T13:05:05.741] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T13:05:10.814] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T13:07:05.042] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T13:08:27.036] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T13:08:58.351] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T13:10:09.523] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T13:11:41.490] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T14:09:37.755] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T14:09:52.813] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T14:12:52.890] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T16:48:25.255] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T16:48:44.244] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T16:48:44.324] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T16:48:44.574] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T16:49:20.612] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-06-02T16:49:40.446] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1

@@ -1,0 +1,44 @@
+{
+      "memberShift":{
+        "data": {
+          "role": "5fa02d8f785e4681ddfa3a6d",
+          "_id": "6191bf27cad928bba1ebcd44",
+          "shiftId": "SHFT_fbf14e97-fccf-4d43-93a0-4fa81a63de02",
+          "userMicrosoftId": "9fac4c7a-0cf0-4bcb-aa85-8fde04365925",
+          "name": "Daily shift",
+          "startDate": "2021-11-15T07:00:00.000Z",
+          "endDate": "2021-11-15T16:30:00.000Z",
+          "updatedShiftAt": "2021-10-30T19:29:44.655Z",
+          "user": "61796b52032f032893db8ab1",
+          "type": "shift",
+          "reference": null,
+          "theme": "darkPink",
+          "color": "#a4262c",
+          "typeId": "61796b3f032f038c61db89fc",
+          "createdAt": "2021-11-15T02:00:07.741Z",
+          "updatedAt": "2021-11-15T02:00:07.741Z"
+        },
+        "status": "success"
+      },
+    "tlShift":{
+        "data": {
+          "role": "5fa02d8f785e4681ddfa3a6d",
+          "_id": "6191bf27cad928bba1ebcd44",
+          "shiftId": "SHFT_fbf14e97-fccf-4d43-93a0-4fa81a63de02",
+          "userMicrosoftId": "9fac4c7a-0cf0-4bcb-aa85-8fde04365925",
+          "name": "Daily shift",
+          "startDate": "2021-11-15T07:00:00.000Z",
+          "endDate": "2021-11-15T16:30:00.000Z",
+          "updatedShiftAt": "2021-10-30T19:29:44.655Z",
+          "user": "61796b51032f03506fdb8a6c",
+          "type": "shift",
+          "reference": null,
+          "theme": "darkPink",
+          "color": "#a4262c",
+          "typeId": "61796b3f032f038c61db89fc",
+          "createdAt": "2021-11-15T02:00:07.741Z",
+          "updatedAt": "2021-11-15T02:00:07.741Z"
+        },
+        "status": "success"
+      }
+}

@@ -1,0 +1,35 @@
+{
+    "clientDataTest":{
+        "_id":"60ee0042d9b53b3e084209f5",
+        "clientNumber":200,
+        "isActive":true
+    },
+    "clientDataTestWithoutID":{
+        "clientNumber":100,
+        "isActive":true,
+        "system" : "61269e382d616e9a1f6b8ca1"
+    },
+
+    "wrongClientDataTest":{
+        "clientNumber":400,
+        "isActive":true,
+        "randomProperty":"value"
+    },
+
+    "wrongID":"60ee0042d9b53b3e084209f6",
+    "emptyClientDataTest":{},
+    "arrayofClients":[
+        {   "_id":"60ee0042d9b53b3e084209f5",
+            "clientNumber":500,
+            "isActive":true
+        },
+        {   "_id":"60ee0042d9b53b3e084209f6",
+            "clientNumber":700,
+            "isActive":true
+        },
+        {   "_id":"60ee0042d9b53b3e084209f7",
+            "clientNumber":800,
+            "isActive":true
+        }   
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "add": {
+        "success": {
+          "res": {
+            "statusCode": 201,
+            "headers": {
+              "content-type": "application/json"
+            }
+          },
+          "body": {
+            "status": "success",
+            "data": [
+                {
+                    "id": "60ef4e3f7221301cc8eaafbd",
+                    "category": "hello test",
+                    "active": true
+                  }
+            ]
+          }
+        },
+        "failure": {
+            "res": {
+              "statusCode": 400,
+              "headers": {
+                "content-type": "application/json"
+              }
+            },
+            "body": {
+              "status": "error",
+              "message": "missing property."
+            }
+          }
+      }
+    }
+    

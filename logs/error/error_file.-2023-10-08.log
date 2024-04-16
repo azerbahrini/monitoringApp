@@ -1,0 +1,35 @@
+[2023-10-08T00:05:58.689] [ERROR] ma-core - get Previous result error /api/result/previousResult/:id GET ::1
+[2023-10-08T00:06:00.144] [ERROR] ma-core - get Previous result error /api/result/previousResult/:id GET ::1
+[2023-10-08T00:17:44.664] [ERROR] ma-core - An unexpected error occurred Error: WARNING: Date in past. Will never be fired.
+    at CronTime.sendAt (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:148:12)
+    at CronTime.getTimeout (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:175:29)
+    at CronJob.start (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:613:31)
+    at new CronJob (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:576:10)
+    at Object.module.exports [as autoCancelCron] (/home/azer/avaxia-monitpring-app/core-service/services/task/autoCancelCron.js:11:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2023-10-08T00:49:35.226] [ERROR] ma-core - get Previous result error /api/result/previousResult/:id GET ::1
+[2023-10-08T00:54:18.829] [ERROR] ma-core - get Created Tasks error : No Tasks found /api/task/getworkflowTasks GET ::1
+[2023-10-08T10:01:31.470] [ERROR] ma-core - get Created Tasks error : No Tasks found /api/task/getworkflowTasks GET ::1
+[2023-10-08T10:02:47.747] [ERROR] ma-core - An unexpected error occurred Error: WARNING: Date in past. Will never be fired.
+    at CronTime.sendAt (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:148:12)
+    at CronTime.getTimeout (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:175:29)
+    at CronJob.start (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:613:31)
+    at new CronJob (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:576:10)
+    at Object.module.exports [as autoCancelCron] (/home/azer/avaxia-monitpring-app/core-service/services/task/autoCancelCron.js:11:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2023-10-08T10:04:17.063] [ERROR] ma-core - An unexpected error occurred Error: WARNING: Date in past. Will never be fired.
+    at CronTime.sendAt (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:148:12)
+    at CronTime.getTimeout (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:175:29)
+    at CronJob.start (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:613:31)
+    at new CronJob (/home/azer/avaxia-monitpring-app/core-service/node_modules/cron/lib/cron.js:576:10)
+    at Object.module.exports [as autoCancelCron] (/home/azer/avaxia-monitpring-app/core-service/services/task/autoCancelCron.js:11:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2023-10-08T10:09:06.965] [ERROR] ma-core - get by id Task :Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "task" /api/task/:id GET ::1
+[2023-10-08T11:25:39.686] [ERROR] ma-core - get Created Tasks error : No Tasks found /api/task/getworkflowTasks GET ::1
+[2023-10-08T12:03:49.802] [ERROR] ma-core - "customerId" is not allowed /api/task/getTasksByFilter GET ::1
+[2023-10-08T12:04:10.567] [ERROR] ma-core - "typeId" is not allowed /api/task/getTasksByFilter GET ::1
+[2023-10-08T12:05:07.449] [ERROR] ma-core - "startDate" must be a valid date /api/task/getTasksByFilter GET ::1
+[2023-10-08T12:05:49.454] [ERROR] ma-core - "startDate" must be a valid date /api/task/getTasksByFilter GET ::1

@@ -1,0 +1,87 @@
+{
+  "foundTask": {
+    "data": {
+      "_id": "609061c32b41292a7a2c867f",
+      "type": "Monitoring",
+      "globalStatus": "Good",
+      "state": "Pending",
+      "request": "Pending",
+      "resultat": [],
+      "title": "SM51",
+      "description": "SAP Transaction",
+      "map": "60905c242b412971d52c866c",
+      "user": "6089dae7c5a2a04910729391",
+      "system": "608beed8c5a2a0c3017294b9",
+      "estimatedStart": "2021-05-04T00:30:00.000Z",
+      "__v": 0,
+      "createdAt": "2021-05-03T20:49:07.366Z",
+      "updatedAt": "2021-11-03T12:42:42.294Z"
+    },
+    "status": "success"
+  },
+  "updatedTask": {
+    "data": {
+      "_id": "609061c32b41292a7a2c867f",
+      "type": "Monitoring",
+      "globalStatus": "Good",
+      "state": "In progress",
+      "request": "Pending",
+      "resultat": [],
+      "title": "SM51",
+      "description": "SAP Transaction",
+      "map": "60905c242b412971d52c866c",
+      "user": "6089dae7c5a2a04910729391",
+      "system": "608beed8c5a2a0c3017294b9",
+      "estimatedStart": "2021-05-04T00:30:00.000Z",
+      "__v": 0,
+      "createdAt": "2021-05-03T20:49:07.366Z",
+      "updatedAt": "2021-11-03T12:57:32.370Z"
+    },
+    "status": "success"
+  },
+  "doneTask": {
+    "data": {
+      "_id": "609061c32b41292a7a2c867f",
+      "type": "Monitoring",
+      "globalStatus": "Good",
+      "state": "Done",
+      "request": "Pending",
+      "resultat": [],
+      "title": "SM51",
+      "description": "SAP Transaction",
+      "map": "60905c242b412971d52c866c",
+      "user": "6089dae7c5a2a04910729391",
+      "system": "608beed8c5a2a0c3017294b9",
+      "estimatedStart": "2021-05-04T00:30:00.000Z",
+      "__v": 0,
+      "createdAt": "2021-05-03T20:49:07.366Z",
+      "updatedAt": "2021-11-03T12:57:32.370Z"
+    },
+    "status": "success"
+  },
+  "canceledTask": {
+    "data": {
+      "_id": "609061c32b41292a7a2c867f",
+      "type": "Monitoring",
+      "globalStatus": "Good",
+      "state": "Canceled",
+      "request": "Pending",
+      "resultat": [],
+      "title": "SM51",
+      "description": "SAP Transaction",
+      "map": "60905c242b412971d52c866c",
+      "user": "6089dae7c5a2a04910729391",
+      "system": "608beed8c5a2a0c3017294b9",
+      "estimatedStart": "2021-05-04T00:30:00.000Z",
+      "__v": 0,
+      "createdAt": "2021-05-03T20:49:07.366Z",
+      "updatedAt": "2021-11-03T12:57:32.370Z"
+    },
+    "status": "success"
+  },
+  "notaskFound": {
+    "err": { "message": "task not found" },
+    "status": "error",
+    "statusCode": 404
+  }
+}

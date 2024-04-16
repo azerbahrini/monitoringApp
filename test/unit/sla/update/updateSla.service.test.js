@@ -1,0 +1,99 @@
+const sinon = require("sinon");
+const chai = require("chai");
+var expect = chai.expect;
+const sinonChai = require("sinon-chai");
+
+const updateSlaService = require("../../../../services/sla/updateSla.service");
+const Sla = require("../../../../models/Sla");
+const fixture = require("../fixture.json");
+
+chai.use(sinonChai);
+
+describe("testing UPDATE Sla service", () => {
+  const sandbox = sinon.createSandbox();
+  let findOneAndUpdateStub;
+  beforeEach("", () => {
+    findOneAndUpdateStub = sandbox.stub(Sla, "findOneAndUpdate");
+  });
+  it("expect to return an success object", async () => {
+    findOneAndUpdateStub.returns({
+      lean: sandbox.stub().returns({
+        exec: () => fixture.slaDataTest,
+      }),
+    });
+    const res = await updateSlaService(
+      fixture.slaDataTest._id,
+      fixture.slaDataTestWithoutID
+    );
+    expect(findOneAndUpdateStub).to.have.been.calledOnce;
+
+    expect(findOneAndUpdateStub).to.be.calledWith(
+      { _id: fixture.slaDataTest._id,
+        isActive:true },
+      fixture.slaDataTestWithoutID,
+      {new: true}
+    );
+    expect(res).to.be.a("object");
+    expect(res).to.have.property("data");
+    expect(res).to.have.property("status");
+    expect(res.data).to.be.a("object");
+    expect(res.status).to.be.eq("success");
+  });
+  it("expect to return an fail object - no id", async () => {
+    findOneAndUpdateStub.returns({
+      lean: sandbox.stub().returns({
+        exec: () => undefined,
+      }),
+    });
+    const res = await updateSlaService(
+      { _id: undefined },
+      fixture.slaDataTestWithoutID
+    );
+    expect(res).to.be.a("object");
+    expect(res).to.have.property("err");
+    expect(res).to.have.property("status");
+    expect(res.err).to.be.a("object");
+    expect(res.status).to.be.eq("error");
+  });
+  it("expect to return an fail object - wrong id", async () => {
+    findOneAndUpdateStub.returns({
+      lean: sandbox.stub().returns({
+        exec: () => undefined,
+      }),
+    });
+    const res = await updateSlaService(
+      fixture.wrongID,
+      fixture.slaDataTestWithoutID
+    );
+    expect(findOneAndUpdateStub).to.have.been.calledOnce;
+    expect(findOneAndUpdateStub).to.be.calledWith(
+      { _id: fixture.wrongID,
+        isActive:true },
+      fixture.slaDataTestWithoutID,
+      { new: true }
+    );
+    expect(res).to.be.a("object");
+    expect(res).to.have.property("err");
+    expect(res).to.have.property("status");
+    expect(res.err).to.be.a("object");
+    expect(res.status).to.be.eq("error");
+  });
+  it("expect to throw an error", async () => {
+    findOneAndUpdateStub.throws(new Error());
+    const res = await updateSlaService(
+      { _id: fixture.slaDataTest._id },
+      fixture.slaDataTestWithoutID
+    );
+
+    expect(res).to.be.a("object");
+    expect(res).to.have.property("err");
+    expect(res).to.have.property("status");
+    expect(res.err).to.be.a("error");
+    expect(res.status).to.be.eq("error");
+  });
+
+  afterEach(() => {
+    findOneAndUpdateStub.restore();
+  });
+  sandbox.restore();
+});

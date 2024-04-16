@@ -1,0 +1,56 @@
+{
+    "roleDataTest":{
+        "_id":"60ee0042d9b53b3e084209f5",
+        "label":"labelExemple",
+        "isActive":true,
+        "rank":121
+    },
+    "roleDataTestWithoutID":{
+        "label":"labelExemple",
+        "isActive":true,
+        "rank":121
+    },
+    "wrongRoleDataTest":{
+        "label":"labelExemple",
+        "isActive":true,
+        "rank":121,
+        "randomProperty":"value"
+    },
+    "wrongID":"60ee0042d9b53b3e084209f6",
+    "emptyRoleDataTest":{},
+    "user":{
+      "id": "60ee0042d9b53b3e084209f5",
+      "date": "2021-06-15T22:45:00.000Z"
+    },
+    "arrayofRoles":[
+        {   "_id":"60ee0042d9b53b3e084209f5",
+            "label":"labelExemple",
+            "isActive":true,
+            "rank":121
+        },
+        {   "_id":"60ee0042d9b53b3e084209f6",
+            "label":"labelExemple",
+            "isActive":true,
+            "rank":121
+        },
+        {   "_id":"60ee0042d9b53b3e084209f7",
+            "label":"labelExemple",
+            "isActive":true,
+            "rank":121
+        }   
+    ],
+    "returnedRole": {
+        "_id": "5fa02d8f785e4681ddfa3a6e",
+        "rank": 201,
+        "__v": 0,
+        "updatedAt": "2021-07-30T13:19:51.055Z",
+        "listModule": [
+          "60548528836fb2334818c8f0",
+          "60763d70b4a5b34b90ab8469",
+          "60764b62b4a5b34b90ab846a",
+          "6074dcdafed0de4d343eb4dd"
+        ],
+        "isActive": true,
+        "label": "Team Leader"
+      }
+}

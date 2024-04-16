@@ -1,0 +1,357 @@
+openapi: 3.0.0
+info:
+  description: SlaContract API
+  version: "1.0.0"
+  title: SlaContract API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /slaContract :
+    post:
+      summary: adds a SlaContract
+      operationId: addSlaContract
+      description: Adds slaContract to the customer
+      responses:
+        '201':
+          description: SlaContract created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  startDate:
+                    type: string
+                    example: "2021-12-02T00:00:00.000Z" 
+                  endDate:
+                    type: string
+                    example: "2022-12-02T00:00:00.000Z"  
+                  class:
+                    type: string
+                    format: uuid
+                  customerId:
+                    type: string
+                    format: uuid
+                  
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required           
+                   
+      requestBody:
+        content:
+          application/json:
+            schema: 
+             type: object
+             required:
+             - startDate
+             - endDate
+             - customerId
+             - class
+             properties:
+              startDate:
+               type: string
+               example: "2022-12-02T00:00:00.000Z"
+              endDate:
+               type: string
+               example: "2022-12-02T00:00:00.000Z"  
+              customerId:
+                type: string
+              class:
+                type: string
+        description: SlaContract item to add
+  /slaContract/getbycustomer/{id}:
+    get:
+      summary: Get all SlaContract
+      operationId: getAllSlaContract
+      description: 
+        get all active SlaContract of a customer
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: return all SlaContract of a customer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/SlaContract'
+        '400':
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                        
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: customer not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Customer not found     
+  /slaContract/getone/{id}:
+    get:
+      summary: get a single SlaContract
+      operationId: getOneSlaContract
+      description: get SlaContract by Id
+      parameters: 
+      - in: path 
+        name : id
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: return specific SlaContract
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        format: uuid
+                      startDate:
+                        type: string
+                        example: "2021-12-02T00:00:00.000Z"
+                      endDate:
+                        type: string
+                        example: "2022-12-02T00:00:00.000Z"  
+                      class:
+                        type: string
+                        format: uuid
+                      isActive:
+                        type: boolean
+                        example: true
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  
+                
+                    
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: SlaContract not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: SlaContract not found       
+  /slaContract/update/{id}:
+    patch:
+      summary: update a single SlaContract
+      description: update one slaContract
+      operationId: updateSlaContract
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SlaContract'
+       
+          description: "updated slaContract"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: SlaContract not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: SlaContract not found
+        "501":
+          description: "no error displayed"
+        
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                startDate:
+                 type: string
+                 example: "2021-12-02T00:00:00.000Z"
+                endDate:
+                 type: string
+                 example: "2022-12-02T00:00:00.000Z"  
+                class:
+                 type: string
+                customerId:
+                 type: string
+  /slaContract/delete/{id}:  
+    patch:  
+      summary: delete a single SlaContract
+      description: delete one SlaContract
+      operationId: deleteSlaContract
+      parameters: 
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SlaContract'
+          description: "deleted slaContract"
+        "400":
+          description: "error message"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: "no SlaContract found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: SlaContract not found
+      
+components:
+  schemas:
+    SlaContract:
+      type: object
+      required:
+        - id
+        - startDate
+        - endDate
+        - class
+        - customerId
+      properties:
+        id:
+          type: string
+          example: "60edffc2370e9734982cc555"
+        startDate:
+          type: string
+          example: "2021-12-02T00:00:00.000Z"
+        endDate:
+          type: string
+          example: "2022-12-02T00:00:00.000Z"
+        class:
+          type: string
+          example: "60edffc2370e9734982cab5f"  
+        isActive:
+          type: boolean
+          example: true
+          
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/hamma19/slaContract-api/1.0.0

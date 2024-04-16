@@ -1,0 +1,662 @@
+openapi: 3.0.0
+info:
+  description: System API
+  version: "1.0.0"
+  title: System API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/system/SYSTEM-2.0.html"
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /system:
+    get:
+      summary: Get all systems
+      operationId: getAllSystem
+      description: get all existantes systems
+      parameters:
+        - name: page
+          in: query
+          description: page number
+          required: true
+          schema:
+            type: integer
+            format: int32
+        - name: size
+          in: query
+          description: number of elements
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        "200":
+          description: return all system
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/System"
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+    post:
+      summary: adds a system
+      operationId: addSystem
+      description: Adds system to the system
+      responses:
+        "201":
+          description: system created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                  name:
+                    type: string
+                    example: systemExemple
+                  type:
+                    type: string
+                    format: uuid
+                  category:
+                    type: string
+                    format: uuid
+                  customer:
+                    type: string
+                    format: uuid
+                  listMap:
+                    type: object
+                    example: ["60ee0042d9b53b31084209f5"]
+                  class:
+                    type: string
+                    format: uuid
+                  deployType:
+                    type: string
+                    example: "Cloud"
+                  deployDesc:
+                    type: string
+                    example: "desc test"
+                  fqdn:
+                    type: string
+                    example: "fqdn test"
+                  listTechnicalUser:
+                    type: object
+                    example: ["60ee0042d9b53b31084209f5"]
+                  listCustomerContact:
+                    type: object
+                    example: ["60ee0042d9b53b31084209f5"]
+                  isActive:
+                    type: boolean
+                    example: true
+
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messsage:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+                - type
+                - category
+                - customer
+                - listMap
+                - class
+                - deployType
+                - deployDesc
+                - fqdn
+                - listTechnicalUser
+                - listCustomerContact
+                - listItOperation
+                - isActive
+              properties:
+                name:
+                  type: string
+                  example: systemExemple
+                type:
+                  type: string
+                  format: uuid
+                category:
+                  type: string
+                  format: uuid
+                customer:
+                  type: string
+                  format: uuid
+                listMap:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+                class:
+                  type: string
+                  format: uuid
+                deployType:
+                  type: string
+                  example: "Cloud"
+                deployDesc:
+                  type: string
+                  example: "desc test"
+                fqdn:
+                  type: string
+                  example: "fqdn test"
+                listTechnicalUser:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+                listCustomerContact:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+                listItOperation:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+                isActive:
+                  type: boolean
+                  example: true
+        description: system item to add
+  /system/forMaps:
+    get:
+      summary: Get systems for maps
+      operationId: getSystemForMaps
+      description: get systems filtred by cutomer / system / type / category
+      parameters:
+        - name: customerId
+          in: query
+          description: cutomer id
+          required: false
+          schema:
+            type: string
+            example: 60ee0042d9b53b31084209f5
+        - name: typeId
+          in: query
+          description: type id
+          required: false
+          schema:
+            type: string
+            example: 60ee0042d9b53b31084209f5
+        - name: categoryId
+          in: query
+          description: category id
+          required: false
+          schema:
+            type: string
+            example: 60ee0042d9b53b31084209f5
+        - name: systemId
+          in: query
+          description: system id
+          required: false
+          schema:
+            type: string
+            example: 60ee0042d9b53b31084209f5
+      responses:
+        "200":
+          description: return all system
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      docs:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            _id:
+                              type: string
+                              example: 60ee0042d9b53b31084209f5
+                            name:
+                              type: string
+                              example: PRD 667
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required      
+  /system/{id}:
+    get:
+      summary: get a system
+      operationId: getOneSystem
+      description: get system by Id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: return specific system
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/System"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: system not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: system not found
+  /system/update/{id}:
+    patch:
+      summary: update a single system
+      description: update one system
+      operationId: updateSystem
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/System"
+
+          description: "updated system"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: system not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: system not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  example: systemExemple
+                type:
+                  type: string
+                  format: uuid
+                category:
+                  type: string
+                  format: uuid
+                customer:
+                  type: string
+                  format: uuid
+                listMap:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+                class:
+                  type: string
+                  format: uuid
+                deployType:
+                  type: string
+                  example: "Cloud"
+                deployDesc:
+                  type: string
+                  example: "desc test"
+                fqdn:
+                  type: string
+                  example: "fqdn test"
+                listTechnicalUser:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+                listCustomerContact:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+                listItOperation:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+                isActive:
+                  type: boolean
+                  example: true
+  /system/addContact/{id}:
+    patch:
+      summary: Add contact to a system
+      description: Add contact to a system
+      operationId: addContact
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/System"
+
+          description: "updated system"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: system not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: system not found
+        "501":
+          description: "no error displayed"
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                listCustomerContact:
+                  type: object
+                  example: ["60ee0042d9b53b31084209f5"]
+  /system/delete/{id}:
+    patch:
+      summary: delete a single system
+      description: delete one system
+      operationId: deleteSystem
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+
+      responses:
+        "204":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/System"
+          description: "delete system"
+        "400":
+          description: error message
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "401":
+          description: missing authentification
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: authentification required
+        "404":
+          description: system not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: system not found
+        "501":
+          description: "no error displayed"
+  /system/SystemsCategoriesByCustomer/{customerId}:
+    patch:
+      summary: retreive all Categories By Customer
+      description: List categories for systems in customer details.delete one system
+      operationId: getCategoriesByTypeByCustomerId
+      parameters:
+        - in: path
+          name: customerId
+          required: true
+          schema:
+            type: string
+      responses:
+        "404":
+          description: No Category exist match this criteria
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "200":
+          description: Retreive successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /system/getSystemsByCustomerIdByTypeIdByCategoryId/{customerId}/type/{typeId}/category/{categoryId}:
+    patch:
+      summary: retreive all types By Customer Id and category Id
+      description: List categories for systems in customer details.delete one system
+      operationId: getSystemsByCustomerIdByTypeIdByCategoryId
+      parameters:
+        - in: path
+          name: customerId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: typeId
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: categoryId
+          required: true
+          schema:
+            type: string
+      responses:
+        "404":
+          description: No Category exist match this criteria
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "200":
+          description: Retreive successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    System:
+      type: object
+      required:
+        - name
+        - type
+        - category
+        - customer
+        - listMap
+        - class
+        - deployType
+        - deployDesc
+        - fqdn
+        - listTechnicalUser
+        - listCustomerContact
+        - listItOperation
+        - isActive
+      properties:
+        name:
+          type: string
+          example: systemExemple
+        type:
+          type: string
+          format: uuid
+        category:
+          type: string
+          format: uuid
+        customer:
+          type: string
+          format: uuid
+        class:
+          type: string
+          format: uuid
+        deployType:
+          type: string
+          example: "Cloud"
+        deployDesc:
+          type: string
+          example: "desc test"
+        fqdn:
+          type: string
+          example: "fqdn test"
+        listTechnicalUser:
+          type: object
+          example: ["60ee0042d9b53b31084209f5"]
+        listCustomerContact:
+          type: object
+          example: ["60ee0042d9b53b31084209f5"]
+        isActive:
+          type: boolean
+          example: true

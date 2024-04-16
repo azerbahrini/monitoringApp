@@ -1,0 +1,4 @@
+[2022-02-01T11:40:50.633] [ERROR] ma-core - "text" is not allowed to be empty /api/newsfeed/ POST ::1
+[2022-02-01T11:41:12.746] [ERROR] ma-core - add post :newsFeed validation failed: user: Cast to ObjectId failed for value "617970359f" (type string) at path "user" /api/newsfeed/ POST ::1
+[2022-02-01T11:56:42.529] [ERROR] ma-core - add post :missing property testing testing testing
+[2022-02-01T11:56:42.530] [ERROR] ma-core - add post :missing property NaN post 1234

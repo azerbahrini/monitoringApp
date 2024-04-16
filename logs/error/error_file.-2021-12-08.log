@@ -1,0 +1,10 @@
+[2021-12-08T16:03:00.934] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:03:25.734] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:08:12.720] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:08:38.381] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:08:52.420] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:09:02.542] [ERROR] ma-core - add result form :resultForm validation failed: monitActTitle: Path `monitActTitle` is required. /api/resultForm/addFormSchema POST ::1
+[2021-12-08T16:38:59.125] [ERROR] ma-core - get All result form :ResultForm.paginate(...).select is not a function /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:39:06.443] [ERROR] ma-core - get All result form :ResultForm.paginate(...).select is not a function /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:39:12.895] [ERROR] ma-core - get All result form :ResultForm.paginate(...).select is not a function /api/resultform/getAllResultForm GET ::1
+[2021-12-08T16:39:13.891] [ERROR] ma-core - get All result form :ResultForm.paginate(...).select is not a function /api/resultform/getAllResultForm GET ::1

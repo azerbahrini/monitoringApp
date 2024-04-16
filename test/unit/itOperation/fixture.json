@@ -1,0 +1,133 @@
+{
+    "itOperationDataTest":
+    {
+      "_id": "61199781017d2d15acfc979c",
+      "title":"ITop test3",
+      "description":"hour",
+      "timeZone":"tunis",
+      "startDate":"2021-12-02T15:30",
+       "endDate":"2021-12-02T15:30",
+      "spoc":"60a31a15b3f8622968674fd4",
+      "system":"609bcf0f7ebdc50c64746043",
+      "type":"planned",
+      "ticket":"a8",
+      "changesNotSaved":[]
+    },
+    "itOperationDataTestWithoutID":{
+        "title":"ITop test3",
+        "description":"hour",
+        "timeZone":"tunis",
+        "startDate":"2021-12-02T15:30",
+         "endDate":"2021-12-02T15:30",
+        "spoc":"60a31a15b3f8622968674fd4",
+        "system":"609bcf0f7ebdc50c64746043",
+        "type":"planned",
+        "ticket":"a8"
+      },
+    "wrongItOperationDataTest":{
+        "title":"ITop test3",
+        "description":"hour",
+        "timeZone":"tunis",
+        "startDate":"2021-12-02T15:30",
+         "endDate":"2021-12-02T15:30",
+        "spoc":"60a31a15b3f8622968674fd4",
+        "system":"609bcf0f7ebdc50c64746043",
+        "type":"planned",
+        "ticket":"a8",
+        "randomProperty":"value"
+      },
+    "wrongID":"60ee0042d9b53b3e084209f6",
+    "emptyItOperationDataTest":{},
+    "arrayofItOperations":[
+      {
+        "oldStartDate": null,
+        "oldEndDate": null,
+        "finishedAt": null,
+        "canceledAt": null,
+        "postponedAt": null,
+        "extendedAt": null,
+        "remindedAt": null,
+        "changesNotSaved": [],
+        "status": "active",
+        "systemDownStart": null,
+        "systemDownEnd": null,
+        "oldsystemDownStart": null,
+        "oldsystemDownEnd": null,
+        "canceledNotes": null,
+        "postponedN": null,
+        "extendedN": null,
+        "listContact": [],
+        "_id": "611922b96fd10e08c84e7482",
+        "title": "ITop test4",
+        "description": "hour",
+        "timeZone": "6109b0cd940d6406e8973644",
+        "startDate": "2021-12-02T14:30:00.000Z",
+        "endDate": "2021-12-02T14:30:00.000Z",
+        "spoc": {
+            "_id": "60a31a15b3f8622968674fd4",
+            "firstName": "Mohamed",
+            "lastName": "Bouazza"
+        },
+        "system": {
+            "_id": "609bcf0f7ebdc50c64746043",
+            "system": "Boomi",
+            "customer": {
+                "_id": "608bde23c5a2a0a1607294a5",
+                "libelle": "JERA Co., Inc. 12"
+            }
+        },
+        "type": "planned",
+        "ticket": "a8",
+        "createdAt": "2021-08-15T14:20:41.248Z",
+        "updatedAt": "2021-08-15T14:20:41.248Z",
+        "__v": 0
+    },
+    {
+        "oldStartDate": null,
+        "oldEndDate": null,
+        "finishedAt": null,
+        "canceledAt": null,
+        "postponedAt": null,
+        "extendedAt": null,
+        "remindedAt": "2021-08-15T16:13:15.059Z",
+        "changesNotSaved": [],
+        "status": "active",
+        "systemDownStart": null,
+        "systemDownEnd": null,
+        "oldsystemDownStart": null,
+        "oldsystemDownEnd": null,
+        "canceledNotes": null,
+        "postponedN": null,
+        "extendedN": null,
+        "listContact": [],
+        "_id": "6117f04d82be3d07446821fe",
+        "startDateH": null,
+        "endDateH": null,
+        "systemDownStartH": null,
+        "systemDownEndH": null,
+        "title": "ITop test3",
+        "description": "hour",
+        "timeZone": "6109b0cd940d6406e8973644",
+        "startDate": "2021-12-02T14:30:00.000Z",
+        "endDate": "2021-12-02T14:30:00.000Z",
+        "spoc": {
+            "_id": "60a31a15b3f8622968674fd4",
+            "firstName": "Mohamed",
+            "lastName": "Bouazza"
+        },
+        "system": {
+            "_id": "609bcf0f7ebdc50c64746043",
+            "system": "Boomi",
+            "customer": {
+                "_id": "608bde23c5a2a0a1607294a5",
+                "libelle": "JERA Co., Inc. 12"
+            }
+        },
+        "type": "planned",
+        "ticket": "a8",
+        "createdAt": "2021-08-14T16:33:17.019Z",
+        "updatedAt": "2021-08-15T16:13:15.060Z",
+        "__v": 0
+    }
+    ]
+}

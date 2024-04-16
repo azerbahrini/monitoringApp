@@ -1,0 +1,40 @@
+{
+    "activityDataTest":{
+        "_id":"60ee0042d9b53b3e084209f5",
+        "activity":"activityExemple",
+        "type":"typeExemple",
+        "description":"descriptionExemple",
+        "isActive" : true
+    },
+    "activityDataTestWithoutID":{
+        "activity":"activityExemple",
+        "type":"typeExemple",
+        "description":"descriptionExemple"
+    },
+    "activityTypeDataTest":{
+        "activity":"activityExemple",
+        "type":"typeExemple",
+        "description":"descriptionExemple",
+        "randomProperty":"value"
+    },
+    "systemID":"608beed8c5a2a0c3017294b9",
+    "wrongID":"60ee0042d9b53b3e084209f6",
+    "emptyActivityDataTest":{},
+    "arrayofActivities":[
+        {   "_id":"60ee0042d9b53b3e084209f5",
+            "activity":"activityExemple",
+            "type":"typeExemple",
+            "description":"descriptionExemple"
+        },
+        {   "_id":"60ee0042d9b53b3e084209f6",
+            "activity":"activityExemple",
+            "type":"typeExemple",
+            "description":"descriptionExemple"
+        },
+        {   "_id":"60ee0042d9b53b3e084209f7",
+            "activity":"activityExemple",
+            "type":"typeExemple",
+            "description":"descriptionExemple"
+        }   
+    ]
+}

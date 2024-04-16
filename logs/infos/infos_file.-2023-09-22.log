@@ -1,0 +1,20 @@
+[2023-09-22T14:27:16.808] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-09-22T14:27:18.754] [INFO] ma-core - server started at port 5000
+[2023-09-22T14:27:18.815] [INFO] ma-core - mongodb conected
+[2023-09-22T14:28:31.886] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-09-22T14:28:35.168] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-09-22T14:28:35.331] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-09-22T14:28:50.509] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:28:54.704] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-09-22T14:28:55.084] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-09-22T14:28:55.368] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-09-22T14:29:00.942] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:29:01.075] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:29:07.461] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:29:13.668] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:29:13.774] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:30:45.288] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:31:04.912] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:31:06.165] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-09-22T14:31:09.783] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-09-22T14:32:09.513] [INFO] ma-core - add Client success /api/client/ POST ::1

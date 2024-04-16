@@ -1,0 +1,703 @@
+[2023-10-06T15:20:07.438] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T15:20:09.080] [INFO] ma-core - server started at port 5000
+[2023-10-06T15:20:09.142] [INFO] ma-core - mongodb conected
+[2023-10-06T15:21:10.000] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T15:23:38.428] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T15:23:38.650] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T15:23:40.185] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:23:42.559] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T15:24:31.087] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:24:33.726] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T15:24:44.319] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:24:46.207] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T15:24:50.221] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:24:52.233] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:24:52.407] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:24:53.794] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T15:25:18.770] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:25:34.954] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:25:38.491] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:25:39.268] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:25:41.227] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T15:25:47.303] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:25:48.271] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T15:48:47.270] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T15:48:50.176] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T16:11:15.878] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T16:11:17.150] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T17:06:49.762] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:06:51.541] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:06:51.604] [INFO] ma-core - mongodb conected
+[2023-10-06T17:06:56.575] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:06:57.013] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:06:57.031] [INFO] ma-core - mongodb conected
+[2023-10-06T17:07:46.753] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:08:06.683] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:08:06.700] [INFO] ma-core - mongodb conected
+[2023-10-06T17:08:45.393] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:08:46.930] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:08:46.943] [INFO] ma-core - mongodb conected
+[2023-10-06T17:10:06.896] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:10:08.248] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:10:08.263] [INFO] ma-core - mongodb conected
+[2023-10-06T17:11:12.750] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:11:15.437] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:11:15.537] [INFO] ma-core - mongodb conected
+[2023-10-06T17:14:33.717] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:14:35.041] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:14:35.055] [INFO] ma-core - mongodb conected
+[2023-10-06T17:16:31.161] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:16:35.438] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:16:35.517] [INFO] ma-core - mongodb conected
+[2023-10-06T17:30:17.334] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:30:20.442] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:30:20.479] [INFO] ma-core - mongodb conected
+[2023-10-06T17:45:36.388] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:45:38.181] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:45:38.281] [INFO] ma-core - mongodb conected
+[2023-10-06T17:45:50.129] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:45:52.302] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:45:52.316] [INFO] ma-core - mongodb conected
+[2023-10-06T17:45:53.606] [ERROR] ma-core - 
+[2023-10-06T17:52:05.860] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:52:09.959] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:52:10.048] [INFO] ma-core - mongodb conected
+[2023-10-06T17:52:10.131] [ERROR] ma-core - "name" is required /api/system/ POST ::ffff:127.0.0.1
+[2023-10-06T17:52:10.139] [ERROR] ma-core - "name" is required /api/system/ POST ::ffff:127.0.0.1
+[2023-10-06T17:52:10.305] [ERROR] ma-core - Get by Customer Error : CastError: Cast to ObjectId failed for value "test" (type string) at path "customer" for model "system"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4498:21)
+    at Function.paginate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose-paginate-v2/dist/index.js:152:51)
+    at Object.module.exports [as getAllSystemByCustomerId] (/home/azer/avaxia-monitpring-app/core-service/services/system/getAllSystemByCustomerId.js:2:577)
+    at exports.getAllSystemByCustomerId (/home/azer/avaxia-monitpring-app/core-service/controllers/system.controller.js:8:335)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/system/getAllSystemByCustomerIdValidation.js:2:1362)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:101:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:224:16)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'customer',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1123:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1601:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1591:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1568:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:332:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4937:12)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2370:10)
+      at model.Query._wrappedThunk [as _countDocuments] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11),
+  valueType: 'string'
+}
+[2023-10-06T17:52:10.380] [ERROR] ma-core - Get by Customer Error : CastError: Cast to ObjectId failed for value "test" (type string) at path "customer" for model "system"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4498:21)
+    at Function.paginate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose-paginate-v2/dist/index.js:152:51)
+    at Object.module.exports [as getAllSystemByCustomerId] (/home/azer/avaxia-monitpring-app/core-service/services/system/getAllSystemByCustomerId.js:2:577)
+    at exports.getAllSystemByCustomerId (/home/azer/avaxia-monitpring-app/core-service/controllers/system.controller.js:8:335)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/system/getAllSystemByCustomerIdValidation.js:2:1362)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:101:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:224:16)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'customer',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1123:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1601:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1591:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1568:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:332:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4937:12)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2370:10)
+      at model.Query._wrappedThunk [as _countDocuments] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11),
+  valueType: 'string'
+}
+[2023-10-06T17:52:10.509] [ERROR] ma-core - Get by Customer Error : CastError: Cast to ObjectId failed for value "test" (type string) at path "customer" for model "system"
+    at model.Query.exec (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4498:21)
+    at Function.paginate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose-paginate-v2/dist/index.js:152:51)
+    at Object.module.exports [as getAllSystemByCustomerId] (/home/azer/avaxia-monitpring-app/core-service/services/system/getAllSystemByCustomerId.js:2:577)
+    at exports.getAllSystemByCustomerId (/home/azer/avaxia-monitpring-app/core-service/controllers/system.controller.js:8:335)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/home/azer/avaxia-monitpring-app/core-service/middleware/validators/system/getAllSystemByCustomerIdValidation.js:2:1362)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:281:22
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/types/json.js:101:7)
+    at Layer.handle [as handle_request] (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:224:16)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/azer/avaxia-monitpring-app/core-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  messageFormat: undefined,
+  stringValue: '"test"',
+  kind: 'ObjectId',
+  value: 'test',
+  path: 'customer',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/home/azer/avaxia-monitpring-app/core-service/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1123:12)
+      at ObjectId.SchemaType._castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1601:15)
+      at ObjectId.SchemaType.castForQuery (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1591:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/schematype.js:1568:20)
+      at cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/cast.js:332:32)
+      at model.Query.Query.cast (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:4937:12)
+      at model.Query.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/query.js:2370:10)
+      at model.Query._wrappedThunk [as _countDocuments] (/home/azer/avaxia-monitpring-app/core-service/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /home/azer/avaxia-monitpring-app/core-service/node_modules/kareem/index.js:370:33
+      at processTicksAndRejections (internal/process/task_queues.js:77:11),
+  valueType: 'string'
+}
+[2023-10-06T17:55:02.936] [ERROR] ma-core - random Error
+[2023-10-06T17:55:03.360] [ERROR] ma-core - random error
+[2023-10-06T17:57:16.901] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T17:57:20.884] [INFO] ma-core - server started at port 5000
+[2023-10-06T17:57:20.960] [INFO] ma-core - mongodb conected
+[2023-10-06T17:57:21.095] [ERROR] ma-core - Get by Customer Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getAllSystemByCustomerId/getAllSystemByCustomerIdServiceTest.js:52:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2023-10-06T17:57:21.124] [ERROR] ma-core - Get Categories by Customer ID and Type ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getCategoryByTypesByCustomer/getCategoryByTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2023-10-06T17:57:21.156] [ERROR] ma-core - Get types by Customer ID Error : Error: Random error
+    at Context.<anonymous> (/home/azer/avaxia-monitpring-app/core-service/test/unit/system/getTypeByCustomer/getTypesByCustomerServiceTest.js:122:21)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at Runner.runTest (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:681:10)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:804:12
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:596:14)
+    at /home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:606:7
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:489:14)
+    at cbHookRun (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:554:7)
+    at done (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:310:5)
+    at callFn (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:389:7)
+    at Hook.Runnable.run (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runnable.js:354:5)
+    at next (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:513:10)
+    at Immediate._onImmediate (/home/azer/avaxia-monitpring-app/core-service/node_modules/mocha/lib/runner.js:574:5)
+    at processImmediate (internal/timers.js:464:21)
+[2023-10-06T19:37:20.452] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T19:37:22.822] [INFO] ma-core - server started at port 5000
+[2023-10-06T19:37:22.958] [INFO] ma-core - mongodb conected
+[2023-10-06T19:37:36.333] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T19:37:46.318] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T19:37:55.964] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T19:38:28.391] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:38:29.814] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T19:42:53.746] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2023-10-06T19:43:00.038] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2023-10-06T19:43:23.177] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-10-06T19:43:23.233] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-10-06T19:43:52.872] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-10-06T19:43:52.905] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-10-06T19:43:52.976] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-10-06T19:43:53.041] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-10-06T19:43:53.673] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-10-06T19:43:53.731] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-10-06T19:43:55.234] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-10-06T19:43:55.286] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-10-06T19:43:55.441] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-10-06T19:43:55.464] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-10-06T19:43:55.665] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-10-06T19:43:55.685] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-10-06T19:49:34.042] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:49:34.088] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:49:34.105] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:49:37.941] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:49:38.114] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:52:18.895] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:52:25.983] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:52:53.622] [INFO] ma-core - get All Role success /api/role/ GET ::1
+[2023-10-06T19:52:54.432] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2023-10-06T19:52:55.453] [INFO] ma-core - get all result form success /api/resultForm/getAllResultForm GET ::1
+[2023-10-06T19:52:55.476] [INFO] ma-core - get Monitoring Activities Without Result Form success /api/resultForm/getMonitoringActivitiesWithoutResultForm GET ::1
+[2023-10-06T19:53:06.670] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:53:06.857] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T19:58:17.111] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T19:58:17.873] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T19:58:18.467] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T20:03:46.930] [INFO] ma-core - get All Module success /api/module/getAll GET ::1
+[2023-10-06T20:04:30.423] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2023-10-06T20:04:30.662] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2023-10-06T20:04:30.743] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2023-10-06T20:04:38.796] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2023-10-06T20:04:38.850] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2023-10-06T20:04:38.942] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2023-10-06T20:04:42.431] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2023-10-06T20:04:42.481] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2023-10-06T20:04:42.576] [INFO] ma-core - get module By Id success /api/module/getOne/:id/ GET ::1
+[2023-10-06T20:04:47.317] [INFO] ma-core - get All Basic Module success /api/module/getAllBasic GET ::1
+[2023-10-06T20:09:46.639] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T20:09:52.013] [INFO] ma-core - server started at port 5000
+[2023-10-06T20:09:52.115] [INFO] ma-core - mongodb conected
+[2023-10-06T20:11:28.986] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T20:11:29.582] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T20:14:23.454] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T20:14:23.985] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T20:18:35.197] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-06T20:19:52.469] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T20:19:52.858] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T20:19:53.223] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T20:20:33.270] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:20:50.654] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:20:56.092] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:21:02.552] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T20:21:02.754] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T20:21:24.200] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-06T20:28:08.760] [INFO] ma-core - add new shifts success /api/shift/sync PATCH ::1
+[2023-10-06T20:28:08.807] [INFO] ma-core - sync shift success /api/shift/sync PATCH ::1
+[2023-10-06T20:28:10.031] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.036] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.043] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.049] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.056] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.061] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.078] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.083] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.091] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.103] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.108] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:10.126] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.131] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.138] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.147] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.157] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.165] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.172] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.179] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.186] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.192] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.197] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.203] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.207] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.218] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.225] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.233] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.239] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.378] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.391] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.400] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.410] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.418] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.424] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:10.427] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:10.431] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.435] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.496] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.507] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.514] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.523] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.527] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.533] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.539] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.544] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.554] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.564] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.641] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.648] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.655] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.663] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.672] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.682] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.690] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.697] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.704] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:10.720] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.921] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.922] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.925] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.928] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.938] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.943] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.946] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.948] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.952] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.955] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.995] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:10.998] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:10.999] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:11.001] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.004] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.007] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.010] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.013] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.014] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.016] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.020] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.024] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.026] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.028] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:11.031] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.034] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.037] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.039] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.040] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.043] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.077] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.080] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.084] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.089] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.094] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.100] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.105] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.111] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.114] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:11.117] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.251] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.253] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.255] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.256] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.257] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:12.260] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.262] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.264] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.266] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:12.267] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.180] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.181] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.183] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.184] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.186] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.188] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.189] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.191] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.193] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:17.194] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.067] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.069] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.072] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.075] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.077] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.078] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.080] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.082] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.083] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.085] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.168] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.171] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.173] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.176] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.180] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.182] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.185] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.188] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.191] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.193] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.203] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.204] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.206] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.207] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.209] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.211] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.213] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.216] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.217] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.219] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.222] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.224] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.226] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.229] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.230] [INFO] ma-core - cron shift unassigned : startdate before now
+[2023-10-06T20:28:18.233] [INFO] ma-core - Shift Unassigned reminder cron launched
+[2023-10-06T20:28:18.235] [INFO] ma-core - Add user in sync shifts: raoudha.daikhi@avaxia-group.com
+[2023-10-06T20:28:18.238] [INFO] ma-core - Add user in sync shifts: rayen.naffouti@avaxia-group.com
+[2023-10-06T20:28:18.241] [INFO] ma-core - Add user in sync shifts: eya.haffar@avaxia-group.com
+[2023-10-06T20:28:18.244] [INFO] ma-core - Add user in sync shifts: mohamedazyz.darragi@avaxia-group.com
+[2023-10-06T20:28:18.287] [INFO] ma-core - Add user in sync shifts: houssem.ammar@avaxia-group.com
+[2023-10-06T20:28:18.406] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.407] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.408] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.410] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.412] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.412] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.413] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.414] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.415] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.416] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.417] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.417] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.419] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.420] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.421] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.423] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.424] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.426] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.427] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.428] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.429] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.431] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.432] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.433] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.434] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.435] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.435] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.436] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.436] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.437] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.438] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.439] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.439] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.440] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.441] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.441] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.442] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.442] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.443] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.444] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.444] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.445] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.446] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.446] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.447] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.448] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.448] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.449] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.450] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.450] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.451] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.452] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.452] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.453] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.454] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.455] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.455] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.456] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.456] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.457] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.457] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.458] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.458] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.459] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.459] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:28:18.459] [INFO] ma-core - Sync shift : add new role success :  /api/shift/sync PATCH ::1
+[2023-10-06T20:29:26.373] [ERROR] ma-core - "shift" is required /api/shift/members GET ::1
+[2023-10-06T20:31:03.920] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T20:31:06.018] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-06T20:35:06.198] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T20:35:06.752] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T20:35:07.117] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T20:35:20.812] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:35:25.554] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:35:29.686] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:35:33.769] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:35:43.798] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:35:47.830] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:35:51.813] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:35:54.818] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:36:27.145] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:36:30.860] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:36:34.257] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:37:02.854] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:37:21.567] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T20:37:22.238] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T20:37:22.772] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T20:37:27.306] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:37:30.390] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T20:37:37.017] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T23:24:03.635] [INFO] ma-core - database URI mongodb://localhost:27017/core
+[2023-10-06T23:24:05.421] [INFO] ma-core - server started at port 5000
+[2023-10-06T23:24:05.452] [INFO] ma-core - mongodb conected
+[2023-10-06T23:25:27.747] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T23:25:28.289] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T23:27:20.869] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:27:21.673] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:27:22.092] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:27:25.657] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:27:26.009] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:27:28.430] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:27:28.744] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:27:37.157] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
+[2023-10-06T23:27:41.804] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-06T23:27:52.898] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:27:53.079] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:34:25.698] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-06T23:46:53.622] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:46:53.958] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:46:54.269] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:46:54.536] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:46:56.420] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-06T23:47:57.526] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-06T23:48:08.635] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:48:09.272] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:48:09.978] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:48:19.949] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:48:19.974] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:48:23.477] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:48:23.518] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:48:25.629] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:48:25.664] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:48:26.986] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:48:27.480] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:49:00.548] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:49:00.590] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:49:04.179] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:49:04.188] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:49:05.987] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:49:06.038] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:49:06.676] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
+[2023-10-06T23:49:07.070] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
+[2023-10-06T23:49:11.077] [INFO] ma-core - Get all members success /api/shift/members GET ::1
+[2023-10-06T23:51:26.554] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1
+[2023-10-06T23:52:11.477] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:52:14.858] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:52:17.522] [INFO] ma-core - get Customer success toBase64 error /api/customer/:id/ GET ::1
+[2023-10-06T23:53:19.772] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:53:20.013] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
+[2023-10-06T23:53:44.333] [INFO] ma-core - Get all shifts success /api/shift/getAllMembersByShifts GET ::1

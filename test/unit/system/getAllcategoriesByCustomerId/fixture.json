@@ -1,0 +1,62 @@
+{
+  "all": {
+    "success": {
+      "res": {
+        "statusCode": 200,
+        "headers": {
+          "content-type": "application/json"
+        }
+      },
+      "body": {
+        "status": "success",
+        "data": {
+          "docs": [
+            {
+              "_id": "608be0f0c5a2a0bd397294aa",
+              "category": "PRD"
+            },
+            {
+              "_id": "608be0f0c5a2a0bd397294aa",
+              "category": "PRD"
+            },
+            {
+              "_id": "608be0f0c5a2a0bd397294aa",
+              "category": "PRD"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "arrayOfSystemCategories": [
+    {
+      "_id": "608be4b7c5a2a005c87294b1",
+      "category": "SAP-ECC"
+    },
+    {
+      "_id": "608be4d2c5a2a083e47294b3",
+      "category": "SAP-BI/BW"
+    },
+    {
+      "_id": "608bfb6ac5a2a07d1c7294cc",
+      "category": "SAP-SOLMAN"
+    },
+    {
+      "_id": "608bfcc9c5a2a033a57294d4",
+      "category": "SAP-ADS"
+    },
+    {
+      "_id": "608bfcbfc5a2a08f1c7294d3",
+      "category": "SAP-BODS"
+    }
+  ],
+  "arrayWithAMissingCategory": [
+    {
+      "_id": "608be4b7c5a2a005c87294b1",
+      "category": "SAP-ECC"
+    },
+    {
+      "_id": "608be4d2c5a2a083e47294b3"
+    }
+  ]
+}
