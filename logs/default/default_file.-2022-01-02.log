@@ -1,3 +1,0 @@
-[2022-01-02T21:47:29.506] [INFO] ma-core - database URI mongodb://localhost:27017/core
-[2022-01-02T21:47:30.150] [INFO] ma-core - server started at port 5000
-[2022-01-02T21:47:30.174] [INFO] ma-core - mongodb conected

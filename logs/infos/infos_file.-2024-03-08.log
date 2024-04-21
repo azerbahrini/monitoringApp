@@ -1,6 +1,0 @@
-[2024-03-08T13:35:47.928] [INFO] ma-core - database URI mongodb://localhost:27017/core
-[2024-03-08T13:35:49.268] [INFO] ma-core - server started at port 5000
-[2024-03-08T13:35:49.317] [INFO] ma-core - mongodb conected
-[2024-03-08T13:36:54.817] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
-[2024-03-08T13:41:00.207] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
-[2024-03-08T13:41:00.444] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1

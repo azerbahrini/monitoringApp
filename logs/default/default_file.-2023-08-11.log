@@ -1,8 +1,0 @@
-[2023-08-11T17:26:51.267] [INFO] ma-core - database URI mongodb://localhost:27017/core
-[2023-08-11T17:26:53.636] [INFO] ma-core - server started at port 5000
-[2023-08-11T17:26:53.782] [INFO] ma-core - mongodb conected
-[2023-08-11T17:39:13.095] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
-[2023-08-11T17:39:13.428] [INFO] ma-core - get all posts success /api/newsFeed/getAllPosts GET ::1
-[2023-08-11T17:41:20.334] [INFO] ma-core - get All nomenclature success /api/nomenclature/ GET ::1
-[2023-08-11T17:41:20.768] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1
-[2023-08-11T17:41:21.210] [INFO] ma-core - Get all shifts success /api/shift/ GET ::1

@@ -1,9 +1,0 @@
-[2023-10-12T00:15:26.988] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
-[2023-10-12T00:15:27.136] [INFO] ma-core - get All Task success /api/task/getFiltredTasks GET ::1
-[2023-10-12T00:15:27.370] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
-[2023-10-12T00:15:27.447] [INFO] ma-core - get All Task success /api/task/getFiltredTasks GET ::1
-[2023-10-12T00:15:27.546] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
-[2023-10-12T00:15:27.671] [INFO] ma-core - get All Task success /api/task/getFiltredTasks GET ::1
-[2023-10-12T00:15:27.733] [INFO] ma-core - get all Customer success /api/customer/ GET ::1
-[2023-10-12T00:15:27.799] [INFO] ma-core - get All Task success /api/task/getFiltredTasks GET ::1
-[2023-10-12T00:15:27.863] [INFO] ma-core - get All Task success /api/task/getFiltredTasks GET ::1
